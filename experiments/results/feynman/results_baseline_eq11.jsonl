@@ -1,0 +1,210 @@
+checkpoint directory created: ./model_ckpt_2100550_123614324753920_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.46100520601547146, "train_rmse": 0.21684437316368843, "train_rmse_clean": null, "nrmse": 0.2344248688751682, "train_time_s": 39.321316957473755}
+checkpoint directory created: ./model_ckpt_2100551_130857521034752_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.2513574126760503, "train_rmse": 0.1759992427502084, "train_rmse_clean": null, "nrmse": 0.12666103582573857, "train_time_s": 32.958547592163086}
+checkpoint directory created: ./model_ckpt_2100552_128404547159552_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.46618117202421594, "train_rmse": 0.35219985964964984, "train_rmse_clean": null, "nrmse": 0.24664301675678751, "train_time_s": 38.08605432510376}
+checkpoint directory created: ./model_ckpt_2100553_135148981253632_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.26152889926294165, "train_rmse": 0.1936107735857462, "train_rmse_clean": null, "nrmse": 0.13423672502380993, "train_time_s": 34.84624409675598}
+checkpoint directory created: ./model_ckpt_2100554_124976979584512_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.2732503277464673, "train_rmse": 0.2169172330772966, "train_rmse_clean": null, "nrmse": 0.14442029915816226, "train_time_s": 38.724748611450195}
+checkpoint directory created: ./model_ckpt_2100556_132334889600512_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 436, "n_params_trainable": 436, "test_rmse": 0.353042314250132, "train_rmse": 0.23778432305004316, "train_rmse_clean": null, "nrmse": 0.17952486684650498, "train_time_s": 38.66383147239685}
+checkpoint directory created: ./model_ckpt_2100555_135384598328832_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 436, "n_params_trainable": 436, "test_rmse": 0.7914422184738612, "train_rmse": 0.4877837739284132, "train_rmse_clean": null, "nrmse": 0.3988141432586891, "train_time_s": 38.701536893844604}
+checkpoint directory created: ./model_ckpt_2100558_140129584608768_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 436, "n_params_trainable": 436, "test_rmse": 0.3445951778190217, "train_rmse": 0.2763310480486556, "train_rmse_clean": null, "nrmse": 0.1823153729012252, "train_time_s": 32.915578842163086}
+checkpoint directory created: ./model_ckpt_2100557_138003875923456_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 436, "n_params_trainable": 436, "test_rmse": 0.2619471684175778, "train_rmse": 0.16762784873696646, "train_rmse_clean": null, "nrmse": 0.1344514128906387, "train_time_s": 38.07627034187317}
+checkpoint directory created: ./model_ckpt_2100559_131006966396416_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 436, "n_params_trainable": 436, "test_rmse": 0.3319239151314761, "train_rmse": 0.21869493578732246, "train_rmse_clean": null, "nrmse": 0.17543090072892323, "train_time_s": 33.60104990005493}
+checkpoint directory created: ./model_ckpt_2100560_140586054465024_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 576, "n_params_trainable": 576, "test_rmse": 0.7795746008086724, "train_rmse": 0.3577664976737367, "train_rmse_clean": null, "nrmse": 0.396419977883832, "train_time_s": 43.7356653213501}
+checkpoint directory created: ./model_ckpt_2100561_123864522290688_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 576, "n_params_trainable": 576, "test_rmse": 0.38285951737503154, "train_rmse": 0.2356504501076202, "train_rmse_clean": null, "nrmse": 0.19292601133256482, "train_time_s": 39.74996900558472}
+checkpoint directory created: ./model_ckpt_2100562_133309874558464_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 576, "n_params_trainable": 576, "test_rmse": 1.542074500554179, "train_rmse": 1.2715716274173872, "train_rmse_clean": null, "nrmse": 0.815867155743137, "train_time_s": 43.336968660354614}
+checkpoint directory created: ./model_ckpt_2100563_131205961008640_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 576, "n_params_trainable": 576, "test_rmse": 0.4013379005620976, "train_rmse": 0.2839557004507398, "train_rmse_clean": null, "nrmse": 0.20599744636718775, "train_time_s": 39.613614320755005}
+checkpoint directory created: ./model_ckpt_2100564_139964808586752_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 576, "n_params_trainable": 576, "test_rmse": 0.48212306100426616, "train_rmse": 0.3297011128019065, "train_rmse_clean": null, "nrmse": 0.25481527241163654, "train_time_s": 42.278937101364136}
+checkpoint directory created: ./model_ckpt_2100565_132785644979712_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 856, "n_params_trainable": 856, "test_rmse": 0.7634201851497266, "train_rmse": 0.4109843461800722, "train_rmse_clean": null, "nrmse": 0.38820532710941924, "train_time_s": 44.58971190452576}
+checkpoint directory created: ./model_ckpt_2100566_140479807051264_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 856, "n_params_trainable": 856, "test_rmse": 0.8425970395577167, "train_rmse": 0.4763953628253432, "train_rmse_clean": null, "nrmse": 0.42459147187207685, "train_time_s": 45.86748027801514}
+checkpoint directory created: ./model_ckpt_2100567_130557836232192_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 856, "n_params_trainable": 856, "test_rmse": 0.8097227266835141, "train_rmse": 0.4298773370667437, "train_rmse_clean": null, "nrmse": 0.428400948023228, "train_time_s": 46.66576337814331}
+checkpoint directory created: ./model_ckpt_2100568_138963029165568_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 856, "n_params_trainable": 856, "test_rmse": 0.7059202769028161, "train_rmse": 0.4432760989092621, "train_rmse_clean": null, "nrmse": 0.3623325237340703, "train_time_s": 48.41632413864136}
+checkpoint directory created: ./model_ckpt_2100569_134482573620736_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 856, "n_params_trainable": 856, "test_rmse": 2.5090186765761473, "train_rmse": 0.512730931719716, "train_rmse_clean": null, "nrmse": 1.3260852451776362, "train_time_s": 47.57540249824524}
+checkpoint directory created: ./model_ckpt_2100570_130795717903872_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.25393397873283163, "train_rmse": 0.18458302725358777, "train_rmse_clean": null, "nrmse": 0.12912747815129014, "train_time_s": 45.72400522232056}
+checkpoint directory created: ./model_ckpt_2100571_134082701174272_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.6087774145696585, "train_rmse": 0.4453205321464253, "train_rmse_clean": null, "nrmse": 0.30676786928931904, "train_time_s": 38.56432771682739}
+checkpoint directory created: ./model_ckpt_2100572_124183318980096_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.36667180478948325, "train_rmse": 0.22556883176806686, "train_rmse_clean": null, "nrmse": 0.19399547969782927, "train_time_s": 45.331547021865845}
+checkpoint directory created: ./model_ckpt_2100573_140356814407168_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.26532185572737177, "train_rmse": 0.19456038176089763, "train_rmse_clean": null, "nrmse": 0.1361835617037253, "train_time_s": 45.953919410705566}
+checkpoint directory created: ./model_ckpt_2100575_127099364574720_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.5214376373041176, "train_rmse": 0.4037767704415174, "train_rmse_clean": null, "nrmse": 0.2755941052032629, "train_time_s": 45.702407360076904}
+checkpoint directory created: ./model_ckpt_2100574_135354617546240_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.32976874674358214, "train_rmse": 0.23954741535983715, "train_rmse_clean": null, "nrmse": 0.16769006988588842, "train_time_s": 45.44308686256409}
+checkpoint directory created: ./model_ckpt_2100576_138963631379968_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.6763028601055225, "train_rmse": 0.5250049919759903, "train_rmse_clean": null, "nrmse": 0.3407944881389885, "train_time_s": 45.326770305633545}
+checkpoint directory created: ./model_ckpt_2100577_130402714174976_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.610136194958077, "train_rmse": 0.43539351477152266, "train_rmse_clean": null, "nrmse": 0.3228054687484258, "train_time_s": 45.69086456298828}
+checkpoint directory created: ./model_ckpt_2100581_128199385269760_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.2803890566518419, "train_rmse": 0.21354097311221842, "train_rmse_clean": null, "nrmse": 0.14391720686904638, "train_time_s": 45.52200412750244}
+checkpoint directory created: ./model_ckpt_2100578_138719622587904_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.34133181830959103, "train_rmse": 0.22036592480238326, "train_rmse_clean": null, "nrmse": 0.18040323581316522, "train_time_s": 45.85423731803894}
+checkpoint directory created: ./model_ckpt_2100579_127955477181952_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.312162438297122, "train_rmse": 0.23036826590285386, "train_rmse_clean": null, "nrmse": 0.15873711990814202, "train_time_s": 45.51241493225098}
+checkpoint directory created: ./model_ckpt_2100580_136987589924352_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.7820061287663123, "train_rmse": 0.5279017380910034, "train_rmse_clean": null, "nrmse": 0.39405922123837417, "train_time_s": 44.5073344707489}
+checkpoint directory created: ./model_ckpt_2101422_127864585225728_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.6321707770389757, "train_rmse": 0.4841768260960464, "train_rmse_clean": null, "nrmse": 0.33446333080623886, "train_time_s": 38.69323706626892}
+checkpoint directory created: ./model_ckpt_2101423_123301061658112_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.28210761485294, "train_rmse": 0.22202912477331083, "train_rmse_clean": null, "nrmse": 0.14479930297899207, "train_time_s": 38.49773955345154}
+checkpoint directory created: ./model_ckpt_2101427_129447919183360_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.23224826016023314, "train_rmse": 0.1823809132686911, "train_rmse_clean": null, "nrmse": 0.12274958089867179, "train_time_s": 38.558093309402466}
+checkpoint directory created: ./model_ckpt_2101449_130770094294528_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.4021511169122931, "train_rmse": 0.3241253590353921, "train_rmse_clean": null, "nrmse": 0.20449708944719136, "train_time_s": 38.17923665046692}
+checkpoint directory created: ./model_ckpt_2101479_135370591938048_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.8042205872026074, "train_rmse": 0.6857403466431009, "train_rmse_clean": null, "nrmse": 0.4052532667447037, "train_time_s": 38.24505805969238}
+checkpoint directory created: ./model_ckpt_2101486_134551706719744_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.7843242003664379, "train_rmse": 0.6856313395909481, "train_rmse_clean": null, "nrmse": 0.4149633200623653, "train_time_s": 38.52843952178955}
+checkpoint directory created: ./model_ckpt_2101493_129048990492160_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.4225512542802612, "train_rmse": 0.390882238121133, "train_rmse_clean": null, "nrmse": 0.21688576937058535, "train_time_s": 38.09873080253601}
+checkpoint directory created: ./model_ckpt_2101494_132873094366720_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.27603358176362036, "train_rmse": 0.23855044481181764, "train_rmse_clean": null, "nrmse": 0.14589132530881835, "train_time_s": 38.28603720664978}
+checkpoint directory created: ./model_ckpt_2101496_135942183433728_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.2802990435468331, "train_rmse": 0.17182201717962187, "train_rmse_clean": null, "nrmse": 0.1425343264498757, "train_time_s": 73.53465437889099}
+checkpoint directory created: ./model_ckpt_2101497_125995643868672_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.4992553802280355, "train_rmse": 0.3785991857852977, "train_rmse_clean": null, "nrmse": 0.25157882923769126, "train_time_s": 73.52034044265747}
+checkpoint directory created: ./model_ckpt_2101509_124506026640896_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.3366947400542539, "train_rmse": 0.16161396481803791, "train_rmse_clean": null, "nrmse": 0.17813547907252214, "train_time_s": 73.77496290206909}
+checkpoint directory created: ./model_ckpt_2101510_135826924393984_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.25124178960700405, "train_rmse": 0.18671688397571273, "train_rmse_clean": null, "nrmse": 0.12895658996391543, "train_time_s": 73.47261643409729}
+checkpoint directory created: ./model_ckpt_2101529_132849464968704_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.5747636845185156, "train_rmse": 0.3784333625776952, "train_rmse_clean": null, "nrmse": 0.30377838499952087, "train_time_s": 73.62472867965698}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.7009699269126486, "train_rmse": 0.6386818795147065, "train_rmse_clean": null, "nrmse": 0.3564488666455951, "train_time_s": 5.801653861999512}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.3819292285754372, "train_rmse": 0.3265953993461608, "train_rmse_clean": null, "nrmse": 0.19245723127265243, "train_time_s": 5.620958566665649}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.34244921136335016, "train_rmse": 0.30790008118106904, "train_rmse_clean": null, "nrmse": 0.18118000392399372, "train_time_s": 5.660036563873291}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.3451163812655622, "train_rmse": 0.32945630571934004, "train_rmse_clean": null, "nrmse": 0.17714024302369763, "train_time_s": 5.643879413604736}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.33765014370518287, "train_rmse": 0.32386386624044405, "train_rmse_clean": null, "nrmse": 0.1784573697197676, "train_time_s": 5.598881483078003}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 160, "test_rmse": 0.4242268285570532, "train_rmse": 0.3122843680167051, "train_rmse_clean": null, "nrmse": 0.21572276703200202, "train_time_s": 10.634791374206543, "p_values": [2.6563074588775635, 2.949847459793091, 2.974886894226074, 2.5596601963043213, 2.1983184814453125, 1.0374878644943237, 3.6999740600585938, 3.5684237480163574, 1.7678396701812744, 2.093080997467041, 1.5893285274505615, 2.252011775970459, 2.165928602218628, 2.513643741607666, 2.9661779403686523, 2.678501844406128, 2.5110344886779785, 3.735520124435425, 4.334786415100098, 2.543403148651123], "p_mean": 2.6398081719875335}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 160, "test_rmse": 0.35187095491873066, "train_rmse": 0.2990659467747179, "train_rmse_clean": null, "nrmse": 0.17731062375485984, "train_time_s": 10.603991985321045, "p_values": [2.2104406356811523, 1.4732451438903809, 2.3608665466308594, 1.9806272983551025, 2.078126907348633, 2.465235710144043, 2.988107919692993, 2.5562548637390137, 1.6662873029708862, 2.1716957092285156, 2.800206184387207, 1.9490857124328613, 2.3147940635681152, 2.4173688888549805, 2.417724609375, 2.7640743255615234, 2.4306554794311523, 4.068312644958496, 3.0414090156555176, 2.5550918579101562], "p_mean": 2.4354805409908296}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 160, "test_rmse": 0.47762891564290477, "train_rmse": 0.3934341272724211, "train_rmse_clean": null, "nrmse": 0.2526996878336387, "train_time_s": 10.7049081325531, "p_values": [2.127549648284912, 2.286848545074463, 2.3400042057037354, 3.119246244430542, 1.7856601476669312, 2.0037975311279297, 2.7549033164978027, 2.660444736480713, 2.344254493713379, 1.9112296104431152, 2.759124755859375, 2.986250400543213, 3.9091310501098633, 4.84761905670166, 2.582719087600708, 3.1177213191986084, 2.594383716583252, 3.058074951171875, 2.5323286056518555, 2.1291728019714355], "p_mean": 2.6925232112407684}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 160, "test_rmse": 0.33902184920339806, "train_rmse": 0.27439822720946694, "train_rmse_clean": null, "nrmse": 0.1740120609111924, "train_time_s": 10.660432815551758, "p_values": [2.1389193534851074, 1.6038209199905396, 2.4480056762695312, 4.506348609924316, 2.817751407623291, 1.9732400178909302, 2.2544074058532715, 2.0874710083007812, 2.0905604362487793, 2.4678564071655273, 2.065059185028076, 1.5035958290100098, 2.4086809158325195, 1.6103672981262207, 2.4486193656921387, 2.167233467102051, 2.8210840225219727, 1.8286362886428833, 2.489588499069214, 2.4748096466064453], "p_mean": 2.31030278801918}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 160, "test_rmse": 0.31853282834115504, "train_rmse": 0.2727529957573154, "train_rmse_clean": null, "nrmse": 0.16835334376399444, "train_time_s": 10.811188459396362, "p_values": [3.377142906188965, 4.970982551574707, 2.593353748321533, 2.052902936935425, 1.6085727214813232, 1.953275203704834, 2.888753890991211, 2.643192768096924, 1.8974874019622803, 1.6264467239379883, 2.848149061203003, 2.919102191925049, 2.1851024627685547, 2.6634116172790527, 2.083608627319336, 2.724398136138916, 1.715095043182373, 2.6202573776245117, 2.9739346504211426, 2.733175277709961], "p_mean": 2.5539172649383546}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 140, "test_rmse": 0.3547378377692496, "train_rmse": 0.299845163778258, "train_rmse_clean": null, "nrmse": 0.18038705424364812, "train_time_s": 10.303421258926392, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 140, "test_rmse": 0.3595686617180647, "train_rmse": 0.3215532061157589, "train_rmse_clean": null, "nrmse": 0.18118956054970606, "train_time_s": 10.288482666015625, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 140, "test_rmse": 0.6618901292565837, "train_rmse": 0.5647338341301698, "train_rmse_clean": null, "nrmse": 0.35018698316907515, "train_time_s": 10.350783109664917, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 140, "test_rmse": 0.35793650955339373, "train_rmse": 0.3319130605569143, "train_rmse_clean": null, "nrmse": 0.18372051786366236, "train_time_s": 10.342869758605957, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 140, "test_rmse": 0.8235847527849103, "train_rmse": 0.8035629103974884, "train_rmse_clean": null, "nrmse": 0.43528714991938594, "train_time_s": 10.192222595214844, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 100, "n_params_trainable": 100, "test_rmse": 0.5692028089174528, "train_rmse": 0.4952802934303122, "train_rmse_clean": null, "nrmse": 0.2894442234115967, "train_time_s": 8.381858110427856, "p_values": [2.3504886627197266, 2.8727128505706787, 2.288759708404541, 2.404231548309326, 2.502924919128418, 3.071770429611206, 2.781961441040039, 2.8047118186950684, 2.62233829498291, 2.1218981742858887, 3.2569189071655273, 3.2501072883605957, 2.984537124633789, 2.318791389465332, 2.5265731811523438, 2.5288443565368652, 2.62235689163208, 2.709695816040039, 2.627220630645752, 2.7304024696350098], "p_mean": 2.668862295150757}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 100, "n_params_trainable": 100, "test_rmse": 0.7685948842878361, "train_rmse": 0.7474255340795537, "train_rmse_clean": null, "nrmse": 0.3873011865368264, "train_time_s": 8.422737121582031, "p_values": [3.0659008026123047, 3.1610684394836426, 2.2897229194641113, 3.1396350860595703, 2.0139453411102295, 2.1572208404541016, 3.026317596435547, 2.9623191356658936, 2.201178550720215, 2.158273696899414, 2.539961814880371, 3.3730669021606445, 2.4395523071289062, 2.578620433807373, 2.4301042556762695, 2.9481890201568604, 3.269723415374756, 2.4273195266723633, 2.4206719398498535, 2.3409082889556885], "p_mean": 2.6471850156784056}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 100, "n_params_trainable": 100, "test_rmse": 0.5661709514050521, "train_rmse": 0.5195331357746653, "train_rmse_clean": null, "nrmse": 0.2995447260305675, "train_time_s": 8.322748184204102, "p_values": [2.2583532333374023, 2.9797191619873047, 2.4323620796203613, 2.6277194023132324, 2.0692148208618164, 2.423281669616699, 1.805267333984375, 2.2804627418518066, 2.4896678924560547, 1.488572597503662, 2.851996898651123, 2.6715312004089355, 2.7649621963500977, 2.6037280559539795, 2.3537402153015137, 2.6669325828552246, 2.5130608081817627, 2.2016074657440186, 1.8192026615142822, 2.492889881134033], "p_mean": 2.3897136449813843}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 100, "n_params_trainable": 100, "test_rmse": 0.4695358619078682, "train_rmse": 0.4661860770615256, "train_rmse_clean": null, "nrmse": 0.24100187995046263, "train_time_s": 8.342283248901367, "p_values": [2.891514301300049, 3.513598680496216, 1.4627509117126465, 2.238126277923584, 3.5159993171691895, 3.01375412940979, 2.032045364379883, 2.1923608779907227, 2.0962493419647217, 2.033493995666504, 3.066619396209717, 2.779723882675171, 2.4051766395568848, 2.256101131439209, 2.8974666595458984, 2.8568735122680664, 3.7313649654388428, 1.2399208545684814, 2.74983549118042, 2.7541770935058594], "p_mean": 2.5863576412200926}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 100, "n_params_trainable": 100, "test_rmse": 0.7704741882974844, "train_rmse": 0.7618641729165319, "train_rmse_clean": null, "nrmse": 0.40721675865950907, "train_time_s": 8.302316188812256, "p_values": [2.1782519817352295, 2.2263197898864746, 2.506692409515381, 2.1751627922058105, 2.467620372772217, 2.1718459129333496, 2.592154026031494, 1.6438673734664917, 2.8395822048187256, 6.813767910003662, 3.0149803161621094, 2.399766445159912, 3.0200440883636475, 3.2025067806243896, 2.70658540725708, 1.6224617958068848, 2.4473934173583984, 2.712357997894287, 2.545703649520874, 2.497187614440918], "p_mean": 2.6892126142978667}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 2851, "n_params_trainable": 2851, "test_rmse": 0.14545290710059788, "train_rmse": 0.06514695626082201, "train_rmse_clean": null, "nrmse": 0.07396397747713362, "train_time_s": 5.452676057815552}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 2851, "n_params_trainable": 2851, "test_rmse": 0.12595808631220962, "train_rmse": 0.058308459094654985, "train_rmse_clean": null, "nrmse": 0.0634712997443754, "train_time_s": 5.738107919692993}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 2851, "n_params_trainable": 2851, "test_rmse": 0.12485565373276142, "train_rmse": 0.05425900353732338, "train_rmse_clean": null, "nrmse": 0.06605752643778906, "train_time_s": 5.569772005081177}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 2851, "n_params_trainable": 2851, "test_rmse": 0.09738689101898679, "train_rmse": 0.07275603447082446, "train_rmse_clean": null, "nrmse": 0.049986434950333954, "train_time_s": 5.5069921016693115}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 2851, "n_params_trainable": 2851, "test_rmse": 0.11402726927247642, "train_rmse": 0.05198185678899847, "train_rmse_clean": null, "nrmse": 0.060266541951960274, "train_time_s": 5.348282814025879}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 140, "n_params_trainable": 140, "test_rmse": 0.5625640001292709, "train_rmse": 0.38286786743621803, "train_rmse_clean": null, "nrmse": 0.2860683355488366, "train_time_s": 8.39201831817627}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 140, "n_params_trainable": 140, "test_rmse": 0.4090473985130174, "train_rmse": 0.35348082946423887, "train_rmse_clean": null, "nrmse": 0.20612229671641202, "train_time_s": 8.326165437698364}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 140, "n_params_trainable": 140, "test_rmse": 0.5072867452124541, "train_rmse": 0.40131455767196655, "train_rmse_clean": null, "nrmse": 0.2683907903372644, "train_time_s": 8.46905255317688}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 140, "n_params_trainable": 140, "test_rmse": 0.5842993547023312, "train_rmse": 0.5445639579456696, "train_rmse_clean": null, "nrmse": 0.2999073220199206, "train_time_s": 8.52824878692627}
+{"experiment": "baseline", "eq_id": "I.29.16", "eq_name": "Law of cosines", "eq_type": "compositional", "n_vars": 4, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 140, "n_params_trainable": 140, "test_rmse": 0.49845557340148616, "train_rmse": 0.45906396664380367, "train_rmse_clean": null, "nrmse": 0.2634474535543411, "train_time_s": 8.337360620498657}

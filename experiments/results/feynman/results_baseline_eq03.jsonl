@@ -1,0 +1,210 @@
+checkpoint directory created: ./model_ckpt_2072326_135753506047488_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.014805137267797863, "train_rmse": 0.010191577869069213, "train_rmse_clean": null, "nrmse": 0.008162799796601042, "train_time_s": 27.128105640411377}
+checkpoint directory created: ./model_ckpt_2072327_129085705684480_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.017511527872075328, "train_rmse": 0.01331816076767639, "train_rmse_clean": null, "nrmse": 0.009795624684081326, "train_time_s": 27.785807847976685}
+checkpoint directory created: ./model_ckpt_2072328_132626626610688_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.025736301557876318, "train_rmse": 0.021142113652699912, "train_rmse_clean": null, "nrmse": 0.014476170577168934, "train_time_s": 22.94983983039856}
+checkpoint directory created: ./model_ckpt_2072329_130353679287808_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.05032415321451156, "train_rmse": 0.029294273699627116, "train_rmse_clean": null, "nrmse": 0.028252687504662376, "train_time_s": 28.348602294921875}
+checkpoint directory created: ./model_ckpt_2072330_130812500600320_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.016330790979891097, "train_rmse": 0.013995904725627673, "train_rmse_clean": null, "nrmse": 0.008980593453937346, "train_time_s": 36.078126192092896}
+checkpoint directory created: ./model_ckpt_2072332_128058502276608_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 0.02704487910294895, "train_rmse": 0.018641927309036577, "train_rmse_clean": null, "nrmse": 0.014911171010945167, "train_time_s": 30.482855558395386}
+checkpoint directory created: ./model_ckpt_2072331_131744503338496_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 0.17537078671610473, "train_rmse": 0.048410845096305666, "train_rmse_clean": null, "nrmse": 0.0980991732858687, "train_time_s": 28.490352153778076}
+checkpoint directory created: ./model_ckpt_2072333_139895546480128_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 0.016364967822338983, "train_rmse": 0.012352956189492448, "train_rmse_clean": null, "nrmse": 0.009204977069191926, "train_time_s": 35.71789193153381}
+checkpoint directory created: ./model_ckpt_2072334_129973917431296_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 0.039371031360204034, "train_rmse": 0.022693366143507365, "train_rmse_clean": null, "nrmse": 0.02210345082240453, "train_time_s": 36.31506562232971}
+checkpoint directory created: ./model_ckpt_2072336_129531050313216_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 0.020030914570733138, "train_rmse": 0.012339874950394014, "train_rmse_clean": null, "nrmse": 0.011015357461363078, "train_time_s": 35.60183095932007}
+checkpoint directory created: ./model_ckpt_2072335_138649948456448_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 0.02490616302668658, "train_rmse": 0.01811511294363055, "train_rmse_clean": null, "nrmse": 0.013731991727665307, "train_time_s": 41.70979976654053}
+checkpoint directory created: ./model_ckpt_2072337_130886551991808_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 0.07129693888232014, "train_rmse": 0.03588721336015843, "train_rmse_clean": null, "nrmse": 0.03988218843706893, "train_time_s": 32.477054595947266}
+checkpoint directory created: ./model_ckpt_2072338_137683938690560_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 0.07828090596627302, "train_rmse": 0.06957301278188543, "train_rmse_clean": null, "nrmse": 0.04403149167158727, "train_time_s": 31.87440848350525}
+checkpoint directory created: ./model_ckpt_2072339_127386101155328_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 0.028365970464854673, "train_rmse": 0.015506624397884083, "train_rmse_clean": null, "nrmse": 0.01592505483189977, "train_time_s": 27.564499139785767}
+checkpoint directory created: ./model_ckpt_2072340_136943264744960_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 0.06804203072194737, "train_rmse": 0.021712837185781653, "train_rmse_clean": null, "nrmse": 0.03741752720040014, "train_time_s": 39.69535684585571}
+checkpoint directory created: ./model_ckpt_2072341_125899489990144_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 0.0986344024695156, "train_rmse": 0.08449431681032449, "train_rmse_clean": null, "nrmse": 0.054381993618339744, "train_time_s": 32.42291784286499}
+checkpoint directory created: ./model_ckpt_2072342_140211891504640_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 0.042980346656043, "train_rmse": 0.026697144005492834, "train_rmse_clean": null, "nrmse": 0.02404241067426695, "train_time_s": 34.834394454956055}
+checkpoint directory created: ./model_ckpt_2072343_139352239277568_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 0.36728567571823234, "train_rmse": 0.4004991573961547, "train_rmse_clean": null, "nrmse": 0.20659107060473142, "train_time_s": 15.090683937072754}
+checkpoint directory created: ./model_ckpt_2072344_125962295145984_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 0.10046216397779029, "train_rmse": 0.038943200632568065, "train_rmse_clean": null, "nrmse": 0.05640087201881012, "train_time_s": 26.883438110351562}
+checkpoint directory created: ./model_ckpt_2072345_134147234166272_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 0.04365615913400345, "train_rmse": 0.030933478759593402, "train_rmse_clean": null, "nrmse": 0.024007301142096482, "train_time_s": 31.781662464141846}
+checkpoint directory created: ./model_ckpt_2072347_133274224936448_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.037779733500859614, "train_rmse": 0.017010872368234176, "train_rmse_clean": null, "nrmse": 0.020829823821169376, "train_time_s": 37.454843521118164}
+checkpoint directory created: ./model_ckpt_2072346_140602660775424_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.014873317187492185, "train_rmse": 0.011046010434105136, "train_rmse_clean": null, "nrmse": 0.008319858440696019, "train_time_s": 39.945069551467896}
+checkpoint directory created: ./model_ckpt_2072348_133781484295680_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.026841054033771683, "train_rmse": 0.019189236415586564, "train_rmse_clean": null, "nrmse": 0.015097572422754502, "train_time_s": 38.46372127532959}
+checkpoint directory created: ./model_ckpt_2072349_130004757550592_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.023607577952730163, "train_rmse": 0.014998236534746301, "train_rmse_clean": null, "nrmse": 0.013253626341160405, "train_time_s": 41.01653504371643}
+checkpoint directory created: ./model_ckpt_2072350_137747708950016_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.020248917586522475, "train_rmse": 0.012686991420154836, "train_rmse_clean": null, "nrmse": 0.011135241210958982, "train_time_s": 40.6524224281311}
+checkpoint directory created: ./model_ckpt_2072352_129776915961344_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.052078606222881074, "train_rmse": 0.021485453027327184, "train_rmse_clean": null, "nrmse": 0.028713495092547052, "train_time_s": 41.4222514629364}
+checkpoint directory created: ./model_ckpt_2072351_127421131773440_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.026461922532229898, "train_rmse": 0.020979872280828316, "train_rmse_clean": null, "nrmse": 0.01480230985203231, "train_time_s": 40.55528998374939}
+checkpoint directory created: ./model_ckpt_2072353_138896201303552_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.04074571165917806, "train_rmse": 0.030471236562964243, "train_rmse_clean": null, "nrmse": 0.02291867271371352, "train_time_s": 39.69442844390869}
+checkpoint directory created: ./model_ckpt_2072354_124332795356672_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.021178661890668637, "train_rmse": 0.01453561333009179, "train_rmse_clean": null, "nrmse": 0.011889998697313811, "train_time_s": 36.38958168029785}
+checkpoint directory created: ./model_ckpt_2072355_133709702465024_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.03578791387107261, "train_rmse": 0.02261384759101437, "train_rmse_clean": null, "nrmse": 0.019680412628903264, "train_time_s": 37.78352689743042}
+checkpoint directory created: ./model_ckpt_2072356_128622760371712_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.058545950695985116, "train_rmse": 0.02600440250805458, "train_rmse_clean": null, "nrmse": 0.03227925994799542, "train_time_s": 40.40373468399048}
+checkpoint directory created: ./model_ckpt_2072357_136571493697024_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.03724854673968081, "train_rmse": 0.027113967874976663, "train_rmse_clean": null, "nrmse": 0.02083614785384986, "train_time_s": 37.858285903930664}
+checkpoint directory created: ./model_ckpt_2072871_134779270276608_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.05748693641031277, "train_rmse": 0.05322775587326678, "train_rmse_clean": null, "nrmse": 0.03233528700940592, "train_time_s": 36.20049047470093}
+checkpoint directory created: ./model_ckpt_2072947_125293415851520_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.03585958577159776, "train_rmse": 0.02590758437849927, "train_rmse_clean": null, "nrmse": 0.020132075874839377, "train_time_s": 36.509244203567505}
+checkpoint directory created: ./model_ckpt_2073157_135752996685312_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.057587184549558135, "train_rmse": 0.04495869843662281, "train_rmse_clean": null, "nrmse": 0.03166822067793635, "train_time_s": 36.18686628341675}
+checkpoint directory created: ./model_ckpt_2073166_137273274062336_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.11550482253104644, "train_rmse": 0.07397952033108046, "train_rmse_clean": null, "nrmse": 0.06368348532057244, "train_time_s": 35.989107608795166}
+checkpoint directory created: ./model_ckpt_2073167_136666163430912_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.11490644931642358, "train_rmse": 0.08774765414614949, "train_rmse_clean": null, "nrmse": 0.06427654168766164, "train_time_s": 36.684319734573364}
+checkpoint directory created: ./model_ckpt_2073168_136287295981056_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.08954634176158738, "train_rmse": 0.11886428697523055, "train_rmse_clean": null, "nrmse": 0.05036808085991245, "train_time_s": 35.84019494056702}
+checkpoint directory created: ./model_ckpt_2073174_139020917757440_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.07333283798992785, "train_rmse": 0.07338710507685242, "train_rmse_clean": null, "nrmse": 0.04117008679168441, "train_time_s": 35.8163206577301}
+checkpoint directory created: ./model_ckpt_2073193_127461691381248_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.12151767023526805, "train_rmse": 0.11209713808863953, "train_rmse_clean": null, "nrmse": 0.06682473587448015, "train_time_s": 36.23240804672241}
+checkpoint directory created: ./model_ckpt_2073216_139947987863040_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.020637795353885324, "train_rmse": 0.010288647135945184, "train_rmse_clean": null, "nrmse": 0.011378630854264707, "train_time_s": 70.93871855735779}
+checkpoint directory created: ./model_ckpt_2073228_137335678346752_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.011445093081566327, "train_rmse": 0.00808991461913433, "train_rmse_clean": null, "nrmse": 0.006402173306658074, "train_time_s": 71.23433756828308}
+checkpoint directory created: ./model_ckpt_2073230_136112245376512_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.018527034864666447, "train_rmse": 0.014197164791028949, "train_rmse_clean": null, "nrmse": 0.010421097856152046, "train_time_s": 70.89668369293213}
+checkpoint directory created: ./model_ckpt_2073239_123677214479872_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.01718841486551259, "train_rmse": 0.012001591900888842, "train_rmse_clean": null, "nrmse": 0.009649817888158458, "train_time_s": 70.78991174697876}
+checkpoint directory created: ./model_ckpt_2073245_132113236686336_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.016693671351206252, "train_rmse": 0.009765965722611458, "train_rmse_clean": null, "nrmse": 0.009180147847304334, "train_time_s": 71.45897650718689}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.08688630890295768, "train_rmse": 0.054749576923350585, "train_rmse_clean": null, "nrmse": 0.04790469225726881, "train_time_s": 5.62706446647644}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.09677395759621188, "train_rmse": 0.07475366377285253, "train_rmse_clean": null, "nrmse": 0.054133561316334636, "train_time_s": 5.4616289138793945}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.08265974897918849, "train_rmse": 0.07823640839560975, "train_rmse_clean": null, "nrmse": 0.04649450595680065, "train_time_s": 5.542421102523804}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.04087592070656032, "train_rmse": 0.04491736449725936, "train_rmse_clean": null, "nrmse": 0.022948316870134457, "train_time_s": 5.539318799972534}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.0591781506815261, "train_rmse": 0.05607102014447629, "train_rmse_clean": null, "nrmse": 0.03254312135162576, "train_time_s": 5.438538551330566}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.028063707772264523, "train_rmse": 0.020335231818130683, "train_rmse_clean": null, "nrmse": 0.015472901328214796, "train_time_s": 10.470623254776001, "p_values": [2.6560397148132324, 2.249347686767578, 2.0431265830993652, 2.129272937774658, 2.4194579124450684, 2.2988686561584473, 2.335411548614502, 4.269705295562744, 2.2322206497192383, 2.2630858421325684, 2.9075605869293213, 2.519869327545166, 1.9446280002593994, 4.78369665145874, 2.462355375289917, 2.348588466644287], "p_mean": 2.6164522022008896}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.028532444463464035, "train_rmse": 0.018189144248607514, "train_rmse_clean": null, "nrmse": 0.01596052151047198, "train_time_s": 10.501527786254883, "p_values": [2.796055793762207, 2.2157630920410156, 2.2723124027252197, 2.229807138442993, 2.4938483238220215, 2.573458671569824, 2.8298630714416504, 2.173241138458252, 2.3423638343811035, 2.3082151412963867, 2.299633026123047, 2.689584255218506, 3.508589744567871, 2.1201629638671875, 2.3477084636688232, 1.3507921695709229], "p_mean": 2.4094624519348145}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.02950121413620077, "train_rmse": 0.02412389326842912, "train_rmse_clean": null, "nrmse": 0.01659386089756674, "train_time_s": 10.546918630599976, "p_values": [2.241837501525879, 3.370043992996216, 2.6239171028137207, 2.3035385608673096, 3.2320258617401123, 2.2613210678100586, 2.5731372833251953, 3.636776924133301, 2.7343831062316895, 2.372422218322754, 2.21474289894104, 2.5310182571411133, 1.6277778148651123, 3.9331631660461426, 1.9584143161773682, 2.28359055519104], "p_mean": 2.6186319142580032}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.03427452729738678, "train_rmse": 0.030737658772945098, "train_rmse_clean": null, "nrmse": 0.019242201751024292, "train_time_s": 10.650832891464233, "p_values": [2.2829082012176514, 2.4415087699890137, 2.3997206687927246, 2.25022554397583, 2.805290699005127, 2.4387426376342773, 2.0666208267211914, 2.735989570617676, 2.8206045627593994, 2.1611580848693848, 2.626295566558838, 2.609299898147583, 2.9241466522216797, 2.8251428604125977, 2.0258452892303467, 2.2951812744140625], "p_mean": 2.4817925691604614}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.04457710824624761, "train_rmse": 0.03818670315220318, "train_rmse_clean": null, "nrmse": 0.02451374749726773, "train_time_s": 10.58127474784851, "p_values": [2.3322653770446777, 2.340786933898926, 2.5825085639953613, 2.268507480621338, 2.2722935676574707, 2.5784549713134766, 2.4572365283966064, 2.5134661197662354, 2.2032456398010254, 2.2737646102905273, 2.7494382858276367, 2.6909127235412598, 2.787837028503418, 2.3214523792266846, 2.7247204780578613, 2.1815133094787598], "p_mean": 2.454900249838829}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.05399276670188957, "train_rmse": 0.03373583188019191, "train_rmse_clean": null, "nrmse": 0.02976886583893638, "train_time_s": 10.189346313476562, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.044225693940612265, "train_rmse": 0.033933609985577595, "train_rmse_clean": null, "nrmse": 0.024739034903180374, "train_time_s": 10.127872228622437, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.06075085217766185, "train_rmse": 0.0703513444107049, "train_rmse_clean": null, "nrmse": 0.034171176338391354, "train_time_s": 10.064990282058716, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.03888574850895754, "train_rmse": 0.03047982937842164, "train_rmse_clean": null, "nrmse": 0.02183100620343208, "train_time_s": 10.088721990585327, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.04737373976091064, "train_rmse": 0.04421649449048726, "train_rmse_clean": null, "nrmse": 0.026051665085251283, "train_time_s": 10.152077913284302, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.09333203686982339, "train_rmse": 0.07576137396740057, "train_rmse_clean": null, "nrmse": 0.0514585388704521, "train_time_s": 8.292568683624268, "p_values": [2.361311435699463, 1.8969032764434814, 2.2663140296936035, 1.91694974899292, 3.0610415935516357, 2.5152337551116943, 2.308157444000244, 2.9429798126220703, 2.232834815979004, 1.4913312196731567, 3.1294918060302734, 2.350222110748291, 1.8787353038787842, 3.949169397354126, 1.9375159740447998, 3.5834174156188965], "p_mean": 2.4888505712151527}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.06942301798532347, "train_rmse": 0.05404026645102489, "train_rmse_clean": null, "nrmse": 0.0388339517595653, "train_time_s": 8.299689769744873, "p_values": [1.6088693141937256, 1.765620231628418, 1.5489097833633423, 2.283656597137451, 2.861455202102661, 2.283010959625244, 2.3410794734954834, 2.571658134460449, 2.1646275520324707, 2.265679359436035, 1.628000020980835, 2.0690083503723145, 4.763710975646973, 2.6992807388305664, 2.9419138431549072, 2.028310775756836], "p_mean": 2.364049457013607}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.06209845202474096, "train_rmse": 0.06013561621933894, "train_rmse_clean": null, "nrmse": 0.034929175121247304, "train_time_s": 8.29745364189148, "p_values": [1.7424790859222412, 1.8447928428649902, 2.187375783920288, 1.7841906547546387, 2.031230926513672, 1.8083254098892212, 2.1909003257751465, 2.2601218223571777, 2.615823745727539, 2.8023180961608887, 1.7307673692703247, 2.2400765419006348, 2.154301404953003, 5.77565336227417, 2.253875255584717, 2.517340660095215], "p_mean": 2.3712233304977417}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.12430674543633202, "train_rmse": 0.1137337597348802, "train_rmse_clean": null, "nrmse": 0.06978755546196808, "train_time_s": 8.239545345306396, "p_values": [1.9917782545089722, 1.8354077339172363, 2.3635406494140625, 1.6844803094863892, 3.56536602973938, 2.2882556915283203, 1.5331413745880127, 2.938404083251953, 3.4154582023620605, 2.3722290992736816, 2.8030195236206055, 2.4182586669921875, 2.4512078762054443, 2.124767303466797, 2.687708854675293, 2.0280628204345703], "p_mean": 2.4063179045915604}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.055711003764803424, "train_rmse": 0.047102961127975185, "train_rmse_clean": null, "nrmse": 0.030636475375781763, "train_time_s": 8.101045608520508, "p_values": [2.323249340057373, 2.3886852264404297, 2.283384084701538, 1.3996299505233765, 2.640692710876465, 2.349497079849243, 1.8316614627838135, 2.024379253387451, 2.0922932624816895, 2.5308687686920166, 2.216218948364258, 2.45743465423584, 3.121445417404175, 1.4791390895843506, 3.7232420444488525, 1.7499792575836182], "p_mean": 2.2882375344634056}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.06859379293727264, "train_rmse": 0.04746016740057857, "train_rmse_clean": null, "nrmse": 0.03781912919202173, "train_time_s": 3.946223497390747}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.06371564418141862, "train_rmse": 0.040547258997438274, "train_rmse_clean": null, "nrmse": 0.035641352454511985, "train_time_s": 4.082907676696777}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.0317942260403814, "train_rmse": 0.028890169158520385, "train_rmse_clean": null, "nrmse": 0.017883635630185194, "train_time_s": 4.019273281097412}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.04845575468647367, "train_rmse": 0.041935414387794356, "train_rmse_clean": null, "nrmse": 0.027203742288995962, "train_time_s": 3.9371097087860107}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.07261679824430933, "train_rmse": 0.05888277380809681, "train_rmse_clean": null, "nrmse": 0.039933273517599226, "train_time_s": 3.901196002960205}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.0466286639810356, "train_rmse": 0.029101985013326503, "train_rmse_clean": null, "nrmse": 0.025708674088963022, "train_time_s": 8.125093460083008}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.045356940287879066, "train_rmse": 0.031641737159644245, "train_rmse_clean": null, "nrmse": 0.02537183317892273, "train_time_s": 8.08299469947815}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.02542275467157573, "train_rmse": 0.02146574882811858, "train_rmse_clean": null, "nrmse": 0.014299806533570044, "train_time_s": 8.127471446990967}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.03678501100182241, "train_rmse": 0.018557889543022954, "train_rmse_clean": null, "nrmse": 0.020651622616679594, "train_time_s": 8.147544384002686}
+{"experiment": "baseline", "eq_id": "I.34.14", "eq_name": "Relativistic Doppler", "eq_type": "power", "n_vars": 3, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.04490629660622858, "train_rmse": 0.041057723350857556, "train_rmse_clean": null, "nrmse": 0.02469477405222136, "train_time_s": 8.044790029525757}

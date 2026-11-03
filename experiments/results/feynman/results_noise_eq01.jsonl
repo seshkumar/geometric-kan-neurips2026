@@ -1,0 +1,1050 @@
+checkpoint directory created: ./model_ckpt_2077495_123346726368768_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.016822503832514935, "train_rmse": 0.01409249409302582, "train_rmse_clean": null, "nrmse": 0.001338689133383349, "train_time_s": 27.610230684280396}
+checkpoint directory created: ./model_ckpt_2078372_137042401465856_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.040117225023053926, "train_rmse": 0.03498493431030658, "train_rmse_clean": null, "nrmse": 0.0031162933827020138, "train_time_s": 28.65480899810791}
+checkpoint directory created: ./model_ckpt_2078948_127166227682816_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.016122627947111834, "train_rmse": 0.01265716541313866, "train_rmse_clean": null, "nrmse": 0.0012239846420386078, "train_time_s": 21.55811071395874}
+checkpoint directory created: ./model_ckpt_2077493_139638907909632_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.03313631857499644, "train_rmse": 0.024975058154319107, "train_rmse_clean": null, "nrmse": 0.0025558750667709533, "train_time_s": 24.168118238449097}
+checkpoint directory created: ./model_ckpt_2078327_133514509784576_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.015371090343644145, "train_rmse": 0.013391188922461272, "train_rmse_clean": null, "nrmse": 0.0011436297680142682, "train_time_s": 25.55533266067505}
+checkpoint directory created: ./model_ckpt_2078891_132715090097664_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.016148606119252062, "train_rmse": 0.014684414361897935, "train_rmse_clean": null, "nrmse": 0.001285062184937469, "train_time_s": 18.62926173210144}
+checkpoint directory created: ./model_ckpt_2077494_134093696976384_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.021007937952581157, "train_rmse": 0.016826530914240356, "train_rmse_clean": null, "nrmse": 0.0016318899920974514, "train_time_s": 25.70206069946289}
+checkpoint directory created: ./model_ckpt_2078347_131606851716608_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.02695893458095533, "train_rmse": 0.01837636154994149, "train_rmse_clean": null, "nrmse": 0.0020466466137565313, "train_time_s": 31.562874794006348}
+checkpoint directory created: ./model_ckpt_2079160_127937255613952_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.031048652717961644, "train_rmse": 0.014833857483561808, "train_rmse_clean": null, "nrmse": 0.00239484893770149, "train_time_s": 29.49103021621704}
+checkpoint directory created: ./model_ckpt_2077496_129707097314816_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.020841679832002136, "train_rmse": 0.018547611415607346, "train_rmse_clean": null, "nrmse": 0.0015506489740434034, "train_time_s": 25.11506462097168}
+checkpoint directory created: ./model_ckpt_2078328_127270221305344_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.04592150052823274, "train_rmse": 0.03225892570710154, "train_rmse_clean": null, "nrmse": 0.003654308202741098, "train_time_s": 28.87787961959839}
+checkpoint directory created: ./model_ckpt_2078921_139044175713792_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.01750389419973719, "train_rmse": 0.01605375557031663, "train_rmse_clean": null, "nrmse": 0.0013596969789114479, "train_time_s": 24.209077835083008}
+checkpoint directory created: ./model_ckpt_2077497_130826599962112_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.058986324731254314, "train_rmse": 0.049960167294551994, "train_rmse_clean": null, "nrmse": 0.004478076142313438, "train_time_s": 20.600853204727173}
+checkpoint directory created: ./model_ckpt_2078225_137934893045248_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.023432557774070162, "train_rmse": 0.013017904841382766, "train_rmse_clean": null, "nrmse": 0.0018074032584478868, "train_time_s": 28.30101776123047}
+checkpoint directory created: ./model_ckpt_2078885_135854119708160_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.025793670325238827, "train_rmse": 0.021050468422730617, "train_rmse_clean": null, "nrmse": 0.0019190837182533908, "train_time_s": 31.60590434074402}
+checkpoint directory created: ./model_ckpt_2077498_132970595141120_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.051207951913412764, "train_rmse": 0.036820111950542245, "train_rmse_clean": null, "nrmse": 0.004074989636013916, "train_time_s": 44.18283700942993}
+checkpoint directory created: ./model_ckpt_2078767_124910938265088_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.22097785630120015, "train_rmse": 0.1510999881865729, "train_rmse_clean": null, "nrmse": 0.017165490158388936, "train_time_s": 27.017549991607666}
+checkpoint directory created: ./model_ckpt_2079316_125773389833728_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.5104839349301926, "train_rmse": 0.1885923352613723, "train_rmse_clean": null, "nrmse": 0.03875450692105819, "train_time_s": 36.82716941833496}
+checkpoint directory created: ./model_ckpt_2077499_130064258803200_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.027434847273054785, "train_rmse": 0.013706569045309536, "train_rmse_clean": null, "nrmse": 0.002116108400731639, "train_time_s": 30.415011644363403}
+checkpoint directory created: ./model_ckpt_2078411_133944448599552_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.14654551576724373, "train_rmse": 0.1295100454531184, "train_rmse_clean": null, "nrmse": 0.01090318321300631, "train_time_s": 30.147047519683838}
+checkpoint directory created: ./model_ckpt_2079167_139455592904192_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.06427121665477697, "train_rmse": 0.06363772565338488, "train_rmse_clean": null, "nrmse": 0.005114528739697968, "train_time_s": 39.79612636566162}
+checkpoint directory created: ./model_ckpt_2077501_131995651003904_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.1020884876314625, "train_rmse": 0.08698736667795703, "train_rmse_clean": null, "nrmse": 0.007930201510028689, "train_time_s": 41.12389659881592}
+checkpoint directory created: ./model_ckpt_2078725_125434481391104_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.07539457401993843, "train_rmse": 0.06968936157494987, "train_rmse_clean": null, "nrmse": 0.005723744354590703, "train_time_s": 38.440754890441895}
+checkpoint directory created: ./model_ckpt_2079546_135226393007616_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.29442701338034283, "train_rmse": 0.29716578908691815, "train_rmse_clean": null, "nrmse": 0.022709784757154093, "train_time_s": 41.33282279968262}
+checkpoint directory created: ./model_ckpt_2077500_123738611947008_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.11753300848127068, "train_rmse": 0.09478818211590223, "train_rmse_clean": null, "nrmse": 0.008744613701332784, "train_time_s": 40.35604643821716}
+checkpoint directory created: ./model_ckpt_2078717_125436576343552_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0918919415305588, "train_rmse": 0.08759620646900901, "train_rmse_clean": null, "nrmse": 0.007312510955396028, "train_time_s": 37.86068797111511}
+checkpoint directory created: ./model_ckpt_2079468_135142264301056_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.17864571171939225, "train_rmse": 0.16652526383247235, "train_rmse_clean": null, "nrmse": 0.013877142523175793, "train_time_s": 41.77253770828247}
+checkpoint directory created: ./model_ckpt_2077502_126637345105408_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.08168180127430169, "train_rmse": 0.06993033953677852, "train_rmse_clean": null, "nrmse": 0.006201052993454738, "train_time_s": 41.51188278198242}
+checkpoint directory created: ./model_ckpt_2078727_123272733189632_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.3427638596239717, "train_rmse": 0.3410462748592522, "train_rmse_clean": null, "nrmse": 0.026438109007804366, "train_time_s": 38.10399150848389}
+checkpoint directory created: ./model_ckpt_2079519_127765537232384_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.19161671726695495, "train_rmse": 0.1637094713679712, "train_rmse_clean": null, "nrmse": 0.014256541144218558, "train_time_s": 43.10545897483826}
+checkpoint directory created: ./model_ckpt_2077504_134694101308928_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.18790362164096308, "train_rmse": 0.1846290537979085, "train_rmse_clean": null, "nrmse": 0.014952859510006014, "train_time_s": 41.06839418411255}
+checkpoint directory created: ./model_ckpt_2078724_127059596236288_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.3283487158531031, "train_rmse": 0.2988803461500886, "train_rmse_clean": null, "nrmse": 0.025506024652595362, "train_time_s": 38.37771558761597}
+checkpoint directory created: ./model_ckpt_2079520_140220923799040_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.19383273758664643, "train_rmse": 0.1755662485243228, "train_rmse_clean": null, "nrmse": 0.014715237162863073, "train_time_s": 41.70372271537781}
+checkpoint directory created: ./model_ckpt_2077503_130573622375936_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.33419283565046953, "train_rmse": 0.3386421211845203, "train_rmse_clean": null, "nrmse": 0.025777007611733765, "train_time_s": 41.48818635940552}
+checkpoint directory created: ./model_ckpt_2078745_128937297716736_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.29529073151821805, "train_rmse": 0.25762377101286305, "train_rmse_clean": null, "nrmse": 0.021970027059438995, "train_time_s": 38.7116379737854}
+checkpoint directory created: ./model_ckpt_2079576_127153824916992_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.47506886904490386, "train_rmse": 0.45541726463132903, "train_rmse_clean": null, "nrmse": 0.03780468941667964, "train_time_s": 41.657376289367676}
+checkpoint directory created: ./model_ckpt_2077505_137540886914560_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.6404323059218768, "train_rmse": 0.7101322794926261, "train_rmse_clean": null, "nrmse": 0.0497485794659535, "train_time_s": 41.99570345878601}
+checkpoint directory created: ./model_ckpt_2078749_133682410350080_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.4966922621567562, "train_rmse": 0.4466506246577211, "train_rmse_clean": null, "nrmse": 0.03770748185057443, "train_time_s": 36.299651861190796}
+checkpoint directory created: ./model_ckpt_2079469_127525372167680_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.44783317764054686, "train_rmse": 0.4438339631142867, "train_rmse_clean": null, "nrmse": 0.03454233004833441, "train_time_s": 41.745853424072266}
+checkpoint directory created: ./model_ckpt_2077506_123543744144896_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.1921425310964366, "train_rmse": 1.1947555279894715, "train_rmse_clean": null, "nrmse": 0.08869700559931364, "train_time_s": 41.04044032096863}
+checkpoint directory created: ./model_ckpt_2078726_137459498911232_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.5644756092871397, "train_rmse": 0.5599593009137038, "train_rmse_clean": null, "nrmse": 0.04491943480803889, "train_time_s": 78.98970437049866}
+checkpoint directory created: ./model_ckpt_2080516_138018143012352_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.06504274981587699, "train_rmse": 0.05661976233762367, "train_rmse_clean": null, "nrmse": 0.005052500284540621, "train_time_s": 77.2719259262085}
+checkpoint directory created: ./model_ckpt_2077508_132141786064384_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.030939111589349366, "train_rmse": 0.027871109386681248, "train_rmse_clean": null, "nrmse": 0.002348810476053073, "train_time_s": 76.12752676010132}
+checkpoint directory created: ./model_ckpt_2079323_130589433505280_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.29830562897633683, "train_rmse": 0.291000043778169, "train_rmse_clean": null, "nrmse": 0.023008950666998713, "train_time_s": 79.97611999511719}
+checkpoint directory created: ./model_ckpt_2081241_127278008018432_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.1081297132938861, "train_rmse": 0.09229680022278597, "train_rmse_clean": null, "nrmse": 0.008044995908886134, "train_time_s": 91.111487865448}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.12439671929354645, "train_rmse": 0.11144219013627499, "train_rmse_clean": null, "nrmse": 0.009899152825570419, "train_time_s": 6.238068103790283}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.13635934758181456, "train_rmse": 0.13744971948819718, "train_rmse_clean": null, "nrmse": 0.010592351098426605, "train_time_s": 6.111147165298462}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.18673898265275213, "train_rmse": 0.17223141002062547, "train_rmse_clean": null, "nrmse": 0.014176699207267092, "train_time_s": 6.019341707229614}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.12146687256736755, "train_rmse": 0.11834948771912224, "train_rmse_clean": null, "nrmse": 0.00936899946597682, "train_time_s": 6.286342620849609}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.1490537552487332, "train_rmse": 0.14609486609254674, "train_rmse_clean": null, "nrmse": 0.01108979959949617, "train_time_s": 6.5023510456085205}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.05868613089806596, "train_rmse": 0.04848394863515537, "train_rmse_clean": null, "nrmse": 0.004670082794792191, "train_time_s": 11.255821228027344, "p_values": [2.550177574157715, 4.862604141235352, 2.22941255569458, 2.603574752807617, 2.505807876586914, 2.648921012878418, 2.9234323501586914, 7.5274858474731445, 2.483121871948242, 2.430525302886963, 2.6383423805236816, 3.1032493114471436, 2.799499273300171, 2.2227442264556885, 2.833975076675415], "p_mean": 3.090858236948649}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.05470740201309354, "train_rmse": 0.05077993130622538, "train_rmse_clean": null, "nrmse": 0.00424965372804951, "train_time_s": 12.111550331115723, "p_values": [2.6339497566223145, 2.8785769939422607, 2.258197784423828, 2.48034405708313, 2.6074609756469727, 2.182055950164795, 2.4713244438171387, 2.5838499069213867, 2.2970802783966064, 2.3945155143737793, 2.9269936084747314, 2.3405981063842773, 2.410149574279785, 2.9760255813598633, 2.3639960289001465], "p_mean": 2.520341237386068}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.057083082313061695, "train_rmse": 0.04788606318742428, "train_rmse_clean": null, "nrmse": 0.004333587322154222, "train_time_s": 11.353843450546265, "p_values": [2.4187240600585938, 2.866931915283203, 2.1595988273620605, 2.395784378051758, 2.998955249786377, 3.321791410446167, 2.4975850582122803, 2.6152329444885254, 2.2125635147094727, 2.2470269203186035, 2.7022390365600586, 2.4605088233947754, 2.756129264831543, 2.88747239112854, 2.4722328186035156], "p_mean": 2.6008517742156982}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.07965565594025037, "train_rmse": 0.05478840151719311, "train_rmse_clean": null, "nrmse": 0.006144010973463831, "train_time_s": 10.693047046661377, "p_values": [2.2931196689605713, 2.4574828147888184, 2.6292128562927246, 2.841928720474243, 2.5069496631622314, 2.4577817916870117, 2.6696252822875977, 2.453871250152588, 2.2888317108154297, 2.8437345027923584, 3.4819834232330322, 2.579620838165283, 2.9511895179748535, 2.486502170562744, 3.2876429557800293], "p_mean": 2.681965144475301}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.06948548824867906, "train_rmse": 0.0674575647125426, "train_rmse_clean": null, "nrmse": 0.005169813658603184, "train_time_s": 11.899062871932983, "p_values": [2.530984878540039, 2.520055055618286, 2.162001609802246, 2.4144644737243652, 2.3687357902526855, 2.8799333572387695, 2.5400190353393555, 2.5340452194213867, 2.165175437927246, 2.5553531646728516, 2.236347198486328, 4.748793601989746, 2.114536762237549, 2.812169075012207, 3.5232150554656982], "p_mean": 2.673721981048584}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.12240842293832, "train_rmse": 0.11906208720144562, "train_rmse_clean": null, "nrmse": 0.009740929605579662, "train_time_s": 11.067763566970825, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.16477942821773617, "train_rmse": 0.16967888725131353, "train_rmse_clean": null, "nrmse": 0.012800013995615651, "train_time_s": 10.38741421699524, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.26933431724829404, "train_rmse": 0.25168387860887265, "train_rmse_clean": null, "nrmse": 0.020447105085304697, "train_time_s": 11.154768943786621, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.16397644549994084, "train_rmse": 0.14009793230657408, "train_rmse_clean": null, "nrmse": 0.012647853672775416, "train_time_s": 11.201838970184326, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.14051940672302976, "train_rmse": 0.1342501448009994, "train_rmse_clean": null, "nrmse": 0.010454832605847675, "train_time_s": 10.450246810913086, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.11248586366535207, "train_rmse": 0.09759520692066914, "train_rmse_clean": null, "nrmse": 0.00895131930699853, "train_time_s": 9.407596826553345, "p_values": [2.936279773712158, 3.8787097930908203, 3.3957178592681885, 2.758908271789551, 2.372185707092285, 2.736724615097046, 2.3796238899230957, 4.46236515045166, 2.11067795753479, 2.458251953125, 2.365905284881592, 2.8259871006011963, 2.706291437149048, 2.727254867553711, 3.2843384742736816], "p_mean": 2.8932814757029215}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.09357802830995166, "train_rmse": 0.08770415402003806, "train_rmse_clean": null, "nrmse": 0.007269111715005773, "train_time_s": 9.531840801239014, "p_values": [2.494840145111084, 3.114156723022461, 1.9462597370147705, 2.3988442420959473, 2.276634693145752, 2.417865514755249, 2.383087396621704, 2.761464834213257, 2.379997730255127, 2.016315221786499, 2.4956319332122803, 2.4245142936706543, 3.355189323425293, 2.8759255409240723, 2.150578737258911], "p_mean": 2.499420404434204}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.08710557701276578, "train_rmse": 0.07490274485933135, "train_rmse_clean": null, "nrmse": 0.006612810817769655, "train_time_s": 8.807474374771118, "p_values": [2.7029483318328857, 3.5427048206329346, 1.9236831665039062, 1.7276703119277954, 2.286503791809082, 2.370540142059326, 2.208871841430664, 2.1705269813537598, 2.7533936500549316, 2.2699952125549316, 2.5826148986816406, 2.1910247802734375, 3.083033561706543, 2.2714614868164062, 2.882511615753174], "p_mean": 2.4644989728927613}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.055236610041504264, "train_rmse": 0.051869074287141714, "train_rmse_clean": null, "nrmse": 0.0042605177777521415, "train_time_s": 9.45648741722107, "p_values": [2.137289047241211, 2.640009880065918, 1.8485578298568726, 2.0282323360443115, 2.117173194885254, 2.81040096282959, 2.1894149780273438, 2.8738460540771484, 2.0346226692199707, 3.005220890045166, 3.3800289630889893, 3.7243099212646484, 1.7553045749664307, 2.2399837970733643, 3.334256649017334], "p_mean": 2.5412434498469034}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.18193902192967215, "train_rmse": 0.1836168371988549, "train_rmse_clean": null, "nrmse": 0.013536507612045227, "train_time_s": 9.104724168777466, "p_values": [3.0112123489379883, 2.541360855102539, 3.818005084991455, 2.5888237953186035, 4.755559921264648, 2.868457794189453, 1.872070074081421, 2.4071736335754395, 3.3874495029449463, 2.6047561168670654, 2.4100518226623535, 2.750953197479248, 2.313239336013794, 3.3476994037628174, 2.2677552700042725], "p_mean": 2.8629712104797362}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.9537097562144226, "train_rmse": 0.9312105559064676, "train_rmse_clean": null, "nrmse": 0.07589363032738645, "train_time_s": 4.081137418746948}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.985842854958662, "train_rmse": 1.0592821549796838, "train_rmse_clean": null, "nrmse": 0.07657996193720454, "train_time_s": 4.4802141189575195}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.5488241634067776, "train_rmse": 0.4600772029319984, "train_rmse_clean": null, "nrmse": 0.041665189409144626, "train_time_s": 4.234757423400879}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 1.0204354485571798, "train_rmse": 0.9301864490817593, "train_rmse_clean": null, "nrmse": 0.07870836690303067, "train_time_s": 4.358499765396118}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.7813662265043391, "train_rmse": 0.7791766809200098, "train_rmse_clean": null, "nrmse": 0.058134696782966816, "train_time_s": 4.422106981277466}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.07003981628763123, "train_rmse": 0.05839166234427706, "train_rmse_clean": null, "nrmse": 0.00557357822009786, "train_time_s": 9.077868223190308}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.057818978725592274, "train_rmse": 0.055959191839384914, "train_rmse_clean": null, "nrmse": 0.004491360025365868, "train_time_s": 8.696491003036499}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.06747881538395184, "train_rmse": 0.053240310276407854, "train_rmse_clean": null, "nrmse": 0.0051228021860859905, "train_time_s": 9.26785159111023}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.07704273536731776, "train_rmse": 0.06211824275020561, "train_rmse_clean": null, "nrmse": 0.005942470825643954, "train_time_s": 8.875606060028076}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.07928549268406737, "train_rmse": 0.07095563962326956, "train_rmse_clean": null, "nrmse": 0.005898947151961135, "train_time_s": 8.584553003311157}
+checkpoint directory created: ./model_ckpt_2077518_129823288485376_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.46830488840468476, "train_rmse": 1.1931030457022729, "train_rmse_clean": 0.4133432049953605, "nrmse": 0.03726643022104342, "train_time_s": 34.551204681396484}
+checkpoint directory created: ./model_ckpt_2078661_134673742878208_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.5499852757835981, "train_rmse": 1.2027805418903625, "train_rmse_clean": 0.48666546533818433, "nrmse": 0.042722682701085216, "train_time_s": 30.282528400421143}
+checkpoint directory created: ./model_ckpt_2079229_139555041351168_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.47286370222202834, "train_rmse": 1.1827643098566796, "train_rmse_clean": 0.3986129109943306, "nrmse": 0.03589848448999042, "train_time_s": 34.85673236846924}
+checkpoint directory created: ./model_ckpt_2077520_131068229744128_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.5223548666199918, "train_rmse": 1.2991031767251684, "train_rmse_clean": 0.41241549180168136, "nrmse": 0.04029034717839495, "train_time_s": 31.05247950553894}
+checkpoint directory created: ./model_ckpt_2078594_138899402663424_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.4126404723707999, "train_rmse": 1.332648981319977, "train_rmse_clean": 0.38433535396666585, "nrmse": 0.030701005403032267, "train_time_s": 25.41753125190735}
+checkpoint directory created: ./model_ckpt_2079026_133160981759488_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.4919370993930201, "train_rmse": 1.178917728130088, "train_rmse_clean": 0.45876941473735755, "nrmse": 0.03914701734189519, "train_time_s": 28.708244562149048}
+checkpoint directory created: ./model_ckpt_2077519_132684681893376_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.5248880050700961, "train_rmse": 1.1938311335028828, "train_rmse_clean": 0.4889605337962095, "nrmse": 0.04077313463031455, "train_time_s": 28.623133182525635}
+checkpoint directory created: ./model_ckpt_2078390_132889455740416_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.4383726049146759, "train_rmse": 1.1806686934963864, "train_rmse_clean": 0.4042182565493704, "nrmse": 0.033280017232062954, "train_time_s": 24.38225269317627}
+checkpoint directory created: ./model_ckpt_2078902_131607844406784_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.3915734016747052, "train_rmse": 1.3148419371195814, "train_rmse_clean": 0.34283248401526123, "nrmse": 0.030202893296247053, "train_time_s": 22.848024129867554}
+checkpoint directory created: ./model_ckpt_2077521_139712806491648_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.5281129347011486, "train_rmse": 1.313325904772114, "train_rmse_clean": 0.47048437873063875, "nrmse": 0.039292311703011056, "train_time_s": 34.16965460777283}
+checkpoint directory created: ./model_ckpt_2078658_131046659880448_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.4522602112670171, "train_rmse": 1.2090345548028338, "train_rmse_clean": 0.37941446873061047, "nrmse": 0.03598963842199356, "train_time_s": 27.519262313842773}
+checkpoint directory created: ./model_ckpt_2079204_134583070660096_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.6265047891188615, "train_rmse": 1.146308792149199, "train_rmse_clean": 0.5973582676217717, "nrmse": 0.04866669435486304, "train_time_s": 24.979151010513306}
+checkpoint directory created: ./model_ckpt_2077522_127035188532736_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.6610993791619535, "train_rmse": 1.1824403606325404, "train_rmse_clean": 0.3850890315917397, "nrmse": 0.050188808524880904, "train_time_s": 30.680511713027954}
+checkpoint directory created: ./model_ckpt_2078559_135599474693632_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.8303401347362183, "train_rmse": 1.258832333934663, "train_rmse_clean": 0.5686308561437841, "nrmse": 0.06404590909845097, "train_time_s": 33.40332865715027}
+checkpoint directory created: ./model_ckpt_2079223_124312726328832_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.6341962280275837, "train_rmse": 1.2869169597853016, "train_rmse_clean": 0.5335584177583286, "nrmse": 0.04718505121756772, "train_time_s": 35.86562776565552}
+checkpoint directory created: ./model_ckpt_2077524_124901517051392_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.7000067422972194, "train_rmse": 1.141680168557464, "train_rmse_clean": 0.5554645068529567, "nrmse": 0.05570463401512998, "train_time_s": 33.60571074485779}
+checkpoint directory created: ./model_ckpt_2078647_132902385186304_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.5337690499212826, "train_rmse": 1.2180830859585967, "train_rmse_clean": 0.46709060975835826, "nrmse": 0.04146301139236197, "train_time_s": 28.205122470855713}
+checkpoint directory created: ./model_ckpt_2079208_132299960903168_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.6427361125961397, "train_rmse": 1.2278381208413407, "train_rmse_clean": 0.36821669944004043, "nrmse": 0.048794720890535694, "train_time_s": 28.255555868148804}
+checkpoint directory created: ./model_ckpt_2077523_129680139486720_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 1.2329274637154413, "train_rmse": 1.1758343701412741, "train_rmse_clean": 0.7215339498663127, "nrmse": 0.0950983301453784, "train_time_s": 41.86501097679138}
+checkpoint directory created: ./model_ckpt_2078750_125517749614080_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.8171640062996417, "train_rmse": 1.2699198833838494, "train_rmse_clean": 0.5775528801650651, "nrmse": 0.06079809968331188, "train_time_s": 30.5807945728302}
+checkpoint directory created: ./model_ckpt_2079331_125926652634624_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.4981422583761521, "train_rmse": 1.1904841712643233, "train_rmse_clean": 0.4386945884711899, "nrmse": 0.03964080702887266, "train_time_s": 40.466912031173706}
+checkpoint directory created: ./model_ckpt_2078204_126121250575872_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.5598231210793116, "train_rmse": 1.1984265699178707, "train_rmse_clean": 0.5142481528760925, "nrmse": 0.04348688341979046, "train_time_s": 38.057713985443115}
+checkpoint directory created: ./model_ckpt_2079141_136895707223552_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.4696159716167472, "train_rmse": 1.179602732989025, "train_rmse_clean": 0.4133758263626106, "nrmse": 0.03565192590193746, "train_time_s": 38.452495098114014}
+checkpoint directory created: ./model_ckpt_2080010_131732515886592_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.7583538732670831, "train_rmse": 1.2900922566536224, "train_rmse_clean": 0.5620013649485429, "nrmse": 0.05849345491068106, "train_time_s": 39.12952208518982}
+checkpoint directory created: ./model_ckpt_2078309_139573587867136_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.4013346411993801, "train_rmse": 1.3447278322129108, "train_rmse_clean": 0.3705129284281732, "nrmse": 0.02985983637788724, "train_time_s": 38.11577224731445}
+checkpoint directory created: ./model_ckpt_2079205_138207918663168_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.4610798409055441, "train_rmse": 1.2001748782667008, "train_rmse_clean": 0.4227258307098545, "nrmse": 0.03669148057790031, "train_time_s": 40.27761149406433}
+checkpoint directory created: ./model_ckpt_2080070_132223831172608_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.6396293354783253, "train_rmse": 1.2125719924817417, "train_rmse_clean": 0.5045206335128043, "nrmse": 0.04968620497523768, "train_time_s": 41.0336217880249}
+checkpoint directory created: ./model_ckpt_2078388_140101098448384_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.5067537247764307, "train_rmse": 1.1905393705025915, "train_rmse_clean": 0.3983985273554822, "nrmse": 0.038471319840468206, "train_time_s": 37.22185158729553}
+checkpoint directory created: ./model_ckpt_2079232_123282396161536_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.6182525159908892, "train_rmse": 1.3166985206513573, "train_rmse_clean": 0.5266912781552548, "nrmse": 0.04768713781566164, "train_time_s": 40.38277244567871}
+checkpoint directory created: ./model_ckpt_2080140_127602485024256_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.40908972311988734, "train_rmse": 1.3547652118013929, "train_rmse_clean": 0.3699348217604843, "nrmse": 0.030436824889398303, "train_time_s": 37.923686027526855}
+checkpoint directory created: ./model_ckpt_2078389_137562654275072_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.337909483307989, "train_rmse": 1.2473042509116965, "train_rmse_clean": 0.33857525724659787, "nrmse": 0.02688991828298847, "train_time_s": 38.3744683265686}
+checkpoint directory created: ./model_ckpt_2079248_129169966810624_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.5025032587991021, "train_rmse": 1.2990682943394063, "train_rmse_clean": 0.4715984117318257, "nrmse": 0.03903429460242939, "train_time_s": 41.18074607849121}
+checkpoint directory created: ./model_ckpt_2080170_133623647618560_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.36855472835387815, "train_rmse": 1.222734058783999, "train_rmse_clean": 0.33663106828111466, "nrmse": 0.02797964008942275, "train_time_s": 40.6133873462677}
+checkpoint directory created: ./model_ckpt_2078408_132852661605888_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.5183596020586947, "train_rmse": 1.3675752693656023, "train_rmse_clean": 0.42765520662271683, "nrmse": 0.039982183884567916, "train_time_s": 37.98298382759094}
+checkpoint directory created: ./model_ckpt_2079282_128809024972288_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.43363033573887577, "train_rmse": 1.381523570956972, "train_rmse_clean": 0.4106607758049847, "nrmse": 0.03226267943119967, "train_time_s": 40.708122968673706}
+checkpoint directory created: ./model_ckpt_2080177_135276427449856_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.5402867326602596, "train_rmse": 1.3333606759573016, "train_rmse_clean": 0.5131151190618546, "nrmse": 0.04299454974862417, "train_time_s": 39.14435005187988}
+checkpoint directory created: ./model_ckpt_2078616_125583530780160_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.6838356839923136, "train_rmse": 1.4406185854406743, "train_rmse_clean": 0.732921762950653, "nrmse": 0.05312014018058638, "train_time_s": 36.97209620475769}
+checkpoint directory created: ./model_ckpt_2079296_125723519129088_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.5671077459105618, "train_rmse": 1.2934565495898767, "train_rmse_clean": 0.5132063651125378, "nrmse": 0.04305322765325026, "train_time_s": 41.32093334197998}
+checkpoint directory created: ./model_ckpt_2080191_134517305230848_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.5565399633921402, "train_rmse": 1.4338954810936002, "train_rmse_clean": 0.5064723575006553, "nrmse": 0.042927116748838874, "train_time_s": 39.89875245094299}
+checkpoint directory created: ./model_ckpt_2078645_131597084587520_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.2831970048208206, "train_rmse": 1.8362765484763486, "train_rmse_clean": 1.291653382983526, "nrmse": 0.09547158074876858, "train_time_s": 37.96871900558472}
+checkpoint directory created: ./model_ckpt_2079315_132088269002240_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.572991423802133, "train_rmse": 1.1826926872340948, "train_rmse_clean": 0.4537590111358405, "nrmse": 0.04559710018214898, "train_time_s": 78.34952235221863}
+checkpoint directory created: ./model_ckpt_2081193_131893561947648_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.6159448148270243, "train_rmse": 1.1853303517890907, "train_rmse_clean": 0.537436544072321, "nrmse": 0.04784639888357247, "train_time_s": 76.1486291885376}
+checkpoint directory created: ./model_ckpt_2078688_135848351417856_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.5207587106668541, "train_rmse": 1.1714391194518612, "train_rmse_clean": 0.4274405287551275, "nrmse": 0.03953453904381876, "train_time_s": 78.31474709510803}
+checkpoint directory created: ./model_ckpt_2080227_130465611081216_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.7193570191760728, "train_rmse": 1.26760985607649, "train_rmse_clean": 0.533417118495862, "nrmse": 0.055485544215105875, "train_time_s": 76.5588321685791}
+checkpoint directory created: ./model_ckpt_2082585_132054365435392_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.9221978745821247, "train_rmse": 1.5434982210287416, "train_rmse_clean": 0.9211378066993063, "nrmse": 0.06861276056501088, "train_time_s": 82.52443671226501}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.2718343041492659, "train_rmse": 1.245694209660634, "train_rmse_clean": 0.2676957577480934, "nrmse": 0.021631835110186674, "train_time_s": 5.727320432662964}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.3449258135044282, "train_rmse": 1.2703044448428642, "train_rmse_clean": 0.32087560333781084, "nrmse": 0.026793728368032878, "train_time_s": 5.9957802295684814}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.30025459579815816, "train_rmse": 1.2427915425565175, "train_rmse_clean": 0.28883715433554613, "nrmse": 0.022794485809882484, "train_time_s": 5.490514755249023}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.29279620284592056, "train_rmse": 1.3463358577629378, "train_rmse_clean": 0.2953470802191873, "nrmse": 0.02258399685545573, "train_time_s": 5.751127481460571}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.34314383999011966, "train_rmse": 1.4041736914808354, "train_rmse_clean": 0.3192906673569311, "nrmse": 0.025530362606039397, "train_time_s": 5.47507905960083}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.2507235797825942, "train_rmse": 1.2546473748305829, "train_rmse_clean": 0.23679696149912566, "nrmse": 0.019951901041579626, "train_time_s": 10.57241439819336, "p_values": [2.5973668098449707, 2.004607677459717, 2.2389559745788574, 2.7042160034179688, 2.499223232269287, 2.6422672271728516, 2.783308506011963, 9.6024751663208, 2.5665950775146484, 2.4215705394744873, 2.8060708045959473, 3.198336362838745, 2.7990517616271973, 2.2469050884246826, 2.833587169647217], "p_mean": 3.0629691600799562}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.24841483170695966, "train_rmse": 1.2726009586187814, "train_rmse_clean": 0.25281861896946367, "nrmse": 0.019296785751471247, "train_time_s": 10.511872291564941, "p_values": [2.5147218704223633, 2.9144389629364014, 2.270200252532959, 2.4711263179779053, 2.6770894527435303, 2.3269407749176025, 2.4489963054656982, 2.5339293479919434, 2.3863182067871094, 2.5851900577545166, 2.8368098735809326, 2.3567955493927, 2.474123239517212, 3.0827794075012207, 2.389258861541748], "p_mean": 2.5512478987375897}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.18845177108653033, "train_rmse": 1.2368698810636545, "train_rmse_clean": 0.1715959971153609, "nrmse": 0.014306729295716874, "train_time_s": 11.357503652572632, "p_values": [2.4210686683654785, 2.938750743865967, 2.14270281791687, 2.5373501777648926, 3.0459492206573486, 3.312816858291626, 2.4941399097442627, 2.6099853515625, 2.214996337890625, 2.2579445838928223, 2.733184814453125, 2.469870090484619, 2.760545015335083, 2.8736050128936768, 2.4735641479492188], "p_mean": 2.619098250071208}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.3049857697223075, "train_rmse": 1.3509784165826204, "train_rmse_clean": 0.29779068354399385, "nrmse": 0.02352420419875436, "train_time_s": 11.61380934715271, "p_values": [2.2644050121307373, 2.4805498123168945, 2.589219093322754, 2.971602439880371, 2.5806655883789062, 2.571491003036499, 2.581423044204712, 2.4355993270874023, 2.284926652908325, 2.8887486457824707, 3.4051687717437744, 2.602530002593994, 2.953223705291748, 2.505249500274658, 3.4559154510498047], "p_mean": 2.70471453666687}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.3010187896594978, "train_rmse": 1.4019581300681665, "train_rmse_clean": 0.31909932762340176, "nrmse": 0.02239620227907738, "train_time_s": 10.445659875869751, "p_values": [2.5023579597473145, 2.4940476417541504, 2.0600836277008057, 2.5201687812805176, 2.1558899879455566, 2.8487491607666016, 2.504356861114502, 2.4686203002929688, 2.2759649753570557, 2.6394777297973633, 2.1917104721069336, 4.275947570800781, 2.096062660217285, 2.6516788005828857, 3.2575511932373047], "p_mean": 2.596177848180135}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.2484150573329078, "train_rmse": 1.2587243600214606, "train_rmse_clean": 0.25207012804413864, "nrmse": 0.019768195099329013, "train_time_s": 11.356582880020142, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.33012780582367185, "train_rmse": 1.2624675458141468, "train_rmse_clean": 0.31083158344479855, "nrmse": 0.025644223800201628, "train_time_s": 11.105717658996582, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.33680458591151563, "train_rmse": 1.2606010235089968, "train_rmse_clean": 0.3128076282335499, "nrmse": 0.025569258428351702, "train_time_s": 11.34147572517395, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.3031947856086532, "train_rmse": 1.3684785613532426, "train_rmse_clean": 0.29947151863468946, "nrmse": 0.02338606176658551, "train_time_s": 11.192767143249512, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.2689636387027825, "train_rmse": 1.3841739977374203, "train_rmse_clean": 0.2552533485824888, "nrmse": 0.02001125599142193, "train_time_s": 11.033479452133179, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.22303596672517223, "train_rmse": 1.259253456146304, "train_rmse_clean": 0.2217094419124308, "nrmse": 0.01774859604618094, "train_time_s": 9.242831468582153, "p_values": [3.1255624294281006, 3.8238701820373535, 3.2326202392578125, 2.7728099822998047, 2.3751115798950195, 2.718527317047119, 2.371307373046875, 4.284897804260254, 2.129399061203003, 2.4498605728149414, 2.7031431198120117, 2.8512697219848633, 2.7762722969055176, 2.8102645874023438, 3.330514907836914], "p_mean": 2.9170287450154624}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.2760769876402982, "train_rmse": 1.2762350659265138, "train_rmse_clean": 0.2754348088122356, "nrmse": 0.021445573296890855, "train_time_s": 9.133562564849854, "p_values": [2.4944581985473633, 2.8411290645599365, 2.037369728088379, 2.3305108547210693, 2.133357048034668, 2.435361862182617, 2.3956809043884277, 2.62117862701416, 2.398998975753784, 1.9735673666000366, 2.4978528022766113, 2.4027962684631348, 3.306332588195801, 2.9122085571289062, 2.211698293685913], "p_mean": 2.4661667426427205}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.23518967339638408, "train_rmse": 1.2352570235184146, "train_rmse_clean": 0.22868329751727856, "nrmse": 0.017854939600886733, "train_time_s": 9.114495515823364, "p_values": [2.752026081085205, 3.4259958267211914, 2.1538734436035156, 1.3019686937332153, 2.2157225608825684, 2.423229455947876, 2.209272861480713, 2.1724815368652344, 2.679504871368408, 2.3026485443115234, 2.531533718109131, 2.2568612098693848, 3.108859062194824, 2.276726722717285, 2.842212200164795], "p_mean": 2.4435277859369915}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.2506605765963741, "train_rmse": 1.360013836436849, "train_rmse_clean": 0.27096784646730043, "nrmse": 0.019333985955474302, "train_time_s": 9.180877208709717, "p_values": [2.1274564266204834, 2.619574546813965, 1.8620555400848389, 2.016448736190796, 2.1190619468688965, 2.8097786903381348, 2.1909422874450684, 2.8753983974456787, 1.9323031902313232, 2.996842384338379, 3.3197216987609863, 3.7456369400024414, 1.7135850191116333, 2.2423858642578125, 3.0435166358947754], "p_mean": 2.507647220293681}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.1971596054363669, "train_rmse": 1.3899406683037654, "train_rmse_clean": 0.21387238436192213, "nrmse": 0.01466893946922969, "train_time_s": 9.771142959594727, "p_values": [2.961047410964966, 2.5210251808166504, 1.9710030555725098, 1.9554049968719482, 3.6770617961883545, 3.0571069717407227, 1.9169222116470337, 2.441021203994751, 3.3210182189941406, 2.764400005340576, 2.4518728256225586, 2.7385048866271973, 2.245246648788452, 3.2648541927337646, 2.312811851501465], "p_mean": 2.6399534304936725}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 1.0796591299676166, "train_rmse": 1.595377389119335, "train_rmse_clean": 1.0152294975568026, "nrmse": 0.08591633917492145, "train_time_s": 4.384852170944214}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.9134529520817836, "train_rmse": 1.503781289831224, "train_rmse_clean": 0.9248424424891226, "nrmse": 0.07095673712093123, "train_time_s": 4.4300501346588135}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.6556310604051703, "train_rmse": 1.2944703803370317, "train_rmse_clean": 0.5863716006283681, "nrmse": 0.04977366911969024, "train_time_s": 4.403660774230957}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 1.0240196167649742, "train_rmse": 1.719493747786487, "train_rmse_clean": 0.9851660614028788, "nrmse": 0.07898482145656478, "train_time_s": 4.455580711364746}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.44464716499113166, "train_rmse": 1.3841475705916366, "train_rmse_clean": 0.45975207832034215, "nrmse": 0.03308234632537155, "train_time_s": 4.339288711547852}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.27429989484340034, "train_rmse": 1.2626193222000808, "train_rmse_clean": 0.2740622970127582, "nrmse": 0.02182804011643725, "train_time_s": 8.989206314086914}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.35455941129336566, "train_rmse": 1.2544214611091888, "train_rmse_clean": 0.3539256634863399, "nrmse": 0.027542063204852387, "train_time_s": 8.946641445159912}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.3073904850761835, "train_rmse": 1.2315996553956552, "train_rmse_clean": 0.2805441472864416, "nrmse": 0.02333622248657331, "train_time_s": 9.118948459625244}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.2994878934894416, "train_rmse": 1.3498471266173624, "train_rmse_clean": 0.31293812418351763, "nrmse": 0.023100141255492534, "train_time_s": 9.079241037368774}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.3283388541996821, "train_rmse": 1.369522253402252, "train_rmse_clean": 0.3269918923996009, "nrmse": 0.024428851777175284, "train_time_s": 9.228321552276611}
+checkpoint directory created: ./model_ckpt_2079912_127482117330432_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.7688546778387177, "train_rmse": 3.5215170142059833, "train_rmse_clean": 1.5292372541679313, "nrmse": 0.14076064772118957, "train_time_s": 35.39966654777527}
+checkpoint directory created: ./model_ckpt_2080712_129014543828480_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.757590385152099, "train_rmse": 3.7727240852854607, "train_rmse_clean": 1.4566454264818702, "nrmse": 0.1365290665942781, "train_time_s": 32.53619170188904}
+checkpoint directory created: ./model_ckpt_2081503_134215522973184_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.3815827011411557, "train_rmse": 3.532464100238826, "train_rmse_clean": 1.3946504677469136, "nrmse": 0.2567202633192101, "train_time_s": 31.693450927734375}
+checkpoint directory created: ./model_ckpt_2079921_128957693564416_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.4910825738339781, "train_rmse": 3.739400030860679, "train_rmse_clean": 1.243654968560577, "nrmse": 0.11501038548786145, "train_time_s": 32.528247356414795}
+checkpoint directory created: ./model_ckpt_2080688_123760043034112_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.9119359244147063, "train_rmse": 3.65082854350743, "train_rmse_clean": 1.5629139468308892, "nrmse": 0.142250600888613, "train_time_s": 32.385040521621704}
+checkpoint directory created: ./model_ckpt_2081405_137392386463232_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.0142818833901543, "train_rmse": 3.4937485963259576, "train_rmse_clean": 1.5977697439921315, "nrmse": 0.16029107769638262, "train_time_s": 29.6442654132843}
+checkpoint directory created: ./model_ckpt_2079954_134861952927232_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.6578488047137228, "train_rmse": 3.773241316381757, "train_rmse_clean": 1.37008543428243, "nrmse": 0.12878117209455303, "train_time_s": 34.003029346466064}
+checkpoint directory created: ./model_ckpt_2080734_138092420220416_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.0233226226613965, "train_rmse": 3.561529048041848, "train_rmse_clean": 1.3221807921744073, "nrmse": 0.15360497210198684, "train_time_s": 31.730517387390137}
+checkpoint directory created: ./model_ckpt_2081530_134684968904192_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.313981604397327, "train_rmse": 3.719411808159748, "train_rmse_clean": 1.3316375881391878, "nrmse": 0.255614483402752, "train_time_s": 35.25105690956116}
+checkpoint directory created: ./model_ckpt_2080050_126680127129088_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.0610580354811816, "train_rmse": 3.5819250565884886, "train_rmse_clean": 1.735654316855289, "nrmse": 0.1533454862527647, "train_time_s": 34.317551374435425}
+checkpoint directory created: ./model_ckpt_2080847_127086146840064_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 1.6805324149232916, "train_rmse": 3.6145909584978426, "train_rmse_clean": 1.3032106374244563, "nrmse": 0.13373220208801462, "train_time_s": 35.677597761154175}
+checkpoint directory created: ./model_ckpt_2081815_139881189602816_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 2.7541646291045936, "train_rmse": 3.670888913703209, "train_rmse_clean": 1.6898976690698078, "nrmse": 0.21394263944274244, "train_time_s": 51.46731424331665}
+checkpoint directory created: ./model_ckpt_2080052_140419354121728_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 3.5183708195670533, "train_rmse": 3.5777734260329908, "train_rmse_clean": 1.273587291487246, "nrmse": 0.2671048331744395, "train_time_s": 37.175256967544556}
+checkpoint directory created: ./model_ckpt_2080902_127158611457536_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 2.2219502909081257, "train_rmse": 3.570289930897161, "train_rmse_clean": 1.7305042501213848, "nrmse": 0.171383774431169, "train_time_s": 30.661461114883423}
+checkpoint directory created: ./model_ckpt_2081811_123538516731392_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 2.5631199227865693, "train_rmse": 3.577002409417446, "train_rmse_clean": 1.7611991867213987, "nrmse": 0.19069956503776667, "train_time_s": 39.34126591682434}
+checkpoint directory created: ./model_ckpt_2080053_137429424326144_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 1.9520714821504583, "train_rmse": 3.4730974250179543, "train_rmse_clean": 1.5947223264643355, "nrmse": 0.15534054304636025, "train_time_s": 40.35466718673706}
+checkpoint directory created: ./model_ckpt_2081151_139276818281984_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 2.2350548122578004, "train_rmse": 3.681394254978727, "train_rmse_clean": 1.6295273188466695, "nrmse": 0.17361835265058065, "train_time_s": 39.67562675476074}
+checkpoint directory created: ./model_ckpt_2082330_137208124347904_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 3.185875293597519, "train_rmse": 3.677139823739367, "train_rmse_clean": 1.2532576158953646, "nrmse": 0.24186270647721195, "train_time_s": 36.49283242225647}
+checkpoint directory created: ./model_ckpt_2080059_135083520861696_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 2.193771140862168, "train_rmse": 3.5102840631598156, "train_rmse_clean": 1.8129513188013107, "nrmse": 0.16921025636692616, "train_time_s": 41.56008195877075}
+checkpoint directory created: ./model_ckpt_2081178_124716715615744_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 2.746586834777048, "train_rmse": 3.5348246847466385, "train_rmse_clean": 1.8845685069537694, "nrmse": 0.2043497497225977, "train_time_s": 36.6302227973938}
+checkpoint directory created: ./model_ckpt_2082316_139501547939328_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.002507820257563, "train_rmse": 3.46407517550918, "train_rmse_clean": 1.6628695770604764, "nrmse": 0.1593541297528247, "train_time_s": 55.88257360458374}
+checkpoint directory created: ./model_ckpt_2080102_131418546972160_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.2120076132170823, "train_rmse": 3.663261874832415, "train_rmse_clean": 1.7308028633411254, "nrmse": 0.24950773799794848, "train_time_s": 40.50060558319092}
+checkpoint directory created: ./model_ckpt_2081186_132328653198848_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.2802177086026063, "train_rmse": 3.481082774446918, "train_rmse_clean": 1.51077900366991, "nrmse": 0.1731077256753307, "train_time_s": 37.128950119018555}
+checkpoint directory created: ./model_ckpt_2082378_124319604258304_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 8.680634201240082, "train_rmse": 3.6602027333547085, "train_rmse_clean": 1.5016150804087829, "nrmse": 0.6695558671822402, "train_time_s": 56.353275299072266}
+checkpoint directory created: ./model_ckpt_2080147_133247041873408_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.6302727310884961, "train_rmse": 3.671591436768381, "train_rmse_clean": 1.4863695185821797, "nrmse": 0.12129448097516743, "train_time_s": 40.472792863845825}
+checkpoint directory created: ./model_ckpt_2081225_136793223079424_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.849587021521259, "train_rmse": 3.4978213612252205, "train_rmse_clean": 1.5608581560740191, "nrmse": 0.14718510821032893, "train_time_s": 37.45133972167969}
+checkpoint directory created: ./model_ckpt_2082571_132967526569472_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.174546482353236, "train_rmse": 3.7213162476653565, "train_rmse_clean": 1.5941160669465546, "nrmse": 0.1689180846741295, "train_time_s": 69.54921269416809}
+checkpoint directory created: ./model_ckpt_2080171_135921157309952_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.6874431305436133, "train_rmse": 3.561762142541056, "train_rmse_clean": 1.2926412773757932, "nrmse": 0.12810594419682825, "train_time_s": 37.50720834732056}
+checkpoint directory created: ./model_ckpt_2081211_130486949012992_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.2071796219265707, "train_rmse": 3.7383544401352538, "train_rmse_clean": 1.3147366380536027, "nrmse": 0.1702444811664679, "train_time_s": 36.888465881347656}
+checkpoint directory created: ./model_ckpt_2082508_137317677467136_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.711628030992813, "train_rmse": 3.700655950003693, "train_rmse_clean": 1.5320464235793452, "nrmse": 0.12734742456447998, "train_time_s": 58.681167125701904}
+checkpoint directory created: ./model_ckpt_2080223_127893929248256_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.2653134279233385, "train_rmse": 3.6490799155380955, "train_rmse_clean": 1.2013748172673644, "nrmse": 0.10069020361945605, "train_time_s": 39.814709424972534}
+checkpoint directory created: ./model_ckpt_2081339_128803068515840_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.5668580459844605, "train_rmse": 3.7861250727804077, "train_rmse_clean": 1.4270200711671492, "nrmse": 0.12171303866428494, "train_time_s": 39.03031396865845}
+checkpoint directory created: ./model_ckpt_2082740_129151433446912_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.4656277427557995, "train_rmse": 3.616177048021541, "train_rmse_clean": 1.1392818528911732, "nrmse": 0.1112663428048754, "train_time_s": 59.19220519065857}
+checkpoint directory created: ./model_ckpt_2080230_132324543145472_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.4147670507661587, "train_rmse": 3.8098762057245494, "train_rmse_clean": 1.1583875248978757, "nrmse": 0.10912400610099125, "train_time_s": 37.168898820877075}
+checkpoint directory created: ./model_ckpt_2081319_132201089558016_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.4057769040485937, "train_rmse": 3.772246573784969, "train_rmse_clean": 1.3143900858293733, "nrmse": 0.10459168990062434, "train_time_s": 38.18562078475952}
+checkpoint directory created: ./model_ckpt_2082711_136582880495104_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.007978119107804, "train_rmse": 3.7515196043779895, "train_rmse_clean": 0.9515780502215776, "nrmse": 0.0802121591513453, "train_time_s": 38.35182976722717}
+checkpoint directory created: ./model_ckpt_2080259_134993503585792_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.0361542744258685, "train_rmse": 3.9763504907860465, "train_rmse_clean": 1.0353100160678679, "nrmse": 0.08048813712803347, "train_time_s": 40.638983488082886}
+checkpoint directory created: ./model_ckpt_2081360_135256425870848_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.0044398501204057, "train_rmse": 3.71085102259849, "train_rmse_clean": 0.8817824340870004, "nrmse": 0.0762542529934875, "train_time_s": 39.49897289276123}
+checkpoint directory created: ./model_ckpt_2082767_127134646978048_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.0123928198967178, "train_rmse": 3.905843354478975, "train_rmse_clean": 0.8716865679860462, "nrmse": 0.07808802176667978, "train_time_s": 57.68991708755493}
+checkpoint directory created: ./model_ckpt_2080266_127721392506368_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.633838030693994, "train_rmse": 4.01951334584794, "train_rmse_clean": 1.6014345452768026, "nrmse": 0.12155974405472657, "train_time_s": 42.81697607040405}
+checkpoint directory created: ./model_ckpt_2081388_136375608956416_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.0829911667348284, "train_rmse": 3.462957348704066, "train_rmse_clean": 1.661635967472364, "nrmse": 0.16575877572111367, "train_time_s": 76.10755181312561}
+checkpoint directory created: ./model_ckpt_2084027_133534972392960_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.5805285698637306, "train_rmse": 3.6342086726938874, "train_rmse_clean": 1.7817044542809128, "nrmse": 0.20045464514354042, "train_time_s": 99.20142221450806}
+checkpoint directory created: ./model_ckpt_2080477_138937509832192_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.343081917323957, "train_rmse": 3.4726775953245124, "train_rmse_clean": 1.5533567300292646, "nrmse": 0.1778801998812263, "train_time_s": 76.9559280872345}
+checkpoint directory created: ./model_ckpt_2082689_139547925620224_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 21.731498437767186, "train_rmse": 3.641388900236734, "train_rmse_clean": 1.5263765607700748, "nrmse": 1.6761969165329058, "train_time_s": 109.17327761650085}
+checkpoint directory created: ./model_ckpt_2087464_135916602308096_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.6898232706459453, "train_rmse": 3.6536834978869592, "train_rmse_clean": 1.52253984915248, "nrmse": 0.12572512110652093, "train_time_s": 83.28138065338135}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.8293991400443659, "train_rmse": 3.784334757065608, "train_rmse_clean": 0.7634504778886182, "nrmse": 0.06600132935436508, "train_time_s": 5.636957883834839}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.6011153714821162, "train_rmse": 4.031491102748646, "train_rmse_clean": 0.6324183554513851, "nrmse": 0.04669445240326795, "train_time_s": 5.674269437789917}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.730601614679145, "train_rmse": 3.7747550338582414, "train_rmse_clean": 0.7109669404974426, "nrmse": 0.055465223085798175, "train_time_s": 5.551687240600586}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.9744270566597493, "train_rmse": 3.985059051821736, "train_rmse_clean": 0.9078868468831729, "nrmse": 0.07515964131220416, "train_time_s": 5.511642694473267}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.6268108690746459, "train_rmse": 3.919560739025883, "train_rmse_clean": 0.6171758607758591, "nrmse": 0.04663557059145568, "train_time_s": 5.609422206878662}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.6280963677626872, "train_rmse": 3.8034662564103883, "train_rmse_clean": 0.585321556227715, "nrmse": 0.049982201853703424, "train_time_s": 10.632055521011353, "p_values": [2.5453643798828125, 3.4778599739074707, 2.3514702320098877, 2.489481210708618, 2.5717358589172363, 2.545571804046631, 2.448068141937256, 3.6331310272216797, 2.669788360595703, 2.3044424057006836, 2.8152952194213867, 3.030101776123047, 2.802812099456787, 2.596468210220337, 2.834252119064331], "p_mean": 2.741056187947591}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.6951556064317828, "train_rmse": 3.9964643054078124, "train_rmse_clean": 0.6245523091785117, "nrmse": 0.05399946818421938, "train_time_s": 10.53869342803955, "p_values": [2.6844468116760254, 2.931225299835205, 2.240762710571289, 2.4867162704467773, 2.6667778491973877, 2.025627613067627, 2.5270423889160156, 2.292526960372925, 2.2848992347717285, 2.38883113861084, 3.0068750381469727, 2.3429930210113525, 2.4881112575531006, 3.292806386947632, 2.6699562072753906], "p_mean": 2.5553065458933513}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.5480962085410397, "train_rmse": 3.7837999196094643, "train_rmse_clean": 0.5349488037504386, "nrmse": 0.041609925119806476, "train_time_s": 10.452237367630005, "p_values": [2.413395881652832, 3.2355539798736572, 2.1899566650390625, 2.2643845081329346, 3.0131964683532715, 3.2788383960723877, 2.495967388153076, 2.6227564811706543, 2.2087090015411377, 2.255046844482422, 2.6382546424865723, 2.434575080871582, 2.6909728050231934, 2.7940926551818848, 2.472461700439453], "p_mean": 2.6005441665649416}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 1.0056785794532175, "train_rmse": 3.8885827075839643, "train_rmse_clean": 0.907844547258378, "nrmse": 0.07757013805237978, "train_time_s": 10.3242027759552, "p_values": [2.3151938915252686, 2.486018657684326, 3.0516750812530518, 2.95912504196167, 2.488434314727783, 2.559591293334961, 2.509141683578491, 2.6906938552856445, 2.468878746032715, 2.6819920539855957, 3.181011915206909, 2.461592197418213, 2.615913152694702, 2.446223258972168, 3.411980390548706], "p_mean": 2.68849770228068}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.7432863546997837, "train_rmse": 3.8952292556198813, "train_rmse_clean": 0.7610747030343319, "nrmse": 0.05530150317182757, "train_time_s": 11.55885124206543, "p_values": [2.8057034015655518, 2.4676170349121094, 1.9084067344665527, 2.1753902435302734, 3.1081466674804688, 2.6681323051452637, 2.646350383758545, 2.5047225952148438, 2.001373291015625, 2.5584464073181152, 2.2330589294433594, 3.7129061222076416, 2.141183853149414, 2.8176989555358887, 3.3314297199249268], "p_mean": 2.605371109644572}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 1.0114909614043412, "train_rmse": 3.846574516855668, "train_rmse_clean": 0.958813923686165, "nrmse": 0.08049170159380707, "train_time_s": 10.060675382614136, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.5963084368822607, "train_rmse": 4.017997614908609, "train_rmse_clean": 0.6164044740939545, "nrmse": 0.04632105124015153, "train_time_s": 10.044562816619873, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.730874551209368, "train_rmse": 3.7805660126995235, "train_rmse_clean": 0.7009320547465876, "nrmse": 0.055485943660777644, "train_time_s": 10.178880214691162, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 1.064979453443982, "train_rmse": 3.868462886050338, "train_rmse_clean": 1.0542141489341361, "nrmse": 0.08214414119421001, "train_time_s": 10.0157790184021, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.5856018998140655, "train_rmse": 3.9245269858460006, "train_rmse_clean": 0.5529842722525373, "nrmse": 0.04356956792658476, "train_time_s": 10.037758827209473, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.56982294812682, "train_rmse": 3.7978976733700733, "train_rmse_clean": 0.5312944839201386, "nrmse": 0.04534496149945582, "train_time_s": 8.533832550048828, "p_values": [2.9395689964294434, 2.643040180206299, 3.6564133167266846, 2.6032161712646484, 2.36039400100708, 2.575014591217041, 2.3554248809814453, 3.4525375366210938, 2.4091482162475586, 2.526484489440918, 2.5524559020996094, 2.647447109222412, 2.5672402381896973, 2.392843723297119, 3.1272518634796143], "p_mean": 2.720565414428711}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.771708410255826, "train_rmse": 3.9981177490763002, "train_rmse_clean": 0.7132023755816235, "nrmse": 0.05994606583266238, "train_time_s": 8.436282634735107, "p_values": [2.5095462799072266, 2.7295925617218018, 2.524962902069092, 2.2075347900390625, 2.376424789428711, 2.5621838569641113, 2.3354249000549316, 2.6190567016601562, 2.3638010025024414, 2.004485845565796, 2.519092082977295, 2.3498809337615967, 5.374421119689941, 2.9155521392822266, 2.0374178886413574], "p_mean": 2.628625186284383}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.6058393199441241, "train_rmse": 3.772971451348326, "train_rmse_clean": 0.5863599179767505, "nrmse": 0.045993619997139454, "train_time_s": 8.267251968383789, "p_values": [2.7303643226623535, 3.87595534324646, 1.407489538192749, 1.5901460647583008, 2.3160529136657715, 2.4286324977874756, 2.2100634574890137, 2.1614251136779785, 2.3509979248046875, 2.2294139862060547, 2.7222230434417725, 1.627009391784668, 3.0860273838043213, 2.2837181091308594, 3.0375218391418457], "p_mean": 2.403802728652954}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.6730013803587838, "train_rmse": 3.948715774193033, "train_rmse_clean": 0.6634488650912829, "nrmse": 0.05191003472725501, "train_time_s": 8.419206142425537, "p_values": [2.248842239379883, 2.55177640914917, 1.8423486948013306, 1.9595693349838257, 2.139347791671753, 2.8178133964538574, 2.2000181674957275, 2.883207321166992, 2.2102789878845215, 3.1549839973449707, 3.4065120220184326, 4.103083610534668, 1.6458797454833984, 2.263152599334717, 2.7373757362365723], "p_mean": 2.5442793369293213}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.4938966704784278, "train_rmse": 3.9373633806416137, "train_rmse_clean": 0.5148204916893846, "nrmse": 0.03674657568555765, "train_time_s": 8.4139404296875, "p_values": [3.445098876953125, 2.4625163078308105, 3.7850120067596436, 3.123253345489502, 2.726053237915039, 2.4934492111206055, 1.9093132019042969, 2.431107997894287, 3.439258098602295, 2.631981372833252, 2.559659004211426, 2.7005276679992676, 2.50242280960083, 3.149258613586426, 2.350543975830078], "p_mean": 2.780630381902059}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 1.345633926191553, "train_rmse": 3.7404690460209338, "train_rmse_clean": 1.2352170604903776, "nrmse": 0.10708189056987122, "train_time_s": 4.02413010597229}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 1.276952618082646, "train_rmse": 4.054803502220011, "train_rmse_clean": 1.2872342241484773, "nrmse": 0.09919327649078835, "train_time_s": 3.940129041671753}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 1.1342941519057206, "train_rmse": 3.774438904098133, "train_rmse_clean": 1.0764323522093093, "nrmse": 0.0861124269592487, "train_time_s": 3.9596786499023438}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 1.337944432196366, "train_rmse": 3.9408018443909896, "train_rmse_clean": 1.3287833134571088, "nrmse": 0.10319851335434839, "train_time_s": 3.9204182624816895}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 1.2577449898677173, "train_rmse": 3.9847368672663492, "train_rmse_clean": 1.2353160552994211, "nrmse": 0.09357791664911354, "train_time_s": 4.035844326019287}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 1.1306449316938796, "train_rmse": 3.756957541869184, "train_rmse_clean": 1.0203486195401368, "nrmse": 0.08997365070282035, "train_time_s": 8.084642887115479}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 1.1582516466001351, "train_rmse": 3.9222154346581988, "train_rmse_clean": 1.080630752853878, "nrmse": 0.08997262247649208, "train_time_s": 7.971168279647827}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 1.0184973846708942, "train_rmse": 3.7596850648934605, "train_rmse_clean": 0.9257898191200127, "nrmse": 0.07732146154355561, "train_time_s": 8.009989976882935}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 1.1425286655687614, "train_rmse": 3.894163858078173, "train_rmse_clean": 1.0504655821845859, "nrmse": 0.08812567765454013, "train_time_s": 8.053822994232178}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.9396767065399843, "train_rmse": 3.894506982188034, "train_rmse_clean": 0.9487710380584957, "nrmse": 0.06991320914024113, "train_time_s": 8.097575664520264}
+checkpoint directory created: ./model_ckpt_2081187_128212405044736_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.3853902237326565, "train_rmse": 5.417264300973812, "train_rmse_clean": 2.4487965023805174, "nrmse": 0.26940015290789254, "train_time_s": 31.19417929649353}
+checkpoint directory created: ./model_ckpt_2082180_130695453906432_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.837672591688687, "train_rmse": 5.672250661416001, "train_rmse_clean": 2.595786501786364, "nrmse": 0.22042951162929544, "train_time_s": 45.34384608268738}
+checkpoint directory created: ./model_ckpt_2083964_140523693549056_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.2799743513904787, "train_rmse": 5.705953758105352, "train_rmse_clean": 2.5430073671791433, "nrmse": 0.24900644271839453, "train_time_s": 52.20136570930481}
+checkpoint directory created: ./model_ckpt_2081245_131995112990208_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.9048709631042584, "train_rmse": 6.387072145540969, "train_rmse_clean": 2.9496674359284043, "nrmse": 0.30119104241974853, "train_time_s": 30.901609182357788}
+checkpoint directory created: ./model_ckpt_2082310_132362598671872_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.8133564067959753, "train_rmse": 6.322478892754134, "train_rmse_clean": 2.8285280563804918, "nrmse": 0.2093174955656889, "train_time_s": 41.02949833869934}
+checkpoint directory created: ./model_ckpt_2083745_137178506491392_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.5371897093359905, "train_rmse": 5.361143964025274, "train_rmse_clean": 2.5587490442585903, "nrmse": 0.28147994339886523, "train_time_s": 51.954816579818726}
+checkpoint directory created: ./model_ckpt_2081294_124815751689728_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.41830435528027, "train_rmse": 5.7729241828311615, "train_rmse_clean": 2.3828607282593737, "nrmse": 0.18785311933685875, "train_time_s": 30.037244081497192}
+checkpoint directory created: ./model_ckpt_2082311_136716124775936_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.1392768733045386, "train_rmse": 5.670730796200246, "train_rmse_clean": 2.5377861993390525, "nrmse": 0.2383250852551031, "train_time_s": 44.77617025375366}
+checkpoint directory created: ./model_ckpt_2083974_137258200344064_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.39085072255466, "train_rmse": 6.574805680311329, "train_rmse_clean": 2.4570378056403115, "nrmse": 0.26154356276195534, "train_time_s": 36.19238638877869}
+checkpoint directory created: ./model_ckpt_2081311_135101861176832_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.858641223439548, "train_rmse": 6.386254896414869, "train_rmse_clean": 2.637240765825254, "nrmse": 0.21268674675053229, "train_time_s": 31.07705593109131}
+checkpoint directory created: ./model_ckpt_2082317_129648887150080_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 2.432543608898939, "train_rmse": 5.60318392682845, "train_rmse_clean": 2.009423960759591, "nrmse": 0.19357520902566475, "train_time_s": 34.62001419067383}
+checkpoint directory created: ./model_ckpt_2083644_124032396727808_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 3.027685837027775, "train_rmse": 5.569753341530145, "train_rmse_clean": 2.841325777192594, "nrmse": 0.23518968057756282, "train_time_s": 57.829198122024536}
+checkpoint directory created: ./model_ckpt_2081318_138715824227840_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 3.390051925397529, "train_rmse": 5.777666807444007, "train_rmse_clean": 2.330005539331637, "nrmse": 0.25736322304350484, "train_time_s": 32.38747501373291}
+checkpoint directory created: ./model_ckpt_2082506_132966942287360_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 4.794880268564384, "train_rmse": 6.10879701389058, "train_rmse_clean": 3.525691926489344, "nrmse": 0.36983936217413793, "train_time_s": 58.21707820892334}
+checkpoint directory created: ./model_ckpt_2084288_135828462241280_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 2.9723688514646653, "train_rmse": 6.324260308604551, "train_rmse_clean": 2.8044415125124544, "nrmse": 0.22114823503454056, "train_time_s": 47.8865270614624}
+checkpoint directory created: ./model_ckpt_2081327_133192099964416_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 4.131060337811533, "train_rmse": 5.375961591375926, "train_rmse_clean": 2.551054902171913, "nrmse": 0.32873855394167506, "train_time_s": 39.77304291725159}
+checkpoint directory created: ./model_ckpt_2082739_123429883033088_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 2.8545778005901354, "train_rmse": 5.691001252202, "train_rmse_clean": 2.5420933275153743, "nrmse": 0.2217427029231226, "train_time_s": 63.70045185089111}
+checkpoint directory created: ./model_ckpt_2084700_134945802896896_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 2.9881893754763382, "train_rmse": 5.756524466126052, "train_rmse_clean": 2.4231275364761586, "nrmse": 0.22685494666774664, "train_time_s": 43.7414608001709}
+checkpoint directory created: ./model_ckpt_2081356_139608456660480_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 4.90713287286394, "train_rmse": 5.787648662533229, "train_rmse_clean": 4.059275193511439, "nrmse": 0.3784976454369573, "train_time_s": 40.318662881851196}
+checkpoint directory created: ./model_ckpt_2082784_135797190149632_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 4.212477577622792, "train_rmse": 6.352288301880719, "train_rmse_clean": 2.8680863059085198, "nrmse": 0.31341398997463277, "train_time_s": 61.06235980987549}
+checkpoint directory created: ./model_ckpt_2084713_131415570097664_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.963756118241733, "train_rmse": 5.401201137123962, "train_rmse_clean": 2.4601821151936036, "nrmse": 0.23584765674536823, "train_time_s": 45.63826870918274}
+checkpoint directory created: ./model_ckpt_2081384_133082068723200_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.433556538706057, "train_rmse": 5.683603922521513, "train_rmse_clean": 2.538511058942703, "nrmse": 0.2667175886306699, "train_time_s": 40.592721462249756}
+checkpoint directory created: ./model_ckpt_2083346_139256324064768_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.799953442875676, "train_rmse": 5.541226322341458, "train_rmse_clean": 2.8613509664966728, "nrmse": 0.288481795263082, "train_time_s": 58.09147238731384}
+checkpoint directory created: ./model_ckpt_2084710_130287232681472_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 5.546343202955313, "train_rmse": 6.316637970304555, "train_rmse_clean": 3.12292029914488, "nrmse": 0.4278013042427891, "train_time_s": 49.16149926185608}
+checkpoint directory created: ./model_ckpt_2081420_136721579812352_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.4119588170658517, "train_rmse": 6.236022433908033, "train_rmse_clean": 2.979711690476819, "nrmse": 0.25385431893247046, "train_time_s": 39.68737435340881}
+checkpoint directory created: ./model_ckpt_2083356_138614827386368_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.2938289787483086, "train_rmse": 5.425398454334072, "train_rmse_clean": 2.375246544553619, "nrmse": 0.26211395788484926, "train_time_s": 59.92843437194824}
+checkpoint directory created: ./model_ckpt_2084733_125260740023808_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.8520698849838766, "train_rmse": 5.725092639803108, "train_rmse_clean": 2.428334283323835, "nrmse": 0.2215478888300823, "train_time_s": 49.829678773880005}
+checkpoint directory created: ./model_ckpt_2081429_125908661159424_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.3025271750774436, "train_rmse": 5.672278677722943, "train_rmse_clean": 2.6164628537526937, "nrmse": 0.2507185897652657, "train_time_s": 39.55619764328003}
+checkpoint directory created: ./model_ckpt_2083355_125830144349696_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 6.3882229353332605, "train_rmse": 6.394494479703553, "train_rmse_clean": 2.939139529312797, "nrmse": 0.49273728716843096, "train_time_s": 64.09552311897278}
+checkpoint directory created: ./model_ckpt_2084803_137844732126720_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.4939002443280174, "train_rmse": 6.25947657720576, "train_rmse_clean": 2.9607300074075624, "nrmse": 0.25995087118449317, "train_time_s": 46.822216510772705}
+checkpoint directory created: ./model_ckpt_2081482_134040364746240_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.1065058976489723, "train_rmse": 5.588287765355574, "train_rmse_clean": 2.0022624928710826, "nrmse": 0.16763001409695846, "train_time_s": 42.79893374443054}
+checkpoint directory created: ./model_ckpt_2083391_124583949968896_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.4793730831088396, "train_rmse": 5.901606808739643, "train_rmse_clean": 1.9881101097333556, "nrmse": 0.1925969188472396, "train_time_s": 59.42816877365112}
+checkpoint directory created: ./model_ckpt_2084794_128948009657856_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.630096461646076, "train_rmse": 5.72232175809927, "train_rmse_clean": 2.4477908707406186, "nrmse": 0.1996695381605925, "train_time_s": 40.239938735961914}
+checkpoint directory created: ./model_ckpt_2081803_137308423923200_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.571229522562817, "train_rmse": 6.486328065123416, "train_rmse_clean": 2.7331735562673884, "nrmse": 0.2754565650911515, "train_time_s": 40.26206135749817}
+checkpoint directory created: ./model_ckpt_2083587_139881228920320_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.6138505823900857, "train_rmse": 6.420627461266349, "train_rmse_clean": 2.6374988675214297, "nrmse": 0.1944739942536856, "train_time_s": 55.497870683670044}
+checkpoint directory created: ./model_ckpt_2084904_123334939551232_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.6523951802543166, "train_rmse": 5.707422193860026, "train_rmse_clean": 1.518974330669863, "nrmse": 0.1314931174267878, "train_time_s": 46.78786635398865}
+checkpoint directory created: ./model_ckpt_2082198_130147963803136_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.4743799587897684, "train_rmse": 6.088400849360539, "train_rmse_clean": 1.5367698035261839, "nrmse": 0.11452937002807824, "train_time_s": 41.24401497840881}
+checkpoint directory created: ./model_ckpt_2083689_127091451262464_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.7355641121900476, "train_rmse": 5.9556217975048185, "train_rmse_clean": 1.6531341150415528, "nrmse": 0.13175915400159885, "train_time_s": 57.688661336898804}
+checkpoint directory created: ./model_ckpt_2085142_135498595505664_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.0839393150898786, "train_rmse": 6.795250924923039, "train_rmse_clean": 1.8821145053116197, "nrmse": 0.16073869292532086, "train_time_s": 39.71279430389404}
+checkpoint directory created: ./model_ckpt_2082635_127070700652032_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 1.9168011928022963, "train_rmse": 6.8245518856305125, "train_rmse_clean": 2.001237260362956, "nrmse": 0.14261258339167773, "train_time_s": 40.74557852745056}
+checkpoint directory created: ./model_ckpt_2084065_125069174289920_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.3044464984874935, "train_rmse": 5.304038647712019, "train_rmse_clean": 2.6550373828334415, "nrmse": 0.26295887124851025, "train_time_s": 71.16090989112854}
+checkpoint directory created: ./model_ckpt_2087573_131119152891392_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.4750282975910523, "train_rmse": 5.684478050782616, "train_rmse_clean": 2.6518995236267244, "nrmse": 0.2699391017764086, "train_time_s": 78.71720623970032}
+checkpoint directory created: ./model_ckpt_2082719_123578687571456_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.895353138185783, "train_rmse": 5.527395179892437, "train_rmse_clean": 2.9226931723977145, "nrmse": 0.2957242722524273, "train_time_s": 108.1617693901062}
+checkpoint directory created: ./model_ckpt_2087476_123151240840704_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 4.66274824059883, "train_rmse": 6.308696840743778, "train_rmse_clean": 3.2057503644275585, "nrmse": 0.35964773647997084, "train_time_s": 91.16479444503784}
+checkpoint directory created: ./model_ckpt_2089657_125459502319104_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.4811004567849295, "train_rmse": 6.209724853119212, "train_rmse_clean": 2.9903497991924155, "nrmse": 0.258998549798614, "train_time_s": 72.26174449920654}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 1.3472925007961862, "train_rmse": 5.872828266611492, "train_rmse_clean": 1.2797026039296142, "nrmse": 0.10721387542909512, "train_time_s": 6.483589172363281}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 1.083503755759665, "train_rmse": 6.1751334125162884, "train_rmse_clean": 1.021806121939008, "nrmse": 0.0841662298991583, "train_time_s": 5.49875807762146}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 1.5146650911155746, "train_rmse": 6.158676894749533, "train_rmse_clean": 1.5524157878575409, "nrmse": 0.11498912059740109, "train_time_s": 7.862833261489868}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 1.6004424037929539, "train_rmse": 7.024452891861074, "train_rmse_clean": 1.6006429020144992, "nrmse": 0.12344554288369136, "train_time_s": 5.683489084243774}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 1.2353897839512769, "train_rmse": 6.8622088202731675, "train_rmse_clean": 1.2090360583313355, "nrmse": 0.09191465930141983, "train_time_s": 7.997011184692383}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.99617341298827, "train_rmse": 5.9089796515661135, "train_rmse_clean": 0.8779255209593444, "nrmse": 0.07927277272217059, "train_time_s": 18.422274827957153, "p_values": [2.561532974243164, 3.3692686557769775, 2.1947765350341797, 2.4682199954986572, 2.5312695503234863, 2.6589651107788086, 2.7217161655426025, 2.781799077987671, 2.65799880027771, 2.3725037574768066, 2.690934181213379, 2.8758533000946045, 2.8062045574188232, 2.635256767272949, 2.8390212059020996], "p_mean": 2.6776880423227944}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 1.1234286390820785, "train_rmse": 6.139501123333218, "train_rmse_clean": 1.062090118580329, "nrmse": 0.08726758223923886, "train_time_s": 16.3081476688385, "p_values": [2.6566896438598633, 2.9789676666259766, 2.24534010887146, 2.555340051651001, 2.634160041809082, 2.5362486839294434, 2.3496861457824707, 2.7639923095703125, 2.310624599456787, 2.3759961128234863, 2.7869887351989746, 2.4339423179626465, 2.504504442214966, 3.117398500442505, 2.4625911712646484], "p_mean": 2.5808313687642417}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 1.5071462110055336, "train_rmse": 6.070465148661015, "train_rmse_clean": 1.445548569279481, "nrmse": 0.11441830833216685, "train_time_s": 14.882123708724976, "p_values": [2.451362133026123, 2.963818073272705, 2.23402738571167, 2.84043550491333, 2.770890712738037, 1.8377681970596313, 2.556812047958374, 2.6158008575439453, 2.1974377632141113, 2.2878670692443848, 2.5961899757385254, 2.4236388206481934, 2.9499268531799316, 2.667511463165283, 2.446791172027588], "p_mean": 2.522685201962789}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 1.7940908860966829, "train_rmse": 6.910897899113934, "train_rmse_clean": 1.8320903490347291, "nrmse": 0.13838206416676482, "train_time_s": 16.233415603637695, "p_values": [2.315782070159912, 2.589388370513916, 3.356595754623413, 2.6067214012145996, 2.2818803787231445, 2.6978697776794434, 2.390855312347412, 2.4364142417907715, 2.283923625946045, 2.8585736751556396, 2.4685897827148438, 2.49525785446167, 2.5192463397979736, 2.3523426055908203, 2.5979814529418945], "p_mean": 2.5500948429107666}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 1.4967948733498133, "train_rmse": 6.803626110661696, "train_rmse_clean": 1.4694041136239235, "nrmse": 0.11136354907196312, "train_time_s": 17.451684713363647, "p_values": [2.3450803756713867, 2.6061010360717773, 4.03940486907959, 1.914794683456421, 2.373178720474243, 2.4036734104156494, 4.0248332023620605, 2.8959200382232666, 2.585320472717285, 2.96773624420166, 1.3890507221221924, 4.8468852043151855, 2.077908992767334, 3.089327812194824, 2.7343077659606934], "p_mean": 2.8195682366689048}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 1.4328290042639367, "train_rmse": 5.882382272863737, "train_rmse_clean": 1.3623582996428851, "nrmse": 0.11402063789679409, "train_time_s": 14.552237510681152, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.9506442574977285, "train_rmse": 6.1871152905503095, "train_rmse_clean": 0.92758228343979, "nrmse": 0.07384574599168826, "train_time_s": 14.051846981048584, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 1.4328067526410564, "train_rmse": 6.150641092213732, "train_rmse_clean": 1.4999587272282326, "nrmse": 0.10877466539541544, "train_time_s": 13.751245737075806, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 1.26726205916151, "train_rmse": 6.949331958197035, "train_rmse_clean": 1.2887273687604193, "nrmse": 0.09774663086803295, "train_time_s": 11.060951232910156, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 1.3469243701937899, "train_rmse": 6.845166704611586, "train_rmse_clean": 1.306327441290037, "nrmse": 0.10021298233110884, "train_time_s": 15.27260971069336, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 1.1033705631692001, "train_rmse": 5.927614624427861, "train_rmse_clean": 0.9449550364958412, "nrmse": 0.08780323058418675, "train_time_s": 14.878225564956665, "p_values": [4.514678001403809, 3.024214744567871, 2.3414556980133057, 2.5571300983428955, 2.350834846496582, 2.673281669616699, 2.3477420806884766, 3.8743057250976562, 2.272212505340576, 2.3288207054138184, 2.451181411743164, 2.5921730995178223, 2.5910799503326416, 2.4473934173583984, 3.094283103942871], "p_mean": 2.764052470525106}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 1.016427804999168, "train_rmse": 6.150561466679278, "train_rmse_clean": 0.962349405332688, "nrmse": 0.07895579120671978, "train_time_s": 16.599663257598877, "p_values": [2.4212403297424316, 2.053971767425537, 2.0268373489379883, 2.414808750152588, 2.4098339080810547, 2.331498146057129, 2.453078508377075, 3.0447230339050293, 2.4247965812683105, 2.2338218688964844, 2.395677089691162, 2.4016966819763184, 2.3371660709381104, 2.794426441192627, 2.370570182800293], "p_mean": 2.407609780629476}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 1.1627246991448033, "train_rmse": 6.129344968103169, "train_rmse_clean": 1.1372327809596356, "nrmse": 0.0882707942737797, "train_time_s": 8.738701581954956, "p_values": [2.692111015319824, 2.330064296722412, 1.347852110862732, 1.492272138595581, 2.384366512298584, 2.3933396339416504, 2.2295055389404297, 2.1712965965270996, 2.278757095336914, 2.2149767875671387, 2.49263858795166, 1.8731136322021484, 3.032559633255005, 2.279493808746338, 3.0917487144470215], "p_mean": 2.2869397401809692}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.9086009405490358, "train_rmse": 6.984686044600039, "train_rmse_clean": 0.9259210869162757, "nrmse": 0.07008233230067465, "train_time_s": 11.850775480270386, "p_values": [2.1546499729156494, 2.76904296875, 1.7353579998016357, 1.7924855947494507, 2.051192283630371, 2.778390884399414, 2.2338247299194336, 2.737240791320801, 2.585144519805908, 2.753817558288574, 2.6962664127349854, 3.3998024463653564, 1.4696354866027832, 2.2940168380737305, 2.3886642456054688], "p_mean": 2.3893021821975706}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 1.2249382076965816, "train_rmse": 6.9031135174544715, "train_rmse_clean": 1.2157390930591845, "nrmse": 0.09113704798951423, "train_time_s": 12.967868566513062, "p_values": [2.7723729610443115, 2.3734664916992188, 2.981545925140381, 2.1835484504699707, 2.4597761631011963, 2.4976606369018555, 2.45868182182312, 2.2175686359405518, 3.847238302230835, 2.2905757427215576, 2.3750555515289307, 2.644010543823242, 2.495875835418701, 3.1830389499664307, 2.3187875747680664], "p_mean": 2.6066135724385577}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 1.5130423438233223, "train_rmse": 5.822543675511582, "train_rmse_clean": 1.492805219820923, "nrmse": 0.12040379744840556, "train_time_s": 3.866365671157837}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 1.2225980663442613, "train_rmse": 6.223307206821175, "train_rmse_clean": 1.3278445735698199, "nrmse": 0.09497103206075304, "train_time_s": 6.381766080856323}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 1.5123372180557908, "train_rmse": 6.187297250169081, "train_rmse_clean": 1.4980956468340025, "nrmse": 0.11481239501127843, "train_time_s": 4.770048141479492}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 1.8690490212047735, "train_rmse": 6.962255843559888, "train_rmse_clean": 1.8690168214903906, "nrmse": 0.14416374531944967, "train_time_s": 3.92033052444458}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 1.5578635855934522, "train_rmse": 6.953852814724314, "train_rmse_clean": 1.68258346665354, "nrmse": 0.11590714329037854, "train_time_s": 7.637927770614624}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 2.071797301953808, "train_rmse": 5.766856377180915, "train_rmse_clean": 1.8753563056124278, "nrmse": 0.16486799838546218, "train_time_s": 11.206207036972046}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 1.6719362218528602, "train_rmse": 6.166328535918012, "train_rmse_clean": 1.5450087899924654, "nrmse": 0.1298754782133045, "train_time_s": 11.068668603897095}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 1.9702401910873277, "train_rmse": 6.091721058385133, "train_rmse_clean": 1.9925673673836855, "nrmse": 0.1495751029502668, "train_time_s": 16.482240200042725}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 2.222772083618679, "train_rmse": 6.833220188128962, "train_rmse_clean": 2.1726681280496223, "nrmse": 0.17144716105917368, "train_time_s": 8.060385942459106}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 2.0591361547236033, "train_rmse": 6.735609835469688, "train_rmse_clean": 1.9806489713570272, "nrmse": 0.15320249574293082, "train_time_s": 10.794190645217896}
+checkpoint directory created: ./model_ckpt_2084194_140031316407808_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 7.2120137707065055, "train_rmse": 10.678617818347675, "train_rmse_clean": 5.64344404090653, "nrmse": 0.5739124544584823, "train_time_s": 48.555896520614624}
+checkpoint directory created: ./model_ckpt_2086348_135023640004096_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 8.297822852448576, "train_rmse": 12.062729502319598, "train_rmse_clean": 6.292298974624828, "nrmse": 0.6445722611935178, "train_time_s": 32.739813566207886}
+checkpoint directory created: ./model_ckpt_2088076_129193738991104_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 14.088306003227444, "train_rmse": 11.561503544363859, "train_rmse_clean": 5.201970311184027, "nrmse": 1.0695446323550333, "train_time_s": 40.14811873435974}
+checkpoint directory created: ./model_ckpt_2084201_124203749086720_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 25.669913103332874, "train_rmse": 11.93777010986878, "train_rmse_clean": 5.523999001152333, "nrmse": 1.9799752564091992, "train_time_s": 44.170239210128784}
+checkpoint directory created: ./model_ckpt_2085458_124348886492672_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 6.804803301186723, "train_rmse": 13.118416246433185, "train_rmse_clean": 6.3005252354925005, "nrmse": 0.5062865058194641, "train_time_s": 38.2635018825531}
+checkpoint directory created: ./model_ckpt_2088189_140256172013056_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 17.85962529005087, "train_rmse": 11.152643908381833, "train_rmse_clean": 4.54350209769251, "nrmse": 1.421220440198602, "train_time_s": 31.407108783721924}
+checkpoint directory created: ./model_ckpt_2084304_131738785306112_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 11.50197236864119, "train_rmse": 12.35788962430422, "train_rmse_clean": 5.614426768609576, "nrmse": 0.8934695846938557, "train_time_s": 47.47238230705261}
+checkpoint directory created: ./model_ckpt_2087429_134670705915392_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 7.3597480593243745, "train_rmse": 11.728568999873005, "train_rmse_clean": 4.8289841110405405, "nrmse": 0.5587314067803811, "train_time_s": 37.58524799346924}
+checkpoint directory created: ./model_ckpt_2088367_128664678987264_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 9.833495175159442, "train_rmse": 11.959209119700972, "train_rmse_clean": 5.418999932512634, "nrmse": 0.7584784978608683, "train_time_s": 34.178168058395386}
+checkpoint directory created: ./model_ckpt_2084429_128700625610240_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 9.802724631890214, "train_rmse": 13.091459323781464, "train_rmse_clean": 6.167706308299273, "nrmse": 0.7293358796314611, "train_time_s": 44.287776470184326}
+checkpoint directory created: ./model_ckpt_2087509_129213155493376_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 13.229633636949416, "train_rmse": 11.354049435589786, "train_rmse_clean": 3.9947405148695623, "nrmse": 1.0527782882234211, "train_time_s": 40.41563320159912}
+checkpoint directory created: ./model_ckpt_2088714_132407527032320_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 7.776490136683833, "train_rmse": 11.711567358908724, "train_rmse_clean": 6.813534565027226, "nrmse": 0.6040753003147401, "train_time_s": 35.792816400527954}
+checkpoint directory created: ./model_ckpt_2084652_126776334714368_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 8.304386231046692, "train_rmse": 11.846346511817956, "train_rmse_clean": 4.574507845972903, "nrmse": 0.6304456842706502, "train_time_s": 37.93584871292114}
+checkpoint directory created: ./model_ckpt_2087411_128855433143808_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 6.900933987495591, "train_rmse": 11.764296448610821, "train_rmse_clean": 5.956883161393307, "nrmse": 0.5322837863280693, "train_time_s": 35.04435610771179}
+checkpoint directory created: ./model_ckpt_2088271_127834071287296_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 11.648761743315163, "train_rmse": 13.302356584801828, "train_rmse_clean": 5.816688412817939, "nrmse": 0.8666835203183565, "train_time_s": 35.902241706848145}
+checkpoint directory created: ./model_ckpt_2084666_134650713122304_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 9.340843359579537, "train_rmse": 10.830669420502261, "train_rmse_clean": 5.224137517986662, "nrmse": 0.7433189272298558, "train_time_s": 43.989888429641724}
+checkpoint directory created: ./model_ckpt_2087520_134113822791168_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 5.826829144350597, "train_rmse": 12.689180381081087, "train_rmse_clean": 4.855222863337531, "nrmse": 0.4526262495534073, "train_time_s": 42.631911516189575}
+checkpoint directory created: ./model_ckpt_2088732_131221706749440_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 8.128300837600136, "train_rmse": 11.906207860173708, "train_rmse_clean": 4.590392528618622, "nrmse": 0.6170777756410574, "train_time_s": 42.021482706069946}
+checkpoint directory created: ./model_ckpt_2084685_124955085649408_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 10.291131915840651, "train_rmse": 11.003991192652848, "train_rmse_clean": 7.071587673767226, "nrmse": 0.7937769976775624, "train_time_s": 40.209410190582275}
+checkpoint directory created: ./model_ckpt_2087482_138054442436096_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 9.378268885986131, "train_rmse": 12.596931538099739, "train_rmse_clean": 7.176294111130915, "nrmse": 0.6977558020072782, "train_time_s": 48.75021195411682}
+checkpoint directory created: ./model_ckpt_2088777_128925316728320_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 6.953994682903897, "train_rmse": 10.95579629611791, "train_rmse_clean": 5.01379561502975, "nrmse": 0.5533799967170119, "train_time_s": 40.19012689590454}
+checkpoint directory created: ./model_ckpt_2084809_130663566317056_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 9.893389055013472, "train_rmse": 11.871238371258642, "train_rmse_clean": 6.473452421285742, "nrmse": 0.7685153404034729, "train_time_s": 35.992281675338745}
+checkpoint directory created: ./model_ckpt_2087540_137507209672192_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 8.781897813379828, "train_rmse": 11.659149287627997, "train_rmse_clean": 5.067881769625956, "nrmse": 0.6666970227676111, "train_time_s": 37.75504755973816}
+checkpoint directory created: ./model_ckpt_2088698_128319772456448_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 8.624044303202481, "train_rmse": 11.863937964772958, "train_rmse_clean": 5.6190413581098255, "nrmse": 0.6651909674092598, "train_time_s": 40.182151317596436}
+checkpoint directory created: ./model_ckpt_2084822_125984737998336_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 9.930159825057558, "train_rmse": 12.844532299927323, "train_rmse_clean": 6.853175877883189, "nrmse": 0.7388172291740512, "train_time_s": 39.63172435760498}
+checkpoint directory created: ./model_ckpt_2087611_135447962674688_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 6.6536200144909685, "train_rmse": 10.997334975064348, "train_rmse_clean": 4.931731494106316, "nrmse": 0.5294769969881125, "train_time_s": 44.268521785736084}
+checkpoint directory created: ./model_ckpt_2088825_136889811187200_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 7.405912170838519, "train_rmse": 12.184846916235301, "train_rmse_clean": 5.991288591231353, "nrmse": 0.575288920846188, "train_time_s": 44.071425437927246}
+checkpoint directory created: ./model_ckpt_2084844_125979129837056_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 8.031463850330056, "train_rmse": 11.33142586884992, "train_rmse_clean": 5.749733820148322, "nrmse": 0.6097261834819703, "train_time_s": 45.775383710861206}
+checkpoint directory created: ./model_ckpt_2087942_132952089720320_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 11.371034336915272, "train_rmse": 12.089887960556553, "train_rmse_clean": 5.170096140333271, "nrmse": 0.8770721792567523, "train_time_s": 47.34873676300049}
+checkpoint directory created: ./model_ckpt_2089130_133051587732992_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 9.259520717238274, "train_rmse": 13.328653754273205, "train_rmse_clean": 5.812010910843583, "nrmse": 0.6889207787499082, "train_time_s": 40.143041372299194}
+checkpoint directory created: ./model_ckpt_2084845_132761794627072_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 4.616668375964338, "train_rmse": 11.413369854528014, "train_rmse_clean": 3.7662128248714737, "nrmse": 0.36738192179172596, "train_time_s": 47.1964168548584}
+checkpoint directory created: ./model_ckpt_2087992_134902353135104_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 6.182373106192017, "train_rmse": 12.337296734978509, "train_rmse_clean": 5.606719948191142, "nrmse": 0.48024479233420425, "train_time_s": 39.634700536727905}
+checkpoint directory created: ./model_ckpt_2089007_131139994469888_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 5.995129080988022, "train_rmse": 11.725196949098518, "train_rmse_clean": 4.973740263313971, "nrmse": 0.45513336574158636, "train_time_s": 43.18207550048828}
+checkpoint directory created: ./model_ckpt_2084854_127683542279680_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 7.422175763988889, "train_rmse": 12.131329992958399, "train_rmse_clean": 4.887715445099957, "nrmse": 0.5724882784862257, "train_time_s": 46.460747480392456}
+checkpoint directory created: ./model_ckpt_2087991_130590438778368_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 6.257454951967986, "train_rmse": 13.685202635425412, "train_rmse_clean": 4.7561944051275304, "nrmse": 0.46556305343933746, "train_time_s": 46.77198886871338}
+checkpoint directory created: ./model_ckpt_2089143_131333395904000_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 2.6036966178841823, "train_rmse": 11.750171878268986, "train_rmse_clean": 2.4852746846988794, "nrmse": 0.2071951003067449, "train_time_s": 39.48537278175354}
+checkpoint directory created: ./model_ckpt_2084860_133294919067136_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.596796137285935, "train_rmse": 12.994843146414496, "train_rmse_clean": 3.5767382082893278, "nrmse": 0.279397989145837, "train_time_s": 46.96600556373596}
+checkpoint directory created: ./model_ckpt_2088003_129295623652864_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.714377600876446, "train_rmse": 12.199358821982969, "train_rmse_clean": 3.332381888747591, "nrmse": 0.2819851176321041, "train_time_s": 39.097214221954346}
+checkpoint directory created: ./model_ckpt_2089006_132162592085504_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.4961269887355684, "train_rmse": 12.676902753631566, "train_rmse_clean": 3.1714774684342046, "nrmse": 0.26966374615666594, "train_time_s": 41.473150968551636}
+checkpoint directory created: ./model_ckpt_2084934_129829291562496_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 3.8271134416064, "train_rmse": 14.1559143184586, "train_rmse_clean": 3.853107470121472, "nrmse": 0.284742380633941, "train_time_s": 46.24585461616516}
+checkpoint directory created: ./model_ckpt_2088033_125269576226304_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 7.085383003348454, "train_rmse": 11.003914226200948, "train_rmse_clean": 5.046536637377699, "nrmse": 0.5638355221598212, "train_time_s": 78.55605006217957}
+checkpoint directory created: ./model_ckpt_2089962_129866226779648_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 8.529038256708532, "train_rmse": 11.831172617619018, "train_rmse_clean": 6.558174258190093, "nrmse": 0.6625330008473699, "train_time_s": 72.59082245826721}
+checkpoint directory created: ./model_ckpt_2084974_134316843099648_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 8.691352888166648, "train_rmse": 11.646545056320974, "train_rmse_clean": 5.085391411368391, "nrmse": 0.6598231062920207, "train_time_s": 90.62672114372253}
+checkpoint directory created: ./model_ckpt_2089135_126773150123520_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 8.928168005571479, "train_rmse": 11.814038407390854, "train_rmse_clean": 5.7179500807719705, "nrmse": 0.6886486785107433, "train_time_s": 75.07930731773376}
+checkpoint directory created: ./model_ckpt_2090521_124503568942592_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 11.306960237803878, "train_rmse": 12.843235004708617, "train_rmse_clean": 6.880390285254919, "nrmse": 0.841253029200566, "train_time_s": 76.36127614974976}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 1.775297778698004, "train_rmse": 11.893912808779248, "train_rmse_clean": 1.7149459571872967, "nrmse": 0.14127337217597305, "train_time_s": 5.485804319381714}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 2.0724054815050295, "train_rmse": 13.413407207947785, "train_rmse_clean": 2.279884911796728, "nrmse": 0.1609838039539922, "train_time_s": 5.513155221939087}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 2.3869196944585838, "train_rmse": 12.53728329012256, "train_rmse_clean": 2.2732325069126773, "nrmse": 0.18120824082653053, "train_time_s": 5.492915391921997}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 2.720070272495832, "train_rmse": 12.901222363876968, "train_rmse_clean": 2.773891995087638, "nrmse": 0.20980483313504952, "train_time_s": 5.451271295547485}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 2.9590742490363198, "train_rmse": 14.246418963589576, "train_rmse_clean": 2.8914427613132716, "nrmse": 0.2201590987565629, "train_time_s": 5.494120359420776}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 1.44785847190456, "train_rmse": 11.979672070247886, "train_rmse_clean": 1.4204968534380171, "nrmse": 0.11521664208329045, "train_time_s": 12.753471851348877, "p_values": [2.4723665714263916, 3.9975709915161133, 2.3705310821533203, 2.37638521194458, 2.4943196773529053, 2.4706380367279053, 3.064944267272949, 29.1568660736084, 2.6493096351623535, 2.2212510108947754, 2.703559398651123, 2.823657989501953, 2.8019309043884277, 2.4755280017852783, 2.8322370052337646], "p_mean": 4.460739723841349}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 2.570744538570864, "train_rmse": 13.380278209353719, "train_rmse_clean": 2.680964288308388, "nrmse": 0.19969462467959784, "train_time_s": 13.099806547164917, "p_values": [2.5634939670562744, 2.522867202758789, 2.336466073989868, 2.3961925506591797, 2.8735859394073486, 2.487069606781006, 2.649299144744873, 2.5767641067504883, 2.3975753784179688, 2.335845708847046, 2.5541129112243652, 2.242149829864502, 2.5147838592529297, 2.4853596687316895, 2.719141960144043], "p_mean": 2.510313860575358}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 1.7541116946937336, "train_rmse": 12.602966787982496, "train_rmse_clean": 1.655726081190096, "nrmse": 0.1331672343843954, "train_time_s": 12.822553873062134, "p_values": [2.4294514656066895, 2.77714467048645, 2.3952507972717285, 3.516845941543579, 3.2449324131011963, 9.33770751953125, 2.563565254211426, 2.5568490028381348, 2.2145915031433105, 2.2666068077087402, 2.656820774078369, 2.501315116882324, 3.072277307510376, 2.854283094406128, 2.4659318923950195], "p_mean": 3.1235715707143146}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 3.1745476412012295, "train_rmse": 12.886696092727561, "train_rmse_clean": 3.136051182671622, "nrmse": 0.24485964383940734, "train_time_s": 10.504653930664062, "p_values": [2.089308261871338, 2.5075552463531494, 2.954742431640625, 4.06416130065918, 2.5938048362731934, 2.6066040992736816, 2.6023783683776855, 2.4073660373687744, 2.257748603820801, 2.9952855110168457, 3.6428380012512207, 3.1343436241149902, 2.6836719512939453, 2.4309606552124023, 3.0481555461883545], "p_mean": 2.801261631647746}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 3.202541681868098, "train_rmse": 14.21772381341907, "train_rmse_clean": 3.2222997266131017, "nrmse": 0.23827340278468073, "train_time_s": 13.168455123901367, "p_values": [3.1792404651641846, 4.354842662811279, 2.2055258750915527, 2.3771607875823975, 2.5685315132141113, 5.738656520843506, 2.4663515090942383, 2.643465042114258, 2.2282724380493164, 2.5724687576293945, 2.22304368019104, 2.333103656768799, 2.509281635284424, 2.5789060592651367, 3.403231620788574], "p_mean": 2.8921388149261475}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 1.813185905397603, "train_rmse": 11.90958146710858, "train_rmse_clean": 1.7873823085006961, "nrmse": 0.14428840632320689, "train_time_s": 12.109373569488525, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 2.233603520385145, "train_rmse": 13.441841814028521, "train_rmse_clean": 2.4517825426770514, "nrmse": 0.17350561675579915, "train_time_s": 11.698206186294556, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 1.8639958300548756, "train_rmse": 12.661338714618068, "train_rmse_clean": 1.7652028597107687, "nrmse": 0.14150932939067645, "train_time_s": 12.424466848373413, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 2.6436811500808517, "train_rmse": 12.9172430217709, "train_rmse_clean": 2.639029591341, "nrmse": 0.20391277687324486, "train_time_s": 10.294095993041992, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 1.9373557537778083, "train_rmse": 14.316048425797362, "train_rmse_clean": 1.9819573721467236, "nrmse": 0.14414187033714024, "train_time_s": 11.972327470779419, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 1.0398840741888336, "train_rmse": 12.0151093084649, "train_rmse_clean": 1.0019101654748894, "nrmse": 0.08275114834001984, "train_time_s": 8.094016075134277, "p_values": [3.0651822090148926, 3.4292595386505127, 2.4263358116149902, 2.5328598022460938, 2.360112428665161, 2.5486366748809814, 2.3463127613067627, 3.2802791595458984, 2.5273914337158203, 2.160543441772461, 2.6167492866516113, 2.5372540950775146, 2.7673258781433105, 2.7506134510040283, 2.988919973373413], "p_mean": 2.68918506304423}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 1.9049960444521048, "train_rmse": 13.453274856681674, "train_rmse_clean": 1.9698765573346009, "nrmse": 0.14797949170183372, "train_time_s": 8.059040546417236, "p_values": [2.421356439590454, 2.0588903427124023, 2.537308931350708, 2.4439051151275635, 2.4500300884246826, 2.303117275238037, 2.5234909057617188, 2.9348957538604736, 2.4391345977783203, 2.093991756439209, 2.422182559967041, 2.393127202987671, 2.1371984481811523, 2.6927742958068848, 2.3817121982574463], "p_mean": 2.4155410607655843}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 1.6441259063001894, "train_rmse": 12.703167634207603, "train_rmse_clean": 1.7067451051485705, "nrmse": 0.12481742216533206, "train_time_s": 9.490381479263306, "p_values": [2.8085570335388184, 2.649862289428711, 1.856357216835022, 1.1376086473464966, 2.240971088409424, 2.3687195777893066, 2.214197874069214, 2.168071746826172, 2.2892305850982666, 2.2232606410980225, 3.2521352767944336, 2.4125752449035645, 3.562265634536743, 2.2879202365875244, 3.1170945167541504], "p_mean": 2.4392551740010577}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 2.1802408608781434, "train_rmse": 12.958669854307573, "train_rmse_clean": 2.252743617765873, "nrmse": 0.1681666369564195, "train_time_s": 8.19167447090149, "p_values": [1.7541348934173584, 2.676924228668213, 1.9472923278808594, 2.3642125129699707, 2.0203957557678223, 3.332183361053467, 2.185636043548584, 2.916501045227051, 2.6914756298065186, 3.3650636672973633, 3.6468327045440674, 2.2111868858337402, 1.4448163509368896, 2.2086925506591797, 6.994636535644531], "p_mean": 2.783998966217041}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 1.4364952218972888, "train_rmse": 14.425115004545887, "train_rmse_clean": 1.4640776555521313, "nrmse": 0.10687717400940898, "train_time_s": 9.522292137145996, "p_values": [3.919628381729126, 2.3636481761932373, 1.9635119438171387, 2.177722930908203, 2.7056069374084473, 2.4367785453796387, 1.9262990951538086, 2.324969530105591, 2.50986909866333, 2.3694541454315186, 2.4237399101257324, 2.598893642425537, 2.4768266677856445, 3.182678699493408, 2.3807578086853027], "p_mean": 2.5173590342203775}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 3.585668749588507, "train_rmse": 12.315481774986551, "train_rmse_clean": 3.434359184794374, "nrmse": 0.2853377736617694, "train_time_s": 4.80708384513855}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 3.062904572584671, "train_rmse": 13.32189661655002, "train_rmse_clean": 3.1606988280498456, "nrmse": 0.23792546084401983, "train_time_s": 4.17181396484375}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 2.874825764799141, "train_rmse": 12.435220666747227, "train_rmse_clean": 2.7871109270320176, "nrmse": 0.2182486996657007, "train_time_s": 3.9536478519439697}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 3.7674001824943844, "train_rmse": 13.244538518601985, "train_rmse_clean": 3.749505941219468, "nrmse": 0.2905876273247645, "train_time_s": 3.9718985557556152}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 2.593395560236047, "train_rmse": 14.463502438969272, "train_rmse_clean": 2.557316439308977, "nrmse": 0.19295211313024124, "train_time_s": 3.9064838886260986}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 3.255496253501633, "train_rmse": 11.836596110903372, "train_rmse_clean": 3.093446597020545, "nrmse": 0.2590635437936062, "train_time_s": 9.494314193725586}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 5.205066105994661, "train_rmse": 13.057472046730254, "train_rmse_clean": 5.228402015970403, "nrmse": 0.40432789290177357, "train_time_s": 8.869675159454346}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 4.218989956119117, "train_rmse": 12.215982257801898, "train_rmse_clean": 3.922111716455106, "nrmse": 0.3202938707104508, "train_time_s": 9.446929216384888}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 3.946269795889293, "train_rmse": 12.684526686005938, "train_rmse_clean": 3.637844131679458, "nrmse": 0.304384222865223, "train_time_s": 9.286351680755615}
+{"experiment": "noise", "eq_id": "I.14.4", "eq_name": "Spring energy", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 6.916597325907105, "train_rmse": 13.631349665103698, "train_rmse_clean": 6.55030310055173, "nrmse": 0.5146041314203843, "train_time_s": 8.303456783294678}

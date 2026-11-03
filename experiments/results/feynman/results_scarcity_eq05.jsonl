@@ -1,0 +1,1050 @@
+checkpoint directory created: ./model_ckpt_2202176_125262966617600_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 10.999379669310258, "train_rmse": 0.09969014682264721, "train_rmse_clean": 2.0795404998020786, "nrmse": 1.48171657654615, "train_time_s": 25.12544322013855}
+checkpoint directory created: ./model_ckpt_2202919_126406538622464_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 6.5724553011366424, "train_rmse": 0.48489896972904845, "train_rmse_clean": 1.8877100683788086, "nrmse": 0.898039951747885, "train_time_s": 26.096985340118408}
+checkpoint directory created: ./model_ckpt_2203635_126365874542080_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 14.044633050689526, "train_rmse": 0.3008236963653914, "train_rmse_clean": 2.43934946164768, "nrmse": 1.8378196530149025, "train_time_s": 24.29995894432068}
+checkpoint directory created: ./model_ckpt_2202177_140564094555648_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 13.493233493121807, "train_rmse": 0.3729643883421403, "train_rmse_clean": 1.9799477252533961, "nrmse": 1.8551694531812457, "train_time_s": 26.151976346969604}
+checkpoint directory created: ./model_ckpt_2202930_133721282041344_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 7.172375170664736, "train_rmse": 0.0004264333875257341, "train_rmse_clean": 2.034120898537168, "nrmse": 0.9511505219029569, "train_time_s": 19.68436884880066}
+checkpoint directory created: ./model_ckpt_2203522_137147516966400_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 9.11632678445011, "train_rmse": 0.621211829389452, "train_rmse_clean": 2.003407507312488, "nrmse": 1.2280522102005438, "train_time_s": 23.555566787719727}
+checkpoint directory created: ./model_ckpt_2202178_127364122732032_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 9.892187376947732, "train_rmse": 0.1414074730067112, "train_rmse_clean": 1.9368385934683943, "nrmse": 1.3516378685966641, "train_time_s": 27.7284038066864}
+checkpoint directory created: ./model_ckpt_2202953_123134892402176_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 5.6153405824701395, "train_rmse": 0.0005490113008561337, "train_rmse_clean": 2.448929253966753, "nrmse": 0.7347990683408498, "train_time_s": 17.114383935928345}
+checkpoint directory created: ./model_ckpt_2203502_139987173570048_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 9.668209599168677, "train_rmse": 0.5376763873945265, "train_rmse_clean": 1.895020027174155, "nrmse": 1.3292712324643614, "train_time_s": 21.8422212600708}
+checkpoint directory created: ./model_ckpt_2202180_124479006692864_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 10.870209898397206, "train_rmse": 0.5890040788748934, "train_rmse_clean": 1.9546464500940886, "nrmse": 1.4415316505392666, "train_time_s": 21.873838186264038}
+checkpoint directory created: ./model_ckpt_2202858_124650083509760_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 7.419997516305216, "train_rmse": 0.00734912274772026, "train_rmse_clean": 2.083647158418316, "nrmse": 0.999541214902906, "train_time_s": 22.100461721420288}
+checkpoint directory created: ./model_ckpt_2203497_125688727754240_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 6.62012219120993, "train_rmse": 0.36320135323075675, "train_rmse_clean": 1.8890299855624733, "nrmse": 0.9045530080868126, "train_time_s": 24.783604860305786}
+checkpoint directory created: ./model_ckpt_2202179_135718943831552_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 13.624488297687321, "train_rmse": 0.9737489692855945, "train_rmse_clean": 2.297441337707653, "nrmse": 1.7828413362876714, "train_time_s": 21.57738161087036}
+checkpoint directory created: ./model_ckpt_2202851_126144529663488_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 9.488777064516398, "train_rmse": 0.09610209755685162, "train_rmse_clean": 2.0180874725464264, "nrmse": 1.304601255667215, "train_time_s": 29.856021881103516}
+checkpoint directory created: ./model_ckpt_2203630_132441017660928_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 9.420570978097885, "train_rmse": 0.031693383624597615, "train_rmse_clean": 2.0325899517995367, "nrmse": 1.2492906170176263, "train_time_s": 26.20418071746826}
+checkpoint directory created: ./model_ckpt_2202181_129089218278912_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 8.334928999204521, "train_rmse": 0.011147078226787066, "train_rmse_clean": 2.0826822183299782, "nrmse": 1.1227908149142913, "train_time_s": 22.71975874900818}
+checkpoint directory created: ./model_ckpt_2202867_127262920250880_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 12.771930233255773, "train_rmse": 0.01970786208472608, "train_rmse_clean": 1.952744770042358, "nrmse": 1.745117020182213, "train_time_s": 24.226075172424316}
+checkpoint directory created: ./model_ckpt_2203533_138582873384448_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 9.9244822531939, "train_rmse": 0.007174104068801812, "train_rmse_clean": 2.449333694142183, "nrmse": 1.2986746229031525, "train_time_s": 15.844074249267578}
+checkpoint directory created: ./model_ckpt_2202183_132306568840704_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 5.333316581489953, "train_rmse": 0.004425823903392079, "train_rmse_clean": 2.0287201012275773, "nrmse": 0.7332716810369265, "train_time_s": 20.807002544403076}
+checkpoint directory created: ./model_ckpt_2202838_124993656747520_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 6.915534420973017, "train_rmse": 0.2100112420449367, "train_rmse_clean": 2.0335181471216686, "nrmse": 0.9170900876252859, "train_time_s": 25.11324715614319}
+checkpoint directory created: ./model_ckpt_2203526_124080799585792_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.556900940228019, "train_rmse": 0.013411543205466336, "train_rmse_clean": 2.0828935190792492, "nrmse": 0.7485651450266794, "train_time_s": 39.21939206123352}
+checkpoint directory created: ./model_ckpt_2202182_137211984238080_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 7.491162700059249, "train_rmse": 0.20877147954353248, "train_rmse_clean": 2.0193775829363716, "nrmse": 1.0235692874979814, "train_time_s": 39.36401844024658}
+checkpoint directory created: ./model_ckpt_2203197_124531243480576_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 15.26378413791781, "train_rmse": 0.7344016873669119, "train_rmse_clean": 2.6209904033602243, "nrmse": 1.9973524667250209, "train_time_s": 38.261621713638306}
+checkpoint directory created: ./model_ckpt_2204184_132229719885312_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 9.56428128402149, "train_rmse": 0.03793551823761909, "train_rmse_clean": 2.0323876107494243, "nrmse": 1.3149822456414522, "train_time_s": 39.560736656188965}
+checkpoint directory created: ./model_ckpt_2202184_138944068122112_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.045862316699754, "train_rmse": 0.041068846376765666, "train_rmse_clean": 2.0312122043800116, "nrmse": 0.6691471739527852, "train_time_s": 40.08568263053894}
+checkpoint directory created: ./model_ckpt_2203198_136529446917632_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.840591422588915, "train_rmse": 0.0115723559337913, "train_rmse_clean": 2.0844259254140525, "nrmse": 0.7867808356347, "train_time_s": 34.52048683166504}
+checkpoint directory created: ./model_ckpt_2204139_133307589568000_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.996471708098312, "train_rmse": 0.06999012412249028, "train_rmse_clean": 1.9441838481471905, "nrmse": 0.8193393361635901, "train_time_s": 38.860838890075684}
+checkpoint directory created: ./model_ckpt_2202185_123237841819136_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 11.421205126599489, "train_rmse": 0.2556472557404206, "train_rmse_clean": 2.4196851545917752, "nrmse": 1.4945292744226293, "train_time_s": 38.958967208862305}
+checkpoint directory created: ./model_ckpt_2203174_130334993995264_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 8.516279974929603, "train_rmse": 0.1827495386229785, "train_rmse_clean": 2.002118200975019, "nrmse": 1.1708937277548912, "train_time_s": 38.13345408439636}
+checkpoint directory created: ./model_ckpt_2204169_133201910867456_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.540993304116455, "train_rmse": 0.03245545605226674, "train_rmse_clean": 2.0326812016666054, "nrmse": 0.7348080026023934, "train_time_s": 40.10830640792847}
+checkpoint directory created: ./model_ckpt_2202189_136597721093632_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.944632865753391, "train_rmse": 0.08081298880047827, "train_rmse_clean": 2.0843231304549477, "nrmse": 0.8007961651913945, "train_time_s": 38.97462749481201}
+checkpoint directory created: ./model_ckpt_2203181_140174647203328_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.780377931291582, "train_rmse": 0.4933099716293512, "train_rmse_clean": 1.9062818991444033, "nrmse": 0.5165391409232926, "train_time_s": 37.79853439331055}
+checkpoint directory created: ./model_ckpt_2204170_130593988847104_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.418375378859082, "train_rmse": 0.8275809786790944, "train_rmse_clean": 2.28732229182134, "nrmse": 0.7090250576671633, "train_time_s": 40.009986877441406}
+checkpoint directory created: ./model_ckpt_2202190_129144665884160_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 7.224028351228299, "train_rmse": 0.414765715996694, "train_rmse_clean": 1.9665890779199344, "nrmse": 0.9932235096165498, "train_time_s": 39.952478647232056}
+checkpoint directory created: ./model_ckpt_2203196_131117250438656_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.947461296419931, "train_rmse": 0.27762246217814734, "train_rmse_clean": 2.0112140425726466, "nrmse": 0.523484868393124, "train_time_s": 38.526461362838745}
+checkpoint directory created: ./model_ckpt_2204195_126825728546304_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.494557275640034, "train_rmse": 0.6311701862332484, "train_rmse_clean": 1.9630260305164455, "nrmse": 0.47074867844165313, "train_time_s": 39.029820919036865}
+checkpoint directory created: ./model_ckpt_2202186_126808270370304_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.701863534136379, "train_rmse": 0.7652712002029638, "train_rmse_clean": 1.875944382125951, "nrmse": 0.5058111766843302, "train_time_s": 39.18035054206848}
+checkpoint directory created: ./model_ckpt_2203177_123406073603584_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.2536240037830453, "train_rmse": 1.2857923032339897, "train_rmse_clean": 1.9281090529096048, "nrmse": 0.42575509919641114, "train_time_s": 38.35350680351257}
+checkpoint directory created: ./model_ckpt_2204183_134563028379136_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.4459829383897613, "train_rmse": 0.9944693619490295, "train_rmse_clean": 1.7652090836940033, "nrmse": 0.47378430727840115, "train_time_s": 39.03823232650757}
+checkpoint directory created: ./model_ckpt_2202187_139182695945728_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.185168278475828, "train_rmse": 0.8600338689627591, "train_rmse_clean": 1.8227307449043906, "nrmse": 0.4223948689706154, "train_time_s": 33.4915657043457}
+checkpoint directory created: ./model_ckpt_2203061_132319793849856_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.298817824346344, "train_rmse": 0.1460437252011264, "train_rmse_clean": 2.054962796163224, "nrmse": 0.713798999805279, "train_time_s": 65.20265793800354}
+checkpoint directory created: ./model_ckpt_2204505_132572193326592_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 6.800682358026052, "train_rmse": 0.022869813824912266, "train_rmse_clean": 1.947129443591777, "nrmse": 0.9292241904784369, "train_time_s": 72.01503372192383}
+checkpoint directory created: ./model_ckpt_2202188_131411686905344_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 14.824437227627413, "train_rmse": 0.300213163173666, "train_rmse_clean": 2.4250412669969137, "nrmse": 1.9398614391339921, "train_time_s": 77.49208688735962}
+checkpoint directory created: ./model_ckpt_2204121_140146576422400_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 8.879716177719274, "train_rmse": 0.005102270562974187, "train_rmse_clean": 2.028539535874529, "nrmse": 1.2208621613360098, "train_time_s": 76.20063257217407}
+checkpoint directory created: ./model_ckpt_2205689_125995526444544_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 4.95718042180755, "train_rmse": 0.05200433718350306, "train_rmse_clean": 2.0310728181151774, "nrmse": 0.6573867977032192, "train_time_s": 63.19527006149292}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 5.412372369892864, "train_rmse": 2.2535000283730824, "train_rmse_clean": 2.460515370015628, "nrmse": 0.7290958308572973, "train_time_s": 5.6788489818573}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 3.142504413536045, "train_rmse": 2.1954854801995936, "train_rmse_clean": 2.0303380012854433, "nrmse": 0.4293820775641291, "train_time_s": 5.154962539672852}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 2.443054937804675, "train_rmse": 2.540263434800238, "train_rmse_clean": 1.9959853487960686, "nrmse": 0.31968755337983706, "train_time_s": 5.483672857284546}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 4.328047876822438, "train_rmse": 2.125149174537569, "train_rmse_clean": 2.2253788894398667, "nrmse": 0.5950584207321293, "train_time_s": 5.724957466125488}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 2.520601775275395, "train_rmse": 1.715186707192089, "train_rmse_clean": 1.8630654883242812, "nrmse": 0.334264680390459, "train_time_s": 5.1778998374938965}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 2.9707849783470692, "train_rmse": 1.357308732782208, "train_rmse_clean": 1.8959214812128238, "nrmse": 0.4001917817286488, "train_time_s": 10.119101285934448, "p_values": [2.5971322059631348, 2.8958210945129395, 2.5152077674865723, 1.94114351272583, 2.402798652648926, 4.800853252410889, 2.3945960998535156, 3.4154579639434814, 3.5899720191955566, 2.9180943965911865, 4.16361665725708, 2.3580455780029297, 2.786529541015625, 4.372676849365234, 2.223968505859375, 2.035590648651123], "p_mean": 2.9632190465927124}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 1.5523043384109059, "train_rmse": 1.6773429528135324, "train_rmse_clean": 1.2054048068813827, "nrmse": 0.2121020606900861, "train_time_s": 9.658122539520264, "p_values": [1.911402702331543, 2.200307846069336, 2.193690776824951, 2.151937961578369, 2.322500705718994, 3.475330352783203, 4.220251083374023, 2.1696271896362305, 2.3528854846954346, 2.210536003112793, 2.3981668949127197, 2.4070029258728027, 4.204597473144531, 1.6652381420135498, 3.0286691188812256, 2.7692832946777344], "p_mean": 2.605089247226715}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 2.2034697812038644, "train_rmse": 2.4126727295851538, "train_rmse_clean": 1.6056569425398663, "nrmse": 0.2883364808539511, "train_time_s": 9.502484798431396, "p_values": [2.1842799186706543, 2.1917612552642822, 3.0365402698516846, 2.1685614585876465, 2.027632474899292, 2.070960760116577, 2.252916097640991, 2.3075804710388184, 2.3142600059509277, 3.7777440547943115, 2.3381710052490234, 3.0230448246002197, 1.844299554824829, 2.837552547454834, 2.222721576690674, 2.4751338958740234], "p_mean": 2.4420725107192993}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 3.9050637716311485, "train_rmse": 2.253696160546383, "train_rmse_clean": 2.0893025673683496, "nrmse": 0.5369028132172894, "train_time_s": 11.753353595733643, "p_values": [3.0332534313201904, 3.27126407623291, 1.974753499031067, 2.7932260036468506, 5.730205535888672, 2.4041075706481934, 2.378452777862549, 2.73366641998291, 3.7427239418029785, 3.666351079940796, 3.2259531021118164, 2.385625123977661, 3.366687774658203, 2.786778450012207, 3.662706136703491, 2.4872727394104004], "p_mean": 3.102689228951931}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 2.296373225781167, "train_rmse": 1.545637129074521, "train_rmse_clean": 1.4305444670378336, "nrmse": 0.3045290493335002, "train_time_s": 10.67889142036438, "p_values": [2.15012788772583, 2.3425631523132324, 3.576671838760376, 2.266329288482666, 2.2766079902648926, 2.0007052421569824, 2.615732431411743, 2.5509817600250244, 2.2560760974884033, 1.9798271656036377, 2.642408847808838, 2.2441349029541016, 3.5309886932373047, 2.2919259071350098, 2.2863097190856934, 3.4039015769958496], "p_mean": 2.525955781340599}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 6.1479631984730645, "train_rmse": 3.0271326062634785, "train_rmse_clean": 3.356351356733967, "nrmse": 0.8281866120677752, "train_time_s": 9.653244018554688, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 2.4876606706576894, "train_rmse": 1.7842490617317281, "train_rmse_clean": 1.6505862377442924, "nrmse": 0.3399062551640618, "train_time_s": 8.25520372390747, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 3.466828308239144, "train_rmse": 2.118748552010743, "train_rmse_clean": 1.763062811927341, "nrmse": 0.4536540880430833, "train_time_s": 10.140163660049438, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 2.2705016928478017, "train_rmse": 1.694408930444979, "train_rmse_clean": 1.5780464187260463, "nrmse": 0.3121687167212148, "train_time_s": 9.787578582763672, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 4.143411177247685, "train_rmse": 1.828655707603275, "train_rmse_clean": 2.339320519867613, "nrmse": 0.5494703790477301, "train_time_s": 9.026334524154663, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 2.2057028470828044, "train_rmse": 1.7722444876100099, "train_rmse_clean": 1.4476355199722661, "nrmse": 0.2971282535665551, "train_time_s": 8.444945335388184, "p_values": [1.7417795658111572, 2.6727099418640137, 2.709353446960449, 2.446896553039551, 2.255683183670044, 2.1620724201202393, 2.4258365631103516, 2.3825457096099854, 2.1930088996887207, 2.1526947021484375, 2.177414894104004, 4.762224197387695, 2.6318087577819824, 3.005180835723877, 3.114534616470337, 5.587939262390137], "p_mean": 2.7763552218675613}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 3.631830075661213, "train_rmse": 2.0571304370138677, "train_rmse_clean": 1.9638919453160781, "nrmse": 0.4962420216595864, "train_time_s": 8.688889741897583, "p_values": [2.1786186695098877, 1.8164350986480713, 5.714069366455078, 2.251934766769409, 2.3894600868225098, 2.4959306716918945, 2.5598020553588867, 2.968417167663574, 1.9750020503997803, 2.482098340988159, 2.504598617553711, 2.251124620437622, 1.4392144680023193, 2.6052560806274414, 3.123076915740967, 2.625422954559326], "p_mean": 2.58627887070179}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 4.360886361706548, "train_rmse": 3.451973528064741, "train_rmse_clean": 2.838593408624888, "nrmse": 0.570646639978641, "train_time_s": 9.185139417648315, "p_values": [2.742434024810791, 2.3838510513305664, 2.116124153137207, 2.256711959838867, 2.6377599239349365, 4.2303643226623535, 1.6613706350326538, 2.4295120239257812, 2.870110034942627, 4.997887134552002, 2.6342902183532715, 2.385767936706543, 2.115952491760254, 3.106595039367676, 2.575073003768921, 3.168182611465454], "p_mean": 2.769499160349369}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 2.1265446696833123, "train_rmse": 2.104520679099096, "train_rmse_clean": 1.50683810008735, "nrmse": 0.29237622798367074, "train_time_s": 7.830533504486084, "p_values": [2.851269245147705, 3.394888401031494, 1.8982808589935303, 2.488905191421509, 2.3279433250427246, 4.128386497497559, 1.506727933883667, 2.02437686920166, 4.31688117980957, 4.813928604125977, 3.124979257583618, 2.663386344909668, 3.038796901702881, 2.992584228515625, 4.806296348571777, 2.4788894653320312], "p_mean": 3.0535325407981873}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 2.255700062556116, "train_rmse": 1.8428004834423461, "train_rmse_clean": 1.3604563022260123, "nrmse": 0.2991352572481141, "train_time_s": 7.512315034866333, "p_values": [2.149075984954834, 3.026843547821045, 3.8036391735076904, 2.7488832473754883, 2.043429374694824, 2.836909055709839, 2.5536513328552246, 1.9757342338562012, 4.392870903015137, 2.0768251419067383, 3.346444606781006, 1.8199234008789062, 4.470422744750977, 2.540009021759033, 3.0534846782684326, 2.671426773071289], "p_mean": 2.8443483263254166}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 3.448533307394314, "train_rmse": 2.107252497888453, "train_rmse_clean": 2.4450235985954265, "nrmse": 0.4645488309303986, "train_time_s": 3.9419238567352295}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 2.309034078653937, "train_rmse": 1.4444731809002462, "train_rmse_clean": 1.2946718019201313, "nrmse": 0.3154992704507239, "train_time_s": 4.2803473472595215}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 3.060555616739464, "train_rmse": 2.4352161303577304, "train_rmse_clean": 2.114371374041923, "nrmse": 0.40049100900594786, "train_time_s": 3.9735913276672363}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 3.267635390251826, "train_rmse": 1.9657458417071894, "train_rmse_clean": 1.6314849940500267, "nrmse": 0.4492635040532936, "train_time_s": 3.9373397827148438}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 2.587427443406483, "train_rmse": 1.3098122074255372, "train_rmse_clean": 1.5727959986268871, "nrmse": 0.34312663582460384, "train_time_s": 4.303624153137207}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1729, "n_train": 50, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 3.9896783334980626, "train_rmse": 1.4088022494769632, "train_rmse_clean": 2.3483024890464606, "nrmse": 0.5374459923703858, "train_time_s": 7.004406929016113}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1730, "n_train": 50, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 4.714456861704491, "train_rmse": 2.4950653303457813, "train_rmse_clean": 2.6347344666946526, "nrmse": 0.6441687951640229, "train_time_s": 7.460394382476807}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1731, "n_train": 50, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 5.994239533020163, "train_rmse": 3.009296253967193, "train_rmse_clean": 2.9788289004475814, "nrmse": 0.784380138584146, "train_time_s": 7.566789388656616}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1732, "n_train": 50, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 5.127810489577314, "train_rmse": 2.8039226371757877, "train_rmse_clean": 2.977621125721498, "nrmse": 0.7050168802619063, "train_time_s": 7.052567005157471}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1733, "n_train": 50, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 4.271639425079854, "train_rmse": 1.9624891250222163, "train_rmse_clean": 2.2159226549068762, "nrmse": 0.5664751176379684, "train_time_s": 7.550882339477539}
+checkpoint directory created: ./model_ckpt_2202201_134610501752320_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 6.8053120380306495, "train_rmse": 1.1134440642227332, "train_rmse_clean": 2.3367122217048006, "nrmse": 0.9483613164503063, "train_time_s": 29.14981484413147}
+checkpoint directory created: ./model_ckpt_2202978_123349002233344_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 7.487560122617992, "train_rmse": 0.6261436658533484, "train_rmse_clean": 1.9909955086360753, "nrmse": 1.007350648369773, "train_time_s": 29.178109645843506}
+checkpoint directory created: ./model_ckpt_2203726_129176140346880_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.841546136266828, "train_rmse": 1.2953671671846507, "train_rmse_clean": 1.7857486050214604, "nrmse": 0.3869951286090227, "train_time_s": 24.775552988052368}
+checkpoint directory created: ./model_ckpt_2202202_129669342701056_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 4.976443448823943, "train_rmse": 0.8464140820449586, "train_rmse_clean": 2.240364822866468, "nrmse": 0.6656652476748459, "train_time_s": 26.72515106201172}
+checkpoint directory created: ./model_ckpt_2202937_130918576641536_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.085013934768881, "train_rmse": 0.7464457111084961, "train_rmse_clean": 1.922305947602723, "nrmse": 0.6764147476873414, "train_time_s": 29.97401475906372}
+checkpoint directory created: ./model_ckpt_2203706_127544717743616_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 5.261286578355737, "train_rmse": 0.9168654321905194, "train_rmse_clean": 2.401983456266805, "nrmse": 0.7331920472989342, "train_time_s": 30.085262537002563}
+checkpoint directory created: ./model_ckpt_2202203_125128972031488_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 5.566430929507135, "train_rmse": 0.7115276250586504, "train_rmse_clean": 2.043921293438416, "nrmse": 0.7488885183046764, "train_time_s": 29.651578903198242}
+checkpoint directory created: ./model_ckpt_2202987_125827506619904_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 5.021532309831173, "train_rmse": 0.7891924305100986, "train_rmse_clean": 2.107012198605105, "nrmse": 0.6838912510534005, "train_time_s": 23.80175542831421}
+checkpoint directory created: ./model_ckpt_2203651_130757129201152_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 7.689184556452801, "train_rmse": 1.21140354680972, "train_rmse_clean": 2.0736250276723354, "nrmse": 1.0285303138325352, "train_time_s": 26.13007426261902}
+checkpoint directory created: ./model_ckpt_2202204_128807743890944_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 23.69807514577269, "train_rmse": 1.2128342234042648, "train_rmse_clean": 1.899484838205197, "nrmse": 3.1523468226507547, "train_time_s": 25.937227964401245}
+checkpoint directory created: ./model_ckpt_2202924_137219940308480_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 4.529828064770697, "train_rmse": 1.1890526763782816, "train_rmse_clean": 2.3351503122493114, "nrmse": 0.6312588875855062, "train_time_s": 25.817583799362183}
+checkpoint directory created: ./model_ckpt_2203634_125777038484992_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 6.665230113606071, "train_rmse": 1.2870582155498766, "train_rmse_clean": 2.0169747814340724, "nrmse": 0.8967171904493786, "train_time_s": 30.47526216506958}
+checkpoint directory created: ./model_ckpt_2202206_132603348780544_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 11.535896644149602, "train_rmse": 1.3340909747393894, "train_rmse_clean": 1.9712268049362365, "nrmse": 1.5710939014659928, "train_time_s": 30.91623592376709}
+checkpoint directory created: ./model_ckpt_2203009_128090988090880_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 8.181328891055728, "train_rmse": 0.34250307721689666, "train_rmse_clean": 2.4073502469877326, "nrmse": 1.0943611393516417, "train_time_s": 27.29761028289795}
+checkpoint directory created: ./model_ckpt_2203739_132272418432512_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 6.508269625920377, "train_rmse": 0.6377669645405177, "train_rmse_clean": 1.9429250394252051, "nrmse": 0.8657379534001629, "train_time_s": 28.720383167266846}
+checkpoint directory created: ./model_ckpt_2202205_136333749380608_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 7.549240281448419, "train_rmse": 2.259210809539468, "train_rmse_clean": 2.241833632979052, "nrmse": 1.052032208296201, "train_time_s": 19.522863388061523}
+checkpoint directory created: ./model_ckpt_2202821_139332436829696_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 8.253471925771123, "train_rmse": 0.8378823113120575, "train_rmse_clean": 2.0357618254850536, "nrmse": 1.110393794450128, "train_time_s": 31.234166145324707}
+checkpoint directory created: ./model_ckpt_2203628_126491069036032_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 6.624313781565974, "train_rmse": 0.21668677769578082, "train_rmse_clean": 2.195966944366887, "nrmse": 0.9021768575651657, "train_time_s": 32.19573664665222}
+checkpoint directory created: ./model_ckpt_2202207_139536225654272_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 7.584030443380698, "train_rmse": 0.2565559804325446, "train_rmse_clean": 2.417776548552581, "nrmse": 1.0144645579484384, "train_time_s": 30.180607795715332}
+checkpoint directory created: ./model_ckpt_2203000_136881899353600_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 6.7785240368397695, "train_rmse": 0.6784016481821133, "train_rmse_clean": 1.9807045096054168, "nrmse": 0.9016875243390949, "train_time_s": 30.83540105819702}
+checkpoint directory created: ./model_ckpt_2203786_133215865120256_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 6.023694565184542, "train_rmse": 1.0416128581473174, "train_rmse_clean": 2.306582624401102, "nrmse": 0.8394382029521332, "train_time_s": 40.51283860206604}
+checkpoint directory created: ./model_ckpt_2202804_130387801220608_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 4.985909591909433, "train_rmse": 0.9442324753041191, "train_rmse_clean": 1.9538177343199266, "nrmse": 0.6707871693679197, "train_time_s": 41.71878242492676}
+checkpoint directory created: ./model_ckpt_2203740_140196589884928_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 7.4524313064554235, "train_rmse": 0.6146060603430072, "train_rmse_clean": 2.1948613238675136, "nrmse": 1.0149596288732592, "train_time_s": 39.21411085128784}
+checkpoint directory created: ./model_ckpt_2204771_133050004907520_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 16.414816069029257, "train_rmse": 0.8204425166688054, "train_rmse_clean": 2.2573238381343117, "nrmse": 2.195699140660318, "train_time_s": 33.38505148887634}
+checkpoint directory created: ./model_ckpt_2202873_123501204178432_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.890156922052313, "train_rmse": 0.7053129687283075, "train_rmse_clean": 1.9291663792539708, "nrmse": 0.5174734123936631, "train_time_s": 33.73194718360901}
+checkpoint directory created: ./model_ckpt_2203703_125863857169920_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 6.241912668273358, "train_rmse": 1.5403921705295716, "train_rmse_clean": 2.0367441488529323, "nrmse": 0.8698482130092894, "train_time_s": 40.3806631565094}
+checkpoint directory created: ./model_ckpt_2204751_139267088950784_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 6.153428154916753, "train_rmse": 0.6472500591073569, "train_rmse_clean": 1.9817326157030095, "nrmse": 0.8278611109682645, "train_time_s": 34.3755304813385}
+checkpoint directory created: ./model_ckpt_2202889_126396768052736_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.968609160852168, "train_rmse": 0.9634214491081323, "train_rmse_clean": 2.0070830577225394, "nrmse": 0.8128753006472662, "train_time_s": 40.65651226043701}
+checkpoint directory created: ./model_ckpt_2203839_139492649084416_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.076602337530176, "train_rmse": 0.9398994359527535, "train_rmse_clean": 2.200090682132725, "nrmse": 0.6790628261147713, "train_time_s": 40.402336835861206}
+checkpoint directory created: ./model_ckpt_2204890_125160785888768_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 4.822767660419743, "train_rmse": 0.6693449484795053, "train_rmse_clean": 1.943665178108816, "nrmse": 0.6415304288297413, "train_time_s": 37.719653367996216}
+checkpoint directory created: ./model_ckpt_2202899_139776949470720_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.817224528823232, "train_rmse": 1.6556159493783156, "train_rmse_clean": 1.8870138835513046, "nrmse": 0.5319532828341553, "train_time_s": 40.63070774078369}
+checkpoint directory created: ./model_ckpt_2203851_125802132686336_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.732430116690182, "train_rmse": 0.6614018423599788, "train_rmse_clean": 1.956613027371958, "nrmse": 0.5021483415786051, "train_time_s": 40.65582895278931}
+checkpoint directory created: ./model_ckpt_2204903_136077372347904_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 4.653365000683465, "train_rmse": 1.0043085773666434, "train_rmse_clean": 1.9591595248899694, "nrmse": 0.6337499025337381, "train_time_s": 36.93614435195923}
+checkpoint directory created: ./model_ckpt_2202952_133001686971904_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 4.111664333672138, "train_rmse": 1.0337893619421266, "train_rmse_clean": 2.1903250854451812, "nrmse": 0.5499895829573856, "train_time_s": 35.82552719116211}
+checkpoint directory created: ./model_ckpt_2203807_126947929462272_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 4.555125833062277, "train_rmse": 1.0776975187315259, "train_rmse_clean": 1.8161425426526279, "nrmse": 0.6059283869386197, "train_time_s": 39.910226583480835}
+checkpoint directory created: ./model_ckpt_2204836_137212926277120_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.428712568704441, "train_rmse": 1.9268211258248158, "train_rmse_clean": 1.7412439419778138, "nrmse": 0.33845575868736893, "train_time_s": 36.74317646026611}
+checkpoint directory created: ./model_ckpt_2202956_133640190862848_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.7956554606454347, "train_rmse": 1.3109935715751249, "train_rmse_clean": 1.6279381756590112, "nrmse": 0.37611789351682706, "train_time_s": 36.52705693244934}
+checkpoint directory created: ./model_ckpt_2203821_132406759032320_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.0553724684829575, "train_rmse": 1.6863979613935456, "train_rmse_clean": 1.4446961961136608, "nrmse": 0.2799247644189279, "train_time_s": 40.676634788513184}
+checkpoint directory created: ./model_ckpt_2204861_126793978902016_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.898808021036814, "train_rmse": 1.6169357512337115, "train_rmse_clean": 1.901340574985852, "nrmse": 0.38775398115723014, "train_time_s": 37.8205361366272}
+checkpoint directory created: ./model_ckpt_2203025_137784060716544_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.363470599555569, "train_rmse": 1.3404408519020947, "train_rmse_clean": 1.5753407917435354, "nrmse": 0.3143917381098567, "train_time_s": 39.08489727973938}
+checkpoint directory created: ./model_ckpt_2204113_125664589043200_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 6.780230871412584, "train_rmse": 0.8688818433506782, "train_rmse_clean": 2.443685306036741, "nrmse": 0.9448661044660369, "train_time_s": 76.80592942237854}
+checkpoint directory created: ./model_ckpt_2205686_124625036441088_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.207020286118166, "train_rmse": 0.8885727093020677, "train_rmse_clean": 1.959454469130037, "nrmse": 0.7005346435150493, "train_time_s": 65.93689727783203}
+checkpoint directory created: ./model_ckpt_2203092_126384992577024_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 7.122234571216893, "train_rmse": 0.5923168093570759, "train_rmse_clean": 2.1828685145499236, "nrmse": 0.9699895590971636, "train_time_s": 65.3488826751709}
+checkpoint directory created: ./model_ckpt_2204714_131511083353600_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 30.58680548541861, "train_rmse": 0.7813092576624001, "train_rmse_clean": 2.2443962307184506, "nrmse": 4.091390499744395, "train_time_s": 74.48096251487732}
+checkpoint directory created: ./model_ckpt_2208298_126855965533696_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.905994809971048, "train_rmse": 0.6904814474376728, "train_rmse_clean": 1.9217781913244067, "nrmse": 0.5195801875368345, "train_time_s": 62.240347385406494}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 1.8123176906518097, "train_rmse": 2.749194891929733, "train_rmse_clean": 1.535090691714288, "nrmse": 0.2525574112293172, "train_time_s": 5.927814483642578}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 2.1379290330885397, "train_rmse": 2.134370120222968, "train_rmse_clean": 1.515808310049124, "nrmse": 0.28762963667492925, "train_time_s": 5.117169380187988}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 2.146979883185935, "train_rmse": 2.155064598176864, "train_rmse_clean": 1.5732427111693426, "nrmse": 0.2924009381407083, "train_time_s": 6.145195245742798}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 1.8997385618845044, "train_rmse": 2.303532780051057, "train_rmse_clean": 1.4151555121169395, "nrmse": 0.25411520362261086, "train_time_s": 5.000790596008301}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 2.5356477356337876, "train_rmse": 2.3549075089601814, "train_rmse_clean": 1.8955487642871134, "nrmse": 0.3372949504809297, "train_time_s": 6.481155633926392}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 1.577521079099398, "train_rmse": 2.5432404651966465, "train_rmse_clean": 1.2680120072677283, "nrmse": 0.21983708593261644, "train_time_s": 11.33107304573059, "p_values": [2.5565130710601807, 2.6606478691101074, 3.8611390590667725, 2.867617607116699, 2.9158692359924316, 2.742633819580078, 4.574433326721191, 3.655343532562256, 2.177700996398926, 2.7623777389526367, 3.1355013847351074, 2.361527919769287, 4.381612777709961, 2.712416887283325, 3.392005681991577, 2.9207940101623535], "p_mean": 3.1048834323883057}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 2.564992172646896, "train_rmse": 2.0258417373054556, "train_rmse_clean": 1.3852229176235369, "nrmse": 0.3450852461770701, "train_time_s": 9.981723070144653, "p_values": [2.78334641456604, 2.4737191200256348, 2.580869674682617, 2.3543567657470703, 2.336648941040039, 3.394009590148926, 3.2169041633605957, 2.039271593093872, 2.4389257431030273, 3.230135679244995, 2.2985377311706543, 4.495016098022461, 3.464951992034912, 1.7452924251556396, 4.682026386260986, 3.8264920711517334], "p_mean": 2.9600315243005753}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 2.515165324337147, "train_rmse": 2.094335337869609, "train_rmse_clean": 1.685884545080043, "nrmse": 0.3425447560895798, "train_time_s": 11.828046560287476, "p_values": [2.0426135063171387, 3.014890670776367, 3.015209674835205, 2.438356399536133, 2.338937997817993, 2.309431552886963, 2.2557640075683594, 2.193467140197754, 2.3179750442504883, 3.1405138969421387, 2.6844091415405273, 3.2672154903411865, 1.527534008026123, 2.897970199584961, 2.3100528717041016, 2.314316511154175], "p_mean": 2.504291132092476}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 2.840320403014516, "train_rmse": 2.236051311115091, "train_rmse_clean": 1.7548480830652693, "nrmse": 0.3799304873032157, "train_time_s": 11.678632736206055, "p_values": [2.580763101577759, 13.951796531677246, 2.1796250343322754, 2.1682145595550537, 1.2866408824920654, 3.534874439239502, 2.171332836151123, 2.5129904747009277, 2.966942310333252, 2.629641056060791, 2.774225950241089, 2.2881388664245605, 3.9125194549560547, 2.4849517345428467, 1.3510531187057495, 2.272613525390625], "p_mean": 3.1916452422738075}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 2.7743197629786778, "train_rmse": 2.090522411800663, "train_rmse_clean": 2.295356042469237, "nrmse": 0.3690433942861005, "train_time_s": 9.615480422973633, "p_values": [3.504702091217041, 2.408170223236084, 4.143803596496582, 2.293504238128662, 3.415081024169922, 7.9808573722839355, 2.521176338195801, 2.145169496536255, 2.80057430267334, 3.535545825958252, 1.1927498579025269, 2.7827279567718506, 2.433077335357666, 3.6039786338806152, 3.3515284061431885, 2.9533796310424805], "p_mean": 3.1916266456246376}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 2.291539756587156, "train_rmse": 2.2867952246553216, "train_rmse_clean": 1.6197750557884092, "nrmse": 0.31933989920087513, "train_time_s": 8.979752779006958, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 2.26942025868712, "train_rmse": 2.237918775214837, "train_rmse_clean": 1.4560491262345465, "nrmse": 0.30532001500812556, "train_time_s": 10.720646142959595, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 1.7968354617354052, "train_rmse": 2.114396672889285, "train_rmse_clean": 1.3715160775431556, "nrmse": 0.2447141581579618, "train_time_s": 11.21115517616272, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 2.0554274793273635, "train_rmse": 2.351199797441268, "train_rmse_clean": 1.2916360196566075, "nrmse": 0.2749406591624144, "train_time_s": 11.111877679824829, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 2.3474511266801414, "train_rmse": 1.6189257809686595, "train_rmse_clean": 1.7706745094272662, "nrmse": 0.3122608083145563, "train_time_s": 10.483237743377686, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 2.587822002682003, "train_rmse": 3.1280342108221078, "train_rmse_clean": 2.164277514218071, "nrmse": 0.3606286188623875, "train_time_s": 9.455374002456665, "p_values": [1.9290345907211304, 2.5657901763916016, 2.873887300491333, 2.64750337600708, 2.350165843963623, 2.237671375274658, 2.735041618347168, 2.3200106620788574, 2.2393364906311035, 1.5244853496551514, 1.7557475566864014, 4.255547046661377, 2.7697434425354004, 2.9285085201263428, 3.0419223308563232, 4.865614414215088], "p_mean": 2.690000630915165}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 2.244973876378168, "train_rmse": 2.1646483804418892, "train_rmse_clean": 1.4928657162900976, "nrmse": 0.30203108261013, "train_time_s": 7.616463899612427, "p_values": [3.8019421100616455, 3.1124091148376465, 4.301453590393066, 2.9258909225463867, 2.3671255111694336, 2.7973742485046387, 2.5307164192199707, 3.5127947330474854, 1.4630881547927856, 2.6139349937438965, 2.2479958534240723, 2.346332311630249, 1.7553455829620361, 3.312047004699707, 2.465991497039795, 3.2695281505584717], "p_mean": 2.8014981374144554}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 2.0037344652182867, "train_rmse": 2.0782401627592435, "train_rmse_clean": 1.5044386653016488, "nrmse": 0.2728920946130529, "train_time_s": 8.737043857574463, "p_values": [2.4155731201171875, 2.238102674484253, 2.035780668258667, 4.1905059814453125, 2.899632692337036, 4.543309688568115, 2.4748268127441406, 2.364912509918213, 2.703355312347412, 1.8918306827545166, 2.513930082321167, 2.2975316047668457, 2.0643293857574463, 2.8883466720581055, 2.6692609786987305, 3.9406585693359375], "p_mean": 2.758242964744568}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 1.7451653630552073, "train_rmse": 2.775223196822367, "train_rmse_clean": 1.773716147593376, "nrmse": 0.23343899023031087, "train_time_s": 8.769492626190186, "p_values": [3.06382155418396, 3.1935179233551025, 2.307101249694824, 2.4621782302856445, 2.1176910400390625, 3.6048436164855957, 2.306908369064331, 2.6641173362731934, 3.901456594467163, 3.7065272331237793, 2.0268709659576416, 3.2962889671325684, 3.0454959869384766, 3.5375497341156006, 2.6396541595458984, 1.7756633758544922], "p_mean": 2.8531053960323334}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 1.9415067569220525, "train_rmse": 2.5869814829172384, "train_rmse_clean": 1.949475096789243, "nrmse": 0.2582615937661905, "train_time_s": 7.688002824783325, "p_values": [2.1282598972320557, 1.940177321434021, 3.6185507774353027, 1.0732570886611938, 1.3391032218933105, 2.5452141761779785, 2.104055643081665, 2.0723743438720703, 3.741743564605713, 2.153982162475586, 4.924088001251221, 3.0053398609161377, 3.3083486557006836, 2.6159396171569824, 3.5989274978637695, 1.376322627067566], "p_mean": 2.5966052785515785}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 2.6128229168932364, "train_rmse": 2.3519495750812496, "train_rmse_clean": 1.9176134273814966, "nrmse": 0.3641126471892778, "train_time_s": 3.836648464202881}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 2.0316802078877174, "train_rmse": 1.8504250431182925, "train_rmse_clean": 1.6236555757377857, "nrmse": 0.2733352842821831, "train_time_s": 4.0578038692474365}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 2.9182980436704327, "train_rmse": 2.017170927386289, "train_rmse_clean": 1.87749211767931, "nrmse": 0.3974481048593638, "train_time_s": 4.9189534187316895}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 2.7160748739227643, "train_rmse": 2.4275098256444494, "train_rmse_clean": 1.975924736779973, "nrmse": 0.3633110015709105, "train_time_s": 4.834753513336182}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 2.21578603440355, "train_rmse": 1.6866870673215146, "train_rmse_clean": 1.6917924443693124, "nrmse": 0.2947465573579266, "train_time_s": 4.979172706604004}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1729, "n_train": 100, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 2.593911063676046, "train_rmse": 2.250259171703533, "train_rmse_clean": 1.945926500611634, "nrmse": 0.36147716627182086, "train_time_s": 8.427502393722534}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1730, "n_train": 100, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 3.3325886861138656, "train_rmse": 2.154321618562875, "train_rmse_clean": 1.9141818350489928, "nrmse": 0.4483550474026487, "train_time_s": 8.135956525802612}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1731, "n_train": 100, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 3.138763347417836, "train_rmse": 1.7005196621939689, "train_rmse_clean": 2.278164712680038, "nrmse": 0.4274736594293291, "train_time_s": 8.476850032806396}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1732, "n_train": 100, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 4.268449924252536, "train_rmse": 2.0163764044356753, "train_rmse_clean": 2.3409473291303016, "nrmse": 0.5709617330599276, "train_time_s": 7.821638822555542}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1733, "n_train": 100, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 2.871244733281898, "train_rmse": 1.7618190430535918, "train_rmse_clean": 2.308368164487021, "nrmse": 0.38193647190069224, "train_time_s": 8.43787145614624}
+checkpoint directory created: ./model_ckpt_2204277_139691607639552_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 4.299051532704425, "train_rmse": 1.617851622740858, "train_rmse_clean": 1.8462729829051625, "nrmse": 0.599999369100034, "train_time_s": 33.11860704421997}
+checkpoint directory created: ./model_ckpt_2205055_123163596420608_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.090813163786038, "train_rmse": 1.6995256831581642, "train_rmse_clean": 1.6004196867856493, "nrmse": 0.4164506326621722, "train_time_s": 26.726115226745605}
+checkpoint directory created: ./model_ckpt_2205701_130835155924480_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 4.16021950174445, "train_rmse": 1.7335730920458303, "train_rmse_clean": 1.8940356541794188, "nrmse": 0.5570517259072973, "train_time_s": 26.54605007171631}
+checkpoint directory created: ./model_ckpt_2204318_137557505033728_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.693111881644654, "train_rmse": 1.9344240922146128, "train_rmse_clean": 1.6820979943918246, "nrmse": 0.3540996712095194, "train_time_s": 31.593743801116943}
+checkpoint directory created: ./model_ckpt_2205071_124886519956992_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.8761677312333234, "train_rmse": 1.566483568285335, "train_rmse_clean": 1.6119348978678545, "nrmse": 0.373438233882358, "train_time_s": 29.185551166534424}
+checkpoint directory created: ./model_ckpt_2205891_136583708411392_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 3.6381488498170143, "train_rmse": 1.6101718623035595, "train_rmse_clean": 1.9982972882243075, "nrmse": 0.5077601415047528, "train_time_s": 27.79985785484314}
+checkpoint directory created: ./model_ckpt_2204326_138267223074304_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 3.2468092326719784, "train_rmse": 1.6468451778019073, "train_rmse_clean": 1.8464090084328149, "nrmse": 0.43746926372713907, "train_time_s": 32.57751154899597}
+checkpoint directory created: ./model_ckpt_2205090_135263800391168_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 3.2380368820714125, "train_rmse": 1.683183085455596, "train_rmse_clean": 1.8146100525100053, "nrmse": 0.43357184229173956, "train_time_s": 25.61011815071106}
+checkpoint directory created: ./model_ckpt_2205839_135561794315776_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 3.510125122706995, "train_rmse": 1.8138718944715038, "train_rmse_clean": 1.8450090122132679, "nrmse": 0.4615233998729286, "train_time_s": 25.613695859909058}
+checkpoint directory created: ./model_ckpt_2204330_132170267354624_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 2.3165938064520333, "train_rmse": 1.7869099671969622, "train_rmse_clean": 1.5997545717565913, "nrmse": 0.3007838139305223, "train_time_s": 30.501994371414185}
+checkpoint directory created: ./model_ckpt_2205070_124059257873920_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 3.557141605629056, "train_rmse": 1.4402760488021613, "train_rmse_clean": 1.932531116212715, "nrmse": 0.49645432322470723, "train_time_s": 30.596336126327515}
+checkpoint directory created: ./model_ckpt_2205929_123308549674496_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 3.6286281461281362, "train_rmse": 1.5598909804406134, "train_rmse_clean": 1.871506776990799, "nrmse": 0.4889148606122077, "train_time_s": 29.36097741127014}
+checkpoint directory created: ./model_ckpt_2204359_124339224487424_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 7.484682713636289, "train_rmse": 2.168411425175549, "train_rmse_clean": 2.1097908494172657, "nrmse": 1.0021960191646924, "train_time_s": 33.47140550613403}
+checkpoint directory created: ./model_ckpt_2205121_128846584681984_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 3.6870639668222793, "train_rmse": 1.5288319345677337, "train_rmse_clean": 2.0655401855356104, "nrmse": 0.484787931492444, "train_time_s": 24.215736389160156}
+checkpoint directory created: ./model_ckpt_2205874_139081495721472_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 4.339186511088144, "train_rmse": 1.5825959835898544, "train_rmse_clean": 1.7058668509197332, "nrmse": 0.5633948707477012, "train_time_s": 27.08569025993347}
+checkpoint directory created: ./model_ckpt_2204406_125952278017536_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 3.7902766855797836, "train_rmse": 1.7630741012979456, "train_rmse_clean": 2.196286306329455, "nrmse": 0.5289919422370402, "train_time_s": 34.88585567474365}
+checkpoint directory created: ./model_ckpt_2205354_132561347593728_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 3.9315021700026875, "train_rmse": 1.7229575047468018, "train_rmse_clean": 1.7591253282280164, "nrmse": 0.5297235643984279, "train_time_s": 22.660688877105713}
+checkpoint directory created: ./model_ckpt_2205928_136732533020160_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 10.598143457238734, "train_rmse": 1.4884449661711443, "train_rmse_clean": 1.9404013866361538, "nrmse": 1.419087166384476, "train_time_s": 32.03488302230835}
+checkpoint directory created: ./model_ckpt_2204439_139806420813312_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 4.267293009297646, "train_rmse": 1.746504514856042, "train_rmse_clean": 2.030363191795459, "nrmse": 0.5610784542022803, "train_time_s": 33.53900456428528}
+checkpoint directory created: ./model_ckpt_2205355_136864752178688_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 5.246488705707861, "train_rmse": 1.3693207416467885, "train_rmse_clean": 1.7281355870134973, "nrmse": 0.6811979200890154, "train_time_s": 25.57073450088501}
+checkpoint directory created: ./model_ckpt_2206237_135797847447040_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.45749774817682, "train_rmse": 1.4317554820751468, "train_rmse_clean": 1.788071936321785, "nrmse": 0.7616785192874964, "train_time_s": 35.75532269477844}
+checkpoint directory created: ./model_ckpt_2204692_135670925182464_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.001590178522491, "train_rmse": 1.767756852090244, "train_rmse_clean": 1.5056594101163725, "nrmse": 0.40442888735049604, "train_time_s": 38.50207805633545}
+checkpoint directory created: ./model_ckpt_2205498_135986652784128_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.045989201541431, "train_rmse": 1.748342998994346, "train_rmse_clean": 1.7744377073585156, "nrmse": 0.40785673474732737, "train_time_s": 37.112788438797}
+checkpoint directory created: ./model_ckpt_2208363_128537359762944_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 5.439356962533566, "train_rmse": 1.8067143593725632, "train_rmse_clean": 1.7785571694048485, "nrmse": 0.7151854793526488, "train_time_s": 33.70328974723816}
+checkpoint directory created: ./model_ckpt_2204755_133484456478208_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.2285174572184303, "train_rmse": 1.3272725615853744, "train_rmse_clean": 1.6397965400259693, "nrmse": 0.2893480843840752, "train_time_s": 39.677350997924805}
+checkpoint directory created: ./model_ckpt_2205535_125633014900224_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.7966213183134414, "train_rmse": 1.51692648964098, "train_rmse_clean": 1.7806635086506049, "nrmse": 0.5298774342132136, "train_time_s": 35.73913526535034}
+checkpoint directory created: ./model_ckpt_2208382_125810298496512_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.992950335981888, "train_rmse": 1.6945942863774022, "train_rmse_clean": 1.6820250792512397, "nrmse": 0.40326477043320935, "train_time_s": 33.14244556427002}
+checkpoint directory created: ./model_ckpt_2204770_131412960695808_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.345570006058125, "train_rmse": 1.756940317510015, "train_rmse_clean": 1.8405564612218654, "nrmse": 0.4479704845470061, "train_time_s": 39.098870277404785}
+checkpoint directory created: ./model_ckpt_2205550_126084879754752_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.5824357695082654, "train_rmse": 1.7359726837139533, "train_rmse_clean": 1.804555111116315, "nrmse": 0.4710310539855534, "train_time_s": 36.72628593444824}
+checkpoint directory created: ./model_ckpt_2208570_123263599896064_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 4.171905822455869, "train_rmse": 1.4941712322656002, "train_rmse_clean": 1.5251068462605275, "nrmse": 0.5416753429722213, "train_time_s": 33.28459572792053}
+checkpoint directory created: ./model_ckpt_2204809_132907564369408_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.049898515533812, "train_rmse": 1.6057599847964354, "train_rmse_clean": 1.684489222722675, "nrmse": 0.4256606768303264, "train_time_s": 39.58811593055725}
+checkpoint directory created: ./model_ckpt_2205612_123961488303616_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.1359297634193837, "train_rmse": 1.8346133330958452, "train_rmse_clean": 1.4567915972489658, "nrmse": 0.28779135268350453, "train_time_s": 37.26338505744934}
+checkpoint directory created: ./model_ckpt_2208646_137201852798464_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.6041859537037055, "train_rmse": 1.766858918239123, "train_rmse_clean": 1.7001928709701133, "nrmse": 0.3486994567199883, "train_time_s": 32.99319243431091}
+checkpoint directory created: ./model_ckpt_2204813_137671809160704_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.0576478369175675, "train_rmse": 1.8816870830823973, "train_rmse_clean": 1.6882343257930188, "nrmse": 0.4020301202881361, "train_time_s": 38.76662302017212}
+checkpoint directory created: ./model_ckpt_2205611_136839253005824_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.984534823981619, "train_rmse": 1.566348245648399, "train_rmse_clean": 1.4295082767959713, "nrmse": 0.25766966637510463, "train_time_s": 36.91374468803406}
+checkpoint directory created: ./model_ckpt_2208633_123156559820288_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.933756880771682, "train_rmse": 1.8024368695001556, "train_rmse_clean": 1.4651822431191306, "nrmse": 0.2698857875113614, "train_time_s": 32.65988492965698}
+checkpoint directory created: ./model_ckpt_2204856_132336381675008_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.9056411574579784, "train_rmse": 2.1678381076731768, "train_rmse_clean": 1.4195574034397964, "nrmse": 0.25676267816794723, "train_time_s": 37.80707335472107}
+checkpoint directory created: ./model_ckpt_2205640_136450545858048_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.9556022856032484, "train_rmse": 2.0679787162430614, "train_rmse_clean": 1.343356955128641, "nrmse": 0.2618543631956807, "train_time_s": 37.25759267807007}
+checkpoint directory created: ./model_ckpt_2208661_140699667707392_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.788947504078351, "train_rmse": 2.084926537750107, "train_rmse_clean": 1.4889728044636286, "nrmse": 0.23521700948361038, "train_time_s": 32.81027126312256}
+checkpoint directory created: ./model_ckpt_2204898_129826117023232_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.3324074112635884, "train_rmse": 1.872220686887914, "train_rmse_clean": 1.1939575326272944, "nrmse": 0.17299821045578465, "train_time_s": 35.99194025993347}
+checkpoint directory created: ./model_ckpt_2205681_134081794827776_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 6.736797080720521, "train_rmse": 1.4117189201303404, "train_rmse_clean": 1.8176709873021935, "nrmse": 0.9402245977834317, "train_time_s": 68.02039241790771}
+checkpoint directory created: ./model_ckpt_2209272_131828969678336_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.7156204619903406, "train_rmse": 1.7471807590780983, "train_rmse_clean": 1.5163845031363365, "nrmse": 0.5006360495219849, "train_time_s": 64.47847318649292}
+checkpoint directory created: ./model_ckpt_2204931_130927866385920_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 3.1576980991404753, "train_rmse": 1.6636232843428616, "train_rmse_clean": 1.9342119375789366, "nrmse": 0.4228145114176824, "train_time_s": 75.13740992546082}
+checkpoint directory created: ./model_ckpt_2208652_131110495987200_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 7.666771780168347, "train_rmse": 1.7915657353000825, "train_rmse_clean": 1.7757240821720188, "nrmse": 1.0080536887825595, "train_time_s": 64.62153744697571}
+checkpoint directory created: ./model_ckpt_2209892_135658218829312_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.2184597633265355, "train_rmse": 1.3131290906482747, "train_rmse_clean": 1.649227883426903, "nrmse": 0.2880422052438806, "train_time_s": 63.50257325172424}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 1.2513249131401665, "train_rmse": 2.2751177286913844, "train_rmse_clean": 1.236515124339462, "nrmse": 0.17464181406333343, "train_time_s": 5.264047384262085}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 1.3215709537570035, "train_rmse": 2.222364622530705, "train_rmse_clean": 1.1037068730978632, "nrmse": 0.17806610449590857, "train_time_s": 5.085137128829956}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 3.272834995507509, "train_rmse": 3.351208346531905, "train_rmse_clean": 2.6617542788169715, "nrmse": 0.43823129575081, "train_time_s": 5.442630052566528}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 1.085482567748386, "train_rmse": 2.4119597345816146, "train_rmse_clean": 1.1354962860491469, "nrmse": 0.14272300492344875, "train_time_s": 5.179235219955444}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 1.906821181567608, "train_rmse": 2.352028790726166, "train_rmse_clean": 1.408545941143231, "nrmse": 0.24757941848848053, "train_time_s": 5.076722621917725}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 1.012931765360861, "train_rmse": 2.212944276191479, "train_rmse_clean": 0.9995058970514208, "nrmse": 0.14137035007244372, "train_time_s": 10.52239441871643, "p_values": [3.2107467651367188, 3.0068767070770264, 3.308361768722534, 2.466799259185791, 2.971600294113159, 2.7187962532043457, 2.277096748352051, 2.2123889923095703, 2.289806604385376, 2.7182841300964355, 3.0231828689575195, 2.2672810554504395, 4.653078556060791, 3.1958112716674805, 2.7503464221954346, 3.1759917736053467], "p_mean": 2.890403091907501}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 1.5649433666068617, "train_rmse": 2.115057251677783, "train_rmse_clean": 1.1665738633742038, "nrmse": 0.21085766772960876, "train_time_s": 11.746822834014893, "p_values": [2.1442108154296875, 2.2797446250915527, 2.1064865589141846, 2.1803340911865234, 2.050464630126953, 2.8422346115112305, 2.6073081493377686, 2.50693941116333, 2.5569839477539062, 5.428529739379883, 2.6508076190948486, 2.0482730865478516, 4.147997856140137, 2.5928962230682373, 4.473189353942871, 2.9421873092651367], "p_mean": 2.8474117517471313}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 1.1794662711568122, "train_rmse": 2.277978654268793, "train_rmse_clean": 1.0092572835750957, "nrmse": 0.15793006155608988, "train_time_s": 10.552538394927979, "p_values": [2.1858201026916504, 2.101130485534668, 3.0319979190826416, 1.914862036705017, 2.027507781982422, 1.7390838861465454, 2.347555637359619, 2.8505640029907227, 1.969588279724121, 4.622235298156738, 2.7426931858062744, 2.936431407928467, 1.1933482885360718, 5.840221881866455, 6.38204288482666, 2.7184035778045654], "p_mean": 2.912717916071415}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 1.2873566118582858, "train_rmse": 2.2759210216281645, "train_rmse_clean": 1.1771032922729319, "nrmse": 0.16926610294037828, "train_time_s": 10.797516107559204, "p_values": [2.8027195930480957, 2.429386615753174, 2.0648951530456543, 2.191181182861328, 2.2798733711242676, 4.0148773193359375, 2.3638787269592285, 3.754488706588745, 3.22255277633667, 1.76774001121521, 2.5257363319396973, 3.155475616455078, 3.170868158340454, 3.438298225402832, 3.7683072090148926, 3.2073938846588135], "p_mean": 2.884854555130005}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 1.3104513134207139, "train_rmse": 1.9154803267466605, "train_rmse_clean": 1.0430159784158661, "nrmse": 0.17014745654725807, "train_time_s": 11.330368518829346, "p_values": [2.1891160011291504, 2.128335475921631, 3.9580612182617188, 2.464462995529175, 2.444230556488037, 2.11330509185791, 2.285983085632324, 4.691893100738525, 2.365428924560547, 2.837710380554199, 2.2466986179351807, 2.266753673553467, 5.453013896942139, 3.1161820888519287, 3.880735158920288, 3.225853681564331], "p_mean": 2.9792352467775345}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 1.3638193209385747, "train_rmse": 2.37988941596592, "train_rmse_clean": 1.3810010000544253, "nrmse": 0.19034215475310098, "train_time_s": 10.00443410873413, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 1.3520381659570404, "train_rmse": 2.301874550443486, "train_rmse_clean": 1.0580423832033716, "nrmse": 0.18217120212679092, "train_time_s": 10.516090631484985, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 1.5575631881889223, "train_rmse": 2.514516722772612, "train_rmse_clean": 1.3218992876770983, "nrmse": 0.20855708739082018, "train_time_s": 10.570512771606445, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 1.1969119476816559, "train_rmse": 2.5054472408419315, "train_rmse_clean": 1.2682249532872447, "nrmse": 0.15737412546039262, "train_time_s": 9.584391593933105, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 1.552723618885139, "train_rmse": 2.1104469529068695, "train_rmse_clean": 1.30021544472352, "nrmse": 0.20160380761077767, "train_time_s": 10.334871768951416, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 1.1925688626184865, "train_rmse": 2.2992341528528186, "train_rmse_clean": 1.1671062061879525, "nrmse": 0.16644149523123034, "train_time_s": 8.997179508209229, "p_values": [2.8517980575561523, 2.020566940307617, 1.9414008855819702, 2.7042553424835205, 2.3373770713806152, 2.1700172424316406, 2.4996702671051025, 2.179354190826416, 2.153864860534668, 1.6541616916656494, 1.9646854400634766, 3.154778003692627, 3.665894031524658, 2.9404349327087402, 2.839972734451294, 4.394905090332031], "p_mean": 2.592071048915386}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 1.1154170450571002, "train_rmse": 2.157241375019538, "train_rmse_clean": 1.0676623555961129, "nrmse": 0.1502892958845817, "train_time_s": 7.949658155441284, "p_values": [2.091811180114746, 1.9551684856414795, 3.712857484817505, 2.2355008125305176, 2.683438301086426, 2.0440144538879395, 2.055262804031372, 1.4438456296920776, 1.4184776544570923, 2.705810546875, 2.453601837158203, 2.2273640632629395, 5.247432708740234, 3.1381852626800537, 3.1077070236206055, 1.3757274150848389], "p_mean": 2.4935128539800644}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 1.9899159945318843, "train_rmse": 2.7241548342607587, "train_rmse_clean": 1.5059956454382757, "nrmse": 0.26644895508511396, "train_time_s": 8.291825532913208, "p_values": [2.199127674102783, 3.1032097339630127, 2.1568031311035156, 1.6798768043518066, 2.401294708251953, 1.970209002494812, 2.446960926055908, 2.2858362197875977, 2.9210495948791504, 3.0569708347320557, 3.208914279937744, 2.6610212326049805, 2.2377676963806152, 3.277855157852173, 2.402541399002075, 2.952892780303955], "p_mean": 2.5601456984877586}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 1.2035347111486772, "train_rmse": 2.4530624546787294, "train_rmse_clean": 1.2548872411002776, "nrmse": 0.15824490932279142, "train_time_s": 8.174085140228271, "p_values": [3.6539015769958496, 3.182649850845337, 1.8798694610595703, 2.3651256561279297, 2.007814884185791, 4.10741662979126, 2.1783061027526855, 2.5147783756256104, 2.9813427925109863, 2.9954562187194824, 2.9999196529388428, 3.114917755126953, 2.890296459197998, 4.670026779174805, 2.4661684036254883, 2.324042797088623], "p_mean": 2.8957520872354507}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 1.623314672442831, "train_rmse": 2.034138947534302, "train_rmse_clean": 1.2221437343162194, "nrmse": 0.21076926694133466, "train_time_s": 7.935335874557495, "p_values": [4.721614837646484, 1.542982578277588, 1.4086883068084717, 3.9685616493225098, 3.7278716564178467, 2.282564401626587, 1.8515069484710693, 1.8497430086135864, 4.556687831878662, 2.239382743835449, 2.670459032058716, 2.3595023155212402, 3.2068402767181396, 1.4222196340560913, 7.622555732727051, 1.4620418548583984], "p_mean": 2.930826425552368}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 1.5023134423333602, "train_rmse": 2.291763808816654, "train_rmse_clean": 1.4182715110898698, "nrmse": 0.20967115902969335, "train_time_s": 4.138519763946533}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 1.8780899052778608, "train_rmse": 2.396859536728627, "train_rmse_clean": 1.552583284737075, "nrmse": 0.25305047177013623, "train_time_s": 4.054317235946655}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 1.8447772785460188, "train_rmse": 2.3005298008993975, "train_rmse_clean": 1.5185899164917487, "nrmse": 0.24701493911504466, "train_time_s": 4.260859727859497}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 1.5361489416523, "train_rmse": 2.4392373387763655, "train_rmse_clean": 1.4935654276109744, "nrmse": 0.2019781795458666, "train_time_s": 3.9553332328796387}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 1.4742169428591154, "train_rmse": 1.882564921093575, "train_rmse_clean": 1.2860711145950745, "nrmse": 0.19141059317311998, "train_time_s": 4.094433546066284}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1729, "n_train": 200, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 1.7004500726419849, "train_rmse": 2.176082502898794, "train_rmse_clean": 1.4632367008172196, "nrmse": 0.237324201166175, "train_time_s": 8.04939579963684}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1730, "n_train": 200, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 1.4354899891228072, "train_rmse": 2.102924827816196, "train_rmse_clean": 1.1371140536554094, "nrmse": 0.1934153513886714, "train_time_s": 7.335524320602417}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1731, "n_train": 200, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 1.566881083023489, "train_rmse": 2.415075960062211, "train_rmse_clean": 1.243059377331619, "nrmse": 0.20980474977912483, "train_time_s": 7.648534774780273}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1732, "n_train": 200, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 1.8405779258068833, "train_rmse": 2.314213245344945, "train_rmse_clean": 1.51052909307964, "nrmse": 0.24200555602825574, "train_time_s": 7.883622169494629}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1733, "n_train": 200, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 1.3900926590175544, "train_rmse": 1.940051910444538, "train_rmse_clean": 1.1832194665885822, "nrmse": 0.18048799514684297, "train_time_s": 8.010449409484863}
+checkpoint directory created: ./model_ckpt_2205591_133536926373376_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.5809202920783747, "train_rmse": 2.005968183171106, "train_rmse_clean": 1.107765610223538, "nrmse": 0.21611461938631982, "train_time_s": 29.40354609489441}
+checkpoint directory created: ./model_ckpt_2208362_140330246022656_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.191925924937351, "train_rmse": 2.049283907074809, "train_rmse_clean": 1.0904967128730902, "nrmse": 0.16493508976425927, "train_time_s": 32.44408082962036}
+checkpoint directory created: ./model_ckpt_2209215_135525129397760_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.5372015863668764, "train_rmse": 1.967929144461067, "train_rmse_clean": 1.2014335194166392, "nrmse": 0.2046658081908004, "train_time_s": 30.229344606399536}
+checkpoint directory created: ./model_ckpt_2205623_123740516062720_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.4460061852406554, "train_rmse": 2.0958230890824723, "train_rmse_clean": 1.1208690537891002, "nrmse": 0.19543730685120347, "train_time_s": 33.72997832298279}
+checkpoint directory created: ./model_ckpt_2208588_128485632710144_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.0127050179637678, "train_rmse": 2.0309893046600394, "train_rmse_clean": 0.8634666407173945, "nrmse": 0.13157676504683388, "train_time_s": 30.0133855342865}
+checkpoint directory created: ./model_ckpt_2209254_133912115455488_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 1.7510882319633438, "train_rmse": 2.073228569915429, "train_rmse_clean": 1.257896238205113, "nrmse": 0.23937687982049172, "train_time_s": 31.700653076171875}
+checkpoint directory created: ./model_ckpt_2205669_124378708932096_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 1.5396707892582313, "train_rmse": 2.005970582463789, "train_rmse_clean": 1.2993825265549077, "nrmse": 0.2130549680317273, "train_time_s": 35.07522201538086}
+checkpoint directory created: ./model_ckpt_2208640_127242262783488_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 1.6005297838528776, "train_rmse": 2.0153213729258823, "train_rmse_clean": 1.175556890458651, "nrmse": 0.21309743930196273, "train_time_s": 31.745259761810303}
+checkpoint directory created: ./model_ckpt_2209298_131706568386048_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 2.260586602937238, "train_rmse": 2.158423216172082, "train_rmse_clean": 1.1448514896548403, "nrmse": 0.3055332418985721, "train_time_s": 31.880561590194702}
+checkpoint directory created: ./model_ckpt_2205673_131629483124224_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 1.7019788216927552, "train_rmse": 2.038576981539336, "train_rmse_clean": 1.167780604081095, "nrmse": 0.22113138926360779, "train_time_s": 34.41823101043701}
+checkpoint directory created: ./model_ckpt_2208632_135966356497920_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 1.7322519907545626, "train_rmse": 1.9050885131277226, "train_rmse_clean": 1.37361884877933, "nrmse": 0.2368019321018101, "train_time_s": 37.31607675552368}
+checkpoint directory created: ./model_ckpt_2209376_138590542386688_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 1.8096489293010194, "train_rmse": 2.0444517555149844, "train_rmse_clean": 1.267824082199219, "nrmse": 0.25041372316131766, "train_time_s": 35.22405958175659}
+checkpoint directory created: ./model_ckpt_2205687_127306708649472_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 3.4554871773359253, "train_rmse": 2.124875088516376, "train_rmse_clean": 1.2677062083980672, "nrmse": 0.4600698321642351, "train_time_s": 38.68618130683899}
+checkpoint directory created: ./model_ckpt_2208716_138526749382144_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 2.611549799997121, "train_rmse": 2.0358315156745874, "train_rmse_clean": 1.420333667467986, "nrmse": 0.35296824095831425, "train_time_s": 33.51903033256531}
+checkpoint directory created: ./model_ckpt_2209382_129162549515776_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 12.110659790440081, "train_rmse": 2.0035875998207757, "train_rmse_clean": 1.5278162394234585, "nrmse": 1.5734902163444047, "train_time_s": 34.37020015716553}
+checkpoint directory created: ./model_ckpt_2205690_125979665520128_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 2.7634879305580142, "train_rmse": 2.1518061252334633, "train_rmse_clean": 1.388311722324275, "nrmse": 0.37777372159989075, "train_time_s": 47.21408653259277}
+checkpoint directory created: ./model_ckpt_2208831_132118087476736_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 2.3156274211923176, "train_rmse": 2.0330978660593217, "train_rmse_clean": 1.5528169910276546, "nrmse": 0.3204294902764278, "train_time_s": 38.887898683547974}
+checkpoint directory created: ./model_ckpt_2209545_132670193542656_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 1.739816413171269, "train_rmse": 1.976833097325681, "train_rmse_clean": 1.2324285161298576, "nrmse": 0.23164231384050443, "train_time_s": 38.30517339706421}
+checkpoint directory created: ./model_ckpt_2205900_139912270841344_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 2.2302021959280722, "train_rmse": 1.9254651085156596, "train_rmse_clean": 1.5205613427098115, "nrmse": 0.3014265881810751, "train_time_s": 43.42251372337341}
+checkpoint directory created: ./model_ckpt_2208836_123421238527488_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 2.751342569994236, "train_rmse": 1.9103698823654511, "train_rmse_clean": 1.6117006917845487, "nrmse": 0.3574710784225972, "train_time_s": 37.31592869758606}
+checkpoint directory created: ./model_ckpt_2209535_124511113946624_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.5304976778583423, "train_rmse": 1.964021733096999, "train_rmse_clean": 1.0943191590496255, "nrmse": 0.2092217582248633, "train_time_s": 36.73830962181091}
+checkpoint directory created: ./model_ckpt_2206283_132888409761280_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.5255899227071836, "train_rmse": 2.029620651626985, "train_rmse_clean": 1.2696605133051193, "nrmse": 0.21110650048020752, "train_time_s": 40.20577430725098}
+checkpoint directory created: ./model_ckpt_2208848_133724710573568_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.7009051566599709, "train_rmse": 2.034848420009183, "train_rmse_clean": 1.037482555632252, "nrmse": 0.22646159855095901, "train_time_s": 37.77372431755066}
+checkpoint directory created: ./model_ckpt_2209734_134907774596608_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.6778297515170237, "train_rmse": 2.081883432399252, "train_rmse_clean": 1.0652787548974487, "nrmse": 0.22676979624173438, "train_time_s": 36.811299562454224}
+checkpoint directory created: ./model_ckpt_2206299_132115867731456_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.515596088550879, "train_rmse": 2.0375204201531716, "train_rmse_clean": 1.141231657491673, "nrmse": 0.19691541654461728, "train_time_s": 40.19709920883179}
+checkpoint directory created: ./model_ckpt_2208851_136679579874816_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.5942466254866758, "train_rmse": 1.9862960378320906, "train_rmse_clean": 1.0457953253951615, "nrmse": 0.21793635289608707, "train_time_s": 36.89534139633179}
+checkpoint directory created: ./model_ckpt_2209701_124711438083584_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.5150955326835742, "train_rmse": 2.095895792243823, "train_rmse_clean": 1.2857301024964158, "nrmse": 0.2096543186588782, "train_time_s": 37.1173620223999}
+checkpoint directory created: ./model_ckpt_2206509_129106118927872_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.3078934886728177, "train_rmse": 2.0065705473385265, "train_rmse_clean": 1.100805995551113, "nrmse": 0.174135312024601, "train_time_s": 40.010493516922}
+checkpoint directory created: ./model_ckpt_2208859_123363544589824_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.735644323945543, "train_rmse": 2.11769749732818, "train_rmse_clean": 1.050608191748232, "nrmse": 0.23458381837214676, "train_time_s": 36.16497874259949}
+checkpoint directory created: ./model_ckpt_2209700_123944485963264_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.3726341015819017, "train_rmse": 1.976688571111552, "train_rmse_clean": 1.0455218008397935, "nrmse": 0.17834092996029324, "train_time_s": 36.15299868583679}
+checkpoint directory created: ./model_ckpt_2206889_140138219959808_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.203428019133149, "train_rmse": 2.047959984921633, "train_rmse_clean": 0.976628456857199, "nrmse": 0.16451075339913457, "train_time_s": 39.988290309906006}
+checkpoint directory created: ./model_ckpt_2208860_135805240849920_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.3606112398979988, "train_rmse": 2.1559322088462523, "train_rmse_clean": 1.2482605025410436, "nrmse": 0.18827725137250614, "train_time_s": 37.5233473777771}
+checkpoint directory created: ./model_ckpt_2209773_124117867816448_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.3090831017400717, "train_rmse": 2.0254529993948722, "train_rmse_clean": 1.0660559506710854, "nrmse": 0.1742936992667189, "train_time_s": 37.5035617351532}
+checkpoint directory created: ./model_ckpt_2208247_138624971236864_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.6051680769838512, "train_rmse": 2.1203027665642225, "train_rmse_clean": 1.150315751555901, "nrmse": 0.21694908999095266, "train_time_s": 38.32700157165527}
+checkpoint directory created: ./model_ckpt_2208959_136449958970880_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.8596211338769884, "train_rmse": 2.070749402048577, "train_rmse_clean": 0.8167561674682418, "nrmse": 0.11168718032902264, "train_time_s": 37.15217208862305}
+checkpoint directory created: ./model_ckpt_2209818_138011390551552_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.1817279906968707, "train_rmse": 2.1058004861967987, "train_rmse_clean": 0.9209245115643014, "nrmse": 0.1615443208663386, "train_time_s": 36.722737550735474}
+checkpoint directory created: ./model_ckpt_2208264_138480278656512_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.445626191515828, "train_rmse": 2.3782120520804995, "train_rmse_clean": 1.3490281505937887, "nrmse": 0.20004136219770513, "train_time_s": 38.122655391693115}
+checkpoint directory created: ./model_ckpt_2208979_135788509361664_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.1286611085928655, "train_rmse": 2.1505630744051984, "train_rmse_clean": 0.9432967776746182, "nrmse": 0.150271987755126, "train_time_s": 36.10340714454651}
+checkpoint directory created: ./model_ckpt_2209828_140016787600896_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.2001735197152072, "train_rmse": 2.2337322712270122, "train_rmse_clean": 1.0503367557728964, "nrmse": 0.16221139497285955, "train_time_s": 36.296932220458984}
+checkpoint directory created: ./model_ckpt_2208288_138613761140224_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.9730635282596367, "train_rmse": 2.155847717371472, "train_rmse_clean": 0.8877687581951932, "nrmse": 0.12642630278547917, "train_time_s": 37.78251504898071}
+checkpoint directory created: ./model_ckpt_2209185_140208295736832_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.734480426666181, "train_rmse": 1.9515252070133755, "train_rmse_clean": 1.1163040259630392, "nrmse": 0.23710656325954743, "train_time_s": 73.4340431690216}
+checkpoint directory created: ./model_ckpt_2210460_124361440687616_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.7689390491673933, "train_rmse": 1.9805424715097217, "train_rmse_clean": 1.3177742893067972, "nrmse": 0.24478041357919345, "train_time_s": 72.42075276374817}
+checkpoint directory created: ./model_ckpt_2208372_126784864171520_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 2.8379244255894776, "train_rmse": 1.9136760616156323, "train_rmse_clean": 1.3012314563422223, "nrmse": 0.3778464069377173, "train_time_s": 74.13137412071228}
+checkpoint directory created: ./model_ckpt_2209905_123296892044800_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.864777115321445, "train_rmse": 2.0727932597663, "train_rmse_clean": 1.0795953017227404, "nrmse": 0.2520369698387737, "train_time_s": 72.31101393699646}
+checkpoint directory created: ./model_ckpt_2211278_130433244329472_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.5569474578640907, "train_rmse": 2.0116995387397623, "train_rmse_clean": 1.1890129870511998, "nrmse": 0.20228803671335036, "train_time_s": 72.16013312339783}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.817625586291534, "train_rmse": 2.2290173543378557, "train_rmse_clean": 0.7978523623340834, "nrmse": 0.11177087375455831, "train_time_s": 5.90358567237854}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 1.068949094792103, "train_rmse": 2.412922756900741, "train_rmse_clean": 1.0923665871127852, "nrmse": 0.14791792947386903, "train_time_s": 5.778716564178467}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 1.3636587033811765, "train_rmse": 2.425281375965227, "train_rmse_clean": 1.239570730818329, "nrmse": 0.18155999388704597, "train_time_s": 5.6383490562438965}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.9440129733918319, "train_rmse": 2.3257476592461757, "train_rmse_clean": 0.8014992330036357, "nrmse": 0.12758960164585417, "train_time_s": 5.961711883544922}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.9483845759123106, "train_rmse": 2.182939641443525, "train_rmse_clean": 0.8623699502066415, "nrmse": 0.1232198639340798, "train_time_s": 5.66484808921814}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.8189308374881108, "train_rmse": 2.164669529265481, "train_rmse_clean": 0.740761340296352, "nrmse": 0.11194930391765077, "train_time_s": 10.879491567611694, "p_values": [2.3625540733337402, 2.584876775741577, 4.0964813232421875, 2.6032299995422363, 2.5725317001342773, 2.770038604736328, 2.4017200469970703, 3.2404403686523438, 2.196091651916504, 2.022602081298828, 2.4370880126953125, 2.165426254272461, 4.642982006072998, 4.254705429077148, 2.9126176834106445, 2.8010358810424805], "p_mean": 2.8790263682603836}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 1.1276824274647197, "train_rmse": 2.2744731940139076, "train_rmse_clean": 1.0723685735211461, "nrmse": 0.1560452696833886, "train_time_s": 10.946250915527344, "p_values": [2.0806636810302734, 2.1316518783569336, 2.2632837295532227, 2.329174518585205, 2.275513172149658, 2.8641433715820312, 1.8915330171585083, 2.3012900352478027, 2.6887035369873047, 3.625349521636963, 3.19547700881958, 8.049636840820312, 3.688161611557007, 2.028766632080078, 3.1367716789245605, 1.3717195987701416], "p_mean": 2.870114989578724}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 1.2136592499150112, "train_rmse": 2.2979757390402256, "train_rmse_clean": 1.0880174337959403, "nrmse": 0.1615887945049344, "train_time_s": 10.605839014053345, "p_values": [2.4521427154541016, 3.00101900100708, 3.0651793479919434, 1.7560679912567139, 2.3644535541534424, 1.5158897638320923, 2.167473554611206, 1.7187656164169312, 3.748849630355835, 3.680995225906372, 2.5642170906066895, 2.9013583660125732, 1.332940697669983, 5.173373222351074, 4.528236389160156, 3.305838108062744], "p_mean": 2.8298000171780586}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 1.0716231309397983, "train_rmse": 2.290601275203855, "train_rmse_clean": 0.9053591532654544, "nrmse": 0.14483695907253188, "train_time_s": 10.546580791473389, "p_values": [1.7343107461929321, 2.385197639465332, 2.38350248336792, 1.731643557548523, 4.986845016479492, 5.369642734527588, 2.1376564502716064, 2.1811165809631348, 3.2698185443878174, 2.21684193611145, 2.2960433959960938, 2.6701769828796387, 3.128936529159546, 2.648522138595581, 5.348389625549316, 2.210801601409912], "p_mean": 2.9187153726816177}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.7572579372595172, "train_rmse": 2.09407963690812, "train_rmse_clean": 0.7634193366405597, "nrmse": 0.09838753429995384, "train_time_s": 11.160546064376831, "p_values": [2.0362191200256348, 2.0159645080566406, 3.798412799835205, 2.3095483779907227, 2.8487696647644043, 2.520824909210205, 2.4384450912475586, 2.3960189819335938, 2.2135565280914307, 3.0411014556884766, 2.439523220062256, 2.2809457778930664, 5.058321475982666, 2.4773969650268555, 2.3318710327148438, 2.754729747772217], "p_mean": 2.685103103518486}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.9236216527732566, "train_rmse": 2.21644060712849, "train_rmse_clean": 0.8045167590954954, "nrmse": 0.12626072481088776, "train_time_s": 10.437190055847168, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 1.22464137099999, "train_rmse": 2.42434396836515, "train_rmse_clean": 1.1264862090536454, "nrmse": 0.1694621538377274, "train_time_s": 10.100248098373413, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.8945428339172778, "train_rmse": 2.2328526110491964, "train_rmse_clean": 0.83157101140241, "nrmse": 0.11910105589838575, "train_time_s": 10.557399034500122, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 1.394628657143386, "train_rmse": 2.464725224650593, "train_rmse_clean": 1.1076239400661052, "nrmse": 0.18849329386807, "train_time_s": 10.352985858917236, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 1.2795386660083707, "train_rmse": 2.2369930555803847, "train_rmse_clean": 1.037053120318241, "nrmse": 0.16624540753657657, "train_time_s": 10.088269710540771, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.7490380212429315, "train_rmse": 2.2116810342574524, "train_rmse_clean": 0.6661149945049409, "nrmse": 0.10239483146489534, "train_time_s": 8.460565567016602, "p_values": [1.6013823747634888, 1.8481031656265259, 2.6199090480804443, 3.9521613121032715, 2.3020894527435303, 3.325366735458374, 2.470924139022827, 2.790102243423462, 2.000016212463379, 1.802426815032959, 2.191460371017456, 3.5019466876983643, 3.5620999336242676, 4.164967060089111, 4.136329650878906, 5.987453460693359], "p_mean": 3.016046166419983}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 1.6604042060570023, "train_rmse": 2.55359612478199, "train_rmse_clean": 1.4185701515994538, "nrmse": 0.22976169159619517, "train_time_s": 8.271736860275269, "p_values": [1.8410676717758179, 2.447871208190918, 3.797980546951294, 3.003385543823242, 2.9494142532348633, 2.7788643836975098, 2.513779401779175, 3.907942295074463, 1.8812453746795654, 3.023534059524536, 2.42225980758667, 2.1503663063049316, 1.8421567678451538, 2.943608045578003, 2.3981685638427734, 1.985412359237671], "p_mean": 2.6179410368204117}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 1.4084882627738438, "train_rmse": 2.453661923573236, "train_rmse_clean": 1.2226969678650335, "nrmse": 0.18752868275993656, "train_time_s": 8.349323272705078, "p_values": [2.1381616592407227, 2.4813573360443115, 1.8158977031707764, 1.785222053527832, 3.038811683654785, 2.3291687965393066, 2.7039682865142822, 2.0425381660461426, 3.0024845600128174, 1.7913265228271484, 1.432449460029602, 2.5428075790405273, 2.281702995300293, 1.416465163230896, 2.436306953430176, 3.213737726211548], "p_mean": 2.278275415301323}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 1.2552629406402716, "train_rmse": 2.52849954107171, "train_rmse_clean": 1.1019041952115955, "nrmse": 0.16965709484017724, "train_time_s": 8.441950798034668, "p_values": [3.2841804027557373, 3.1601691246032715, 1.8010438680648804, 1.9707987308502197, 1.971304178237915, 3.9804189205169678, 1.8139184713363647, 2.3919477462768555, 4.84447717666626, 2.5822196006774902, 3.1557486057281494, 3.1111276149749756, 2.8228864669799805, 4.739706039428711, 2.609468460083008, 2.362006187438965], "p_mean": 2.9125888496637344}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 1.560478131915879, "train_rmse": 2.291989590259078, "train_rmse_clean": 1.3006633490675625, "nrmse": 0.20274676325457275, "train_time_s": 8.205962896347046, "p_values": [3.169680595397949, 1.8942232131958008, 4.785277366638184, 3.137396812438965, 3.2495980262756348, 3.0156545639038086, 1.928093671798706, 2.0009145736694336, 4.159670829772949, 2.9294261932373047, 3.135397434234619, 1.4038288593292236, 2.8109803199768066, 2.09317946434021, 4.847524166107178, 1.8080615997314453], "p_mean": 2.8980567306280136}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 1.1032763290655012, "train_rmse": 2.0601035380519903, "train_rmse_clean": 1.0868006212220607, "nrmse": 0.15081983900685264, "train_time_s": 4.142931699752808}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 1.3113949298339875, "train_rmse": 2.3562864285458716, "train_rmse_clean": 1.1978645322299215, "nrmse": 0.18146684784956912, "train_time_s": 4.016714096069336}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 1.3676597067050267, "train_rmse": 2.379922730850126, "train_rmse_clean": 1.1929127166684594, "nrmse": 0.1820926947287002, "train_time_s": 4.008280038833618}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 1.4261363445759798, "train_rmse": 2.526571102249534, "train_rmse_clean": 1.4115822619468616, "nrmse": 0.19275176636963187, "train_time_s": 4.144789457321167}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 1.1228431032992816, "train_rmse": 2.2427222774937547, "train_rmse_clean": 1.0550168454377342, "nrmse": 0.14588657167348332, "train_time_s": 3.9669442176818848}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 1.3497262165342647, "train_rmse": 2.095582881853261, "train_rmse_clean": 1.0916644815565633, "nrmse": 0.18450997752616563, "train_time_s": 8.155456304550171}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.9098781361209909, "train_rmse": 2.1739220003808697, "train_rmse_clean": 0.8756308420211489, "nrmse": 0.1259061732913817, "train_time_s": 8.08608102798462}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 1.0280538320479593, "train_rmse": 2.1764632699166953, "train_rmse_clean": 0.9253360212708728, "nrmse": 0.1368769524217288, "train_time_s": 8.26960802078247}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 1.0122886812716843, "train_rmse": 2.3204669743984425, "train_rmse_clean": 0.9625426429164001, "nrmse": 0.13681751547333001, "train_time_s": 8.384724855422974}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 1.0570185941017627, "train_rmse": 2.103862187451611, "train_rmse_clean": 1.0176538173883571, "nrmse": 0.13733425305416846, "train_time_s": 8.51337194442749}
+checkpoint directory created: ./model_ckpt_2209236_139251748009472_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.7248174889502934, "train_rmse": 2.1454351795455295, "train_rmse_clean": 0.7166225646120665, "nrmse": 0.10000297015593844, "train_time_s": 34.893513202667236}
+checkpoint directory created: ./model_ckpt_2209895_125287074747904_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.9115710258713818, "train_rmse": 2.1684177425352686, "train_rmse_clean": 0.8060676537056963, "nrmse": 0.12016321353581258, "train_time_s": 40.90567469596863}
+checkpoint directory created: ./model_ckpt_2210594_134210741601792_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.6259946216323264, "train_rmse": 2.1816648040672106, "train_rmse_clean": 0.5930412622111945, "nrmse": 0.08359222564868224, "train_time_s": 39.531665086746216}
+checkpoint directory created: ./model_ckpt_2209269_127370769085952_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.9068832941881766, "train_rmse": 2.193378202010294, "train_rmse_clean": 0.8441189209329885, "nrmse": 0.12689182879588856, "train_time_s": 42.56788206100464}
+checkpoint directory created: ./model_ckpt_2210013_137416445822464_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g3", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.641470100649677, "train_rmse": 2.3286805417555456, "train_rmse_clean": 0.637235653951862, "nrmse": 0.08565350879148594, "train_time_s": 39.72110915184021}
+checkpoint directory created: ./model_ckpt_2210843_129123678922240_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 0.8291278674712999, "train_rmse": 2.1196526351293414, "train_rmse_clean": 0.78771332118788, "nrmse": 0.11439465886270227, "train_time_s": 41.27341365814209}
+checkpoint directory created: ./model_ckpt_2209280_137018059900416_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 0.9973499773900301, "train_rmse": 2.1587453518145026, "train_rmse_clean": 0.9301615743136722, "nrmse": 0.13147058748219312, "train_time_s": 42.161038875579834}
+checkpoint directory created: ./model_ckpt_2210026_123513232193024_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 0.7500845075115912, "train_rmse": 2.187738397369486, "train_rmse_clean": 0.6985377897611826, "nrmse": 0.10016257526940342, "train_time_s": 40.53357529640198}
+checkpoint directory created: ./model_ckpt_2210873_127835389543936_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 1.2175272836295434, "train_rmse": 2.2571954008615336, "train_rmse_clean": 0.9631270133796548, "nrmse": 0.17035738183593227, "train_time_s": 43.95448017120361}
+checkpoint directory created: ./model_ckpt_2209302_134181710657024_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g5", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 1.1491177283264875, "train_rmse": 2.3557000811059936, "train_rmse_clean": 1.0364463645654354, "nrmse": 0.15343811869949966, "train_time_s": 35.57995939254761}
+checkpoint directory created: ./model_ckpt_2209968_136207090132480_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 1.337209596236221, "train_rmse": 2.1296968180454314, "train_rmse_clean": 0.9306757597018986, "nrmse": 0.18449462572752007, "train_time_s": 48.10092544555664}
+checkpoint directory created: ./model_ckpt_2210914_125538772542976_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 1.368304123197305, "train_rmse": 2.2690696709850044, "train_rmse_clean": 1.238170396221534, "nrmse": 0.18036973079581994, "train_time_s": 43.99333333969116}
+checkpoint directory created: ./model_ckpt_2209311_128999094814208_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 1.3828212143287573, "train_rmse": 2.182711967685705, "train_rmse_clean": 1.1386337815626177, "nrmse": 0.1846551056278037, "train_time_s": 47.75221109390259}
+checkpoint directory created: ./model_ckpt_2210287_123686361904640_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 1.3294769159919468, "train_rmse": 2.206611329531597, "train_rmse_clean": 1.108318682677762, "nrmse": 0.18602146306284387, "train_time_s": 47.476309299468994}
+checkpoint directory created: ./model_ckpt_2211186_129387694396928_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g10", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 1.4585361385023532, "train_rmse": 2.222030832695765, "train_rmse_clean": 1.1374526552867081, "nrmse": 0.19475379730931214, "train_time_s": 46.918511390686035}
+checkpoint directory created: ./model_ckpt_2209349_128460529612288_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 1.6789748778413696, "train_rmse": 2.379863046719038, "train_rmse_clean": 1.504779500757536, "nrmse": 0.23164793504707404, "train_time_s": 55.635926246643066}
+checkpoint directory created: ./model_ckpt_2210392_135892565521920_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 1.5812700569784681, "train_rmse": 2.115224526862562, "train_rmse_clean": 1.332669052598817, "nrmse": 0.20844288170837466, "train_time_s": 54.89312934875488}
+checkpoint directory created: ./model_ckpt_2211596_126287805568512_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 1.644600707838059, "train_rmse": 2.260173935424774, "train_rmse_clean": 1.3928011755095895, "nrmse": 0.21961184444860457, "train_time_s": 57.25055766105652}
+checkpoint directory created: ./model_ckpt_2209352_129236250793472_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 1.6616760789025378, "train_rmse": 2.3854841196562546, "train_rmse_clean": 1.4278961065121862, "nrmse": 0.23250303304691003, "train_time_s": 56.619279623031616}
+checkpoint directory created: ./model_ckpt_2210418_135399792715264_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_g20", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 1.715148327518179, "train_rmse": 2.2236609914067174, "train_rmse_clean": 1.4238246554970857, "nrmse": 0.2290184253342326, "train_time_s": 57.07042217254639}
+checkpoint directory created: ./model_ckpt_2211634_132256645051904_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.8192794391565599, "train_rmse": 2.12981358781326, "train_rmse_clean": 0.7647998430152825, "nrmse": 0.11303587255048432, "train_time_s": 45.103877782821655}
+checkpoint directory created: ./model_ckpt_2209375_133800952321536_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.8363977541303882, "train_rmse": 2.1560295748399767, "train_rmse_clean": 0.8390747374944283, "nrmse": 0.11025387937749631, "train_time_s": 45.080360651016235}
+checkpoint directory created: ./model_ckpt_2210301_130297245984256_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.8299146692317159, "train_rmse": 2.158122899679185, "train_rmse_clean": 0.7741866089835057, "nrmse": 0.1108227002313059, "train_time_s": 44.52762031555176}
+checkpoint directory created: ./model_ckpt_2211178_131538342643200_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.918148924102379, "train_rmse": 2.2357421637308903, "train_rmse_clean": 0.8009171412313876, "nrmse": 0.12846812465612986, "train_time_s": 43.78097462654114}
+checkpoint directory created: ./model_ckpt_2209401_140589774632448_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_g3", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.9833449331017263, "train_rmse": 2.311863734112052, "train_rmse_clean": 0.9012309838173138, "nrmse": 0.1313029925902818, "train_time_s": 43.114153146743774}
+checkpoint directory created: ./model_ckpt_2210302_135535224514048_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.7804765699067957, "train_rmse": 2.122061176831039, "train_rmse_clean": 0.7346673493470917, "nrmse": 0.10768224596902767, "train_time_s": 43.47276568412781}
+checkpoint directory created: ./model_ckpt_2211167_135394640553472_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.9070876729740007, "train_rmse": 2.1432906949666517, "train_rmse_clean": 0.8490672315618326, "nrmse": 0.1195722183458882, "train_time_s": 44.836716413497925}
+checkpoint directory created: ./model_ckpt_2209402_129107216721408_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.8315372078240415, "train_rmse": 2.1477952872674138, "train_rmse_clean": 0.7540735228784463, "nrmse": 0.1110393660099666, "train_time_s": 44.03231191635132}
+checkpoint directory created: ./model_ckpt_2210309_132143176967680_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.8662882952801141, "train_rmse": 2.221467632534356, "train_rmse_clean": 0.7844272739649192, "nrmse": 0.12121174439647048, "train_time_s": 43.471452713012695}
+checkpoint directory created: ./model_ckpt_2211179_128765906720256_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.7979542746054946, "train_rmse": 2.28710490432249, "train_rmse_clean": 0.7511637651049341, "nrmse": 0.10654835417255379, "train_time_s": 44.787360191345215}
+checkpoint directory created: ./model_ckpt_2209499_123483796071936_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.6892384016539381, "train_rmse": 2.1522457211740402, "train_rmse_clean": 0.6648904178995849, "nrmse": 0.09509412833118365, "train_time_s": 44.507689237594604}
+checkpoint directory created: ./model_ckpt_2210407_133995469071872_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.1151450938261007, "train_rmse": 2.2332999439524315, "train_rmse_clean": 0.9109793672513433, "nrmse": 0.14699832951003222, "train_time_s": 43.982383728027344}
+checkpoint directory created: ./model_ckpt_2211288_132221213689344_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.8692727658459063, "train_rmse": 2.1829554786498875, "train_rmse_clean": 0.8155957149152151, "nrmse": 0.11607838579086717, "train_time_s": 46.499449014663696}
+checkpoint directory created: ./model_ckpt_2209500_140507722749440_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.9059477872160322, "train_rmse": 2.2548839255083095, "train_rmse_clean": 0.7571954058478028, "nrmse": 0.1267609319194024, "train_time_s": 43.20387077331543}
+checkpoint directory created: ./model_ckpt_2210390_137475072939520_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.6539251275118119, "train_rmse": 2.3302756306357253, "train_rmse_clean": 0.6322209623613517, "nrmse": 0.08731658981701401, "train_time_s": 43.29199981689453}
+checkpoint directory created: ./model_ckpt_2211243_132819767043584_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.75159736835991, "train_rmse": 2.214646603820256, "train_rmse_clean": 0.7631409411910113, "nrmse": 0.10369778646791512, "train_time_s": 45.80993151664734}
+checkpoint directory created: ./model_ckpt_2209523_130453412873728_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.227888968240194, "train_rmse": 2.432864142874166, "train_rmse_clean": 1.1733996423443216, "nrmse": 0.16186021725281685, "train_time_s": 43.65134119987488}
+checkpoint directory created: ./model_ckpt_2210431_134384580371968_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.9297203189597596, "train_rmse": 2.2536902067315054, "train_rmse_clean": 0.8913761497087158, "nrmse": 0.12415025306446771, "train_time_s": 44.108720779418945}
+checkpoint directory created: ./model_ckpt_2211495_126675605202432_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.8181622901866987, "train_rmse": 2.3283325012509977, "train_rmse_clean": 0.8044445058844403, "nrmse": 0.11447791564686229, "train_time_s": 45.001598834991455}
+checkpoint directory created: ./model_ckpt_2209774_131079863313920_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.8514504181913907, "train_rmse": 2.427101079719307, "train_rmse_clean": 0.8249837582535946, "nrmse": 0.1136915279546278, "train_time_s": 42.927345991134644}
+checkpoint directory created: ./model_ckpt_2210487_127619998397952_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.8221655251446123, "train_rmse": 2.1224269085566903, "train_rmse_clean": 0.7616397887134667, "nrmse": 0.11343406544087478, "train_time_s": 89.8312816619873}
+checkpoint directory created: ./model_ckpt_2212332_136757998130688_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.8737394072294649, "train_rmse": 2.1466845752828476, "train_rmse_clean": 0.8424058304641733, "nrmse": 0.11517625284898234, "train_time_s": 84.61876845359802}
+checkpoint directory created: ./model_ckpt_2209808_123932347962880_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.8340678716999896, "train_rmse": 2.1560205957409124, "train_rmse_clean": 0.7790927788166861, "nrmse": 0.11137729834748032, "train_time_s": 86.85472822189331}
+checkpoint directory created: ./model_ckpt_2211546_132602909910528_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.9247417830725837, "train_rmse": 2.233682315015244, "train_rmse_clean": 0.805356767238834, "nrmse": 0.1293906027049416, "train_time_s": 88.79190182685852}
+checkpoint directory created: ./model_ckpt_2213225_134056655558144_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 1.033211466886641, "train_rmse": 2.298366556624387, "train_rmse_clean": 0.9248859377255059, "nrmse": 0.13796151585679295, "train_time_s": 84.57493090629578}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.7848068004904576, "train_rmse": 2.2715952195901536, "train_rmse_clean": 0.7682465891291486, "nrmse": 0.10827968729243367, "train_time_s": 6.243348121643066}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 1.0247069848400088, "train_rmse": 2.405123123528483, "train_rmse_clean": 0.9961815721447351, "nrmse": 0.13507678583055574, "train_time_s": 6.277589321136475}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.817340562927221, "train_rmse": 2.2900176554017975, "train_rmse_clean": 0.8135152361179543, "nrmse": 0.10914361626602352, "train_time_s": 6.358988046646118}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.5785541535552596, "train_rmse": 2.3278639155144134, "train_rmse_clean": 0.5792255788304388, "nrmse": 0.08095175539406398, "train_time_s": 6.228700160980225}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "tanh", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.6076154159764258, "train_rmse": 2.406512500007807, "train_rmse_clean": 0.6116598618628899, "nrmse": 0.08113299797055065, "train_time_s": 6.292248010635376}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.46957585130201096, "train_rmse": 2.1929487980748945, "train_rmse_clean": 0.4763580817698312, "nrmse": 0.06478731619971265, "train_time_s": 12.66117811203003, "p_values": [2.727759838104248, 2.131641387939453, 3.309414863586426, 2.7185282707214355, 2.869394302368164, 3.2424936294555664, 1.7050145864486694, 3.465208053588867, 2.198814868927002, 2.601675510406494, 2.540855646133423, 2.3252763748168945, 5.682157039642334, 2.939021587371826, 2.821965217590332, 3.049975872039795], "p_mean": 2.895574815571308}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.7307833268456676, "train_rmse": 2.287134711761553, "train_rmse_clean": 0.6788833062693271, "nrmse": 0.09633179473670271, "train_time_s": 12.8595449924469, "p_values": [2.2771406173706055, 2.1399879455566406, 2.153139114379883, 2.342785596847534, 2.131716012954712, 3.0139036178588867, 2.4745774269104004, 2.0350046157836914, 2.7173829078674316, 2.396501064300537, 2.442383289337158, 2.1806893348693848, 3.7801079750061035, 2.1065659523010254, 2.5537052154541016, 3.7790732383728027], "p_mean": 2.532791495323181}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.5363653039604621, "train_rmse": 2.202002955014734, "train_rmse_clean": 0.49558236907950715, "nrmse": 0.07162356986690067, "train_time_s": 12.620496034622192, "p_values": [1.853035807609558, 1.7856547832489014, 3.4323503971099854, 1.7280030250549316, 2.1448893547058105, 1.3732489347457886, 2.314030408859253, 2.8202905654907227, 2.733790874481201, 2.6091575622558594, 2.3960864543914795, 2.889000654220581, 1.215785264968872, 4.998775482177734, 3.31674861907959, 2.365077018737793], "p_mean": 2.498495325446129}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.578916268622887, "train_rmse": 2.304671332210148, "train_rmse_clean": 0.6053358028436442, "nrmse": 0.08100242282113013, "train_time_s": 12.268357515335083, "p_values": [1.4431147575378418, 3.2690584659576416, 1.5516659021377563, 2.407893419265747, 1.656106948852539, 4.731018543243408, 2.0903704166412354, 2.3489491939544678, 5.308846950531006, 2.2193217277526855, 2.3251852989196777, 6.039238929748535, 4.9035749435424805, 2.813282012939453, 3.3453712463378906, 2.6042733192443848], "p_mean": 3.066079504787922}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.5149302075519557, "train_rmse": 2.34258349366101, "train_rmse_clean": 0.5227850258570754, "nrmse": 0.06875703016381161, "train_time_s": 12.454498291015625, "p_values": [2.1723835468292236, 1.8597301244735718, 3.030625581741333, 2.6987991333007812, 2.241605281829834, 2.667081594467163, 2.4873838424682617, 2.8183321952819824, 2.561279058456421, 2.302438735961914, 1.950011134147644, 2.4996085166931152, 6.477924823760986, 3.0178072452545166, 3.4861037731170654, 4.005094528198242], "p_mean": 2.8922630697488785}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.9962890227251364, "train_rmse": 2.3532404209354354, "train_rmse_clean": 0.9027865124178334, "nrmse": 0.1374578606685682, "train_time_s": 12.041884422302246, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.767098070469487, "train_rmse": 2.303934811747638, "train_rmse_clean": 0.7302222770570239, "nrmse": 0.10111880109026247, "train_time_s": 11.742984056472778, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.9971388442702818, "train_rmse": 2.3768865912795007, "train_rmse_clean": 0.9305922167250529, "nrmse": 0.13315298948728738, "train_time_s": 12.11237359046936, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.5542300539341127, "train_rmse": 2.3287441495732395, "train_rmse_clean": 0.5766523750403181, "nrmse": 0.07754830810980927, "train_time_s": 11.957499742507935, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "banach_tanhonly", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.9719966653788603, "train_rmse": 2.5354936887580948, "train_rmse_clean": 1.0027023616903108, "nrmse": 0.12978769367271076, "train_time_s": 12.05991792678833, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.6301784562895136, "train_rmse": 2.2378044723041057, "train_rmse_clean": 0.6157321082063731, "nrmse": 0.08694563571928017, "train_time_s": 9.711981773376465, "p_values": [1.5078216791152954, 1.8899693489074707, 2.4729480743408203, 2.578688621520996, 2.3428287506103516, 2.0690484046936035, 2.4521536827087402, 2.4479973316192627, 1.8824026584625244, 1.9280983209609985, 2.1554806232452393, 3.984060525894165, 3.2940850257873535, 2.9360148906707764, 3.6130924224853516, 5.3160223960876465], "p_mean": 2.6794195473194122}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 1.0527224745858916, "train_rmse": 2.4141351259088992, "train_rmse_clean": 1.0187985834187145, "nrmse": 0.13876978525802974, "train_time_s": 9.697540998458862, "p_values": [2.2094106674194336, 2.1190171241760254, 3.766444444656372, 2.1877965927124023, 1.9722380638122559, 3.2621610164642334, 2.0976150035858154, 1.566584587097168, 4.422706604003906, 2.4814133644104004, 2.2886791229248047, 2.2569620609283447, 1.7839250564575195, 3.015197277069092, 3.4638679027557373, 2.362483501434326], "p_mean": 2.57853139936924}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 1.1532191798594909, "train_rmse": 2.4135486182536283, "train_rmse_clean": 1.1073827277466464, "nrmse": 0.15399518553982527, "train_time_s": 10.194648027420044, "p_values": [2.639604091644287, 2.734083652496338, 2.018392562866211, 2.3446059226989746, 3.2338128089904785, 2.7146143913269043, 2.312838554382324, 2.1182050704956055, 2.8079957962036133, 1.3982399702072144, 1.9160685539245605, 2.4590296745300293, 1.8450329303741455, 1.6234785318374634, 2.5170211791992188, 3.158352851867676], "p_mean": 2.3650860339403152}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.7434803765817222, "train_rmse": 2.411395923668067, "train_rmse_clean": 0.7436857415701468, "nrmse": 0.10402836314540705, "train_time_s": 9.535921573638916, "p_values": [3.129399538040161, 3.1513142585754395, 2.0303635597229004, 2.240553379058838, 2.196789264678955, 3.6566519737243652, 3.130784749984741, 2.46873140335083, 3.1938209533691406, 2.991654396057129, 2.6053593158721924, 2.724846363067627, 3.6578471660614014, 4.889620780944824, 2.8568215370178223, 2.4247117042541504], "p_mean": 2.9593293964862823}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "lp", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.6005839737484919, "train_rmse": 2.43916439540115, "train_rmse_clean": 0.5850472737702006, "nrmse": 0.08019411134422592, "train_time_s": 9.4830482006073, "p_values": [2.0167810916900635, 1.8855640888214111, 2.810978412628174, 2.0521655082702637, 1.759283185005188, 2.4486451148986816, 1.7001428604125977, 1.8723433017730713, 3.7034876346588135, 2.0191807746887207, 2.8713059425354004, 1.7304327487945557, 3.4323389530181885, 2.7322332859039307, 5.631446361541748, 5.785495281219482], "p_mean": 2.778239034116268}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.9206510751338328, "train_rmse": 2.2433047690094554, "train_rmse_clean": 0.8650942778843387, "nrmse": 0.1270221033490476, "train_time_s": 4.225506544113159}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.987804058324258, "train_rmse": 2.240877479706967, "train_rmse_clean": 0.971377991530602, "nrmse": 0.13021224525921662, "train_time_s": 4.184956073760986}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.8516075299472199, "train_rmse": 2.1938106612215478, "train_rmse_clean": 0.8170996000759487, "nrmse": 0.11371945755993501, "train_time_s": 4.1934287548065186}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.932091243853133, "train_rmse": 2.3808999690426447, "train_rmse_clean": 0.956363571752771, "nrmse": 0.1304189450783033, "train_time_s": 4.258517265319824}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "mlp", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.8806714720527964, "train_rmse": 2.3413146248174144, "train_rmse_clean": 0.888651682655528, "nrmse": 0.11759332445500947, "train_time_s": 4.311909914016724}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1729, "n_train": 1000, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.5661981523732607, "train_rmse": 2.1699519837425214, "train_rmse_clean": 0.5718734935701946, "nrmse": 0.07811828190863875, "train_time_s": 10.102787733078003}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1730, "n_train": 1000, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.8386078126653302, "train_rmse": 2.2397778041819834, "train_rmse_clean": 0.8184252686297242, "nrmse": 0.11054520910181156, "train_time_s": 10.052736759185791}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1731, "n_train": 1000, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.6250560851750606, "train_rmse": 2.1838295921655373, "train_rmse_clean": 0.6424738771526819, "nrmse": 0.08346689813211236, "train_time_s": 10.138442993164062}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1732, "n_train": 1000, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.5773847554909324, "train_rmse": 2.310602006755687, "train_rmse_clean": 0.6217688474889442, "nrmse": 0.0807881322907123, "train_time_s": 10.188411712646484}
+{"experiment": "scarcity", "eq_id": "I.18.12", "eq_name": "Torque", "eq_type": "trigonometric", "n_vars": 3, "model": "cheby", "seed": 1733, "n_train": 1000, "sigma": 0.3, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.7019278410119512, "train_rmse": 2.340859658489336, "train_rmse_clean": 0.7517676016878028, "nrmse": 0.09372624295382452, "train_time_s": 10.681427240371704}

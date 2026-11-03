@@ -1,0 +1,210 @@
+checkpoint directory created: ./model_ckpt_2107796_132788882322944_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.074348807684885, "train_rmse": 1.6483671931453046, "train_rmse_clean": null, "nrmse": 0.08538616086153152, "train_time_s": 49.362828493118286}
+checkpoint directory created: ./model_ckpt_2107795_139175272027648_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.8466836657588743, "train_rmse": 1.394469548176616, "train_rmse_clean": null, "nrmse": 0.06813617675551227, "train_time_s": 37.05316138267517}
+checkpoint directory created: ./model_ckpt_2107797_139773563377152_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.6714865172578897, "train_rmse": 1.5991269990686874, "train_rmse_clean": null, "nrmse": 0.06542521432510381, "train_time_s": 50.04937028884888}
+checkpoint directory created: ./model_ckpt_2107798_127777960748544_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.9115998482667464, "train_rmse": 1.4901724088103663, "train_rmse_clean": null, "nrmse": 0.07597508171316647, "train_time_s": 32.25269937515259}
+checkpoint directory created: ./model_ckpt_2107799_124225478247936_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.5334987431172067, "train_rmse": 1.9605345616580507, "train_rmse_clean": null, "nrmse": 0.09916568429427285, "train_time_s": 49.16426467895508}
+checkpoint directory created: ./model_ckpt_2107801_124744706868736_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 3.5564865268909784, "train_rmse": 2.685599856536612, "train_rmse_clean": null, "nrmse": 0.14639521066175193, "train_time_s": 40.85271716117859}
+checkpoint directory created: ./model_ckpt_2107800_132444093429248_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 3.4859278727089418, "train_rmse": 2.5615718320039633, "train_rmse_clean": null, "nrmse": 0.128618562072058, "train_time_s": 57.061194896698}
+checkpoint directory created: ./model_ckpt_2107802_134562922210816_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 3.0757509856051968, "train_rmse": 2.456085466374276, "train_rmse_clean": null, "nrmse": 0.1203908409467725, "train_time_s": 60.01971507072449}
+checkpoint directory created: ./model_ckpt_2107804_128846997022208_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 6.053109722639078, "train_rmse": 4.9287487385389, "train_rmse_clean": null, "nrmse": 0.24057624100213548, "train_time_s": 33.8314733505249}
+checkpoint directory created: ./model_ckpt_2107803_123448469485056_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 3.6483941106052953, "train_rmse": 2.7092451828311823, "train_rmse_clean": null, "nrmse": 0.14280468839239183, "train_time_s": 54.9114933013916}
+checkpoint directory created: ./model_ckpt_2107807_128486880806400_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 5.143540631006772, "train_rmse": 4.0859652127593336, "train_rmse_clean": null, "nrmse": 0.21172292050878874, "train_time_s": 51.006481885910034}
+checkpoint directory created: ./model_ckpt_2107805_132255976326656_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 4.773810212327817, "train_rmse": 3.132158505042085, "train_rmse_clean": null, "nrmse": 0.17613692179963691, "train_time_s": 53.99259376525879}
+checkpoint directory created: ./model_ckpt_2107806_137426477598208_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 5.720930303275793, "train_rmse": 3.081968123254768, "train_rmse_clean": null, "nrmse": 0.22392827424347758, "train_time_s": 48.13811779022217}
+checkpoint directory created: ./model_ckpt_2107808_131607309207040_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 6.6655667188102825, "train_rmse": 3.937084792317819, "train_rmse_clean": null, "nrmse": 0.2649178783861821, "train_time_s": 71.6881947517395}
+checkpoint directory created: ./model_ckpt_2107809_129852903134720_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 13.844377904379144, "train_rmse": 9.415021810544204, "train_rmse_clean": null, "nrmse": 0.5418937792039612, "train_time_s": 65.40971946716309}
+checkpoint directory created: ./model_ckpt_2107810_133443680392704_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 18.308480850125306, "train_rmse": 3.6065316643171172, "train_rmse_clean": null, "nrmse": 0.753629710301137, "train_time_s": 69.56396007537842}
+checkpoint directory created: ./model_ckpt_2107811_132564036396544_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 10.477983280999808, "train_rmse": 8.809990966288012, "train_rmse_clean": null, "nrmse": 0.38660098321827296, "train_time_s": 43.89847278594971}
+checkpoint directory created: ./model_ckpt_2107813_130386618250752_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 10.573539512258776, "train_rmse": 9.680889432888762, "train_rmse_clean": null, "nrmse": 0.4138687818429777, "train_time_s": 68.7848608493805}
+checkpoint directory created: ./model_ckpt_2107812_130243210483200_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 8.08932326701904, "train_rmse": 5.387238881667656, "train_rmse_clean": null, "nrmse": 0.3215039992670214, "train_time_s": 66.34854316711426}
+checkpoint directory created: ./model_ckpt_2107814_137510182143488_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 6.208665937635033, "train_rmse": 3.752863061516564, "train_rmse_clean": null, "nrmse": 0.24301831920492006, "train_time_s": 46.333707332611084}
+checkpoint directory created: ./model_ckpt_2107815_139056240899584_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.521814509385507, "train_rmse": 1.8816478592998749, "train_rmse_clean": null, "nrmse": 0.10380513564719906, "train_time_s": 58.633267879486084}
+checkpoint directory created: ./model_ckpt_2107816_131853377107456_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.1006077092125395, "train_rmse": 2.395822595013456, "train_rmse_clean": null, "nrmse": 0.11440159397174998, "train_time_s": 64.93268966674805}
+checkpoint directory created: ./model_ckpt_2107817_139473675294208_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.64599347607367, "train_rmse": 1.6858147322515293, "train_rmse_clean": null, "nrmse": 0.14271123466277197, "train_time_s": 40.848698139190674}
+checkpoint directory created: ./model_ckpt_2107818_140416756594176_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.874749710014612, "train_rmse": 1.5409467532476668, "train_rmse_clean": null, "nrmse": 0.07451050100220549, "train_time_s": 42.2443208694458}
+checkpoint directory created: ./model_ckpt_2107819_138762785469952_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.46000899703472, "train_rmse": 1.78206209789505, "train_rmse_clean": null, "nrmse": 0.09628916383864576, "train_time_s": 76.9739921092987}
+checkpoint directory created: ./model_ckpt_2107821_130142972016128_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.202271980916919, "train_rmse": 1.8356329879985651, "train_rmse_clean": null, "nrmse": 0.09065184646225684, "train_time_s": 58.00293469429016}
+checkpoint directory created: ./model_ckpt_2107820_126440021390848_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.029887671023829, "train_rmse": 2.4052730000137927, "train_rmse_clean": null, "nrmse": 0.11179227158940118, "train_time_s": 69.33943629264832}
+checkpoint directory created: ./model_ckpt_2107822_140413750715904_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.959909784040576, "train_rmse": 1.6335355251329275, "train_rmse_clean": null, "nrmse": 0.1549985259551799, "train_time_s": 69.9551944732666}
+checkpoint directory created: ./model_ckpt_2107823_123326287189504_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.0886533749956016, "train_rmse": 1.6829263024603733, "train_rmse_clean": null, "nrmse": 0.08301193943892206, "train_time_s": 44.942248821258545}
+checkpoint directory created: ./model_ckpt_2107824_136896236033536_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.705918908890453, "train_rmse": 1.8313046374591977, "train_rmse_clean": null, "nrmse": 0.10591451879497539, "train_time_s": 69.77494549751282}
+checkpoint directory created: ./model_ckpt_2107825_134878322746880_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.765919799719228, "train_rmse": 2.1787970817432267, "train_rmse_clean": null, "nrmse": 0.1138532112217445, "train_time_s": 63.255061626434326}
+checkpoint directory created: ./model_ckpt_2107826_126182719727104_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.559822674088167, "train_rmse": 2.6795016483754353, "train_rmse_clean": null, "nrmse": 0.13134502212661167, "train_time_s": 55.65816926956177}
+checkpoint directory created: ./model_ckpt_2108571_130258721244672_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.4142779933310408, "train_rmse": 1.8077305526958298, "train_rmse_clean": null, "nrmse": 0.1336414426157791, "train_time_s": 59.96454048156738}
+checkpoint directory created: ./model_ckpt_2108592_124568192243200_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.364692313189863, "train_rmse": 2.040881199930226, "train_rmse_clean": null, "nrmse": 0.09398289703987614, "train_time_s": 58.5169837474823}
+checkpoint directory created: ./model_ckpt_2108614_125895699629568_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.2395311788300205, "train_rmse": 2.6027032980000513, "train_rmse_clean": null, "nrmse": 0.12680106000212427, "train_time_s": 60.57019519805908}
+checkpoint directory created: ./model_ckpt_2108658_127797196895744_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 5.047328407648479, "train_rmse": 4.7762739145682644, "train_rmse_clean": null, "nrmse": 0.20776254877666644, "train_time_s": 61.44055676460266}
+checkpoint directory created: ./model_ckpt_2108660_131635606050304_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 4.396289607284302, "train_rmse": 3.962318158676112, "train_rmse_clean": null, "nrmse": 0.16220773016219298, "train_time_s": 56.68255066871643}
+checkpoint directory created: ./model_ckpt_2108691_129017607685632_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.548263761006183, "train_rmse": 3.2959315363291353, "train_rmse_clean": null, "nrmse": 0.13888590464173706, "train_time_s": 53.38010001182556}
+checkpoint directory created: ./model_ckpt_2108725_135564325025280_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 4.126972663869196, "train_rmse": 3.7210605481582206, "train_rmse_clean": null, "nrmse": 0.16402338891675505, "train_time_s": 55.221776247024536}
+checkpoint directory created: ./model_ckpt_2108732_131166893118976_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 6.075976498465025, "train_rmse": 5.251899922634038, "train_rmse_clean": null, "nrmse": 0.23782461659517365, "train_time_s": 53.27698469161987}
+checkpoint directory created: ./model_ckpt_2108755_128014214473216_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.4061447064119363, "train_rmse": 1.8038959600410465, "train_rmse_clean": null, "nrmse": 0.09904383399584085, "train_time_s": 96.58953142166138}
+checkpoint directory created: ./model_ckpt_2108773_140414345614848_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.479874251562336, "train_rmse": 1.9065227799800937, "train_rmse_clean": null, "nrmse": 0.09149869762153283, "train_time_s": 92.64535903930664}
+checkpoint directory created: ./model_ckpt_2108782_137503133214208_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.591007542967759, "train_rmse": 1.6194673855741115, "train_rmse_clean": null, "nrmse": 0.14055897891845298, "train_time_s": 97.91763973236084}
+checkpoint directory created: ./model_ckpt_2108783_136228510660096_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.8607709473235161, "train_rmse": 1.497777136792564, "train_rmse_clean": null, "nrmse": 0.07395492571343995, "train_time_s": 95.4429578781128}
+checkpoint directory created: ./model_ckpt_2108790_135423941469696_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.5652167609064236, "train_rmse": 1.8592364051398818, "train_rmse_clean": null, "nrmse": 0.10040718439253443, "train_time_s": 97.16689443588257}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 6.061850204235498, "train_rmse": 4.974111875555593, "train_rmse_clean": null, "nrmse": 0.2495231827645394, "train_time_s": 6.664855718612671}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 9.8633765593313, "train_rmse": 8.667992398331307, "train_rmse_clean": null, "nrmse": 0.36392414202494244, "train_time_s": 6.9899115562438965}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 5.91451743296318, "train_rmse": 5.479732785667579, "train_rmse_clean": null, "nrmse": 0.23150564882568897, "train_time_s": 8.67149567604065}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 6.058484172851138, "train_rmse": 6.017584165600681, "train_rmse_clean": null, "nrmse": 0.24078984443718218, "train_time_s": 5.349278926849365}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 6.143699816043863, "train_rmse": 5.4186397628805025, "train_rmse_clean": null, "nrmse": 0.24047542869785532, "train_time_s": 6.701958894729614}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 1.5353922179709087, "train_rmse": 1.3034553129346875, "train_rmse_clean": null, "nrmse": 0.06320115808079821, "train_time_s": 17.197863817214966, "p_values": [1.9871139526367188, 2.577796220779419, 1.8914364576339722, 1.9652719497680664, 3.43007230758667, 2.5182127952575684, 1.7860615253448486, 2.3484745025634766, 2.8492588996887207, 2.2119293212890625, 2.2229104042053223, 2.0455126762390137, 11.035656929016113, 7.948140621185303, 2.9758925437927246, 5.633864402770996, 3.7492964267730713, 2.3017354011535645], "p_mean": 3.4154798520935907}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 1.9887938183628648, "train_rmse": 1.5257972895747258, "train_rmse_clean": null, "nrmse": 0.07337954499237771, "train_time_s": 16.252739191055298, "p_values": [1.5909754037857056, 2.3670334815979004, 2.0439023971557617, 1.875680923461914, 1.7514863014221191, 1.9532692432403564, 2.5346250534057617, 1.6767523288726807, 2.1461031436920166, 2.9618616104125977, 2.6503283977508545, 3.1257801055908203, 1.942744493484497, 2.050036907196045, 2.770991086959839, 7.272289752960205, 1.3761355876922607, 1.7584750652313232], "p_mean": 2.4360261824395923}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 1.4838882008297816, "train_rmse": 1.3989254392031825, "train_rmse_clean": null, "nrmse": 0.0580822534740209, "train_time_s": 20.467161655426025, "p_values": [2.160731315612793, 1.984439492225647, 1.9223723411560059, 2.1865639686584473, 2.1243224143981934, 2.731074094772339, 2.0093588829040527, 2.170872688293457, 1.9815722703933716, 2.8698718547821045, 1.9489555358886719, 1.9570162296295166, 3.0040857791900635, 2.277451992034912, 4.402462005615234, 4.155695915222168, 3.1751606464385986, 6.563895225524902], "p_mean": 2.7569945918189154}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 1.2694324915675566, "train_rmse": 1.3043900363259695, "train_rmse_clean": null, "nrmse": 0.050452628652194555, "train_time_s": 20.547438383102417, "p_values": [1.6097105741500854, 2.0759220123291016, 2.1272974014282227, 2.0578651428222656, 3.730807304382324, 2.3298532962799072, 2.409109115600586, 2.006413459777832, 1.9557139873504639, 2.5264363288879395, 2.4814236164093018, 1.9971497058868408, 2.3673062324523926, 2.460639476776123, 2.6020092964172363, 6.442809581756592, 2.0226614475250244, 4.22967529296875], "p_mean": 2.635155737400055}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 1.6976066720303606, "train_rmse": 1.4461338045997536, "train_rmse_clean": null, "nrmse": 0.06644736957212134, "train_time_s": 15.853583812713623, "p_values": [2.222336530685425, 2.4934306144714355, 2.211883783340454, 2.4994759559631348, 1.8059535026550293, 2.329957962036133, 2.4092350006103516, 1.4282374382019043, 1.5236892700195312, 8.732027053833008, 2.364229202270508, 2.1371004581451416, 2.493360996246338, 1.8828952312469482, 2.026662826538086, 2.7678756713867188, 2.8847484588623047, 4.957974433898926], "p_mean": 2.7317263550228543}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 9.553767025790876, "train_rmse": 9.066638778075685, "train_rmse_clean": null, "nrmse": 0.39326051871103523, "train_time_s": 14.973810195922852, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 3.413284941192643, "train_rmse": 3.0008383415487145, "train_rmse_clean": null, "nrmse": 0.12593829164263437, "train_time_s": 18.90325927734375, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 3.149186297943345, "train_rmse": 2.866416551245976, "train_rmse_clean": null, "nrmse": 0.12326524106854926, "train_time_s": 15.52395248413086, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 5.475767206577871, "train_rmse": 5.572499112279559, "train_rmse_clean": null, "nrmse": 0.21763020191659846, "train_time_s": 17.055579900741577, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 5.681938864679978, "train_rmse": 5.45598374537667, "train_rmse_clean": null, "nrmse": 0.2224012769554182, "train_time_s": 9.867553234100342, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 2.2746442119286314, "train_rmse": 1.804977738140451, "train_rmse_clean": null, "nrmse": 0.09363089556729662, "train_time_s": 12.474178552627563, "p_values": [1.739121913909912, 2.118704080581665, 1.6617121696472168, 1.7648937702178955, 2.67919659614563, 1.612296223640442, 1.9685230255126953, 1.753006100654602, 1.661961317062378, 3.6416525840759277, 2.223259449005127, 2.0562376976013184, 2.2780251502990723, 2.002866268157959, 1.916849970817566, 4.302406311035156, 6.342955589294434, 1.6083669662475586], "p_mean": 2.4073352879948087}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 6.441757059611177, "train_rmse": 5.437412634878513, "train_rmse_clean": null, "nrmse": 0.23767833428545987, "train_time_s": 8.213703632354736, "p_values": [1.8125109672546387, 1.5117413997650146, 1.793492317199707, 1.8640193939208984, 1.3646960258483887, 2.414348840713501, 2.4301295280456543, 2.3620495796203613, 2.134824514389038, 2.0974483489990234, 1.8467280864715576, 1.6877210140228271, 1.9214823246002197, 2.0438714027404785, 3.081559896469116, 5.0133256912231445, 2.300257682800293, 1.4023033380508423], "p_mean": 2.1712505751185947}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 5.164889023622834, "train_rmse": 4.98004778993419, "train_rmse_clean": null, "nrmse": 0.20216374337871143, "train_time_s": 8.076303720474243, "p_values": [2.7807579040527344, 2.099691867828369, 3.22910475730896, 3.799118757247925, 7.261613368988037, 2.1713883876800537, 2.333697557449341, 2.402812957763672, 2.764618396759033, 2.1061887741088867, 2.862405300140381, 1.9573616981506348, 2.724886178970337, 3.2897870540618896, 2.949759006500244, 1.6273314952850342, 3.4896981716156006, 2.845252275466919], "p_mean": 2.9275263282987805}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 3.387190737712274, "train_rmse": 3.483948018532999, "train_rmse_clean": null, "nrmse": 0.13462131905330685, "train_time_s": 12.533527374267578, "p_values": [2.3340516090393066, 2.2116611003875732, 2.783977508544922, 2.3610317707061768, 2.075187921524048, 1.716312050819397, 2.765418291091919, 2.1667580604553223, 2.097712993621826, 3.7313265800476074, 1.7865345478057861, 1.5122207403182983, 2.231666326522827, 2.059713840484619, 3.835500478744507, 3.927327871322632, 1.3756787776947021, 6.827395439147949], "p_mean": 2.6555264393488565}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 2.778932712690221, "train_rmse": 2.377401458898703, "train_rmse_clean": null, "nrmse": 0.1087724100161185, "train_time_s": 15.665908575057983, "p_values": [3.1777408123016357, 3.0915305614471436, 2.1828227043151855, 2.2918357849121094, 2.4866390228271484, 2.311695098876953, 2.0761284828186035, 2.729889392852783, 2.5635833740234375, 3.776411294937134, 1.8099180459976196, 2.153149366378784, 2.0406901836395264, 1.8538005352020264, 3.797086000442505, 1.5022571086883545, 3.92215895652771, 8.122085571289062], "p_mean": 2.882745683193207}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 2.0458793081394333, "train_rmse": 1.0269505928203984, "train_rmse_clean": null, "nrmse": 0.08421427440789875, "train_time_s": 6.650341510772705}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 3.023480552566781, "train_rmse": 1.3529358100911821, "train_rmse_clean": null, "nrmse": 0.11155587129855682, "train_time_s": 5.979069471359253}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 2.5048805525044315, "train_rmse": 1.6379269777219463, "train_rmse_clean": null, "nrmse": 0.09804586834193522, "train_time_s": 5.5641443729400635}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 1.8890622531176575, "train_rmse": 0.9145125559311538, "train_rmse_clean": null, "nrmse": 0.07507934213951938, "train_time_s": 6.923830032348633}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 2.4523057267335844, "train_rmse": 1.0834948663056139, "train_rmse_clean": null, "nrmse": 0.09598764402428187, "train_time_s": 8.227039337158203}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 1.9772704590334627, "train_rmse": 1.5382445315029685, "train_rmse_clean": null, "nrmse": 0.08139013692215681, "train_time_s": 11.679654836654663}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 2.2729580470757753, "train_rmse": 2.0387791936040003, "train_rmse_clean": null, "nrmse": 0.08386421243931706, "train_time_s": 11.113024473190308}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 2.0068221405364284, "train_rmse": 1.713336517427706, "train_rmse_clean": null, "nrmse": 0.07855089903588015, "train_time_s": 9.596449613571167}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 1.763135687384107, "train_rmse": 1.7385614461424552, "train_rmse_clean": null, "nrmse": 0.07007448658350979, "train_time_s": 8.193315505981445}
+{"experiment": "baseline", "eq_id": "I.12.11", "eq_name": "Lorentz force", "eq_type": "trigonometric", "n_vars": 5, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 2.1219120681664663, "train_rmse": 1.7282475472811711, "train_rmse_clean": null, "nrmse": 0.08305544371145114, "train_time_s": 8.09178876876831}

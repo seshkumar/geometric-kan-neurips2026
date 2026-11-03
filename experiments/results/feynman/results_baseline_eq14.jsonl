@@ -1,0 +1,210 @@
+checkpoint directory created: ./model_ckpt_2110945_127211599468032_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.6857317895005153, "train_rmse": 0.37948409807199823, "train_rmse_clean": null, "nrmse": 0.03691888602172698, "train_time_s": 36.17904448509216}
+checkpoint directory created: ./model_ckpt_2110946_132396969731584_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.1438958191806705, "train_rmse": 1.7046365041057925, "train_rmse_clean": null, "nrmse": 0.16440120342084294, "train_time_s": 43.60685610771179}
+checkpoint directory created: ./model_ckpt_2110948_136803456259584_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.6158087873836848, "train_rmse": 0.429373492315392, "train_rmse_clean": null, "nrmse": 0.029662197739909354, "train_time_s": 33.82951021194458}
+checkpoint directory created: ./model_ckpt_2110947_134351907010048_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.4408298754378421, "train_rmse": 1.329904658710504, "train_rmse_clean": null, "nrmse": 0.07680229783039431, "train_time_s": 43.143548250198364}
+checkpoint directory created: ./model_ckpt_2110950_124663187236352_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.3471163448843981, "train_rmse": 0.677772435074445, "train_rmse_clean": null, "nrmse": 0.07020561027315192, "train_time_s": 43.70616316795349}
+checkpoint directory created: ./model_ckpt_2110949_133260244121088_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 1.0754205647750226, "train_rmse": 0.7920618722354291, "train_rmse_clean": null, "nrmse": 0.057899210543046406, "train_time_s": 44.77342176437378}
+checkpoint directory created: ./model_ckpt_2110952_135355137021440_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 4.643186050206964, "train_rmse": 1.5564695540222715, "train_rmse_clean": null, "nrmse": 0.24280237586238798, "train_time_s": 42.75633883476257}
+checkpoint directory created: ./model_ckpt_2110951_138721879492096_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 1.007218053753114, "train_rmse": 0.7290087453244141, "train_rmse_clean": null, "nrmse": 0.048515548478227276, "train_time_s": 40.49056911468506}
+checkpoint directory created: ./model_ckpt_2110953_139114234205696_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 0.938851951589875, "train_rmse": 0.8182712206935676, "train_rmse_clean": null, "nrmse": 0.05004476131003379, "train_time_s": 25.718263864517212}
+checkpoint directory created: ./model_ckpt_2110954_130137955591680_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 1.3923859976649169, "train_rmse": 0.7906577205855285, "train_rmse_clean": null, "nrmse": 0.07256485980076621, "train_time_s": 33.07526230812073}
+checkpoint directory created: ./model_ckpt_2110955_139431707026944_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 1.7601589736273269, "train_rmse": 1.1289037135580031, "train_rmse_clean": null, "nrmse": 0.0947646142740454, "train_time_s": 40.068042516708374}
+checkpoint directory created: ./model_ckpt_2110956_124509164783104_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 2.0368208557174228, "train_rmse": 0.9797554193537508, "train_rmse_clean": null, "nrmse": 0.1065098270081615, "train_time_s": 40.398401737213135}
+checkpoint directory created: ./model_ckpt_2110957_134369759790592_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 2.0645612601841066, "train_rmse": 1.2166537910784285, "train_rmse_clean": null, "nrmse": 0.09944551880449487, "train_time_s": 42.39647889137268}
+checkpoint directory created: ./model_ckpt_2110958_140598650959360_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 13.272491308553867, "train_rmse": 4.664170096738758, "train_rmse_clean": null, "nrmse": 0.7074796600265592, "train_time_s": 40.963719844818115}
+checkpoint directory created: ./model_ckpt_2110959_131704162514432_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 2.0380203967552006, "train_rmse": 1.2045122952132488, "train_rmse_clean": null, "nrmse": 0.10621240418221517, "train_time_s": 47.413357734680176}
+checkpoint directory created: ./model_ckpt_2110960_139287217870336_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 10.470981615043002, "train_rmse": 3.6621196859165934, "train_rmse_clean": null, "nrmse": 0.5637437008177097, "train_time_s": 32.2808051109314}
+checkpoint directory created: ./model_ckpt_2110961_125974999377408_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 6.978986190471346, "train_rmse": 4.414554132052501, "train_rmse_clean": null, "nrmse": 0.3649464849856077, "train_time_s": 49.28368377685547}
+checkpoint directory created: ./model_ckpt_2110962_135494995830272_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 13.996678179024002, "train_rmse": 7.469791549192337, "train_rmse_clean": null, "nrmse": 0.6741901777855076, "train_time_s": 51.95642042160034}
+checkpoint directory created: ./model_ckpt_2110963_130981131621888_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 4.855770379511085, "train_rmse": 2.382283417501199, "train_rmse_clean": null, "nrmse": 0.25883300259157194, "train_time_s": 49.65834856033325}
+checkpoint directory created: ./model_ckpt_2110964_126197344933376_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 12.72324106347196, "train_rmse": 7.57788412584614, "train_rmse_clean": null, "nrmse": 0.6630777712003252, "train_time_s": 49.85519242286682}
+checkpoint directory created: ./model_ckpt_2110965_127143238915584_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.0544103878090354, "train_rmse": 0.5819850604711903, "train_rmse_clean": null, "nrmse": 0.05676805060474372, "train_time_s": 51.507548570632935}
+checkpoint directory created: ./model_ckpt_2110966_131763306235392_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.9483211232688689, "train_rmse": 0.41549181323298967, "train_rmse_clean": null, "nrmse": 0.04958979013987746, "train_time_s": 53.900799036026}
+checkpoint directory created: ./model_ckpt_2110967_136225534805504_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.6026262401654492, "train_rmse": 0.6245646782628995, "train_rmse_clean": null, "nrmse": 0.07719509271850716, "train_time_s": 52.558276891708374}
+checkpoint directory created: ./model_ckpt_2110968_132167299876352_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.2571960070517392, "train_rmse": 1.0878087129406566, "train_rmse_clean": null, "nrmse": 0.06701383960089577, "train_time_s": 52.172821283340454}
+checkpoint directory created: ./model_ckpt_2110971_127664451700224_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.3770514936077802, "train_rmse": 0.5810878079152246, "train_rmse_clean": null, "nrmse": 0.07176569481427071, "train_time_s": 47.76589250564575}
+checkpoint directory created: ./model_ckpt_2110969_131088226878976_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.1377964796815974, "train_rmse": 0.6515348193165451, "train_rmse_clean": null, "nrmse": 0.06125744670505103, "train_time_s": 52.861382722854614}
+checkpoint directory created: ./model_ckpt_2110970_135535003985408_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.0725065914229788, "train_rmse": 0.5058770730897066, "train_rmse_clean": null, "nrmse": 0.05608372046904374, "train_time_s": 51.75607681274414}
+checkpoint directory created: ./model_ckpt_2110974_123938684728832_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.8791217684306645, "train_rmse": 0.8035856549095257, "train_rmse_clean": null, "nrmse": 0.09051329343540196, "train_time_s": 42.645663022994995}
+checkpoint directory created: ./model_ckpt_2110972_136498019304960_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.9160615238087289, "train_rmse": 0.6497245930438993, "train_rmse_clean": null, "nrmse": 0.04882993556830784, "train_time_s": 51.23029065132141}
+checkpoint directory created: ./model_ckpt_2110973_137759328728576_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.2995753472357023, "train_rmse": 0.5730284069938847, "train_rmse_clean": null, "nrmse": 0.06772798852533801, "train_time_s": 54.11601257324219}
+checkpoint directory created: ./model_ckpt_2110975_129412223849984_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.5534177673151817, "train_rmse": 1.8299497101203457, "train_rmse_clean": null, "nrmse": 0.13747261095482716, "train_time_s": 52.52441191673279}
+checkpoint directory created: ./model_ckpt_2110976_140686917879296_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.241918377376237, "train_rmse": 0.6581987713607873, "train_rmse_clean": null, "nrmse": 0.0649426340864957, "train_time_s": 48.09687399864197}
+checkpoint directory created: ./model_ckpt_2113676_137727707407872_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.8590769064512784, "train_rmse": 0.8042938834610993, "train_rmse_clean": null, "nrmse": 0.08954777512536316, "train_time_s": 50.70254445075989}
+checkpoint directory created: ./model_ckpt_2113747_132564517688832_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.5101022683307548, "train_rmse": 1.1715271576791082, "train_rmse_clean": null, "nrmse": 0.08049480798796503, "train_time_s": 49.34967565536499}
+checkpoint directory created: ./model_ckpt_2113761_135181034788352_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.6901675032343633, "train_rmse": 0.6878777481916813, "train_rmse_clean": null, "nrmse": 0.08808388486935076, "train_time_s": 48.92872452735901}
+checkpoint directory created: ./model_ckpt_2113782_134326857844224_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 4.38762935537622, "train_rmse": 3.3059423142239837, "train_rmse_clean": null, "nrmse": 0.23622411933783674, "train_time_s": 49.627904176712036}
+checkpoint directory created: ./model_ckpt_2113801_124022776002048_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 3.4069130507567706, "train_rmse": 2.0117598899601603, "train_rmse_clean": null, "nrmse": 0.17815495096162443, "train_time_s": 49.40971302986145}
+checkpoint directory created: ./model_ckpt_2113832_130011160831488_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 4.15408997696008, "train_rmse": 2.724395868016842, "train_rmse_clean": null, "nrmse": 0.20009366681737928, "train_time_s": 47.982842206954956}
+checkpoint directory created: ./model_ckpt_2113847_134756275521024_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.893569346211592, "train_rmse": 2.7272311982642066, "train_rmse_clean": null, "nrmse": 0.1542394272280824, "train_time_s": 48.7241051197052}
+checkpoint directory created: ./model_ckpt_2113848_131945864799744_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 2.9950149332967158, "train_rmse": 1.7309603827148976, "train_rmse_clean": null, "nrmse": 0.1560866305035763, "train_time_s": 48.08492612838745}
+checkpoint directory created: ./model_ckpt_2113854_132275881625088_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.9004153775823838, "train_rmse": 0.5329613377180635, "train_rmse_clean": null, "nrmse": 0.04847716440474181, "train_time_s": 87.11909532546997}
+checkpoint directory created: ./model_ckpt_2113874_132255893317120_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.9058018115556905, "train_rmse": 0.38806148953263886, "train_rmse_clean": null, "nrmse": 0.04736636213325408, "train_time_s": 86.62322664260864}
+checkpoint directory created: ./model_ckpt_2113875_134623992153600_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.4455861963749612, "train_rmse": 0.6738809438369842, "train_rmse_clean": null, "nrmse": 0.06963080827270048, "train_time_s": 87.27551698684692}
+checkpoint directory created: ./model_ckpt_2113877_123499950724608_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.2553374974432998, "train_rmse": 1.0957575942173676, "train_rmse_clean": null, "nrmse": 0.0669147732149877, "train_time_s": 88.05851173400879}
+checkpoint directory created: ./model_ckpt_2113878_139936261510656_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.9109963436635553, "train_rmse": 1.4508621932845358, "train_rmse_clean": null, "nrmse": 0.09959248512286066, "train_time_s": 87.6351249217987}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 5.572409426099284, "train_rmse": 4.008884123819001, "train_rmse_clean": null, "nrmse": 0.3000110999934938, "train_time_s": 6.149322509765625}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 7.838787900264265, "train_rmse": 6.208537961676257, "train_rmse_clean": null, "nrmse": 0.40990740097107825, "train_time_s": 7.070217609405518}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 8.46854889345525, "train_rmse": 7.230710723551681, "train_rmse_clean": null, "nrmse": 0.407911963898707, "train_time_s": 5.804274797439575}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 3.631428420603271, "train_rmse": 3.149814203760485, "train_rmse_clean": null, "nrmse": 0.19357042206261693, "train_time_s": 6.751244306564331}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 3.8358677891621937, "train_rmse": 2.3685093916346887, "train_rmse_clean": null, "nrmse": 0.19990807778994588, "train_time_s": 7.118379354476929}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 2.1781505665697125, "train_rmse": 1.277611316042055, "train_rmse_clean": null, "nrmse": 0.11726872479387486, "train_time_s": 13.853056907653809, "p_values": [1.8128819465637207, 1.9807634353637695, 2.148770809173584, 2.407750129699707, 3.000751256942749, 1.6752126216888428, 2.0657639503479004, 2.1571364402770996, 1.6744822263717651, 2.3183646202087402, 2.0828962326049805, 2.077930450439453, 2.5274112224578857, 2.4266042709350586, 2.676302671432495, 4.785340309143066, 1.5173003673553467, 1.7738207578659058], "p_mean": 2.283860206604004}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 0.921501229139821, "train_rmse": 0.639586540559506, "train_rmse_clean": null, "nrmse": 0.0481873190899353, "train_time_s": 15.152781248092651, "p_values": [2.3627023696899414, 2.258725166320801, 2.5191311836242676, 2.07222318649292, 3.001239776611328, 1.7340142726898193, 1.4616427421569824, 2.1321253776550293, 1.9924606084823608, 3.236299514770508, 1.8471295833587646, 1.8280720710754395, 1.8294934034347534, 2.165339708328247, 1.8778045177459717, 5.179483413696289, 6.038598537445068, 2.906679630279541], "p_mean": 2.580175836881002}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 1.1906768687856797, "train_rmse": 0.9416575065906372, "train_rmse_clean": null, "nrmse": 0.05735236886811701, "train_time_s": 14.309112310409546, "p_values": [1.5908488035202026, 2.238600015640259, 1.9545929431915283, 2.0301222801208496, 2.422246217727661, 2.1814093589782715, 2.242292881011963, 2.160853624343872, 2.2120590209960938, 2.4258174896240234, 1.5487546920776367, 1.533076524734497, 3.4103827476501465, 2.3250746726989746, 3.314885139465332, 1.6155662536621094, 2.0316905975341797, 7.911330699920654], "p_mean": 2.5083113312721252}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 1.0516035338915444, "train_rmse": 0.9082423721624977, "train_rmse_clean": null, "nrmse": 0.056054895297677224, "train_time_s": 14.340879678726196, "p_values": [2.5613112449645996, 2.096827983856201, 3.1247613430023193, 2.3840627670288086, 2.005991220474243, 2.211732864379883, 2.110200881958008, 1.6116455793380737, 1.9962022304534912, 2.6283698081970215, 2.413724422454834, 1.7938343286514282, 2.0804824829101562, 2.3928167819976807, 2.3033199310302734, 2.5610451698303223, 5.597774505615234, 3.822126865386963], "p_mean": 2.5386794673071966}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 2.4678408409328085, "train_rmse": 2.1672301649518886, "train_rmse_clean": null, "nrmse": 0.12861270145865844, "train_time_s": 13.925864219665527, "p_values": [1.9808480739593506, 3.3470816612243652, 1.8283154964447021, 5.591968536376953, 3.511603832244873, 2.1349925994873047, 3.6316494941711426, 1.4188461303710938, 1.9006750583648682, 2.31722354888916, 1.8621494770050049, 1.947796106338501, 2.003048896789551, 2.0044960975646973, 2.0200369358062744, 1.2727364301681519, 6.9184041023254395, 1.4132843017578125], "p_mean": 2.6169531544049582}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 2.429173132703113, "train_rmse": 1.5028394035212074, "train_rmse_clean": null, "nrmse": 0.13078344534476377, "train_time_s": 10.206363916397095, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 6.384186453067059, "train_rmse": 5.750920854348919, "train_rmse_clean": null, "nrmse": 0.33384310298831554, "train_time_s": 13.778573274612427, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 2.4166273596779604, "train_rmse": 1.3010662154421766, "train_rmse_clean": null, "nrmse": 0.11640379298741695, "train_time_s": 10.179969549179077, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 6.091923809861214, "train_rmse": 5.5377865001020155, "train_rmse_clean": null, "nrmse": 0.32472518427121944, "train_time_s": 13.727404594421387, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 2.698170426790057, "train_rmse": 1.5919931338111155, "train_rmse_clean": null, "nrmse": 0.1406164375876697, "train_time_s": 13.559012413024902, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 1.522445029083812, "train_rmse": 1.222609049244383, "train_rmse_clean": null, "nrmse": 0.08196641217994435, "train_time_s": 11.192265272140503, "p_values": [1.5974915027618408, 1.7326273918151855, 1.685499668121338, 1.6019237041473389, 1.8116673231124878, 2.201218605041504, 6.481506824493408, 1.8633003234863281, 2.360921859741211, 2.6530003547668457, 1.692132830619812, 1.6890060901641846, 1.7347376346588135, 1.6615451574325562, 1.5431522130966187, 6.275292873382568, 2.757842540740967, 6.960257530212402], "p_mean": 2.6835069126553006}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 2.0743217786548485, "train_rmse": 1.7781515339633813, "train_rmse_clean": null, "nrmse": 0.10847083246600513, "train_time_s": 10.098607540130615, "p_values": [2.1236982345581055, 2.5763745307922363, 2.741453170776367, 2.1094138622283936, 2.1693103313446045, 1.8608558177947998, 1.9155375957489014, 1.9950523376464844, 2.0700511932373047, 1.866342544555664, 1.798177719116211, 1.9461214542388916, 2.063141107559204, 2.0990757942199707, 1.8978890180587769, 3.14096999168396, 4.92873477935791, 6.1843342781066895], "p_mean": 2.5270296533902488}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 1.1991341811420568, "train_rmse": 1.2851962832310448, "train_rmse_clean": null, "nrmse": 0.057759739591956225, "train_time_s": 8.408205509185791, "p_values": [1.5773347616195679, 1.73842191696167, 1.544251799583435, 1.6875555515289307, 1.7891669273376465, 2.8763723373413086, 3.8108463287353516, 5.244107723236084, 1.9506292343139648, 2.3801403045654297, 1.441246747970581, 1.6326557397842407, 1.512927770614624, 1.7457852363586426, 1.6451239585876465, 8.1196870803833, 3.002098798751831, 6.326019763946533], "p_mean": 2.7791317767567105}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 1.5329669811285243, "train_rmse": 1.4210902087120587, "train_rmse_clean": null, "nrmse": 0.08171359343379504, "train_time_s": 10.331691026687622, "p_values": [1.544147253036499, 1.8165525197982788, 1.8396410942077637, 1.7934904098510742, 1.9176392555236816, 1.5364302396774292, 1.6699433326721191, 1.6964130401611328, 2.099581718444824, 1.829192876815796, 2.53012752532959, 2.162626266479492, 2.1776411533355713, 3.395408868789673, 6.422584056854248, 5.411291122436523, 6.266573905944824, 2.2580013275146484], "p_mean": 2.687071442604065}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 5.223474691179945, "train_rmse": 3.566161757154532, "train_rmse_clean": null, "nrmse": 0.2722238727436132, "train_time_s": 10.3561429977417, "p_values": [1.7429630756378174, 2.0941381454467773, 2.1113827228546143, 2.165773868560791, 2.2341597080230713, 2.3199944496154785, 2.010392189025879, 2.255354404449463, 2.43764066696167, 2.287142038345337, 1.9164059162139893, 2.0619359016418457, 2.038442611694336, 2.164072036743164, 1.5033001899719238, 2.777493953704834, 1.5268977880477905, 1.6156842708587646], "p_mean": 2.0701763298776417}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 2.1488098106546403, "train_rmse": 0.7398143507938642, "train_rmse_clean": null, "nrmse": 0.11568905758286678, "train_time_s": 5.80018949508667}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 1.8503756526411905, "train_rmse": 0.817795711574675, "train_rmse_clean": null, "nrmse": 0.09676019867417802, "train_time_s": 5.662644624710083}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 2.0007149362895262, "train_rmse": 0.757407897884427, "train_rmse_clean": null, "nrmse": 0.09637017736226991, "train_time_s": 5.427075624465942}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 1.3099275260102559, "train_rmse": 0.48574614786835113, "train_rmse_clean": null, "nrmse": 0.06982465154555398, "train_time_s": 5.461730003356934}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 1.6518115297647569, "train_rmse": 0.5480242851430859, "train_rmse_clean": null, "nrmse": 0.08608494503369342, "train_time_s": 6.976030588150024}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 2.4367637170969374, "train_rmse": 1.3208374042427096, "train_rmse_clean": null, "nrmse": 0.13119211229642722, "train_time_s": 9.81221628189087}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 1.6104260818639204, "train_rmse": 1.1027582324848595, "train_rmse_clean": null, "nrmse": 0.08421270967806414, "train_time_s": 9.383684158325195}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 2.197546937874037, "train_rmse": 1.1873747808579935, "train_rmse_clean": null, "nrmse": 0.10585115566618003, "train_time_s": 8.247322797775269}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 1.6437693122900612, "train_rmse": 1.267273315543875, "train_rmse_clean": null, "nrmse": 0.08761982412989602, "train_time_s": 8.230390071868896}
+{"experiment": "baseline", "eq_id": "I.44.4", "eq_name": "Entropy change", "eq_type": "logarithmic", "n_vars": 5, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 2.306352656303943, "train_rmse": 1.3981661606868556, "train_rmse_clean": null, "nrmse": 0.12019666776058477, "train_time_s": 8.230995416641235}

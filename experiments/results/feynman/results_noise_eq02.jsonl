@@ -1,0 +1,1050 @@
+checkpoint directory created: ./model_ckpt_2092241_139377443272192_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0008132950885170881, "train_rmse": 0.0006846930423591233, "train_rmse_clean": null, "nrmse": 0.0010378332362894606, "train_time_s": 21.59596824645996}
+checkpoint directory created: ./model_ckpt_2092847_129499926435328_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0006890676051689304, "train_rmse": 0.0005917833307230759, "train_rmse_clean": null, "nrmse": 0.0008583522733777208, "train_time_s": 28.672478437423706}
+checkpoint directory created: ./model_ckpt_2093608_131676548937216_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0012466167907356218, "train_rmse": 0.0009888715155209615, "train_rmse_clean": null, "nrmse": 0.001597555766329807, "train_time_s": 26.06683325767517}
+checkpoint directory created: ./model_ckpt_2092243_140043587663360_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.010843766432784119, "train_rmse": 0.010022480689918234, "train_rmse_clean": null, "nrmse": 0.014338478887548245, "train_time_s": 22.535866498947144}
+checkpoint directory created: ./model_ckpt_2092853_134422276646400_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.001198959893107726, "train_rmse": 0.0010759713487047962, "train_rmse_clean": null, "nrmse": 0.0015836199816049458, "train_time_s": 29.222989320755005}
+checkpoint directory created: ./model_ckpt_2093620_134993974146560_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.0008139138380846775, "train_rmse": 0.0004139426254009919, "train_rmse_clean": null, "nrmse": 0.0010386228130067562, "train_time_s": 32.870564460754395}
+checkpoint directory created: ./model_ckpt_2092242_131067650577920_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.0005379498194057857, "train_rmse": 0.00040484446216931813, "train_rmse_clean": null, "nrmse": 0.0006701090676536574, "train_time_s": 32.19631218910217}
+checkpoint directory created: ./model_ckpt_2092976_135683867690496_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.0017013490024431754, "train_rmse": 0.0011775183721735374, "train_rmse_clean": null, "nrmse": 0.0021803010593084366, "train_time_s": 28.250714778900146}
+checkpoint directory created: ./model_ckpt_2093712_136051271439872_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.0019757107908027483, "train_rmse": 0.0015553078799790607, "train_rmse_clean": null, "nrmse": 0.002612439841583079, "train_time_s": 31.98309063911438}
+checkpoint directory created: ./model_ckpt_2092244_126143966299648_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.0008985561152250465, "train_rmse": 0.0008477506085102504, "train_rmse_clean": null, "nrmse": 0.0011868382143920859, "train_time_s": 33.275490045547485}
+checkpoint directory created: ./model_ckpt_2093003_134927315363328_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.0038283710775782742, "train_rmse": 0.0006832952943839656, "train_rmse_clean": null, "nrmse": 0.004885324897761938, "train_time_s": 39.43343687057495}
+checkpoint directory created: ./model_ckpt_2093946_140653072655872_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.0013568771125960222, "train_rmse": 0.0006435598854037487, "train_rmse_clean": null, "nrmse": 0.0016902239280360061, "train_time_s": 40.76651191711426}
+checkpoint directory created: ./model_ckpt_2092246_135119819236864_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.0033379142455055577, "train_rmse": 0.002313344229442113, "train_rmse_clean": null, "nrmse": 0.00427758088135098, "train_time_s": 38.09851026535034}
+checkpoint directory created: ./model_ckpt_2093163_125596249773568_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.20035351748578556, "train_rmse": 0.1409474264257602, "train_rmse_clean": null, "nrmse": 0.2649231425559566, "train_time_s": 22.24253225326538}
+checkpoint directory created: ./model_ckpt_2093722_135341714994688_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.005546897732402578, "train_rmse": 0.0028095303238167557, "train_rmse_clean": null, "nrmse": 0.007326498688945413, "train_time_s": 46.85244345664978}
+checkpoint directory created: ./model_ckpt_2092245_126381526631936_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.004555122999703454, "train_rmse": 0.0010809277972483045, "train_rmse_clean": null, "nrmse": 0.005812721742975905, "train_time_s": 44.161152601242065}
+checkpoint directory created: ./model_ckpt_2093318_124502657951232_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.006295545208688524, "train_rmse": 0.0023781676287096265, "train_rmse_clean": null, "nrmse": 0.00784218486182532, "train_time_s": 55.82960867881775}
+checkpoint directory created: ./model_ckpt_2096471_133840477120000_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.004286076568509656, "train_rmse": 0.0030058464522199346, "train_rmse_clean": null, "nrmse": 0.005492663333142777, "train_time_s": 28.383288383483887}
+checkpoint directory created: ./model_ckpt_2092248_132560777934336_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.004095113345791324, "train_rmse": 0.0013646866047671777, "train_rmse_clean": null, "nrmse": 0.005414880209262334, "train_time_s": 45.53554821014404}
+checkpoint directory created: ./model_ckpt_2093341_135819744007680_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.007969963882632936, "train_rmse": 0.005220194332925865, "train_rmse_clean": null, "nrmse": 0.010526952677701642, "train_time_s": 53.054442405700684}
+checkpoint directory created: ./model_ckpt_2096460_124966649882112_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.003837988645817997, "train_rmse": 0.0028181868343443023, "train_rmse_clean": null, "nrmse": 0.004897597727282728, "train_time_s": 38.51762580871582}
+checkpoint directory created: ./model_ckpt_2092247_136815834498560_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.004342844843659155, "train_rmse": 0.004139323007167073, "train_rmse_clean": null, "nrmse": 0.005409760546742979, "train_time_s": 39.032559871673584}
+checkpoint directory created: ./model_ckpt_2093227_137045975074304_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0064660516308151506, "train_rmse": 0.0038374788711021957, "train_rmse_clean": null, "nrmse": 0.008286329965200767, "train_time_s": 49.42127013206482}
+checkpoint directory created: ./model_ckpt_2096315_137621902001664_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.004180715379203309, "train_rmse": 0.0033131596950479736, "train_rmse_clean": null, "nrmse": 0.005528069935029401, "train_time_s": 41.7284197807312}
+checkpoint directory created: ./model_ckpt_2092250_128004325205504_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.002529485742983617, "train_rmse": 0.0022053810642616023, "train_rmse_clean": null, "nrmse": 0.0033410159829372825, "train_time_s": 40.2816596031189}
+checkpoint directory created: ./model_ckpt_2093255_125280874751488_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.004296863243424404, "train_rmse": 0.003543527863253404, "train_rmse_clean": null, "nrmse": 0.005483160477395014, "train_time_s": 49.24828267097473}
+checkpoint directory created: ./model_ckpt_2096328_124638424438272_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0035771637565094883, "train_rmse": 0.003264251453639899, "train_rmse_clean": null, "nrmse": 0.004455972998312056, "train_time_s": 42.99059534072876}
+checkpoint directory created: ./model_ckpt_2092249_124471842993664_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0044034211242243715, "train_rmse": 0.0020634329330945084, "train_rmse_clean": null, "nrmse": 0.005643041920229537, "train_time_s": 39.332825899124146}
+checkpoint directory created: ./model_ckpt_2093231_139699392144896_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0038560515452477073, "train_rmse": 0.0033616159601120577, "train_rmse_clean": null, "nrmse": 0.005098773937409167, "train_time_s": 42.42936706542969}
+checkpoint directory created: ./model_ckpt_2096193_127215335863808_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0032488684035326676, "train_rmse": 0.003042788299803756, "train_rmse_clean": null, "nrmse": 0.0042911968540527475, "train_time_s": 43.040608167648315}
+checkpoint directory created: ./model_ckpt_2092252_128946381403648_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.013081281365518449, "train_rmse": 0.011333794012066134, "train_rmse_clean": null, "nrmse": 0.016692820067489903, "train_time_s": 39.326637506484985}
+checkpoint directory created: ./model_ckpt_2093244_135057545266688_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.012193005760940956, "train_rmse": 0.011629297755376411, "train_rmse_clean": null, "nrmse": 0.015188486783739484, "train_time_s": 50.8397490978241}
+checkpoint directory created: ./model_ckpt_2096336_139726515430912_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.009777059340979055, "train_rmse": 0.00614248647562049, "train_rmse_clean": null, "nrmse": 0.012529429768640346, "train_time_s": 44.583892822265625}
+checkpoint directory created: ./model_ckpt_2092253_137761689032192_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.006370973712168826, "train_rmse": 0.005783664712030651, "train_rmse_clean": null, "nrmse": 0.008424201372401158, "train_time_s": 39.57324409484863}
+checkpoint directory created: ./model_ckpt_2093245_139871077877248_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.006228280938390007, "train_rmse": 0.005774490290760159, "train_rmse_clean": null, "nrmse": 0.008226488810662335, "train_time_s": 45.68214416503906}
+checkpoint directory created: ./model_ckpt_2096227_129486126753280_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.025806945187886177, "train_rmse": 0.02224984545689701, "train_rmse_clean": null, "nrmse": 0.032931842109023, "train_time_s": 43.16408085823059}
+checkpoint directory created: ./model_ckpt_2092251_139108767708672_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.02608678907985995, "train_rmse": 0.024926951102816064, "train_rmse_clean": null, "nrmse": 0.0324955846768234, "train_time_s": 39.353123903274536}
+checkpoint directory created: ./model_ckpt_2093230_136332632253952_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.029264876226399394, "train_rmse": 0.022676138561787296, "train_rmse_clean": null, "nrmse": 0.037503322684129876, "train_time_s": 50.48253631591797}
+checkpoint directory created: ./model_ckpt_2096329_125923481703936_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.015757918487270484, "train_rmse": 0.014935183190006196, "train_rmse_clean": null, "nrmse": 0.020836356347397195, "train_time_s": 41.41825866699219}
+checkpoint directory created: ./model_ckpt_2092255_126416031532544_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.024639857345040816, "train_rmse": 0.03216231566616301, "train_rmse_clean": null, "nrmse": 0.032545017276900755, "train_time_s": 41.0533709526062}
+checkpoint directory created: ./model_ckpt_2093263_133631537448448_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0016828453014976902, "train_rmse": 0.001308986560351541, "train_rmse_clean": null, "nrmse": 0.0021474527635625394, "train_time_s": 80.37344932556152}
+checkpoint directory created: ./model_ckpt_2096892_128198640621056_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0036499365519533644, "train_rmse": 0.003438989646693813, "train_rmse_clean": null, "nrmse": 0.004546624037398401, "train_time_s": 77.93350863456726}
+checkpoint directory created: ./model_ckpt_2092254_125841037551104_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.004163837016229466, "train_rmse": 0.0024227678132640873, "train_rmse_clean": null, "nrmse": 0.005336011743760963, "train_time_s": 81.26827907562256}
+checkpoint directory created: ./model_ckpt_2094032_140541193078272_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0038236025879843927, "train_rmse": 0.0026255318243720432, "train_rmse_clean": null, "nrmse": 0.005055867379846627, "train_time_s": 79.31782484054565}
+checkpoint directory created: ./model_ckpt_2097639_128479924028928_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0021141068023077803, "train_rmse": 0.001929043143236886, "train_rmse_clean": null, "nrmse": 0.002792371783766354, "train_time_s": 88.8734860420227}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.012080160919772931, "train_rmse": 0.006133941876457494, "train_rmse_clean": null, "nrmse": 0.015415305808774706, "train_time_s": 5.679264783859253}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.007490069936878785, "train_rmse": 0.006972051787547395, "train_rmse_clean": null, "nrmse": 0.009330170958337066, "train_time_s": 5.639602422714233}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.011880923478693683, "train_rmse": 0.007966672465135327, "train_rmse_clean": null, "nrmse": 0.015225559252663386, "train_time_s": 5.866708278656006}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.010628623778836277, "train_rmse": 0.012917533882354726, "train_rmse_clean": null, "nrmse": 0.014054000388258934, "train_time_s": 5.809476375579834}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.010217536408052785, "train_rmse": 0.01052201223172955, "train_rmse_clean": null, "nrmse": 0.013495609746067283, "train_time_s": 6.019023656845093}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.019954445469440585, "train_rmse": 0.014857792004073778, "train_rmse_clean": null, "nrmse": 0.025463558076652473, "train_time_s": 10.81805968284607, "p_values": [2.307926654815674, 2.7129316329956055, 2.737071990966797, 2.196180820465088, 3.156513214111328, 2.467137336730957, 1.854763150215149, 3.141291379928589, 3.2326221466064453, 2.6526503562927246, 2.347141742706299, 2.4416580200195312, 2.6986327171325684, 2.493594169616699, 2.1364147663116455], "p_mean": 2.5717686732610066}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.005874786258639603, "train_rmse": 0.004502343330734654, "train_rmse_clean": null, "nrmse": 0.0073180571875458515, "train_time_s": 10.926819324493408, "p_values": [2.124739646911621, 2.416001319885254, 2.079514741897583, 2.8581173419952393, 2.2998294830322266, 2.5180280208587646, 2.1662044525146484, 2.4899327754974365, 2.474076509475708, 3.17608380317688, 3.975477695465088, 2.3765339851379395, 2.325800895690918, 3.119753360748291, 2.226888656616211], "p_mean": 2.5751321792602537}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.00607663966500932, "train_rmse": 0.004500265800012504, "train_rmse_clean": null, "nrmse": 0.00778729342400046, "train_time_s": 11.00822377204895, "p_values": [2.3054819107055664, 2.012192726135254, 2.069571018218994, 2.344149112701416, 2.072251319885254, 3.4686083793640137, 2.579238176345825, 2.306530475616455, 2.984428882598877, 2.6829190254211426, 3.0508365631103516, 2.7150630950927734, 2.4051685333251953, 1.9574514627456665, 2.4709088802337646], "p_mean": 2.49498663743337}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.007083849425179811, "train_rmse": 0.0076524899784833345, "train_rmse_clean": null, "nrmse": 0.009366821579486302, "train_time_s": 11.314250469207764, "p_values": [2.1980483531951904, 2.1974174976348877, 2.477153778076172, 2.289924144744873, 2.1704530715942383, 1.9849839210510254, 2.4638824462890625, 2.6870298385620117, 2.1838905811309814, 2.4743311405181885, 5.942819118499756, 2.6838274002075195, 1.5824590921401978, 2.569780111312866, 2.659982204437256], "p_mean": 2.5710655132929485}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.00574018580090363, "train_rmse": 0.005244085365187723, "train_rmse_clean": null, "nrmse": 0.007581799011536427, "train_time_s": 10.975223064422607, "p_values": [2.394859552383423, 1.8735365867614746, 2.535867691040039, 2.4424030780792236, 2.0551037788391113, 2.6720893383026123, 2.9194629192352295, 2.244537830352783, 1.7580029964447021, 1.6351314783096313, 2.467890977859497, 2.95204496383667, 2.8717942237854004, 2.4981276988983154, 6.956175804138184], "p_mean": 2.685135261217753}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.009587156395123864, "train_rmse": 0.006228590424779135, "train_rmse_clean": null, "nrmse": 0.012234021438032502, "train_time_s": 10.619939804077148, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.011357437505234158, "train_rmse": 0.010605329264695706, "train_rmse_clean": null, "nrmse": 0.014147642741053198, "train_time_s": 11.12930679321289, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.013059210171143976, "train_rmse": 0.009246620872848998, "train_rmse_clean": null, "nrmse": 0.016735549101911974, "train_time_s": 10.49731159210205, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.008629845660762359, "train_rmse": 0.007316809456148765, "train_rmse_clean": null, "nrmse": 0.011411059116465234, "train_time_s": 10.596160888671875, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.008726948708204008, "train_rmse": 0.008502650385275645, "train_rmse_clean": null, "nrmse": 0.0115267995470067, "train_time_s": 10.760376930236816, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.01311256967674923, "train_rmse": 0.011456780006834089, "train_rmse_clean": null, "nrmse": 0.01673274659570967, "train_time_s": 8.569749593734741, "p_values": [3.1203131675720215, 2.1939237117767334, 1.663305401802063, 1.5858901739120483, 1.4529705047607422, 1.8219990730285645, 2.2822864055633545, 2.227064847946167, 2.214695453643799, 2.1424877643585205, 2.7054262161254883, 1.9892338514328003, 6.1433610916137695, 2.8396687507629395, 1.861644983291626], "p_mean": 2.416284759839376}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.013668049382686842, "train_rmse": 0.012902812861878554, "train_rmse_clean": null, "nrmse": 0.01702590743239484, "train_time_s": 8.608755588531494, "p_values": [2.234574317932129, 2.090118885040283, 2.6642403602600098, 1.9147292375564575, 2.4959888458251953, 2.239523410797119, 2.397350311279297, 2.744680881500244, 1.9559438228607178, 1.3347060680389404, 2.230234146118164, 2.089550495147705, 2.0040905475616455, 2.794856548309326, 3.113713026046753], "p_mean": 2.286953393618266}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.009137205261911252, "train_rmse": 0.008010647351031908, "train_rmse_clean": null, "nrmse": 0.011709448374822266, "train_time_s": 8.676142692565918, "p_values": [2.487238645553589, 2.4526491165161133, 2.227757453918457, 2.2738442420959473, 1.9540841579437256, 1.8221702575683594, 2.2468109130859375, 2.2183334827423096, 1.719289779663086, 2.4967055320739746, 2.2259676456451416, 6.173511028289795, 6.197454929351807, 2.1301333904266357, 3.4721779823303223], "p_mean": 2.80654190381368}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.03203079904443973, "train_rmse": 0.02451158862243663, "train_rmse_clean": null, "nrmse": 0.04235363595267719, "train_time_s": 8.681169748306274, "p_values": [2.4674205780029297, 3.6451878547668457, 4.734458923339844, 2.562121868133545, 2.153411865234375, 2.263211250305176, 2.1624841690063477, 2.036869525909424, 2.0344693660736084, 2.7324047088623047, 1.4925984144210815, 2.172524929046631, 2.7828903198242188, 2.2024893760681152, 1.7055370807647705], "p_mean": 2.4765386819839477}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.03023445630816468, "train_rmse": 0.027152482876705797, "train_rmse_clean": null, "nrmse": 0.039934521094334305, "train_time_s": 8.49724006652832, "p_values": [2.4306650161743164, 2.066040515899658, 3.1159019470214844, 2.735766649246216, 2.7563204765319824, 1.4882854223251343, 2.8408710956573486, 2.4907655715942383, 2.0908169746398926, 2.320099353790283, 2.191624164581299, 2.180521011352539, 2.974642276763916, 2.1744754314422607, 1.5683588981628418], "p_mean": 2.361676987012227}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.018189523042198563, "train_rmse": 0.015902959470337485, "train_rmse_clean": null, "nrmse": 0.023211367967150842, "train_time_s": 4.127933740615845}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.012510314017585844, "train_rmse": 0.009414436513070779, "train_rmse_clean": null, "nrmse": 0.015583748818131434, "train_time_s": 4.128332853317261}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.008896902531284612, "train_rmse": 0.007092397872248968, "train_rmse_clean": null, "nrmse": 0.011401497274026605, "train_time_s": 4.175333499908447}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.04290438177687372, "train_rmse": 0.03654827311764364, "train_rmse_clean": null, "nrmse": 0.0567315402913069, "train_time_s": 4.114041090011597}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.01426741929337938, "train_rmse": 0.013776091491743081, "train_rmse_clean": null, "nrmse": 0.01884480907894842, "train_time_s": 4.150451898574829}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.00797766822049073, "train_rmse": 0.003678371129115371, "train_rmse_clean": null, "nrmse": 0.010180178565213992, "train_time_s": 8.47227430343628}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.004878119641109346, "train_rmse": 0.004363108748631217, "train_rmse_clean": null, "nrmse": 0.006076537414247195, "train_time_s": 8.49226999282837}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.00714109128820678, "train_rmse": 0.004447492747782916, "train_rmse_clean": null, "nrmse": 0.009151402139089045, "train_time_s": 8.558486461639404}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.008263257550668257, "train_rmse": 0.008381970359613355, "train_rmse_clean": null, "nrmse": 0.01092632755113762, "train_time_s": 8.37002968788147}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.004860791768511508, "train_rmse": 0.004676067611410817, "train_rmse_clean": null, "nrmse": 0.006420270615627704, "train_time_s": 8.497202396392822}
+checkpoint directory created: ./model_ckpt_2092266_131300494280192_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0545666684742363, "train_rmse": 0.070996070663214, "train_rmse_clean": 0.030590975807922582, "nrmse": 0.06963167850848379, "train_time_s": 32.595625162124634}
+checkpoint directory created: ./model_ckpt_2092979_125123322897920_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.04997754312092706, "train_rmse": 0.06774726239865414, "train_rmse_clean": 0.03321414435456527, "nrmse": 0.06225562983063751, "train_time_s": 40.19578790664673}
+checkpoint directory created: ./model_ckpt_2093947_139108328089088_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.029197654536196938, "train_rmse": 0.07140509444833354, "train_rmse_clean": 0.025788942496149936, "nrmse": 0.0374171772065433, "train_time_s": 40.32375621795654}
+checkpoint directory created: ./model_ckpt_2092267_136890335569408_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.037590156455983514, "train_rmse": 0.0787780379737848, "train_rmse_clean": 0.024409403281970943, "nrmse": 0.04970465456487809, "train_time_s": 23.976404905319214}
+checkpoint directory created: ./model_ckpt_2092890_131828623783424_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.029190620179635474, "train_rmse": 0.06968609047440388, "train_rmse_clean": 0.025250446306860574, "nrmse": 0.03855579294824487, "train_time_s": 35.80327892303467}
+checkpoint directory created: ./model_ckpt_2093710_126704062580224_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.04106102109861953, "train_rmse": 0.06973975492899243, "train_rmse_clean": 0.033952125455586346, "nrmse": 0.05239733156366499, "train_time_s": 40.31822085380554}
+checkpoint directory created: ./model_ckpt_2092268_124077842413056_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.050397676293612026, "train_rmse": 0.0672830970627869, "train_rmse_clean": 0.034697756366763866, "nrmse": 0.06277897799152969, "train_time_s": 31.658632516860962}
+checkpoint directory created: ./model_ckpt_2092975_129608765494784_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.033385852434421714, "train_rmse": 0.07127461979252203, "train_rmse_clean": 0.0260080841289847, "nrmse": 0.04278440774006685, "train_time_s": 34.732107639312744}
+checkpoint directory created: ./model_ckpt_2093788_139585205257728_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.04247287326692106, "train_rmse": 0.07696609797382559, "train_rmse_clean": 0.02718032919753366, "nrmse": 0.0561609658789839, "train_time_s": 41.35529923439026}
+checkpoint directory created: ./model_ckpt_2092269_135872861951488_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.06065732761045162, "train_rmse": 0.06820159936312642, "train_rmse_clean": 0.03019005619234516, "nrmse": 0.08011790601742654, "train_time_s": 30.90410804748535}
+checkpoint directory created: ./model_ckpt_2092963_133705767831040_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.053612116121568576, "train_rmse": 0.06999038780769684, "train_rmse_clean": 0.03424570379241265, "nrmse": 0.0684135890703892, "train_time_s": 44.25398635864258}
+checkpoint directory created: ./model_ckpt_2093977_131020172473856_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.08156307280037245, "train_rmse": 0.0661467840840202, "train_rmse_clean": 0.037784331470419596, "nrmse": 0.10160084211868989, "train_time_s": 44.068862438201904}
+checkpoint directory created: ./model_ckpt_2092271_129224053024256_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.032533591506413995, "train_rmse": 0.07078252629097248, "train_rmse_clean": 0.0290777650358367, "nrmse": 0.041692224183680696, "train_time_s": 29.031848907470703}
+checkpoint directory created: ./model_ckpt_2092940_135709679384064_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.20389579072102038, "train_rmse": 0.1770712094550575, "train_rmse_clean": 0.15183200598452995, "nrmse": 0.2696070141896894, "train_time_s": 22.85601019859314}
+checkpoint directory created: ./model_ckpt_2093621_130934200501760_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.03890967757433916, "train_rmse": 0.06769257893399327, "train_rmse_clean": 0.031049676556794914, "nrmse": 0.051392997579605436, "train_time_s": 47.621397733688354}
+checkpoint directory created: ./model_ckpt_2092270_137783373514240_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.05640138465688116, "train_rmse": 0.07058204639663446, "train_rmse_clean": 0.03533443010275583, "nrmse": 0.07197293134572744, "train_time_s": 43.94665575027466}
+checkpoint directory created: ./model_ckpt_2093308_139128798701056_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.11415431378369867, "train_rmse": 0.06407697909233123, "train_rmse_clean": 0.044347292676039096, "nrmse": 0.14219884089325274, "train_time_s": 55.91256046295166}
+checkpoint directory created: ./model_ckpt_2096477_130317514266112_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.06183447540408871, "train_rmse": 0.07026140440382544, "train_rmse_clean": 0.03164902799501923, "nrmse": 0.07924169117077962, "train_time_s": 27.302990436553955}
+checkpoint directory created: ./model_ckpt_2092272_136014482609664_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.05726535554636847, "train_rmse": 0.07290688995557071, "train_rmse_clean": 0.03885692009601893, "nrmse": 0.07572074671463876, "train_time_s": 40.32829713821411}
+checkpoint directory created: ./model_ckpt_2093256_123362966861312_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.056453755244579185, "train_rmse": 0.07000666288794655, "train_rmse_clean": 0.03789672752575779, "nrmse": 0.07456570929176022, "train_time_s": 41.788705825805664}
+checkpoint directory created: ./model_ckpt_2096199_137712368121344_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0391032197383856, "train_rmse": 0.07175590392501707, "train_rmse_clean": 0.028869992073862205, "nrmse": 0.049899011642161116, "train_time_s": 43.83104228973389}
+checkpoint directory created: ./model_ckpt_2092641_128165465368064_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.03647658299287815, "train_rmse": 0.06874060904692447, "train_rmse_clean": 0.03130134284916042, "nrmse": 0.04543786081673688, "train_time_s": 41.443599224090576}
+checkpoint directory created: ./model_ckpt_2093711_134518612809216_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.04255276430861543, "train_rmse": 0.07184711398472743, "train_rmse_clean": 0.024143631176264835, "nrmse": 0.054531925528122326, "train_time_s": 49.360079526901245}
+checkpoint directory created: ./model_ckpt_2096789_125755498280448_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.029500410716706282, "train_rmse": 0.07802055810782482, "train_rmse_clean": 0.02403668042381535, "nrmse": 0.03900775794622983, "train_time_s": 38.72552847862244}
+checkpoint directory created: ./model_ckpt_2092888_128782346176000_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.022812699706188155, "train_rmse": 0.07138569994044275, "train_rmse_clean": 0.02222020100537847, "nrmse": 0.0301316560268183, "train_time_s": 43.655765533447266}
+checkpoint directory created: ./model_ckpt_2093789_127757741110784_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.03386107421894713, "train_rmse": 0.07278925104996059, "train_rmse_clean": 0.027372809803407616, "nrmse": 0.04320959112757405, "train_time_s": 47.80580186843872}
+checkpoint directory created: ./model_ckpt_2096879_133591754733056_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.027156780234566247, "train_rmse": 0.0709156828356039, "train_rmse_clean": 0.024944525046499688, "nrmse": 0.03382844277847663, "train_time_s": 38.98583769798279}
+checkpoint directory created: ./model_ckpt_2092915_131500654814720_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.033535501699625936, "train_rmse": 0.07096210540921755, "train_rmse_clean": 0.02764029582290828, "nrmse": 0.0429761852360309, "train_time_s": 42.21998167037964}
+checkpoint directory created: ./model_ckpt_2093866_124349279475200_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.028450918342041387, "train_rmse": 0.07789706266877827, "train_rmse_clean": 0.024065103382396646, "nrmse": 0.03762003677480361, "train_time_s": 42.91426086425781}
+checkpoint directory created: ./model_ckpt_2096825_139947267134976_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.017408755693447908, "train_rmse": 0.07240267860814775, "train_rmse_clean": 0.016075586836212796, "nrmse": 0.022993974635435052, "train_time_s": 39.09238600730896}
+checkpoint directory created: ./model_ckpt_2092926_137981566506496_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.027554000638840837, "train_rmse": 0.07428260950611998, "train_rmse_clean": 0.024477132872939844, "nrmse": 0.035161232447463886, "train_time_s": 48.896602630615234}
+checkpoint directory created: ./model_ckpt_2094247_135865627067904_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.021774855170125784, "train_rmse": 0.07317586516618624, "train_rmse_clean": 0.020769894093980446, "nrmse": 0.027124329017275395, "train_time_s": 44.76164150238037}
+checkpoint directory created: ./model_ckpt_2096957_134174279579136_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.01870123126242529, "train_rmse": 0.07389616082269646, "train_rmse_clean": 0.017091569011200458, "nrmse": 0.023965873123788874, "train_time_s": 36.999305963516235}
+checkpoint directory created: ./model_ckpt_2092936_137230242473472_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.020741150728022406, "train_rmse": 0.0793472946251832, "train_rmse_clean": 0.018930472904695517, "nrmse": 0.02742557705024721, "train_time_s": 48.412428855895996}
+checkpoint directory created: ./model_ckpt_2094242_125291988424192_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.01577306753452845, "train_rmse": 0.07315676236014568, "train_rmse_clean": 0.01471839761263194, "nrmse": 0.02083351166496376, "train_time_s": 46.886022090911865}
+checkpoint directory created: ./model_ckpt_2097012_126216606279168_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.03194544173644842, "train_rmse": 0.07930913860668021, "train_rmse_clean": 0.02789779221327726, "nrmse": 0.040765082256288665, "train_time_s": 39.84761667251587}
+checkpoint directory created: ./model_ckpt_2092978_131689400460800_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.032214477178643675, "train_rmse": 0.0776815806436737, "train_rmse_clean": 0.031210830411237955, "nrmse": 0.04012867462429111, "train_time_s": 48.05730986595154}
+checkpoint directory created: ./model_ckpt_2096159_126149940135424_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.030122718882067412, "train_rmse": 0.0772495460071081, "train_rmse_clean": 0.025356521603665527, "nrmse": 0.03860265929771537, "train_time_s": 46.5929160118103}
+checkpoint directory created: ./model_ckpt_2097042_133245745714688_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.020858778994457428, "train_rmse": 0.08158255247818413, "train_rmse_clean": 0.019622015284282646, "nrmse": 0.027581114374415155, "train_time_s": 40.40919852256775}
+checkpoint directory created: ./model_ckpt_2092992_139244373362176_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.02807985503858923, "train_rmse": 0.07938703284199633, "train_rmse_clean": 0.032856267324520516, "nrmse": 0.037088663078144186, "train_time_s": 47.60702443122864}
+checkpoint directory created: ./model_ckpt_2096168_124107770562048_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.043923369787493005, "train_rmse": 0.07092017399890294, "train_rmse_clean": 0.030941359874554486, "nrmse": 0.05604993028841437, "train_time_s": 80.17210698127747}
+checkpoint directory created: ./model_ckpt_2097748_133742972315136_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.04801210439662196, "train_rmse": 0.06754616752068232, "train_rmse_clean": 0.035110928779857886, "nrmse": 0.059807337697127184, "train_time_s": 90.03090333938599}
+checkpoint directory created: ./model_ckpt_2093111_132199029483008_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.04603865953759434, "train_rmse": 0.06991891481062762, "train_rmse_clean": 0.028781822912512967, "nrmse": 0.05899914598052024, "train_time_s": 81.2072422504425}
+checkpoint directory created: ./model_ckpt_2096868_126046973191680_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.03850339971133132, "train_rmse": 0.07708472458899829, "train_rmse_clean": 0.026885747364900237, "nrmse": 0.050912216459277765, "train_time_s": 76.9533462524414}
+checkpoint directory created: ./model_ckpt_2098664_130548113434112_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.02793770862503031, "train_rmse": 0.07015191882309679, "train_rmse_clean": 0.0247144335792413, "nrmse": 0.03690091209321182, "train_time_s": 82.40599656105042}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.01663325735417387, "train_rmse": 0.0765935214054303, "train_rmse_clean": 0.015363780551986284, "nrmse": 0.0212254414832299, "train_time_s": 6.240435838699341}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.019029182421315127, "train_rmse": 0.07571971255212473, "train_rmse_clean": 0.019945347275993064, "nrmse": 0.023704121147664247, "train_time_s": 7.314273834228516}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.016171693772735862, "train_rmse": 0.07505377542092084, "train_rmse_clean": 0.015451822410155969, "nrmse": 0.020724237656632883, "train_time_s": 6.282507419586182}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.025885683745905386, "train_rmse": 0.08156076868861062, "train_rmse_clean": 0.0235320376222502, "nrmse": 0.03422808229788846, "train_time_s": 6.339242935180664}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.016518751450546265, "train_rmse": 0.07376488021542649, "train_rmse_clean": 0.016078551888880632, "nrmse": 0.021818431974771933, "train_time_s": 7.377629280090332}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.024644066705404866, "train_rmse": 0.07772313073395543, "train_rmse_clean": 0.020707693273290806, "nrmse": 0.031447910930875234, "train_time_s": 11.867553234100342, "p_values": [2.306898355484009, 2.730288505554199, 2.715076446533203, 2.196319103240967, 3.2613086700439453, 2.546992778778076, 2.7318525314331055, 3.1530568599700928, 3.0669748783111572, 2.6725549697875977, 2.3414483070373535, 2.420441150665283, 2.53132963180542, 2.5178072452545166, 2.111377000808716], "p_mean": 2.6202484289805095}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.01661487200736722, "train_rmse": 0.07455741236149782, "train_rmse_clean": 0.017552361944406236, "nrmse": 0.020696682085217473, "train_time_s": 11.89554762840271, "p_values": [1.9636708498001099, 2.3864922523498535, 2.10306978225708, 2.9120099544525146, 2.1808688640594482, 2.8171610832214355, 2.1372175216674805, 2.529449701309204, 2.479766845703125, 3.2190797328948975, 3.853414535522461, 2.340200424194336, 2.276047706604004, 2.948491334915161, 2.199117422103882], "p_mean": 2.556403867403666}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.01668392713419531, "train_rmse": 0.07484200994622325, "train_rmse_clean": 0.01540299859324723, "nrmse": 0.02138067142712875, "train_time_s": 14.585939407348633, "p_values": [2.335446357727051, 1.9992399215698242, 2.0789618492126465, 2.3337392807006836, 2.2911553382873535, 3.528113603591919, 2.5986595153808594, 2.3022851943969727, 3.0418128967285156, 2.696402072906494, 2.8707287311553955, 2.7130489349365234, 2.5431113243103027, 1.9760754108428955, 2.497307538986206], "p_mean": 2.5204058647155763}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.02436080348553804, "train_rmse": 0.08066218886772525, "train_rmse_clean": 0.019200797561243155, "nrmse": 0.03221176596030919, "train_time_s": 10.857963562011719, "p_values": [2.202331066131592, 2.269679546356201, 2.34637713432312, 2.3194966316223145, 2.1474719047546387, 2.1403775215148926, 2.461001396179199, 2.698305606842041, 2.2263331413269043, 2.7085232734680176, 5.231183052062988, 2.709672451019287, 1.4644067287445068, 2.5650088787078857, 2.520768642425537], "p_mean": 2.534062465031942}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.012964275206129194, "train_rmse": 0.07400361442354786, "train_rmse_clean": 0.0122790150733878, "nrmse": 0.017123579680581622, "train_time_s": 12.569812297821045, "p_values": [2.396604061126709, 1.867896556854248, 2.3318729400634766, 3.193979501724243, 2.186607837677002, 2.3682312965393066, 2.967607021331787, 2.2769615650177, 1.7257683277130127, 1.623471736907959, 2.5211405754089355, 2.9813733100891113, 2.851811408996582, 2.5722131729125977, 7.509217739105225], "p_mean": 2.7583171367645263}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.018146846292145247, "train_rmse": 0.07666325044580091, "train_rmse_clean": 0.016156355399548072, "nrmse": 0.023156908828951807, "train_time_s": 12.619755983352661, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.02312797973384184, "train_rmse": 0.07660200857311228, "train_rmse_clean": 0.023385874748524382, "nrmse": 0.028809878499962475, "train_time_s": 10.577128648757935, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.017557709888712414, "train_rmse": 0.0755717450068194, "train_rmse_clean": 0.0158629666866148, "nrmse": 0.022500435486438923, "train_time_s": 10.524348020553589, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.023124961673972377, "train_rmse": 0.08058135559846002, "train_rmse_clean": 0.019073741944641065, "nrmse": 0.03057763894057643, "train_time_s": 12.445426225662231, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.01707779252456998, "train_rmse": 0.07350477561378455, "train_rmse_clean": 0.016162246175995154, "nrmse": 0.022556829164245142, "train_time_s": 10.482500553131104, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.01683503038355072, "train_rmse": 0.07788190765866343, "train_rmse_clean": 0.01565465211224748, "nrmse": 0.021482920913550727, "train_time_s": 10.216858386993408, "p_values": [2.9369072914123535, 2.2681264877319336, 1.6685240268707275, 1.6098202466964722, 1.4577765464782715, 1.8040807247161865, 2.275847911834717, 2.2330055236816406, 2.22293758392334, 2.1755456924438477, 2.7158455848693848, 1.982762336730957, 5.896935939788818, 2.778961658477783, 1.922377109527588], "p_mean": 2.396630311012268}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.021971091900449546, "train_rmse": 0.07508950997269226, "train_rmse_clean": 0.020965334059885876, "nrmse": 0.02736877563228107, "train_time_s": 8.593720436096191, "p_values": [2.2402801513671875, 1.8920021057128906, 2.775165557861328, 1.859058141708374, 2.3929195404052734, 2.2628045082092285, 2.4531116485595703, 2.7049617767333984, 2.000626564025879, 1.3763163089752197, 2.234034776687622, 2.192999839782715, 2.0685031414031982, 2.839907646179199, 3.1248550415039062], "p_mean": 2.294503116607666}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.015078365425916451, "train_rmse": 0.07527812175257953, "train_rmse_clean": 0.01474794075548258, "nrmse": 0.019323123041513273, "train_time_s": 8.610035181045532, "p_values": [2.37717342376709, 2.460454225540161, 2.2941536903381348, 3.2114484310150146, 1.9422732591629028, 1.8123552799224854, 2.249453544616699, 2.191885232925415, 1.569490909576416, 2.5867934226989746, 2.252991199493408, 4.776139259338379, 6.342606067657471, 2.1303694248199463, 3.3862380981445312], "p_mean": 2.772255031267802}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.02768014514784456, "train_rmse": 0.08488238586650843, "train_rmse_clean": 0.02778256133771806, "nrmse": 0.03660085997488043, "train_time_s": 8.732439041137695, "p_values": [2.5872373580932617, 3.740645170211792, 5.327718734741211, 2.5625295639038086, 2.1564712524414062, 2.262362003326416, 2.160982131958008, 2.0689520835876465, 2.1292333602905273, 2.668346881866455, 1.4820659160614014, 2.1986327171325684, 2.755021095275879, 2.2055296897888184, 1.7226247787475586], "p_mean": 2.5352235158284504}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.03469483112885641, "train_rmse": 0.07990691183059795, "train_rmse_clean": 0.03298851555297855, "nrmse": 0.04582590973218621, "train_time_s": 8.634931087493896, "p_values": [2.4306254386901855, 2.0680222511291504, 3.0107319355010986, 2.4211020469665527, 2.7629237174987793, 1.4966362714767456, 2.945655345916748, 2.5429205894470215, 2.0532615184783936, 2.2941465377807617, 2.1752777099609375, 2.238316535949707, 2.9533581733703613, 2.2365667819976807, 1.6121432781219482], "p_mean": 2.349445875485738}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.025872262351277486, "train_rmse": 0.07707700459746336, "train_rmse_clean": 0.02437699058112197, "nrmse": 0.033015192327196886, "train_time_s": 4.099794626235962}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.04016332900330655, "train_rmse": 0.07809308901780554, "train_rmse_clean": 0.035232099020354735, "nrmse": 0.05003033736864452, "train_time_s": 4.208350419998169}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.019883874338817664, "train_rmse": 0.07444031265169837, "train_rmse_clean": 0.019148411558192246, "nrmse": 0.025481445736191898, "train_time_s": 4.304908752441406}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.030846298740780265, "train_rmse": 0.08156376673286792, "train_rmse_clean": 0.027639389734210873, "nrmse": 0.04078739670346504, "train_time_s": 4.234288930892944}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.022540594552634907, "train_rmse": 0.0735119577831238, "train_rmse_clean": 0.02135681068997286, "nrmse": 0.029772251879322028, "train_time_s": 4.174880027770996}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.1, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.025328796765465844, "train_rmse": 0.07551185184729636, "train_rmse_clean": 0.022605944142243817, "nrmse": 0.03232168433028613, "train_time_s": 8.487744808197021}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.1, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.02220639406071423, "train_rmse": 0.0744919507609687, "train_rmse_clean": 0.020223922910489467, "nrmse": 0.027661884962452477, "train_time_s": 8.144737243652344}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.1, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.019389219592503726, "train_rmse": 0.07531770127598891, "train_rmse_clean": 0.017306661127548306, "nrmse": 0.02484753919154322, "train_time_s": 8.421326637268066}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.1, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.029778878061456737, "train_rmse": 0.08072524973063322, "train_rmse_clean": 0.023900812056118936, "nrmse": 0.03937596932078549, "train_time_s": 8.160124063491821}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.1, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.016405983136552837, "train_rmse": 0.07337563965870686, "train_rmse_clean": 0.016048529870684725, "nrmse": 0.021669484410838828, "train_time_s": 8.108551740646362}
+checkpoint directory created: ./model_ckpt_2096779_131767911077376_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.11677043105710716, "train_rmse": 0.210413465345054, "train_rmse_clean": 0.10520986150365008, "nrmse": 0.14900893424535488, "train_time_s": 32.23656177520752}
+checkpoint directory created: ./model_ckpt_2097482_139881344812544_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.18916272583042737, "train_rmse": 0.21341255691629257, "train_rmse_clean": 0.10171745580467295, "nrmse": 0.2356347251516315, "train_time_s": 34.87712097167969}
+checkpoint directory created: ./model_ckpt_2098360_125755143140864_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.13337886641604424, "train_rmse": 0.2129903364992458, "train_rmse_clean": 0.08928820148386096, "nrmse": 0.1709267665356465, "train_time_s": 30.489882230758667}
+checkpoint directory created: ./model_ckpt_2096781_131094161950208_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.11509112950966482, "train_rmse": 0.22242008259364887, "train_rmse_clean": 0.08246327594747305, "nrmse": 0.1521825226361608, "train_time_s": 28.444138526916504}
+checkpoint directory created: ./model_ckpt_2097417_125736481846784_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.12548314227678503, "train_rmse": 0.1887060453432028, "train_rmse_clean": 0.09481798695854238, "nrmse": 0.16574166709531327, "train_time_s": 33.64981007575989}
+checkpoint directory created: ./model_ckpt_2098277_123900536514048_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.1866310961758666, "train_rmse": 0.21124881823576303, "train_rmse_clean": 0.10211165465929817, "nrmse": 0.23815704443711214, "train_time_s": 34.56770181655884}
+checkpoint directory created: ./model_ckpt_2096817_127452679271936_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.1457273603505227, "train_rmse": 0.2138060146982923, "train_rmse_clean": 0.10051157471566707, "nrmse": 0.18152850331650666, "train_time_s": 28.501237630844116}
+checkpoint directory created: ./model_ckpt_2097481_132360823326208_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.1867219607329993, "train_rmse": 0.21412423513322132, "train_rmse_clean": 0.08960314245877399, "nrmse": 0.23928664148137002, "train_time_s": 23.01458740234375}
+checkpoint directory created: ./model_ckpt_2098169_135246157063680_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.11278207179922628, "train_rmse": 0.22101392788391472, "train_rmse_clean": 0.08658367404901934, "nrmse": 0.14912930533970958, "train_time_s": 38.76602602005005}
+checkpoint directory created: ./model_ckpt_2096866_126712945251840_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.12445730835201729, "train_rmse": 0.19286465898008487, "train_rmse_clean": 0.08859782654954707, "nrmse": 0.16438671676677508, "train_time_s": 33.08983755111694}
+checkpoint directory created: ./model_ckpt_2097540_140438107117056_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.19777364038553458, "train_rmse": 0.2059945203587521, "train_rmse_clean": 0.11398260876207988, "nrmse": 0.2523758721183457, "train_time_s": 37.84416389465332}
+checkpoint directory created: ./model_ckpt_2098649_135695723066880_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.518016705284019, "train_rmse": 0.21357496711900126, "train_rmse_clean": 0.10197707972763315, "nrmse": 0.6452789440292542, "train_time_s": 41.51958394050598}
+checkpoint directory created: ./model_ckpt_2096869_125166626264576_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.1165288524098198, "train_rmse": 0.2086728630669974, "train_rmse_clean": 0.10104936373704287, "nrmse": 0.14933325260383334, "train_time_s": 30.951487064361572}
+checkpoint directory created: ./model_ckpt_2097512_139940576540160_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.10984890521965784, "train_rmse": 0.22467624281121168, "train_rmse_clean": 0.08440221909825985, "nrmse": 0.14525084232268515, "train_time_s": 24.661275148391724}
+checkpoint directory created: ./model_ckpt_2098260_129009823467008_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.2126415245012936, "train_rmse": 0.1856845369718556, "train_rmse_clean": 0.10230820256773043, "nrmse": 0.280862912141574, "train_time_s": 39.86149311065674}
+checkpoint directory created: ./model_ckpt_2096925_123870340183552_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.1771577721155726, "train_rmse": 0.19965179442328562, "train_rmse_clean": 0.12331730759596038, "nrmse": 0.22606828267434248, "train_time_s": 42.091822147369385}
+checkpoint directory created: ./model_ckpt_2098105_125429667718656_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.1389350240657894, "train_rmse": 0.20990862109808717, "train_rmse_clean": 0.11478003755995836, "nrmse": 0.17306747968426453, "train_time_s": 44.372926473617554}
+checkpoint directory created: ./model_ckpt_2098972_128239520257536_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.15829121970242888, "train_rmse": 0.21368454580512442, "train_rmse_clean": 0.09124115982981706, "nrmse": 0.20285227399012573, "train_time_s": 28.85201406478882}
+checkpoint directory created: ./model_ckpt_2096926_140676907046400_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.21952891261803664, "train_rmse": 0.19981157901365965, "train_rmse_clean": 0.12881566045595516, "nrmse": 0.2902783546926667, "train_time_s": 43.19129467010498}
+checkpoint directory created: ./model_ckpt_2098116_127633185740288_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.17834407372107464, "train_rmse": 0.19584740014773416, "train_rmse_clean": 0.08987159666491529, "nrmse": 0.23556187356147298, "train_time_s": 37.03476285934448}
+checkpoint directory created: ./model_ckpt_2098839_123632570914304_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.12095033559656354, "train_rmse": 0.2155647368907676, "train_rmse_clean": 0.09278677562813309, "nrmse": 0.1543428455363658, "train_time_s": 41.32076835632324}
+checkpoint directory created: ./model_ckpt_2096956_138094513534464_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.11234629878602576, "train_rmse": 0.21476161304576635, "train_rmse_clean": 0.09796746785246668, "nrmse": 0.1399466470999121, "train_time_s": 40.241297483444214}
+checkpoint directory created: ./model_ckpt_2098102_130534489470464_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.13268961234630083, "train_rmse": 0.21443808187406788, "train_rmse_clean": 0.08873722911816495, "nrmse": 0.1700434784059117, "train_time_s": 48.68046808242798}
+checkpoint directory created: ./model_ckpt_2099082_124820382184960_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.2082601037072518, "train_rmse": 0.2125356266147591, "train_rmse_clean": 0.10537167389451962, "nrmse": 0.2753778512876317, "train_time_s": 38.780826568603516}
+checkpoint directory created: ./model_ckpt_2096964_127972289172992_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.11061443369257518, "train_rmse": 0.19124288661823385, "train_rmse_clean": 0.09195527882789634, "nrmse": 0.14610265819270266, "train_time_s": 39.74459934234619}
+checkpoint directory created: ./model_ckpt_2098104_130965577115136_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.11582839402893175, "train_rmse": 0.2179506619535143, "train_rmse_clean": 0.08885912465688373, "nrmse": 0.1478068154185482, "train_time_s": 48.65164637565613}
+checkpoint directory created: ./model_ckpt_2099084_129804334278144_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.12507574558189294, "train_rmse": 0.21552382186178498, "train_rmse_clean": 0.09530841256224498, "nrmse": 0.15580336350061225, "train_time_s": 38.8745813369751}
+checkpoint directory created: ./model_ckpt_2097011_128266668221952_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.12744876411093742, "train_rmse": 0.21160359609103097, "train_rmse_clean": 0.09498827651153396, "nrmse": 0.16332726266015424, "train_time_s": 39.881099224090576}
+checkpoint directory created: ./model_ckpt_2098124_138480892470784_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.21730311659271173, "train_rmse": 0.21647918207774453, "train_rmse_clean": 0.09778249661466187, "nrmse": 0.2873352325298154, "train_time_s": 48.531493186950684}
+checkpoint directory created: ./model_ckpt_2099089_131087128794624_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.08642710529989905, "train_rmse": 0.19817285999749146, "train_rmse_clean": 0.07917007078859228, "nrmse": 0.11415535389631032, "train_time_s": 37.83149313926697}
+checkpoint directory created: ./model_ckpt_2097021_136237593249280_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.10002119029670631, "train_rmse": 0.22038419477039994, "train_rmse_clean": 0.08105928068330215, "nrmse": 0.127635488138047, "train_time_s": 37.30970501899719}
+checkpoint directory created: ./model_ckpt_2098106_123735552345600_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.07794247938970322, "train_rmse": 0.22346894793141558, "train_rmse_clean": 0.07550986877777888, "nrmse": 0.09709077001297475, "train_time_s": 48.367371797561646}
+checkpoint directory created: ./model_ckpt_2099073_135182276978176_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.07196615304410336, "train_rmse": 0.2219063597786608, "train_rmse_clean": 0.06230582948483443, "nrmse": 0.0922255689403458, "train_time_s": 39.22237277030945}
+checkpoint directory created: ./model_ckpt_2097039_137241849480704_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.08581559309856557, "train_rmse": 0.22586447567997148, "train_rmse_clean": 0.07190330063652928, "nrmse": 0.11347211114268656, "train_time_s": 37.90582227706909}
+checkpoint directory created: ./model_ckpt_2098122_127020041115136_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.06648598549215379, "train_rmse": 0.2028441429357457, "train_rmse_clean": 0.05811755292832643, "nrmse": 0.08781656144407088, "train_time_s": 48.1905312538147}
+checkpoint directory created: ./model_ckpt_2099086_132648848569856_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0627578414339669, "train_rmse": 0.22860318393919776, "train_rmse_clean": 0.05694998805351181, "nrmse": 0.08008430715684345, "train_time_s": 37.9839813709259}
+checkpoint directory created: ./model_ckpt_2097047_124684328179200_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.05283588822990737, "train_rmse": 0.23369623292754937, "train_rmse_clean": 0.04703131701190855, "nrmse": 0.06581619051290881, "train_time_s": 39.847755908966064}
+checkpoint directory created: ./model_ckpt_2098151_135730237171200_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.06364559720268304, "train_rmse": 0.2273771218993268, "train_rmse_clean": 0.05372366665742989, "nrmse": 0.08156266750799276, "train_time_s": 48.9150664806366}
+checkpoint directory created: ./model_ckpt_2099319_124232982844928_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.05700430384070865, "train_rmse": 0.23079481942198043, "train_rmse_clean": 0.0539676267851128, "nrmse": 0.07537556366469356, "train_time_s": 36.36783194541931}
+checkpoint directory created: ./model_ckpt_2097054_138772333172224_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.047013709993866115, "train_rmse": 0.21089785889306256, "train_rmse_clean": 0.05352132228377293, "nrmse": 0.06209703175532082, "train_time_s": 37.963417530059814}
+checkpoint directory created: ./model_ckpt_2098135_138415504410112_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.12310438951255609, "train_rmse": 0.21552552520863522, "train_rmse_clean": 0.09265475133500622, "nrmse": 0.15709160029751, "train_time_s": 87.16249656677246}
+checkpoint directory created: ./model_ckpt_2099941_128309076268544_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.13298228851084115, "train_rmse": 0.2138888669161787, "train_rmse_clean": 0.09933295002078069, "nrmse": 0.16565232323506016, "train_time_s": 74.22860836982727}
+checkpoint directory created: ./model_ckpt_2097056_126818203997696_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.1797565088951778, "train_rmse": 0.20908753809094272, "train_rmse_clean": 0.102722861505951, "nrmse": 0.23036032360140798, "train_time_s": 76.35096216201782}
+checkpoint directory created: ./model_ckpt_2098832_134625319794176_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.19332277991364588, "train_rmse": 0.211791440077036, "train_rmse_clean": 0.10746577183171002, "nrmse": 0.255626549636246, "train_time_s": 73.59937858581543}
+checkpoint directory created: ./model_ckpt_2100504_132677547013632_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.11565531491753234, "train_rmse": 0.19040185183681757, "train_rmse_clean": 0.09374566981366783, "nrmse": 0.1527607960325329, "train_time_s": 80.99881911277771}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.050387253518067165, "train_rmse": 0.23235739862409233, "train_rmse_clean": 0.04778287864350972, "nrmse": 0.06429839196710509, "train_time_s": 5.511655569076538}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.051807732142872265, "train_rmse": 0.2346257707326327, "train_rmse_clean": 0.047703907458396255, "nrmse": 0.06453544518679909, "train_time_s": 5.468113660812378}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.04861664381535613, "train_rmse": 0.23162742183302854, "train_rmse_clean": 0.044589493926328494, "nrmse": 0.06230286664195594, "train_time_s": 5.7699573040008545}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.05435582554772456, "train_rmse": 0.23478787859174233, "train_rmse_clean": 0.056538179911761244, "nrmse": 0.07187353783967473, "train_time_s": 5.532097578048706}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.042518615851123265, "train_rmse": 0.20875998299714382, "train_rmse_clean": 0.04268438912519823, "nrmse": 0.05615978485943709, "train_time_s": 5.5355470180511475}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.061410620775352864, "train_rmse": 0.23228300447400763, "train_rmse_clean": 0.05700975097892025, "nrmse": 0.07836513978959081, "train_time_s": 10.532923698425293, "p_values": [2.3051161766052246, 2.7231760025024414, 2.770565986633301, 2.186217784881592, 3.4228365421295166, 2.6884894371032715, 3.8290061950683594, 3.414004325866699, 2.923341751098633, 2.7207694053649902, 2.3355259895324707, 2.452425479888916, 2.782456874847412, 2.554213523864746, 2.1808767318725586], "p_mean": 2.752601480484009}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.06285634164425735, "train_rmse": 0.2326356026971066, "train_rmse_clean": 0.05757686497178671, "nrmse": 0.07829838950755497, "train_time_s": 10.308284997940063, "p_values": [2.146827459335327, 2.379544734954834, 1.7243657112121582, 3.0828676223754883, 2.324822425842285, 3.141204357147217, 2.0908451080322266, 2.339151382446289, 2.5211055278778076, 3.2563226222991943, 3.284026622772217, 2.626068592071533, 2.1192307472229004, 2.6909704208374023, 2.060944080352783], "p_mean": 2.5192198276519777}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.0617080148297231, "train_rmse": 0.22810616526792238, "train_rmse_clean": 0.057230686840458844, "nrmse": 0.0790796302862379, "train_time_s": 10.91186785697937, "p_values": [2.2456202507019043, 2.299006938934326, 2.0584487915039062, 2.3072350025177, 2.3028440475463867, 3.673441171646118, 2.7367477416992188, 2.428251266479492, 3.215576410293579, 2.6934847831726074, 2.627814292907715, 2.685628652572632, 2.5632247924804688, 1.9068459272384644, 2.4818077087402344], "p_mean": 2.548398518562317}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.0469264440267807, "train_rmse": 0.2335368067153496, "train_rmse_clean": 0.04897995743886008, "nrmse": 0.06204982660927301, "train_time_s": 12.323693037033081, "p_values": [2.18733811378479, 2.3004729747772217, 2.5631015300750732, 2.3082151412963867, 2.4608373641967773, 2.163351535797119, 2.4707651138305664, 2.702767848968506, 2.2580795288085938, 2.9189162254333496, 5.731091022491455, 2.6855435371398926, 1.3365761041641235, 2.5513319969177246, 2.5034356117248535], "p_mean": 2.6094549099604287}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.03090669084758524, "train_rmse": 0.21095329093105875, "train_rmse_clean": 0.03148414551782874, "nrmse": 0.040822427399683704, "train_time_s": 10.532387495040894, "p_values": [2.3283615112304688, 2.223196506500244, 2.303316593170166, 1.9961658716201782, 2.276297092437744, 2.7631306648254395, 3.4275479316711426, 2.1905598640441895, 1.8633346557617188, 1.7156322002410889, 2.458962917327881, 2.698873519897461, 2.7543625831604004, 2.4085607528686523, 6.669152736663818], "p_mean": 2.6718303600947064}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.04936925792424551, "train_rmse": 0.23244259737086104, "train_rmse_clean": 0.04557287154791867, "nrmse": 0.06299934359391164, "train_time_s": 10.037529706954956, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.054331819771236134, "train_rmse": 0.2349134746079784, "train_rmse_clean": 0.04983657927799534, "nrmse": 0.0676796306596883, "train_time_s": 11.599859714508057, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.055174938527533524, "train_rmse": 0.23127409195208415, "train_rmse_clean": 0.050005464969179236, "nrmse": 0.07070740732566252, "train_time_s": 10.555026292800903, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.044631692983537974, "train_rmse": 0.2342422345369144, "train_rmse_clean": 0.04949072524484288, "nrmse": 0.059015526710831975, "train_time_s": 10.861388206481934, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.033974564112111416, "train_rmse": 0.21231509628071876, "train_rmse_clean": 0.03530843605144085, "nrmse": 0.04487456077850952, "train_time_s": 10.88319182395935, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.039494897622969205, "train_rmse": 0.23213273054179417, "train_rmse_clean": 0.03982991046259987, "nrmse": 0.05039882570999423, "train_time_s": 8.182416439056396, "p_values": [2.67973256111145, 2.4152188301086426, 2.062549352645874, 1.7566472291946411, 1.2619593143463135, 1.9273900985717773, 2.3257431983947754, 4.582511901855469, 2.590104341506958, 2.204375743865967, 2.8476600646972656, 1.8315632343292236, 5.971649646759033, 2.8602967262268066, 1.354394555091858], "p_mean": 2.5781197865804035}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.04064327450526428, "train_rmse": 0.2349250044237028, "train_rmse_clean": 0.03964462549555514, "nrmse": 0.05062819207783787, "train_time_s": 8.92887830734253, "p_values": [2.2334160804748535, 2.244201421737671, 2.6290769577026367, 1.9488334655761719, 2.4829442501068115, 2.2758383750915527, 2.482344150543213, 2.545570135116577, 2.034538984298706, 1.2863366603851318, 2.2342844009399414, 2.0691885948181152, 2.092503070831299, 2.5889534950256348, 2.823788642883301], "p_mean": 2.2647879123687744}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.05473338389887772, "train_rmse": 0.23680751456447346, "train_rmse_clean": 0.051236914853660664, "nrmse": 0.07014154927818472, "train_time_s": 9.292202472686768, "p_values": [2.3185160160064697, 2.688361406326294, 2.3224942684173584, 1.349595069885254, 2.129987955093384, 1.9667342901229858, 2.2507705688476562, 2.215507745742798, 2.182558059692383, 2.227750778198242, 2.6047472953796387, 2.7629919052124023, 5.232325077056885, 2.1517276763916016, 2.9825615882873535], "p_mean": 2.492441980044047}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.06124853316225831, "train_rmse": 0.23667182561867328, "train_rmse_clean": 0.058806578145982336, "nrmse": 0.080987616718231, "train_time_s": 8.23376727104187, "p_values": [2.421825647354126, 3.405766248703003, 7.9037089347839355, 2.5083374977111816, 2.157524585723877, 2.2887661457061768, 2.165177345275879, 2.0372533798217773, 2.0091805458068848, 2.6897408962249756, 1.5631275177001953, 2.445586919784546, 2.836280345916748, 2.204904079437256, 1.5789514780044556], "p_mean": 2.681075437863668}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.040848469790109476, "train_rmse": 0.21081330192009062, "train_rmse_clean": 0.04504929862233009, "nrmse": 0.05395380892177277, "train_time_s": 9.341779947280884, "p_values": [2.393517017364502, 2.0665674209594727, 1.6515462398529053, 2.688599109649658, 2.8733315467834473, 1.4186465740203857, 2.9672751426696777, 2.349609851837158, 2.2781291007995605, 2.332569122314453, 2.1905081272125244, 2.2026009559631348, 2.9100046157836914, 2.1599743366241455, 1.5595895051956177], "p_mean": 2.2694979111353555}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.06077416812932945, "train_rmse": 0.23517325659655697, "train_rmse_clean": 0.05938205774792982, "nrmse": 0.0775529724487406, "train_time_s": 4.7926859855651855}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.054606916436139574, "train_rmse": 0.23388930657364249, "train_rmse_clean": 0.049221183824921244, "nrmse": 0.06802231089301694, "train_time_s": 3.9842121601104736}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.04101163484411052, "train_rmse": 0.23144297819235327, "train_rmse_clean": 0.040723049035300996, "nrmse": 0.05255694790791255, "train_time_s": 4.481224298477173}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.0633720479097013, "train_rmse": 0.24003750205497631, "train_rmse_clean": 0.05865368388494874, "nrmse": 0.08379549454945714, "train_time_s": 4.680213451385498}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.04360031659655217, "train_rmse": 0.20957288348763115, "train_rmse_clean": 0.04567296958914557, "nrmse": 0.057588525657545055, "train_time_s": 4.207147121429443}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.3, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.061584282157471915, "train_rmse": 0.23071219619276384, "train_rmse_clean": 0.05805385768139493, "nrmse": 0.07858674638327103, "train_time_s": 9.356920003890991}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.3, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.0692947847886205, "train_rmse": 0.23304625366811216, "train_rmse_clean": 0.06349605462941943, "nrmse": 0.0863185783373904, "train_time_s": 10.284059047698975}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.3, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.0609484859866436, "train_rmse": 0.22978294006942335, "train_rmse_clean": 0.05677592202851356, "nrmse": 0.0781062841128405, "train_time_s": 8.858113527297974}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.3, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.05734062444549215, "train_rmse": 0.2346559646444213, "train_rmse_clean": 0.05745723637492395, "nrmse": 0.075820273159409, "train_time_s": 9.24327802658081}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.3, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.05154503694262047, "train_rmse": 0.20796198619598272, "train_rmse_clean": 0.05126077163339282, "nrmse": 0.06808213596146094, "train_time_s": 8.974348545074463}
+checkpoint directory created: ./model_ckpt_2097660_138765908362752_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.2469199015635315, "train_rmse": 0.33009827879063813, "train_rmse_clean": 0.15295398991134412, "nrmse": 0.3150906530263285, "train_time_s": 34.17933630943298}
+checkpoint directory created: ./model_ckpt_2098695_127793002866176_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.16179291758424696, "train_rmse": 0.3319045859320191, "train_rmse_clean": 0.15049368689272757, "nrmse": 0.20154091932794638, "train_time_s": 39.134931802749634}
+checkpoint directory created: ./model_ckpt_2099534_138176431867392_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.19233834102860392, "train_rmse": 0.34028978585176617, "train_rmse_clean": 0.16608747300742088, "nrmse": 0.24648410648731597, "train_time_s": 31.97406268119812}
+checkpoint directory created: ./model_ckpt_2097766_127800154789376_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.21221162197578458, "train_rmse": 0.3814106627574496, "train_rmse_clean": 0.18266720296742545, "nrmse": 0.28060285881784014, "train_time_s": 37.733596086502075}
+checkpoint directory created: ./model_ckpt_2098785_136217371162112_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.18215372748889536, "train_rmse": 0.3293329870488364, "train_rmse_clean": 0.17018864063446415, "nrmse": 0.24059377151268777, "train_time_s": 35.95588827133179}
+checkpoint directory created: ./model_ckpt_2099579_125388402324992_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.23342131375382102, "train_rmse": 0.32718621488853294, "train_rmse_clean": 0.16112062180537734, "nrmse": 0.29786531468396504, "train_time_s": 31.336442470550537}
+checkpoint directory created: ./model_ckpt_2098004_127613055141376_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.3039012357468618, "train_rmse": 0.32871746056897244, "train_rmse_clean": 0.15600009899396916, "nrmse": 0.37856128285361346, "train_time_s": 33.21410274505615}
+checkpoint directory created: ./model_ckpt_2098722_136961771320832_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.3170980107471806, "train_rmse": 0.34341174336592317, "train_rmse_clean": 0.15976585035156798, "nrmse": 0.4063652594170004, "train_time_s": 25.85146999359131}
+checkpoint directory created: ./model_ckpt_2099398_136264193824256_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.35996543632582245, "train_rmse": 0.3827903387403033, "train_rmse_clean": 0.17750272396109867, "nrmse": 0.47597454639012615, "train_time_s": 32.239776372909546}
+checkpoint directory created: ./model_ckpt_2098125_137396384216576_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.25383301029618366, "train_rmse": 0.33541822724223636, "train_rmse_clean": 0.15787649814897264, "nrmse": 0.33526978625952514, "train_time_s": 43.30376076698303}
+checkpoint directory created: ./model_ckpt_2098965_138216955848192_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.26771663428006853, "train_rmse": 0.33071735967105553, "train_rmse_clean": 0.1557160837605176, "nrmse": 0.3416290407827388, "train_time_s": 35.20257639884949}
+checkpoint directory created: ./model_ckpt_2099897_139570775836160_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.2659559578639392, "train_rmse": 0.3250394267896528, "train_rmse_clean": 0.1665687206873212, "nrmse": 0.3312939098260118, "train_time_s": 37.27210211753845}
+checkpoint directory created: ./model_ckpt_2098145_139217493038592_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.24210056853705986, "train_rmse": 0.3316688542546906, "train_rmse_clean": 0.18292460566753643, "nrmse": 0.3102550536559629, "train_time_s": 37.54376220703125}
+checkpoint directory created: ./model_ckpt_2098914_135406358271488_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.524826834722969, "train_rmse": 0.39776628933612024, "train_rmse_clean": 0.151050092057873, "nrmse": 0.6939672240212551, "train_time_s": 29.55530285835266}
+checkpoint directory created: ./model_ckpt_2099605_133485009737216_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.2740350822565887, "train_rmse": 0.32468321209355366, "train_rmse_clean": 0.1794087518996328, "nrmse": 0.3619532516616859, "train_time_s": 26.191657781600952}
+checkpoint directory created: ./model_ckpt_2098222_123830278067712_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.2477424690148311, "train_rmse": 0.31028228831893934, "train_rmse_clean": 0.19215869407504194, "nrmse": 0.31614031858081404, "train_time_s": 51.80715560913086}
+checkpoint directory created: ./model_ckpt_2099396_134487587882496_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.2126174960225935, "train_rmse": 0.31477755234634586, "train_rmse_clean": 0.1861752174531217, "nrmse": 0.2648516773998251, "train_time_s": 33.186582803726196}
+checkpoint directory created: ./model_ckpt_2100036_127225088493056_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.2506275887710423, "train_rmse": 0.32888094995916717, "train_rmse_clean": 0.18876939173309815, "nrmse": 0.3211825419151023, "train_time_s": 35.18472123146057}
+checkpoint directory created: ./model_ckpt_2098224_137605654169088_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.26408682972849107, "train_rmse": 0.36335468938216486, "train_rmse_clean": 0.21691468997873642, "nrmse": 0.34919632915491644, "train_time_s": 46.557084798812866}
+checkpoint directory created: ./model_ckpt_2099323_128557297198592_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.23262083363704278, "train_rmse": 0.3353315789096101, "train_rmse_clean": 0.15878622859145608, "nrmse": 0.30725214613340013, "train_time_s": 39.24223232269287}
+checkpoint directory created: ./model_ckpt_2100077_131831670248960_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.18221044046175638, "train_rmse": 0.3286239690635284, "train_rmse_clean": 0.15359182126892357, "nrmse": 0.2325159143097167, "train_time_s": 41.55482244491577}
+checkpoint directory created: ./model_ckpt_2098225_140491204220416_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.1616675110954091, "train_rmse": 0.3333116972784378, "train_rmse_clean": 0.14851123548533796, "nrmse": 0.20138470396680788, "train_time_s": 49.17826867103577}
+checkpoint directory created: ./model_ckpt_2099371_131597308007936_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.17642065980386246, "train_rmse": 0.3414286057042375, "train_rmse_clean": 0.16307058464207103, "nrmse": 0.22608538924223565, "train_time_s": 36.70472240447998}
+checkpoint directory created: ./model_ckpt_2100079_127862271284736_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.2193839271977538, "train_rmse": 0.3830115224534296, "train_rmse_clean": 0.1796430997094447, "nrmse": 0.2900866435929659, "train_time_s": 37.221965074539185}
+checkpoint directory created: ./model_ckpt_2098243_132646728586752_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.18395017241050837, "train_rmse": 0.3351218485577476, "train_rmse_clean": 0.15975153416496468, "nrmse": 0.2429665665411729, "train_time_s": 42.09456205368042}
+checkpoint directory created: ./model_ckpt_2099109_139647192970752_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.26125120864350926, "train_rmse": 0.328273134805368, "train_rmse_clean": 0.15795427847318688, "nrmse": 0.3333786115017581, "train_time_s": 38.924643754959106}
+checkpoint directory created: ./model_ckpt_2099993_124362006758912_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.13462053768951154, "train_rmse": 0.3403365364714528, "train_rmse_clean": 0.1291104816249833, "nrmse": 0.16769304448842132, "train_time_s": 41.11242198944092}
+checkpoint directory created: ./model_ckpt_2098247_137328320718336_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.1727922816923737, "train_rmse": 0.34402369801980015, "train_rmse_clean": 0.1565203067535723, "nrmse": 0.22143557510728146, "train_time_s": 49.72519087791443}
+checkpoint directory created: ./model_ckpt_2099397_131121094714880_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.23531138508777438, "train_rmse": 0.38564757085492296, "train_rmse_clean": 0.16880376663460606, "nrmse": 0.3111471782424326, "train_time_s": 38.012290716171265}
+checkpoint directory created: ./model_ckpt_2100139_139723794855424_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.15978656994275298, "train_rmse": 0.3383470113308036, "train_rmse_clean": 0.1484544936270673, "nrmse": 0.21105060011438115, "train_time_s": 37.34099268913269}
+checkpoint directory created: ./model_ckpt_2098248_127968571573760_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.1554961314344805, "train_rmse": 0.3361956953622247, "train_rmse_clean": 0.14045626790779586, "nrmse": 0.19842619929180536, "train_time_s": 48.83789420127869}
+checkpoint directory created: ./model_ckpt_2099393_132734634505728_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.08864915426800568, "train_rmse": 0.3513505790889049, "train_rmse_clean": 0.0901547936434155, "nrmse": 0.11042777592236447, "train_time_s": 37.72493934631348}
+checkpoint directory created: ./model_ckpt_2100134_126956831512064_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.16555674113715124, "train_rmse": 0.35140452791278065, "train_rmse_clean": 0.1412596081980233, "nrmse": 0.21216313499383824, "train_time_s": 42.058103799819946}
+checkpoint directory created: ./model_ckpt_2098398_136371119851008_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.14186555949129165, "train_rmse": 0.40064174955982423, "train_rmse_clean": 0.12688816983423123, "nrmse": 0.18758577494681833, "train_time_s": 46.99785494804382}
+checkpoint directory created: ./model_ckpt_2099524_125252342519296_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.1140978683757865, "train_rmse": 0.3515537053905504, "train_rmse_clean": 0.11545055980021601, "nrmse": 0.15070367679279148, "train_time_s": 37.10576891899109}
+checkpoint directory created: ./model_ckpt_2100295_132642815698432_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.10963615586665476, "train_rmse": 0.34935315054121396, "train_rmse_clean": 0.1005643463758421, "nrmse": 0.13990499643234391, "train_time_s": 37.268988370895386}
+checkpoint directory created: ./model_ckpt_2098651_137242652804608_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.06688218777072263, "train_rmse": 0.3575480468283043, "train_rmse_clean": 0.0685937618391197, "nrmse": 0.08331327360455615, "train_time_s": 46.02535009384155}
+checkpoint directory created: ./model_ckpt_2099561_136493216404992_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.10684431396092453, "train_rmse": 0.3635794410440383, "train_rmse_clean": 0.10301721613943737, "nrmse": 0.13692238957178188, "train_time_s": 36.826529026031494}
+checkpoint directory created: ./model_ckpt_2100480_138185309472256_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.10106336437501451, "train_rmse": 0.41181960980001975, "train_rmse_clean": 0.09260230785642687, "nrmse": 0.13363391081669473, "train_time_s": 43.7569465637207}
+checkpoint directory created: ./model_ckpt_2098701_131331799430656_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0702819188399264, "train_rmse": 0.3627450992444352, "train_rmse_clean": 0.0805171650741574, "nrmse": 0.09283033707820976, "train_time_s": 44.93059968948364}
+checkpoint directory created: ./model_ckpt_2099606_128814363751936_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.19522197731157043, "train_rmse": 0.32668211292449456, "train_rmse_clean": 0.16158428531536817, "nrmse": 0.2491197344834793, "train_time_s": 74.13246655464172}
+checkpoint directory created: ./model_ckpt_2101428_129803565499904_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.16513108127695908, "train_rmse": 0.3311878646081734, "train_rmse_clean": 0.15190444220243293, "nrmse": 0.20569917662092121, "train_time_s": 74.50009942054749}
+checkpoint directory created: ./model_ckpt_2098962_129183866807808_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.19960285327335825, "train_rmse": 0.34054024639124947, "train_rmse_clean": 0.16494809753350648, "nrmse": 0.2557936742008492, "train_time_s": 76.64733600616455}
+checkpoint directory created: ./model_ckpt_2100791_138916630185472_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.22486967662669244, "train_rmse": 0.38221816798988684, "train_rmse_clean": 0.18255656314215418, "nrmse": 0.29734033195454945, "train_time_s": 73.6936936378479}
+checkpoint directory created: ./model_ckpt_2102259_124589453653504_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.20644317477206187, "train_rmse": 0.33209961371409946, "train_rmse_clean": 0.16535910781331253, "nrmse": 0.272675957314633, "train_time_s": 74.95890736579895}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.0790238747446459, "train_rmse": 0.36342253618991016, "train_rmse_clean": 0.07246663254584895, "nrmse": 0.10084113973921488, "train_time_s": 6.4801926612854}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.0650934079352905, "train_rmse": 0.36124212307138137, "train_rmse_clean": 0.06107197856308755, "nrmse": 0.08108504051567225, "train_time_s": 5.547573804855347}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.10332835280834729, "train_rmse": 0.36978069795257973, "train_rmse_clean": 0.09673670947037216, "nrmse": 0.1324166392439872, "train_time_s": 5.499366998672485}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.09601152189143436, "train_rmse": 0.41830210101491616, "train_rmse_clean": 0.09618188275831097, "nrmse": 0.12695396826693295, "train_time_s": 6.564443588256836}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.05906333731053515, "train_rmse": 0.3669156886671274, "train_rmse_clean": 0.06502455437285448, "nrmse": 0.07801251875306257, "train_time_s": 5.479106903076172}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.09587419475798331, "train_rmse": 0.36634340133639753, "train_rmse_clean": 0.08544585127131077, "nrmse": 0.1223435715119694, "train_time_s": 10.38213038444519, "p_values": [2.3073251247406006, 2.723846197128296, 2.775313377380371, 2.1854989528656006, 3.6173739433288574, 2.780240297317505, 1.9085040092468262, 3.401151180267334, 3.007122278213501, 2.7368216514587402, 2.3372855186462402, 2.4486351013183594, 3.19793438911438, 2.579329013824463, 2.1514196395874023], "p_mean": 2.677186711629232}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.07142588846302811, "train_rmse": 0.35955127897988604, "train_rmse_clean": 0.06676985103875044, "nrmse": 0.0889732346730092, "train_time_s": 11.705712795257568, "p_values": [2.278747320175171, 2.359898805618286, 1.9543129205703735, 3.075671434402466, 2.3305611610412598, 2.9027907848358154, 2.201538562774658, 2.484067678451538, 2.4832873344421387, 3.3161942958831787, 3.3694417476654053, 2.388216495513916, 2.331624746322632, 2.8792877197265625, 2.3322982788085938], "p_mean": 2.5791959524154664}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.08975100012830461, "train_rmse": 0.3708788327083621, "train_rmse_clean": 0.08721446350931439, "nrmse": 0.11501708372163928, "train_time_s": 10.415212392807007, "p_values": [2.4006285667419434, 2.604412317276001, 2.135883331298828, 2.366931200027466, 2.347841739654541, 3.542243480682373, 2.586608648300171, 2.332756996154785, 2.743597984313965, 2.6917800903320312, 2.5737271308898926, 2.7245006561279297, 2.459947347640991, 2.0404882431030273, 2.4906134605407715], "p_mean": 2.536130746205648}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.09321249980411439, "train_rmse": 0.4176743825005005, "train_rmse_clean": 0.0939007548281734, "nrmse": 0.12325288162387489, "train_time_s": 10.466442346572876, "p_values": [2.212770462036133, 2.244457483291626, 3.6208605766296387, 2.4300904273986816, 2.7443361282348633, 2.3412179946899414, 2.5152430534362793, 2.697091817855835, 2.2274975776672363, 2.9375076293945312, 4.0328850746154785, 3.048553466796875, 1.421480655670166, 2.499373435974121, 2.730837821960449], "p_mean": 2.646946907043457}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.09786259935049202, "train_rmse": 0.3720600151448821, "train_rmse_clean": 0.09538267607952733, "nrmse": 0.12925967638628402, "train_time_s": 10.519408464431763, "p_values": [2.4130401611328125, 2.445972204208374, 4.8423261642456055, 1.9827468395233154, 2.324838638305664, 2.7813467979431152, 2.585500478744507, 2.2093844413757324, 2.0723700523376465, 1.774104356765747, 2.452298641204834, 4.585766315460205, 2.7516603469848633, 2.2616543769836426, 6.611114501953125], "p_mean": 2.9396082878112795}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.07243613769718715, "train_rmse": 0.36207497788764975, "train_rmse_clean": 0.06711481192897661, "nrmse": 0.09243463076563409, "train_time_s": 10.006774663925171, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.06820122914996674, "train_rmse": 0.3614312481504456, "train_rmse_clean": 0.06283113850499289, "nrmse": 0.08495636661612777, "train_time_s": 10.030538558959961, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.1133803611369526, "train_rmse": 0.370689286421781, "train_rmse_clean": 0.10439748185695841, "nrmse": 0.14529841974614338, "train_time_s": 10.060276508331299, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.08498955395652974, "train_rmse": 0.4171489812404978, "train_rmse_clean": 0.08650026845778136, "nrmse": 0.11237985736981289, "train_time_s": 9.916146278381348, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.0536804912642026, "train_rmse": 0.3674953255060629, "train_rmse_clean": 0.062202501173173275, "nrmse": 0.07090270414968994, "train_time_s": 10.09752607345581, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.10814209398623209, "train_rmse": 0.35755771107152334, "train_rmse_clean": 0.10105583172229426, "nrmse": 0.1379984472616081, "train_time_s": 8.225693702697754, "p_values": [24.174938201904297, 2.8567962646484375, 1.9030048847198486, 2.0452091693878174, 1.8290650844573975, 1.4278106689453125, 2.2730207443237305, 2.1877079010009766, 2.958118200302124, 2.3481829166412354, 2.747069835662842, 1.5680463314056396, 2.6794633865356445, 2.82985520362854, 1.1678179502487183], "p_mean": 3.6664071162541707}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.06680037346188383, "train_rmse": 0.36050565891239117, "train_rmse_clean": 0.06142475482306953, "nrmse": 0.08321135980472022, "train_time_s": 8.304295539855957, "p_values": [2.2624428272247314, 3.980180263519287, 2.409022808074951, 1.85962975025177, 2.4989004135131836, 2.2653284072875977, 2.3733699321746826, 2.570742607116699, 1.9699063301086426, 1.354037880897522, 2.3128647804260254, 2.1277236938476562, 2.2510123252868652, 3.064014434814453, 3.2221505641937256], "p_mean": 2.4347551345825194}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.08861412495088405, "train_rmse": 0.3713985995595408, "train_rmse_clean": 0.08784498612468195, "nrmse": 0.11356016327200079, "train_time_s": 8.13175344467163, "p_values": [2.3478751182556152, 2.4630160331726074, 1.3406119346618652, 3.0173680782318115, 2.019402503967285, 1.6739463806152344, 2.2505407333374023, 2.068019390106201, 1.6228843927383423, 3.5670087337493896, 2.627976894378662, 3.4105632305145264, 7.030848026275635, 2.0735840797424316, 2.545834541320801], "p_mean": 2.670632004737854}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.0713053706898541, "train_rmse": 0.42179403109098246, "train_rmse_clean": 0.0782090691346351, "nrmse": 0.0942855564570448, "train_time_s": 8.30169415473938, "p_values": [3.087780475616455, 4.16708517074585, 8.437498092651367, 2.541471481323242, 2.1675283908843994, 2.302894353866577, 2.1690926551818848, 2.0332133769989014, 2.2965779304504395, 2.590803623199463, 1.3830795288085938, 2.351989269256592, 2.8109405040740967, 2.2076807022094727, 1.5898473262786865], "p_mean": 2.809165525436401}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.10005428923246384, "train_rmse": 0.37083601938928723, "train_rmse_clean": 0.11381913416248679, "nrmse": 0.13215452208589754, "train_time_s": 8.146999835968018, "p_values": [2.5750722885131836, 2.151411294937134, 2.291534423828125, 2.974346160888672, 2.9731674194335938, 1.3211390972137451, 2.29373836517334, 2.303730010986328, 2.4016788005828857, 2.5384268760681152, 2.2716431617736816, 2.9512319564819336, 1.7234121561050415, 1.9967948198318481, 1.4302057027816772], "p_mean": 2.27983550230662}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.06776910341431686, "train_rmse": 0.3613162475950915, "train_rmse_clean": 0.06476312955936647, "nrmse": 0.08647910077159876, "train_time_s": 3.9457075595855713}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.05867562143729854, "train_rmse": 0.3619978111109923, "train_rmse_clean": 0.05731151562663461, "nrmse": 0.07309058309337951, "train_time_s": 3.891974449157715}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.08596651506973751, "train_rmse": 0.36942090472015465, "train_rmse_clean": 0.08073845746677799, "nrmse": 0.11016721648670881, "train_time_s": 4.015045404434204}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.08461293963692817, "train_rmse": 0.4208153255392766, "train_rmse_clean": 0.08457289176173921, "nrmse": 0.11188186836351807, "train_time_s": 3.9346776008605957}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.0722021337280303, "train_rmse": 0.36312438382848455, "train_rmse_clean": 0.081382156930772, "nrmse": 0.09536661096298049, "train_time_s": 3.950230598449707}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.5, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.1581325092993202, "train_rmse": 0.3471604251729232, "train_rmse_clean": 0.13103216103635518, "nrmse": 0.2017904401561359, "train_time_s": 8.083940029144287}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.5, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.09794742041357996, "train_rmse": 0.3604476262586864, "train_rmse_clean": 0.0889624222944585, "nrmse": 0.12201036640355263, "train_time_s": 8.225953817367554}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.5, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.09578626796553014, "train_rmse": 0.37047969240639667, "train_rmse_clean": 0.09569794683450716, "nrmse": 0.1227513586057558, "train_time_s": 8.034779071807861}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.5, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.18073430387386136, "train_rmse": 0.4030021457801247, "train_rmse_clean": 0.15544557271220327, "nrmse": 0.23898107879899608, "train_time_s": 8.133590698242188}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.5, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.08525217944608876, "train_rmse": 0.3632038554953496, "train_rmse_clean": 0.09245000646486545, "nrmse": 0.11260347875044915, "train_time_s": 8.188360929489136}
+checkpoint directory created: ./model_ckpt_2099968_124052733400576_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.4607164662069607, "train_rmse": 0.6828518610040746, "train_rmse_clean": 0.2796084209958316, "nrmse": 0.5879131300389842, "train_time_s": 32.28307127952576}
+checkpoint directory created: ./model_ckpt_2100842_128330241877504_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.3886409814892744, "train_rmse": 0.7242164260902406, "train_rmse_clean": 0.32251426176657105, "nrmse": 0.48411921774683475, "train_time_s": 35.75783133506775}
+checkpoint directory created: ./model_ckpt_2101691_128301900686848_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.59421821956321, "train_rmse": 0.7082274761384468, "train_rmse_clean": 0.3099672785388634, "nrmse": 0.7614984413624515, "train_time_s": 30.57586121559143}
+checkpoint directory created: ./model_ckpt_2099970_138703185671680_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.8402677641435403, "train_rmse": 0.7371630074493787, "train_rmse_clean": 0.28012842915947544, "nrmse": 1.1110679735441493, "train_time_s": 32.380632400512695}
+checkpoint directory created: ./model_ckpt_2100843_126201680987648_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.6245017869560598, "train_rmse": 0.7138434826167668, "train_rmse_clean": 0.3098165288260617, "nrmse": 0.8248595420553843, "train_time_s": 36.43723726272583}
+checkpoint directory created: ./model_ckpt_2101715_134407928714752_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.5300311953138959, "train_rmse": 0.66479418358524, "train_rmse_clean": 0.3203875124634248, "nrmse": 0.6763645797615485, "train_time_s": 31.347799062728882}
+checkpoint directory created: ./model_ckpt_2099971_128731307660800_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.44916750500298974, "train_rmse": 0.7113325903235435, "train_rmse_clean": 0.34866695243014334, "nrmse": 0.559515417869914, "train_time_s": 29.95622706413269}
+checkpoint directory created: ./model_ckpt_2100792_124504040240640_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.4818222608744058, "train_rmse": 0.6962980796497504, "train_rmse_clean": 0.3368011862204572, "nrmse": 0.6174615462637507, "train_time_s": 29.53528928756714}
+checkpoint directory created: ./model_ckpt_2101506_134541638477312_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.5779174975862915, "train_rmse": 0.7118231536370452, "train_rmse_clean": 0.33480961446217883, "nrmse": 0.7641678644823245, "train_time_s": 31.913630962371826}
+checkpoint directory created: ./model_ckpt_2099976_125561068357120_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.250288153054754, "train_rmse": 0.7099587050087308, "train_rmse_clean": 0.3164291438813507, "nrmse": 1.6514157924076205, "train_time_s": 27.850282669067383}
+checkpoint directory created: ./model_ckpt_2100785_139455253214720_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.4758035098058322, "train_rmse": 0.6576057053347562, "train_rmse_clean": 0.33432265099832215, "nrmse": 0.6071654721535867, "train_time_s": 32.625465869903564}
+checkpoint directory created: ./model_ckpt_2101547_123666632922624_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.38431723290290876, "train_rmse": 0.7101154840225554, "train_rmse_clean": 0.3559975912171165, "nrmse": 0.47873324487453467, "train_time_s": 36.569709062576294}
+checkpoint directory created: ./model_ckpt_2099977_132957166339584_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.5000814782700438, "train_rmse": 0.7040848080157183, "train_rmse_clean": 0.3215936232176073, "nrmse": 0.6408609728203735, "train_time_s": 37.8639440536499}
+checkpoint directory created: ./model_ckpt_2101003_136799945709056_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.363924653572008, "train_rmse": 0.7195088439576338, "train_rmse_clean": 0.32175824038906775, "nrmse": 0.48120973411272566, "train_time_s": 25.380657196044922}
+checkpoint directory created: ./model_ckpt_2101624_137380243658240_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.6734548808003353, "train_rmse": 0.6705788430036819, "train_rmse_clean": 0.39386448687244524, "nrmse": 0.8895181666005602, "train_time_s": 32.31392693519592}
+checkpoint directory created: ./model_ckpt_2099978_127752280999424_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.42041991252919075, "train_rmse": 0.6531864452143843, "train_rmse_clean": 0.3419973360995865, "nrmse": 0.5364913234829333, "train_time_s": 44.97444939613342}
+checkpoint directory created: ./model_ckpt_2101119_127108963771904_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.5183350726027491, "train_rmse": 0.6902907443162576, "train_rmse_clean": 0.39551166862548115, "nrmse": 0.6456755253077112, "train_time_s": 41.555155754089355}
+checkpoint directory created: ./model_ckpt_2102108_127799715415552_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.3824425849306614, "train_rmse": 0.7096192965141412, "train_rmse_clean": 0.30553237621550267, "nrmse": 0.4901051882074547, "train_time_s": 34.0280601978302}
+checkpoint directory created: ./model_ckpt_2099991_140706174895616_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.5897319505519043, "train_rmse": 0.6663235868019051, "train_rmse_clean": 0.41699888715280053, "nrmse": 0.7797898612733304, "train_time_s": 37.673787117004395}
+checkpoint directory created: ./model_ckpt_2101010_127341953795584_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.4744851247172903, "train_rmse": 0.682496246857994, "train_rmse_clean": 0.3717612809289932, "nrmse": 0.6267133110924691, "train_time_s": 35.74099349975586}
+checkpoint directory created: ./model_ckpt_2101961_128236555576832_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.42998409649472435, "train_rmse": 0.6471273624514495, "train_rmse_clean": 0.3518406613223668, "nrmse": 0.5486960301602058, "train_time_s": 36.60677671432495}
+checkpoint directory created: ./model_ckpt_2100015_137499132892672_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.46789201599235497, "train_rmse": 0.7043906936013755, "train_rmse_clean": 0.36422645003182375, "nrmse": 0.5828400183228225, "train_time_s": 37.348777770996094}
+checkpoint directory created: ./model_ckpt_2101018_138996369786368_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.8122526916285437, "train_rmse": 0.7071433566500858, "train_rmse_clean": 0.31623169486450564, "nrmse": 1.0409124767703222, "train_time_s": 38.07769703865051}
+checkpoint directory created: ./model_ckpt_2101994_123152258225664_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.6521346348158055, "train_rmse": 0.7151752069602431, "train_rmse_clean": 0.3290109411658406, "nrmse": 0.862303587144366, "train_time_s": 36.113003969192505}
+checkpoint directory created: ./model_ckpt_2100112_127193175102976_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.3633049672310591, "train_rmse": 0.7042292160996908, "train_rmse_clean": 0.3221512579958201, "nrmse": 0.47986342898606155, "train_time_s": 41.8868362903595}
+checkpoint directory created: ./model_ckpt_2101346_129385951991296_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.40258053298252605, "train_rmse": 0.6697284628142164, "train_rmse_clean": 0.3124615304509515, "nrmse": 0.5137267681945583, "train_time_s": 37.523046255111694}
+checkpoint directory created: ./model_ckpt_2102116_126660966176256_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.42208295252059713, "train_rmse": 0.7074027507839808, "train_rmse_clean": 0.36261013232259387, "nrmse": 0.5257769471853425, "train_time_s": 36.35424327850342}
+checkpoint directory created: ./model_ckpt_2100234_131034006058496_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.41960808057964627, "train_rmse": 0.7034216001185207, "train_rmse_clean": 0.32293922496060823, "nrmse": 0.5377332582958616, "train_time_s": 43.78908824920654}
+checkpoint directory created: ./model_ckpt_2101442_135794051225088_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.43842219188481835, "train_rmse": 0.7089920884527032, "train_rmse_clean": 0.33964553180226, "nrmse": 0.5797162250901686, "train_time_s": 37.88581943511963}
+checkpoint directory created: ./model_ckpt_2102191_138881111655936_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.37078067540853965, "train_rmse": 0.7070996622610579, "train_rmse_clean": 0.31755147754343227, "nrmse": 0.4897375548134232, "train_time_s": 36.18495464324951}
+checkpoint directory created: ./model_ckpt_2100241_126104021317120_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.31960359395484694, "train_rmse": 0.6794634494456631, "train_rmse_clean": 0.2824190117274128, "nrmse": 0.4078411844939258, "train_time_s": 37.709890365600586}
+checkpoint directory created: ./model_ckpt_2101350_134601002579456_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.3091060788616762, "train_rmse": 0.7412555081657501, "train_rmse_clean": 0.27738182474088546, "nrmse": 0.38504481057522216, "train_time_s": 37.6324188709259}
+checkpoint directory created: ./model_ckpt_2102136_124184932169216_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.38644383038730723, "train_rmse": 0.7069216977119375, "train_rmse_clean": 0.3152373365872343, "nrmse": 0.4952328367352701, "train_time_s": 35.9851131439209}
+checkpoint directory created: ./model_ckpt_2100242_135577750230528_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.36541271485085147, "train_rmse": 0.7287847928897087, "train_rmse_clean": 0.2903500332033637, "nrmse": 0.48317736550374935, "train_time_s": 43.004268646240234}
+checkpoint directory created: ./model_ckpt_2101440_131827170682368_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.21305022020637665, "train_rmse": 0.7380484389698978, "train_rmse_clean": 0.2343189076048091, "nrmse": 0.2814027289350182, "train_time_s": 37.809847593307495}
+checkpoint directory created: ./model_ckpt_2102190_127910169470464_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.18932115938048, "train_rmse": 0.7157758531153569, "train_rmse_clean": 0.17254104673601223, "nrmse": 0.24158979233007874, "train_time_s": 35.78032088279724}
+checkpoint directory created: ./model_ckpt_2100259_133636690937344_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.15491373538811803, "train_rmse": 0.7722752702388647, "train_rmse_clean": 0.15943795836335095, "nrmse": 0.192971714169072, "train_time_s": 44.237698793411255}
+checkpoint directory created: ./model_ckpt_2101461_124096701715968_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.19186270639490388, "train_rmse": 0.7446810959875059, "train_rmse_clean": 0.19038622745402556, "nrmse": 0.24587457446642502, "train_time_s": 37.36669087409973}
+checkpoint directory created: ./model_ckpt_2102201_128956110427648_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.18119232109113703, "train_rmse": 0.7612559626629256, "train_rmse_clean": 0.18726568719450576, "nrmse": 0.23958670510427924, "train_time_s": 35.8632972240448}
+checkpoint directory created: ./model_ckpt_2100260_125198267778560_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.15727300880282158, "train_rmse": 0.7598669558286133, "train_rmse_clean": 0.15972795683665097, "nrmse": 0.20773061779548685, "train_time_s": 37.51743793487549}
+checkpoint directory created: ./model_ckpt_2101395_135221074044416_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.4338118949849523, "train_rmse": 0.647128713026035, "train_rmse_clean": 0.3515305018688064, "nrmse": 0.5535806243881393, "train_time_s": 73.16491150856018}
+checkpoint directory created: ./model_ckpt_2104649_132240047810048_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.4857168854698557, "train_rmse": 0.7038127587677856, "train_rmse_clean": 0.3673173206123259, "nrmse": 0.6050439604671103, "train_time_s": 74.88850021362305}
+checkpoint directory created: ./model_ckpt_2100261_139610446206464_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.7930345396574339, "train_rmse": 0.7010092505616647, "train_rmse_clean": 0.32997915275022827, "nrmse": 1.0162841629790953, "train_time_s": 74.03150844573975}
+checkpoint directory created: ./model_ckpt_2102104_138115552278016_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.5783060441220371, "train_rmse": 0.7142971877268742, "train_rmse_clean": 0.3307600481542554, "nrmse": 0.7646816312011258, "train_time_s": 72.66371750831604}
+checkpoint directory created: ./model_ckpt_2105484_138543472236032_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.36828121443554096, "train_rmse": 0.7038838115420418, "train_rmse_clean": 0.3245065032099177, "nrmse": 0.4864361963919811, "train_time_s": 75.40150737762451}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.1535058459417682, "train_rmse": 0.7310820049311495, "train_rmse_clean": 0.13644348571850706, "nrmse": 0.19588642687315247, "train_time_s": 5.906527042388916}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.15668237753170278, "train_rmse": 0.7851307214494341, "train_rmse_clean": 0.15109497467988842, "nrmse": 0.19517486229757156, "train_time_s": 5.488497257232666}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.14989144811812416, "train_rmse": 0.765945340931566, "train_rmse_clean": 0.13819103569925417, "nrmse": 0.19208785654437585, "train_time_s": 6.70979905128479}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.14025865573808893, "train_rmse": 0.7739387451828676, "train_rmse_clean": 0.14694235169918102, "nrmse": 0.1854610007106304, "train_time_s": 5.9233644008636475}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.12041038432783324, "train_rmse": 0.7657099945597281, "train_rmse_clean": 0.134175493429602, "nrmse": 0.159041425580993, "train_time_s": 5.51906681060791}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.16304391879864877, "train_rmse": 0.7288543221906707, "train_rmse_clean": 0.14400403601250833, "nrmse": 0.20805781357004022, "train_time_s": 11.595774173736572, "p_values": [2.311237335205078, 2.6852800846099854, 2.636709213256836, 2.263667583465576, 4.059544563293457, 6.504377365112305, 3.845438241958618, 3.465381622314453, 3.4821035861968994, 2.6492204666137695, 2.3458430767059326, 2.3565845489501953, 2.364942789077759, 2.4333741664886475, 2.017057418823242], "p_mean": 3.0280508041381835}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.17861844987321351, "train_rmse": 0.7836542732659879, "train_rmse_clean": 0.1784229845236629, "nrmse": 0.2225000150432123, "train_time_s": 10.753376960754395, "p_values": [1.9777929782867432, 2.3363068103790283, 2.4524853229522705, 3.4513165950775146, 2.168949604034424, 2.476210594177246, 2.440621852874756, 2.497776746749878, 2.3936426639556885, 3.23537015914917, 3.088205337524414, 2.1005234718322754, 2.457429885864258, 2.937032699584961, 2.8073694705963135], "p_mean": 2.588068946202596}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.15194393640727633, "train_rmse": 0.7635725425500866, "train_rmse_clean": 0.1397372508008452, "nrmse": 0.1947181472046874, "train_time_s": 10.399044036865234, "p_values": [2.4631192684173584, 3.4953579902648926, 2.140336513519287, 2.3422794342041016, 1.7776850461959839, 3.4377737045288086, 2.5626516342163086, 2.292577028274536, 2.909249782562256, 2.7197957038879395, 2.327169418334961, 2.7063040733337402, 2.345536708831787, 2.2003681659698486, 2.7113492488861084], "p_mean": 2.562103581428528}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.14770326732385985, "train_rmse": 0.772620325240279, "train_rmse_clean": 0.14974175753616592, "nrmse": 0.19530485032784933, "train_time_s": 10.490393877029419, "p_values": [2.231778144836426, 2.455552339553833, 2.8970742225646973, 2.309112548828125, 1.7115459442138672, 2.145869731903076, 2.3175692558288574, 2.861515998840332, 2.33636474609375, 2.3870654106140137, 3.8201208114624023, 2.4838967323303223, 2.9222774505615234, 2.174020767211914, 2.422332763671875], "p_mean": 2.498406457901001}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.15196562231496458, "train_rmse": 0.764748409404973, "train_rmse_clean": 0.15335054269238313, "nrmse": 0.20072047230139126, "train_time_s": 12.926516771316528, "p_values": [2.6475961208343506, 1.5370700359344482, 2.292090654373169, 1.7888641357421875, 2.5961532592773438, 42.28307342529297, 3.3386740684509277, 2.211683988571167, 1.738124966621399, 1.8201217651367188, 2.7288951873779297, 2.6849799156188965, 3.0339162349700928, 2.5354301929473877, 6.083530902862549], "p_mean": 5.288013656934102}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.13142374888263308, "train_rmse": 0.7307923066825595, "train_rmse_clean": 0.12379153935208276, "nrmse": 0.16770780563405635, "train_time_s": 10.10250473022461, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.18028519642421248, "train_rmse": 0.7873467926454936, "train_rmse_clean": 0.18181480360148772, "nrmse": 0.22457623467748708, "train_time_s": 10.468882322311401, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.14163271366665597, "train_rmse": 0.7669780257491965, "train_rmse_clean": 0.13373490636892527, "nrmse": 0.18150418003401533, "train_time_s": 10.046454906463623, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.14242693728238187, "train_rmse": 0.7732330295490542, "train_rmse_clean": 0.14776008625862413, "nrmse": 0.18832807271350113, "train_time_s": 10.110851287841797, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.1286746561737182, "train_rmse": 0.7670870338133966, "train_rmse_clean": 0.1438001286877011, "nrmse": 0.16995710850232548, "train_time_s": 10.52983283996582, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.11859781474523157, "train_rmse": 0.7356294345796854, "train_rmse_clean": 0.11958744827275769, "nrmse": 0.1513408302001758, "train_time_s": 8.348528623580933, "p_values": [2.671583652496338, 2.500244617462158, 1.9973359107971191, 1.8501126766204834, 2.218005657196045, 1.5820517539978027, 2.303069591522217, 2.235691785812378, 2.3716492652893066, 1.7461786270141602, 2.852428913116455, 2.3995447158813477, 5.37213134765625, 3.01724910736084, 1.221213936805725], "p_mean": 2.4225661039352415}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.09114376866390383, "train_rmse": 0.7935891386695815, "train_rmse_clean": 0.0996098461040873, "nrmse": 0.11353524741261835, "train_time_s": 8.59512710571289, "p_values": [2.279785633087158, 1.9824540615081787, 4.615359306335449, 1.7486348152160645, 2.3939599990844727, 2.299656391143799, 2.5648856163024902, 2.141849994659424, 2.207357883453369, 1.3692350387573242, 2.328111410140991, 2.0632247924804688, 2.309451103210449, 2.4553911685943604, 2.991546630859375], "p_mean": 2.3833935896555585}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.10873664720391307, "train_rmse": 0.7730124828326836, "train_rmse_clean": 0.10717835584034496, "nrmse": 0.13934743944004974, "train_time_s": 8.664965629577637, "p_values": [2.3852500915527344, 2.622285842895508, 2.6535468101501465, 1.9687480926513672, 2.0619759559631348, 2.1684341430664062, 2.249948263168335, 2.1993374824523926, 2.3808045387268066, 2.2413928508758545, 2.6749422550201416, 5.405581474304199, 3.9861903190612793, 2.167752981185913, 2.928758144378662], "p_mean": 2.6729966163635255}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.165039506210384, "train_rmse": 0.7740202919866661, "train_rmse_clean": 0.17160666219510645, "nrmse": 0.21822818575790784, "train_time_s": 9.896758794784546, "p_values": [6.452510356903076, 2.778688907623291, 4.450787544250488, 2.064728260040283, 2.128300666809082, 2.219564437866211, 2.1829850673675537, 2.191911220550537, 1.786689043045044, 2.263929605484009, 1.509989619255066, 2.29048752784729, 2.6147847175598145, 2.137453317642212, 1.5781466960906982], "p_mean": 2.576730465888977}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.12957612024198895, "train_rmse": 0.7687085199891897, "train_rmse_clean": 0.14777342584489617, "nrmse": 0.17114778762296906, "train_time_s": 8.539337873458862, "p_values": [2.3615174293518066, 2.0605831146240234, 3.0931711196899414, 2.8522486686706543, 3.4285531044006348, 1.300812005996704, 3.1852502822875977, 2.373975992202759, 2.600945472717285, 2.3358373641967773, 2.1026883125305176, 2.5198187828063965, 2.963289976119995, 2.3051342964172363, 1.4203128814697266], "p_mean": 2.460275920232137}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.09832296655810868, "train_rmse": 0.7335428868833915, "train_rmse_clean": 0.09818259683952224, "nrmse": 0.12546841118964697, "train_time_s": 4.005018711090088}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.15875676286114526, "train_rmse": 0.7821440704752547, "train_rmse_clean": 0.16746477464399945, "nrmse": 0.19775886617474098, "train_time_s": 3.9292683601379395}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.15489080513158537, "train_rmse": 0.760641174530118, "train_rmse_clean": 0.14406949922779422, "nrmse": 0.19849459812218134, "train_time_s": 3.9771554470062256}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.16211768423028516, "train_rmse": 0.7676392066207285, "train_rmse_clean": 0.1731767619570066, "nrmse": 0.2143647234605126, "train_time_s": 4.196674346923828}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.11743595356302095, "train_rmse": 0.7677283547549791, "train_rmse_clean": 0.12821692358831882, "nrmse": 0.15511271368651264, "train_time_s": 3.954444408416748}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 1.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.22036656977205915, "train_rmse": 0.7242940170644196, "train_rmse_clean": 0.20199501881955406, "nrmse": 0.28120635855990184, "train_time_s": 8.311520099639893}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 1.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.23400442422496504, "train_rmse": 0.7694635295024455, "train_rmse_clean": 0.2475056804955411, "nrmse": 0.29149277662632445, "train_time_s": 8.746119499206543}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 1.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.23942741707835147, "train_rmse": 0.7558338017340596, "train_rmse_clean": 0.2252412450368606, "nrmse": 0.3068293750040553, "train_time_s": 8.243432998657227}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 1.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.24057935658186302, "train_rmse": 0.7671883487331392, "train_rmse_clean": 0.23974798691713772, "nrmse": 0.3181129035295276, "train_time_s": 8.466442584991455}
+{"experiment": "noise", "eq_id": "I.25.13", "eq_name": "Capacitor voltage", "eq_type": "rational", "n_vars": 2, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 1.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.25170986197509393, "train_rmse": 0.7551162672664304, "train_rmse_clean": 0.2603615306790559, "nrmse": 0.33246547218320216, "train_time_s": 8.278411865234375}

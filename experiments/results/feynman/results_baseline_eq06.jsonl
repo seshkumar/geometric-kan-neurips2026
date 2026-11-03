@@ -1,0 +1,210 @@
+checkpoint directory created: ./model_ckpt_2082454_133755237946880_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.12090251598165747, "train_rmse": 0.08843651199213465, "train_rmse_clean": null, "nrmse": 0.061181458431141235, "train_time_s": 30.07856774330139}
+checkpoint directory created: ./model_ckpt_2082455_136089707210240_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.04859229629046946, "train_rmse": 0.048299171836931665, "train_rmse_clean": null, "nrmse": 0.02833244541294649, "train_time_s": 53.48639941215515}
+checkpoint directory created: ./model_ckpt_2082456_136266609006080_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.05366289002666713, "train_rmse": 0.04314309820067308, "train_rmse_clean": null, "nrmse": 0.030701306074769542, "train_time_s": 27.84259796142578}
+checkpoint directory created: ./model_ckpt_2082458_125758013666816_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.02430171264784109, "train_rmse": 0.010955659974086429, "train_rmse_clean": null, "nrmse": 0.013019046452958752, "train_time_s": 37.910722732543945}
+checkpoint directory created: ./model_ckpt_2082457_137590682912256_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.08631238274361674, "train_rmse": 0.013078897345433549, "train_rmse_clean": null, "nrmse": 0.04806815045375144, "train_time_s": 39.87071752548218}
+checkpoint directory created: ./model_ckpt_2082459_138979961746944_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 0.049675616932935984, "train_rmse": 0.03076674530317436, "train_rmse_clean": null, "nrmse": 0.02513782833836816, "train_time_s": 24.687470197677612}
+checkpoint directory created: ./model_ckpt_2082460_138878438913536_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 0.014532252887804353, "train_rmse": 0.01138007419253001, "train_rmse_clean": null, "nrmse": 0.008473241503336927, "train_time_s": 46.86814522743225}
+checkpoint directory created: ./model_ckpt_2082461_130307965036032_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 0.06959450347962548, "train_rmse": 0.0475643442309277, "train_rmse_clean": null, "nrmse": 0.03981600974878202, "train_time_s": 29.658787727355957}
+checkpoint directory created: ./model_ckpt_2082462_139168943437312_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 0.12090453417759317, "train_rmse": 0.043645455798094535, "train_rmse_clean": null, "nrmse": 0.06477163851129894, "train_time_s": 42.55067801475525}
+checkpoint directory created: ./model_ckpt_2082464_131132441798144_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 360, "n_params_trainable": 360, "test_rmse": 0.07884269880136419, "train_rmse": 0.04189073198230808, "train_rmse_clean": null, "nrmse": 0.04390821557343763, "train_time_s": 33.622230052948}
+checkpoint directory created: ./model_ckpt_2082463_124169198413312_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 0.036176981987398715, "train_rmse": 0.008564320035956585, "train_rmse_clean": null, "nrmse": 0.018306984777405097, "train_time_s": 54.603397846221924}
+checkpoint directory created: ./model_ckpt_2082465_124392820962816_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 0.02666391583461547, "train_rmse": 0.02566328447500521, "train_rmse_clean": null, "nrmse": 0.015546784110875855, "train_time_s": 59.57453370094299}
+checkpoint directory created: ./model_ckpt_2082468_134890767500800_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 0.10782986123149829, "train_rmse": 0.07497695031769158, "train_rmse_clean": null, "nrmse": 0.061691004193457216, "train_time_s": 39.89268088340759}
+checkpoint directory created: ./model_ckpt_2082466_138583485298176_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 0.037056584032259865, "train_rmse": 0.013961464641086274, "train_rmse_clean": null, "nrmse": 0.019852155932179528, "train_time_s": 49.15907335281372}
+checkpoint directory created: ./model_ckpt_2082467_126226792744448_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 475, "n_params_trainable": 475, "test_rmse": 0.06352007371876223, "train_rmse": 0.02993515167887395, "train_rmse_clean": null, "nrmse": 0.035374906395718206, "train_time_s": 32.5821168422699}
+checkpoint directory created: ./model_ckpt_2082469_133013946336768_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 0.549297752459065, "train_rmse": 0.16637341609716128, "train_rmse_clean": null, "nrmse": 0.27796640405309847, "train_time_s": 28.846527099609375}
+checkpoint directory created: ./model_ckpt_2082470_140310460511744_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 0.05694607814099539, "train_rmse": 0.042878660952705205, "train_rmse_clean": null, "nrmse": 0.03320323947579283, "train_time_s": 35.46688628196716}
+checkpoint directory created: ./model_ckpt_2082473_135714168493568_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 0.09270487362850588, "train_rmse": 0.04619617056005865, "train_rmse_clean": null, "nrmse": 0.053037782692606096, "train_time_s": 52.44859600067139}
+checkpoint directory created: ./model_ckpt_2082472_123136143865344_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 0.05455880265539492, "train_rmse": 0.03084644240136747, "train_rmse_clean": null, "nrmse": 0.029228540246586186, "train_time_s": 36.05857849121094}
+checkpoint directory created: ./model_ckpt_2082474_134641204053504_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 705, "n_params_trainable": 705, "test_rmse": 0.13441583044878413, "train_rmse": 0.027737003615367684, "train_rmse_clean": null, "nrmse": 0.0748573976988943, "train_time_s": 38.30366325378418}
+checkpoint directory created: ./model_ckpt_2082475_123316758660608_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.025929771417944836, "train_rmse": 0.01140492020373196, "train_rmse_clean": null, "nrmse": 0.013121490642731269, "train_time_s": 53.638880014419556}
+checkpoint directory created: ./model_ckpt_2082476_123713597896192_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.02204652905181037, "train_rmse": 0.018396248578671393, "train_rmse_clean": null, "nrmse": 0.012854549560109327, "train_time_s": 51.262874126434326}
+checkpoint directory created: ./model_ckpt_2082477_127714423580160_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.023791232631617865, "train_rmse": 0.013342168130550003, "train_rmse_clean": null, "nrmse": 0.013611304097792171, "train_time_s": 53.912471771240234}
+checkpoint directory created: ./model_ckpt_2082478_140292232771072_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.018744218947085445, "train_rmse": 0.01029263634337202, "train_rmse_clean": null, "nrmse": 0.010041755522864938, "train_time_s": 44.71181130409241}
+checkpoint directory created: ./model_ckpt_2082479_140682177811968_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.02047034818773663, "train_rmse": 0.012801415181059927, "train_rmse_clean": null, "nrmse": 0.011400122963255495, "train_time_s": 58.337061166763306}
+checkpoint directory created: ./model_ckpt_2082481_136655484093952_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.023013279918803087, "train_rmse": 0.013380210458108444, "train_rmse_clean": null, "nrmse": 0.011645630508881046, "train_time_s": 63.57488679885864}
+checkpoint directory created: ./model_ckpt_2082482_134620146099712_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.01856441444249335, "train_rmse": 0.012746669908199226, "train_rmse_clean": null, "nrmse": 0.010824251969306897, "train_time_s": 58.175087451934814}
+checkpoint directory created: ./model_ckpt_2082480_123861244904960_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.021918309090970034, "train_rmse": 0.01574450911523817, "train_rmse_clean": null, "nrmse": 0.012539777781421665, "train_time_s": 51.653454303741455}
+checkpoint directory created: ./model_ckpt_2082483_138034393671168_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.018789446045732294, "train_rmse": 0.015061015880594164, "train_rmse_clean": null, "nrmse": 0.010065984831586857, "train_time_s": 39.63686990737915}
+checkpoint directory created: ./model_ckpt_2082484_132488509490688_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.05421591964805117, "train_rmse": 0.01888135602807317, "train_rmse_clean": null, "nrmse": 0.030193338427141895, "train_time_s": 58.2148973941803}
+checkpoint directory created: ./model_ckpt_2082485_126202225632768_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.04896139648999487, "train_rmse": 0.02587941761053969, "train_rmse_clean": null, "nrmse": 0.0247764045252599, "train_time_s": 58.7932403087616}
+checkpoint directory created: ./model_ckpt_2082486_138157609715200_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.028763155268149432, "train_rmse": 0.02574288205379216, "train_rmse_clean": null, "nrmse": 0.016770776208383933, "train_time_s": 40.35348677635193}
+checkpoint directory created: ./model_ckpt_2083523_139510592144896_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.02926876469489237, "train_rmse": 0.01437815095061068, "train_rmse_clean": null, "nrmse": 0.016745078449590698, "train_time_s": 59.22864246368408}
+checkpoint directory created: ./model_ckpt_2083590_125421230130688_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.058486279658366946, "train_rmse": 0.033170420816558854, "train_rmse_clean": null, "nrmse": 0.03133258971361675, "train_time_s": 58.33062028884888}
+checkpoint directory created: ./model_ckpt_2083609_130645507933696_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.0748519320037575, "train_rmse": 0.024484541659932413, "train_rmse_clean": null, "nrmse": 0.04168572127128165, "train_time_s": 56.23759150505066}
+checkpoint directory created: ./model_ckpt_2083622_134287191627264_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.11632369651616692, "train_rmse": 0.060851870234789995, "train_rmse_clean": null, "nrmse": 0.05886439455106358, "train_time_s": 53.33445191383362}
+checkpoint directory created: ./model_ckpt_2083625_138671504446976_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.07407790881305276, "train_rmse": 0.07766393119654902, "train_rmse_clean": null, "nrmse": 0.04319220263238908, "train_time_s": 56.46220636367798}
+checkpoint directory created: ./model_ckpt_2083655_131193007994368_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.07749164595645297, "train_rmse": 0.05177577082662532, "train_rmse_clean": null, "nrmse": 0.044334077787545126, "train_time_s": 60.9902606010437}
+checkpoint directory created: ./model_ckpt_2083669_125564413130240_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.12946995371412662, "train_rmse": 0.09743736493301647, "train_rmse_clean": null, "nrmse": 0.06936035192632305, "train_time_s": 54.48832130432129}
+checkpoint directory created: ./model_ckpt_2083699_128785188394496_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.14908401818424366, "train_rmse": 0.07848191841814955, "train_rmse_clean": null, "nrmse": 0.0830262447697288, "train_time_s": 55.70586013793945}
+checkpoint directory created: ./model_ckpt_2083751_134107989280256_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.01973357009238752, "train_rmse": 0.006829823942067437, "train_rmse_clean": null, "nrmse": 0.009985967525180262, "train_time_s": 97.43171977996826}
+checkpoint directory created: ./model_ckpt_2083758_129165905167872_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.012723430477510733, "train_rmse": 0.007354400007056172, "train_rmse_clean": null, "nrmse": 0.007418581277053079, "train_time_s": 98.9908766746521}
+checkpoint directory created: ./model_ckpt_2083925_125034099770880_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.015533917197238178, "train_rmse": 0.009795039011952777, "train_rmse_clean": null, "nrmse": 0.008887175964163318, "train_time_s": 99.04787063598633}
+checkpoint directory created: ./model_ckpt_2083962_125751069611520_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.025121880407258823, "train_rmse": 0.00844793618857409, "train_rmse_clean": null, "nrmse": 0.013458431212124158, "train_time_s": 101.36305594444275}
+checkpoint directory created: ./model_ckpt_2083967_130324819039744_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 314, "n_params_trainable": 314, "test_rmse": 0.01938655346490492, "train_rmse": 0.01091821037354923, "train_rmse_clean": null, "nrmse": 0.010796547831367373, "train_time_s": 100.52916049957275}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.06124504568763944, "train_rmse": 0.031433790205256606, "train_rmse_clean": null, "nrmse": 0.030992417208423835, "train_time_s": 10.466126441955566}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.042333861451948396, "train_rmse": 0.043093351019731996, "train_rmse_clean": null, "nrmse": 0.024683373914597517, "train_time_s": 9.537986993789673}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.09641621077766338, "train_rmse": 0.0779695375637921, "train_rmse_clean": null, "nrmse": 0.0551610917001218, "train_time_s": 8.647493839263916}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.08530836784840012, "train_rmse": 0.04574929469714184, "train_rmse_clean": null, "nrmse": 0.04570186554086674, "train_time_s": 8.134043216705322}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 64, "n_params_trainable": 64, "test_rmse": 0.05310330132047758, "train_rmse": 0.03341294946022888, "train_rmse_clean": null, "nrmse": 0.02957371116779174, "train_time_s": 5.470334768295288}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.04781362394728861, "train_rmse": 0.022467501191787864, "train_rmse_clean": null, "nrmse": 0.024195586189596465, "train_time_s": 10.447771310806274, "p_values": [3.3436779975891113, 2.656752109527588, 2.7011492252349854, 2.363689422607422, 2.659541368484497, 1.7289905548095703, 2.251453399658203, 2.3412699699401855, 2.36405086517334, 2.2424097061157227, 2.798823356628418, 2.403043270111084, 2.451662540435791, 2.4193649291992188, 3.1495790481567383, 2.237062931060791], "p_mean": 2.5070325434207916}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.033034256048181554, "train_rmse": 0.03971372463659928, "train_rmse_clean": null, "nrmse": 0.019261103666466776, "train_time_s": 12.134647607803345, "p_values": [2.1947944164276123, 2.7137088775634766, 3.1771914958953857, 2.3718535900115967, 2.3258066177368164, 1.9517287015914917, 2.247771739959717, 1.8623169660568237, 2.4819111824035645, 3.1421830654144287, 2.0786728858947754, 2.1860783100128174, 3.0325357913970947, 2.086529493331909, 2.4474539756774902, 1.432511806488037], "p_mean": 2.35831555724144}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.05052232285757796, "train_rmse": 0.03196615096641553, "train_rmse_clean": null, "nrmse": 0.02890454272753527, "train_time_s": 14.729231119155884, "p_values": [2.380680561065674, 1.4964781999588013, 2.2769806385040283, 2.0584282875061035, 2.4773335456848145, 2.2246320247650146, 2.3218162059783936, 1.2992953062057495, 2.3774771690368652, 2.927964687347412, 2.0949597358703613, 2.1402578353881836, 2.3253564834594727, 2.8038015365600586, 2.1843318939208984, 1.5725626945495605], "p_mean": 2.185147300362587}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.05952309715625281, "train_rmse": 0.02085834691481725, "train_rmse_clean": null, "nrmse": 0.03188803925595243, "train_time_s": 14.879412651062012, "p_values": [2.2288854122161865, 1.7628777027130127, 2.457246780395508, 2.5759217739105225, 2.7263853549957275, 2.384517192840576, 2.633925437927246, 3.775918483734131, 3.7862558364868164, 2.085857391357422, 2.451173782348633, 2.4327261447906494, 2.4950196743011475, 2.1195058822631836, 1.9345393180847168, 2.856934070587158], "p_mean": 2.54423063993454}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 128, "test_rmse": 0.05678888171225971, "train_rmse": 0.025972319391738052, "train_rmse_clean": null, "nrmse": 0.031626244386667356, "train_time_s": 19.17552423477173, "p_values": [2.361532211303711, 2.511241912841797, 1.8626997470855713, 2.595935344696045, 2.426938056945801, 2.1863598823547363, 2.632840156555176, 2.3862335681915283, 2.3584752082824707, 2.6225123405456543, 2.3851988315582275, 2.522829532623291, 2.6981418132781982, 2.3699798583984375, 2.7782270908355713, 2.4170968532562256], "p_mean": 2.4447651505470276}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.07983735042954354, "train_rmse": 0.03785575744305558, "train_rmse_clean": null, "nrmse": 0.04040085929476131, "train_time_s": 15.347284317016602, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.04743584599554351, "train_rmse": 0.04681058567735419, "train_rmse_clean": null, "nrmse": 0.027658160241117686, "train_time_s": 12.960201025009155, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.06154359936452458, "train_rmse": 0.04278280783924959, "train_rmse_clean": null, "nrmse": 0.035209972479944944, "train_time_s": 18.974883556365967, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.06416631460953104, "train_rmse": 0.028766660916529574, "train_rmse_clean": null, "nrmse": 0.034375529112795435, "train_time_s": 14.920212507247925, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 128, "n_params_trainable": 112, "test_rmse": 0.1212468475452404, "train_rmse": 0.07983829249414054, "train_rmse_clean": null, "nrmse": 0.06752347142541026, "train_time_s": 14.618140935897827, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.07400992579151344, "train_rmse": 0.04649064124709068, "train_rmse_clean": null, "nrmse": 0.037451951777350036, "train_time_s": 11.929333209991455, "p_values": [2.451253890991211, 4.08376932144165, 1.9774413108825684, 2.4367074966430664, 2.0100646018981934, 2.0668909549713135, 1.9755618572235107, 2.4979655742645264, 1.8020962476730347, 3.617579460144043, 4.871002197265625, 2.390916109085083, 2.784968376159668, 3.9652292728424072, 4.032384872436523, 2.158756732940674], "p_mean": 2.8201617673039436}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.17552170343204665, "train_rmse": 0.19154037130344115, "train_rmse_clean": null, "nrmse": 0.10234048318171793, "train_time_s": 10.053753852844238, "p_values": [2.4641242027282715, 3.6218321323394775, 2.2913379669189453, 2.413778305053711, 2.3941872119903564, 2.312973976135254, 2.375873327255249, 2.7935681343078613, 1.7510796785354614, 2.286499500274658, 3.4986138343811035, 2.525789260864258, 2.082695960998535, 2.041825294494629, 2.152249813079834, 2.3532934188842773], "p_mean": 2.4599826261401176}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.08696658076107155, "train_rmse": 0.058254058593304237, "train_rmse_clean": null, "nrmse": 0.04975482335921535, "train_time_s": 12.270817518234253, "p_values": [2.2646965980529785, 2.4706344604492188, 2.2241063117980957, 2.4650795459747314, 4.428720951080322, 2.469456672668457, 2.1606180667877197, 3.679093599319458, 2.5610623359680176, 2.230618476867676, 1.8656909465789795, 1.471101999282837, 2.0330755710601807, 2.365931987762451, 2.291443347930908, 1.5867700576782227], "p_mean": 2.410506308078766}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.180222157984665, "train_rmse": 0.13427533207028475, "train_rmse_clean": null, "nrmse": 0.09654960046049539, "train_time_s": 9.450868368148804, "p_values": [1.7657065391540527, 2.823230504989624, 2.2732090950012207, 3.43401837348938, 2.0590171813964844, 4.142764568328857, 2.91951322555542, 2.0966787338256836, 2.520768165588379, 1.7100270986557007, 6.4354634284973145, 1.7771458625793457, 2.3405792713165283, 1.8059680461883545, 2.8489553928375244, 4.890547752380371], "p_mean": 2.865224577486515}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.1710760784014962, "train_rmse": 0.11337003518316635, "train_rmse_clean": null, "nrmse": 0.09527382299324894, "train_time_s": 8.094419956207275, "p_values": [2.5746707916259766, 2.8309240341186523, 1.9382448196411133, 1.470077395439148, 3.362816572189331, 2.3425896167755127, 2.2644834518432617, 4.517082214355469, 2.6447606086730957, 2.3723866939544678, 6.108762264251709, 2.1874210834503174, 1.5282857418060303, 1.840012550354004, 2.1640446186065674, 2.3013696670532227], "p_mean": 2.6529957577586174}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.052632930645357456, "train_rmse": 0.02324901818326408, "train_rmse_clean": null, "nrmse": 0.026634346127888838, "train_time_s": 3.863462209701538}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.047456800895675055, "train_rmse": 0.049446271251822216, "train_rmse_clean": null, "nrmse": 0.02767037830055167, "train_time_s": 5.331369638442993}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.038994144076545556, "train_rmse": 0.024973996664126252, "train_rmse_clean": null, "nrmse": 0.022309106941925175, "train_time_s": 3.935938596725464}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.061873485172813325, "train_rmse": 0.03285447517727702, "train_rmse_clean": null, "nrmse": 0.03314720198302045, "train_time_s": 3.8503623008728027}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 251, "n_params_trainable": 251, "test_rmse": 0.05859733144147494, "train_rmse": 0.03750490669933715, "train_rmse_clean": null, "nrmse": 0.03263338647808868, "train_time_s": 4.752511024475098}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.08261482522310892, "train_rmse": 0.04110685645952783, "train_rmse_clean": null, "nrmse": 0.04180637147328242, "train_time_s": 10.610112428665161}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.030848263746642957, "train_rmse": 0.027525911067747932, "train_rmse_clean": null, "nrmse": 0.01798652904693782, "train_time_s": 12.112982034683228}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.037255151128955166, "train_rmse": 0.020266773519964865, "train_rmse_clean": null, "nrmse": 0.021314204231331187, "train_time_s": 9.390065908432007}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.058760435472500205, "train_rmse": 0.02255633377087607, "train_rmse_clean": null, "nrmse": 0.03147946196625474, "train_time_s": 9.83887767791748}
+{"experiment": "baseline", "eq_id": "I.34.10", "eq_name": "Doppler effect", "eq_type": "rational", "n_vars": 3, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 112, "n_params_trainable": 112, "test_rmse": 0.052093674010213586, "train_rmse": 0.020114387463034733, "train_rmse_clean": null, "nrmse": 0.02901144054207929, "train_time_s": 11.44234848022461}

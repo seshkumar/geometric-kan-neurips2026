@@ -1,0 +1,210 @@
+checkpoint directory created: ./model_ckpt_2115897_128823858693632_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 1.392991120392395, "train_rmse": 0.3171135292035743, "train_rmse_clean": null, "nrmse": 0.2860316716017395, "train_time_s": 33.808648109436035}
+checkpoint directory created: ./model_ckpt_2115898_131589232674304_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.5348141836853415, "train_rmse": 0.3879532762928761, "train_rmse_clean": null, "nrmse": 0.10828114806649149, "train_time_s": 30.098326921463013}
+checkpoint directory created: ./model_ckpt_2115899_140217477355008_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.2876588210210471, "train_rmse": 0.2247755879174278, "train_rmse_clean": null, "nrmse": 0.05603085007650303, "train_time_s": 41.72728514671326}
+checkpoint directory created: ./model_ckpt_2115900_138311984494080_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.257917013388429, "train_rmse": 0.19401075354886999, "train_rmse_clean": null, "nrmse": 0.05225379241889064, "train_time_s": 42.72700023651123}
+checkpoint directory created: ./model_ckpt_2115901_125422534948352_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.263997639971171, "train_rmse": 0.20739646062993877, "train_rmse_clean": null, "nrmse": 0.05192900150745761, "train_time_s": 34.72485065460205}
+checkpoint directory created: ./model_ckpt_2115903_132703345505792_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 1.6721060813561195, "train_rmse": 0.3553750676796241, "train_rmse_clean": null, "nrmse": 0.34334411077293764, "train_time_s": 41.67536735534668}
+checkpoint directory created: ./model_ckpt_2115902_129152541185536_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 0.5620433206830455, "train_rmse": 0.3653536839372862, "train_rmse_clean": null, "nrmse": 0.11379409500191881, "train_time_s": 32.20680117607117}
+checkpoint directory created: ./model_ckpt_2115904_133106974303744_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 2.571578019580329, "train_rmse": 0.4265964119132377, "train_rmse_clean": null, "nrmse": 0.5008979108086992, "train_time_s": 38.640639305114746}
+checkpoint directory created: ./model_ckpt_2115905_125900901381632_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 0.61818693345284, "train_rmse": 0.319030607804649, "train_rmse_clean": null, "nrmse": 0.1252442065466491, "train_time_s": 42.880786657333374}
+checkpoint directory created: ./model_ckpt_2115906_123986614855168_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 400, "n_params_trainable": 400, "test_rmse": 0.46191415566568494, "train_rmse": 0.36322292445057514, "train_rmse_clean": null, "nrmse": 0.0908596792323551, "train_time_s": 35.91171097755432}
+checkpoint directory created: ./model_ckpt_2115907_130018244564480_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 1.2702572776718313, "train_rmse": 0.8711493616201693, "train_rmse_clean": null, "nrmse": 0.2608299558969195, "train_time_s": 26.513880729675293}
+checkpoint directory created: ./model_ckpt_2115910_127828023866880_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 1.7003250100458445, "train_rmse": 0.5269337839041555, "train_rmse_clean": null, "nrmse": 0.3442562852488891, "train_time_s": 47.98044300079346}
+checkpoint directory created: ./model_ckpt_2115908_128703669011968_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 0.6824225596809725, "train_rmse": 0.5362350609861366, "train_rmse_clean": null, "nrmse": 0.13292384358173515, "train_time_s": 46.54023289680481}
+checkpoint directory created: ./model_ckpt_2115909_138732009158144_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 1.6749830430281065, "train_rmse": 0.8584085761462745, "train_rmse_clean": null, "nrmse": 0.3393503014232681, "train_time_s": 46.37432074546814}
+checkpoint directory created: ./model_ckpt_2115911_128826084365824_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 530, "n_params_trainable": 530, "test_rmse": 0.6492917393744548, "train_rmse": 0.47079079073503394, "train_rmse_clean": null, "nrmse": 0.12771732245954096, "train_time_s": 46.813464641571045}
+checkpoint directory created: ./model_ckpt_2115912_130599421470208_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 0.7008470755808816, "train_rmse": 0.48568528107912456, "train_rmse_clean": null, "nrmse": 0.14390935995996937, "train_time_s": 50.67377018928528}
+checkpoint directory created: ./model_ckpt_2115913_126073498572288_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 1.056254453462202, "train_rmse": 0.5579286891850188, "train_rmse_clean": null, "nrmse": 0.2138545467943739, "train_time_s": 44.30785584449768}
+checkpoint directory created: ./model_ckpt_2115914_130674568041984_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 1.2376404161790049, "train_rmse": 0.8488244756788248, "train_rmse_clean": null, "nrmse": 0.2410704610461878, "train_time_s": 49.05139183998108}
+checkpoint directory created: ./model_ckpt_2115915_125654797248000_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 0.8150156416851218, "train_rmse": 0.5416440937916178, "train_rmse_clean": null, "nrmse": 0.1651215544072128, "train_time_s": 51.51448321342468}
+checkpoint directory created: ./model_ckpt_2115916_124118907844096_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 790, "n_params_trainable": 790, "test_rmse": 1.5818794975121193, "train_rmse": 0.7792616732645783, "train_rmse_clean": null, "nrmse": 0.311159686199822, "train_time_s": 50.99323272705078}
+checkpoint directory created: ./model_ckpt_2115917_138109546178048_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.7284337889621639, "train_rmse": 0.4893288253664352, "train_rmse_clean": null, "nrmse": 0.14957391418930538, "train_time_s": 50.215413093566895}
+checkpoint directory created: ./model_ckpt_2115918_132850293609984_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.6858442227968453, "train_rmse": 0.4496246217077271, "train_rmse_clean": null, "nrmse": 0.13885944334435657, "train_time_s": 50.644065856933594}
+checkpoint directory created: ./model_ckpt_2115919_135861272446464_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.40094693708658014, "train_rmse": 0.22676370811779734, "train_rmse_clean": null, "nrmse": 0.07809737118712429, "train_time_s": 50.36540699005127}
+checkpoint directory created: ./model_ckpt_2115920_132822118569472_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.7108627229829523, "train_rmse": 0.6017134375288791, "train_rmse_clean": null, "nrmse": 0.1440202516192172, "train_time_s": 50.23868727684021}
+checkpoint directory created: ./model_ckpt_2115921_137744547640832_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.34497997195812147, "train_rmse": 0.28226122503593487, "train_rmse_clean": null, "nrmse": 0.0678584304231366, "train_time_s": 49.83487415313721}
+checkpoint directory created: ./model_ckpt_2115923_134004516902400_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.7249607708158834, "train_rmse": 0.44270196839161, "train_rmse_clean": null, "nrmse": 0.1488607774209935, "train_time_s": 50.993178844451904}
+checkpoint directory created: ./model_ckpt_2115922_140203446326784_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.7544647519557657, "train_rmse": 0.5206186721856909, "train_rmse_clean": null, "nrmse": 0.15275269805771638, "train_time_s": 51.06327557563782}
+checkpoint directory created: ./model_ckpt_2115925_123742845675008_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.4006826500232705, "train_rmse": 0.23131071703262052, "train_rmse_clean": null, "nrmse": 0.0780458927420382, "train_time_s": 44.94194149971008}
+checkpoint directory created: ./model_ckpt_2115924_123403644106240_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.38820412511952895, "train_rmse": 0.258010759437024, "train_rmse_clean": null, "nrmse": 0.07864986300691622, "train_time_s": 41.22525501251221}
+checkpoint directory created: ./model_ckpt_2115926_137847313233408_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.4085603018663093, "train_rmse": 0.3190589528754213, "train_rmse_clean": null, "nrmse": 0.0803648416471441, "train_time_s": 44.141862630844116}
+checkpoint directory created: ./model_ckpt_2115928_123250391700992_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.7495894958191585, "train_rmse": 0.5282637843767901, "train_rmse_clean": null, "nrmse": 0.15391794919974963, "train_time_s": 51.336164474487305}
+checkpoint directory created: ./model_ckpt_2115927_136483294139904_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.34055083034360223, "train_rmse": 0.2172212720972766, "train_rmse_clean": null, "nrmse": 0.0689496202783915, "train_time_s": 50.89760494232178}
+checkpoint directory created: ./model_ckpt_2116599_137589389018624_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.36102114637513694, "train_rmse": 0.2613553247125111, "train_rmse_clean": null, "nrmse": 0.0703205333846255, "train_time_s": 45.71015763282776}
+checkpoint directory created: ./model_ckpt_2116647_133620892231168_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.42029895280101925, "train_rmse": 0.3090375946407775, "train_rmse_clean": null, "nrmse": 0.08515225089267753, "train_time_s": 40.00097465515137}
+checkpoint directory created: ./model_ckpt_2116685_125729605899776_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.4731010453753228, "train_rmse": 0.36237783960964265, "train_rmse_clean": null, "nrmse": 0.09306016864831726, "train_time_s": 44.30448079109192}
+checkpoint directory created: ./model_ckpt_2116700_131817816397312_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.8060936573728128, "train_rmse": 0.6335978744691673, "train_rmse_clean": null, "nrmse": 0.1655203058444164, "train_time_s": 44.053953647613525}
+checkpoint directory created: ./model_ckpt_2116718_134992763500032_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.5102733637552603, "train_rmse": 0.40791827929695046, "train_rmse_clean": null, "nrmse": 0.10331249121784356, "train_time_s": 43.39439558982849}
+checkpoint directory created: ./model_ckpt_2116735_131744877835776_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.5101085132578973, "train_rmse": 0.4276760728810416, "train_rmse_clean": null, "nrmse": 0.09936011531872982, "train_time_s": 43.254514932632446}
+checkpoint directory created: ./model_ckpt_2116757_132525600364032_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.6130746276286914, "train_rmse": 0.5286474915889983, "train_rmse_clean": null, "nrmse": 0.12420845724183441, "train_time_s": 42.655614614486694}
+checkpoint directory created: ./model_ckpt_2116783_138809137464832_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.7087210647683264, "train_rmse": 0.6346421778313314, "train_rmse_clean": null, "nrmse": 0.1394072206279585, "train_time_s": 41.68031120300293}
+checkpoint directory created: ./model_ckpt_2116802_136663531173376_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.844690904112575, "train_rmse": 0.412283370620834, "train_rmse_clean": null, "nrmse": 0.1734457224838915, "train_time_s": 77.51561713218689}
+checkpoint directory created: ./model_ckpt_2116812_136353173464576_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.6744471489389525, "train_rmse": 0.444707705241143, "train_rmse_clean": null, "nrmse": 0.13655193490576717, "train_time_s": 77.51039171218872}
+checkpoint directory created: ./model_ckpt_2116817_133620850570752_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.4036972177795306, "train_rmse": 0.20924629028643693, "train_rmse_clean": null, "nrmse": 0.07863307721771992, "train_time_s": 77.05141615867615}
+checkpoint directory created: ./model_ckpt_2116825_127971182888448_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.687773668487992, "train_rmse": 0.568555941555644, "train_rmse_clean": null, "nrmse": 0.1393424265898497, "train_time_s": 76.93390607833862}
+checkpoint directory created: ./model_ckpt_2116838_128504579925504_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.2870442034597378, "train_rmse": 0.2514950924291188, "train_rmse_clean": null, "nrmse": 0.05646231866237686, "train_time_s": 77.48222422599792}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 0.4523319265656589, "train_rmse": 0.34032026288022266, "train_rmse_clean": null, "nrmse": 0.0928801735921798, "train_time_s": 6.394532680511475}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 0.9543949695253673, "train_rmse": 0.7910921449962416, "train_rmse_clean": null, "nrmse": 0.19323156745201972, "train_time_s": 6.362618446350098}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 0.7550561715197688, "train_rmse": 0.6694693404425749, "train_rmse_clean": null, "nrmse": 0.14707158638694098, "train_time_s": 6.550044775009155}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 0.7139000709865684, "train_rmse": 0.649213459689868, "train_rmse_clean": null, "nrmse": 0.1446356160343047, "train_time_s": 6.320067882537842}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 72, "n_params_trainable": 72, "test_rmse": 0.284949374238872, "train_rmse": 0.24480351204785222, "train_rmse_clean": null, "nrmse": 0.05605026047208363, "train_time_s": 6.490191459655762}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 0.4849620572627167, "train_rmse": 0.23981655303885852, "train_rmse_clean": null, "nrmse": 0.09958032457751671, "train_time_s": 12.40585970878601, "p_values": [2.28006649017334, 1.621700644493103, 2.2802515029907227, 2.3152198791503906, 4.011913776397705, 3.7969186305999756, 5.186574459075928, 2.1449599266052246, 1.7520623207092285, 2.68068790435791, 2.087632179260254, 2.385012626647949, 1.8015563488006592, 2.404573917388916, 1.826025366783142, 1.973746657371521, 5.014011383056641, 4.249500274658203], "p_mean": 2.7673563493622675}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 0.5568702415901328, "train_rmse": 0.4508574236595564, "train_rmse_clean": null, "nrmse": 0.11274672759786186, "train_time_s": 12.605443000793457, "p_values": [1.7439429759979248, 1.8306176662445068, 1.6273446083068848, 2.0378689765930176, 1.4888989925384521, 2.1077487468719482, 1.931149959564209, 1.8731826543807983, 1.9598157405853271, 1.8021202087402344, 4.568890571594238, 2.665188789367676, 2.2832329273223877, 2.2603039741516113, 2.3120832443237305, 1.3677034378051758, 3.2625670433044434, 3.3606669902801514], "p_mean": 2.249073750442929}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 0.5218495380928942, "train_rmse": 0.4334564835832424, "train_rmse_clean": null, "nrmse": 0.10164705927525142, "train_time_s": 11.877612829208374, "p_values": [3.4905457496643066, 2.505417823791504, 2.6268227100372314, 2.2574336528778076, 2.252349615097046, 1.9809449911117554, 1.726233959197998, 2.2236456871032715, 2.083767890930176, 1.3556275367736816, 2.252305030822754, 1.9304945468902588, 3.1966137886047363, 2.1892471313476562, 1.3593673706054688, 2.494293689727783, 4.96835994720459, 3.5251712799072266], "p_mean": 2.4677023556497364}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 0.7367039521191288, "train_rmse": 0.6106687120981391, "train_rmse_clean": null, "nrmse": 0.14925566515549743, "train_time_s": 12.240261554718018, "p_values": [2.3397207260131836, 2.0840682983398438, 5.5911664962768555, 2.6959028244018555, 1.4124358892440796, 1.8820984363555908, 2.31557035446167, 1.7525404691696167, 2.2096176147460938, 2.1484174728393555, 2.3237929344177246, 1.932835340499878, 1.5151619911193848, 2.994901418685913, 2.241152763366699, 2.326199531555176, 2.844895601272583, 4.760446548461914], "p_mean": 2.520606928401523}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 144, "test_rmse": 0.280215989160018, "train_rmse": 0.223902538260063, "train_rmse_clean": null, "nrmse": 0.05511919169085502, "train_time_s": 11.034437656402588, "p_values": [2.018467664718628, 2.044424057006836, 2.331559658050537, 2.062685489654541, 1.604988694190979, 2.3029963970184326, 2.551633834838867, 1.9160597324371338, 2.4471845626831055, 2.372743606567383, 1.6423996686935425, 2.189852237701416, 2.040485143661499, 2.292451858520508, 2.082399845123291, 5.336324214935303, 3.1941771507263184, 3.033186197280884], "p_mean": 2.4146677785449557}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 0.7447251773405128, "train_rmse": 0.6252240203855308, "train_rmse_clean": null, "nrmse": 0.15291912794002882, "train_time_s": 11.34331727027893, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 0.3393155950013238, "train_rmse": 0.2569574566248889, "train_rmse_clean": null, "nrmse": 0.06869952836782821, "train_time_s": 10.654843807220459, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 0.6557527909997702, "train_rmse": 0.5435604406300811, "train_rmse_clean": null, "nrmse": 0.12772904439133548, "train_time_s": 10.940885305404663, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 0.6072355252496564, "train_rmse": 0.5334327549440232, "train_rmse_clean": null, "nrmse": 0.12302545950307248, "train_time_s": 10.742553949356079, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 144, "n_params_trainable": 126, "test_rmse": 0.37237468685999175, "train_rmse": 0.34316438472261623, "train_rmse_clean": null, "nrmse": 0.07324703992582361, "train_time_s": 11.56647801399231, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 0.5969768382921892, "train_rmse": 0.5271513378907144, "train_rmse_clean": null, "nrmse": 0.1225810275920036, "train_time_s": 8.884065866470337, "p_values": [1.8339136838912964, 1.8912324905395508, 1.5212841033935547, 1.3993343114852905, 1.5354321002960205, 2.8310704231262207, 2.5073609352111816, 1.6165482997894287, 1.5953229665756226, 1.4101762771606445, 2.713982343673706, 2.338900327682495, 1.5098804235458374, 1.5489346981048584, 2.2845451831817627, 5.487803936004639, 2.6395392417907715, 2.674550771713257], "p_mean": 2.185545139842563}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 0.49765519139484127, "train_rmse": 0.4100570363755196, "train_rmse_clean": null, "nrmse": 0.10075775308380237, "train_time_s": 8.77917218208313, "p_values": [2.4354207515716553, 2.795426845550537, 1.7525711059570312, 1.9531997442245483, 1.7152090072631836, 2.165119171142578, 2.473557949066162, 2.230985641479492, 2.334547281265259, 2.2547595500946045, 1.9855456352233887, 2.0336995124816895, 1.3107655048370361, 1.6934988498687744, 1.6081326007843018, 2.7998228073120117, 2.674680233001709, 3.373140335083008], "p_mean": 2.1994490292337208}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 0.6530993421032036, "train_rmse": 0.6122816885052487, "train_rmse_clean": null, "nrmse": 0.12721219948186438, "train_time_s": 9.449699878692627, "p_values": [2.3615400791168213, 1.9975438117980957, 2.383880138397217, 1.7011383771896362, 2.098081111907959, 3.032710552215576, 1.5014032125473022, 1.5371959209442139, 2.112177848815918, 1.9075188636779785, 4.213835716247559, 2.982264280319214, 1.7358273267745972, 3.3603529930114746, 2.2724382877349854, 2.907989025115967, 2.745396852493286, 4.034235954284668], "p_mean": 2.493640575144026}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 0.8590032133452041, "train_rmse": 0.8278697770608545, "train_rmse_clean": null, "nrmse": 0.17403340325479308, "train_time_s": 9.683677911758423, "p_values": [2.639284133911133, 2.038586139678955, 3.5903096199035645, 1.6900267601013184, 2.1798675060272217, 2.884507179260254, 1.8744025230407715, 1.662367820739746, 1.667142629623413, 2.2929604053497314, 3.7225229740142822, 1.410292387008667, 1.7615694999694824, 1.904890775680542, 2.145214557647705, 2.2217037677764893, 3.1427011489868164, 2.276136875152588], "p_mean": 2.2835825946595936}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 90, "n_params_trainable": 90, "test_rmse": 0.4302278261593919, "train_rmse": 0.4282907381960541, "train_rmse_clean": null, "nrmse": 0.08462689831477654, "train_time_s": 8.632810354232788, "p_values": [1.7488653659820557, 2.7864184379577637, 2.3310749530792236, 2.5528244972229004, 2.6000661849975586, 2.312366008758545, 1.9242593050003052, 2.0765857696533203, 1.902343511581421, 1.6711562871932983, 1.4125405550003052, 1.379252552986145, 1.2180572748184204, 1.7928526401519775, 1.8962812423706055, 3.0545599460601807, 3.7487540245056152, 4.428531646728516], "p_mean": 2.2687105668915644}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 0.24709939237666845, "train_rmse": 0.11087028898892903, "train_rmse_clean": null, "nrmse": 0.05073848010844682, "train_time_s": 6.182267904281616}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 0.26518532911211423, "train_rmse": 0.1222071955269044, "train_rmse_clean": null, "nrmse": 0.05369074486540613, "train_time_s": 5.732221603393555}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 0.23408584986378855, "train_rmse": 0.14043796668960873, "train_rmse_clean": null, "nrmse": 0.04559578292156414, "train_time_s": 5.481172323226929}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 0.2163548136090654, "train_rmse": 0.11365449921858506, "train_rmse_clean": null, "nrmse": 0.04383332208538623, "train_time_s": 5.5491533279418945}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 2901, "n_params_trainable": 2901, "test_rmse": 0.2216727170224715, "train_rmse": 0.121290722667041, "train_rmse_clean": null, "nrmse": 0.043603582432324754, "train_time_s": 5.443413972854614}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 0.3286726037787169, "train_rmse": 0.267230921828423, "train_rmse_clean": null, "nrmse": 0.06748842321553382, "train_time_s": 8.204749584197998}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 0.26133960657134025, "train_rmse": 0.1962241639155593, "train_rmse_clean": null, "nrmse": 0.05291212069169649, "train_time_s": 8.212171792984009}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 0.31899448541469866, "train_rmse": 0.24173234083250605, "train_rmse_clean": null, "nrmse": 0.06213448321890488, "train_time_s": 8.26743769645691}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 0.5408133835472384, "train_rmse": 0.40227070672699483, "train_rmse_clean": null, "nrmse": 0.1095683836826838, "train_time_s": 8.24943232536316}
+{"experiment": "baseline", "eq_id": "II.35.21", "eq_name": "Magnetization", "eq_type": "hyperbolic", "n_vars": 5, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 126, "n_params_trainable": 126, "test_rmse": 0.29821621714408586, "train_rmse": 0.2374433413703816, "train_rmse_clean": null, "nrmse": 0.058659881926651496, "train_time_s": 8.346824645996094}

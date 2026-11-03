@@ -1,0 +1,210 @@
+checkpoint directory created: ./model_ckpt_2060852_131435189184000_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.004389348156727646, "train_rmse": 0.0032859275346712735, "train_rmse_clean": null, "nrmse": 0.0008775315321147873, "train_time_s": 23.228923082351685}
+checkpoint directory created: ./model_ckpt_2060855_127067642762752_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.007440062578285833, "train_rmse": 0.0056720300979848925, "train_rmse_clean": null, "nrmse": 0.0014536257038439558, "train_time_s": 40.01286578178406}
+checkpoint directory created: ./model_ckpt_2060853_137842705462784_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.008404230122988188, "train_rmse": 0.006632772475054338, "train_rmse_clean": null, "nrmse": 0.0016208255696756504, "train_time_s": 35.7681770324707}
+checkpoint directory created: ./model_ckpt_2060854_133219716003328_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.008258920988829743, "train_rmse": 0.005379582696814933, "train_rmse_clean": null, "nrmse": 0.0016097134670456828, "train_time_s": 29.316707849502563}
+checkpoint directory created: ./model_ckpt_2060858_136186559948288_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.00522475856695237, "train_rmse": 0.00513427916766418, "train_rmse_clean": null, "nrmse": 0.00099564724611473, "train_time_s": 29.759538173675537}
+checkpoint directory created: ./model_ckpt_2060859_133649485493760_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.006389866097068264, "train_rmse": 0.005083178430304258, "train_rmse_clean": null, "nrmse": 0.0012774810258726482, "train_time_s": 26.900344133377075}
+checkpoint directory created: ./model_ckpt_2060861_125196120720896_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.004904008376028723, "train_rmse": 0.003833451601918808, "train_rmse_clean": null, "nrmse": 0.0009581361113905864, "train_time_s": 32.207651138305664}
+checkpoint directory created: ./model_ckpt_2060863_133811843225088_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.003426874005369007, "train_rmse": 0.002489223289848852, "train_rmse_clean": null, "nrmse": 0.0006609011094027494, "train_time_s": 35.054821729660034}
+checkpoint directory created: ./model_ckpt_2060868_138513851807232_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.006812917314658495, "train_rmse": 0.0031583781682193446, "train_rmse_clean": null, "nrmse": 0.0013278786376703729, "train_time_s": 40.82514953613281}
+checkpoint directory created: ./model_ckpt_2060869_126874979231232_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 348, "n_params_trainable": 348, "test_rmse": 0.010765144443926733, "train_rmse": 0.010111729566602223, "train_rmse_clean": null, "nrmse": 0.0020514414747158306, "train_time_s": 30.08492159843445}
+checkpoint directory created: ./model_ckpt_2060871_123399641921024_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.012461315019681507, "train_rmse": 0.010637993097123655, "train_rmse_clean": null, "nrmse": 0.002491303143640023, "train_time_s": 28.690003871917725}
+checkpoint directory created: ./model_ckpt_2060874_128330784495104_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.00846919367388066, "train_rmse": 0.007251401788083478, "train_rmse_clean": null, "nrmse": 0.0016546954391372841, "train_time_s": 43.68238639831543}
+checkpoint directory created: ./model_ckpt_2060876_131899147052544_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.004084330289675309, "train_rmse": 0.0020667887449477007, "train_rmse_clean": null, "nrmse": 0.0007876970134835753, "train_time_s": 46.48062443733215}
+checkpoint directory created: ./model_ckpt_2060877_124662894814720_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.028638563549433282, "train_rmse": 0.007238686475753764, "train_rmse_clean": null, "nrmse": 0.005581828605058315, "train_time_s": 24.532586574554443}
+checkpoint directory created: ./model_ckpt_2060880_135664716318208_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 458, "n_params_trainable": 458, "test_rmse": 0.010736253603914392, "train_rmse": 0.010206859221145614, "train_rmse_clean": null, "nrmse": 0.0020459359408375433, "train_time_s": 45.93389439582825}
+checkpoint directory created: ./model_ckpt_2060882_125266593089024_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.016963442210712998, "train_rmse": 0.012006361734126614, "train_rmse_clean": null, "nrmse": 0.0033913817955615153, "train_time_s": 55.1700484752655}
+checkpoint directory created: ./model_ckpt_2060884_129742445823488_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.035781298214771606, "train_rmse": 0.018013054021214003, "train_rmse_clean": null, "nrmse": 0.006990884048972797, "train_time_s": 44.9579815864563}
+checkpoint directory created: ./model_ckpt_2060888_132810277447168_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.034736984584572195, "train_rmse": 0.025388365696823012, "train_rmse_clean": null, "nrmse": 0.006699315940207108, "train_time_s": 65.60268878936768}
+checkpoint directory created: ./model_ckpt_2060886_136090647021056_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.043586040815570826, "train_rmse": 0.021694669293937707, "train_rmse_clean": null, "nrmse": 0.008495181994224247, "train_time_s": 36.643715620040894}
+checkpoint directory created: ./model_ckpt_2060889_133793189156352_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 678, "n_params_trainable": 678, "test_rmse": 0.01712355134671628, "train_rmse": 0.011286804405409079, "train_rmse_clean": null, "nrmse": 0.0032631204913277033, "train_time_s": 40.599199056625366}
+checkpoint directory created: ./model_ckpt_2060892_139030807688704_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.012787867134266051, "train_rmse": 0.012130259738267313, "train_rmse_clean": null, "nrmse": 0.0025565884131594804, "train_time_s": 62.50013184547424}
+checkpoint directory created: ./model_ckpt_2060891_132011497080320_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.10643455437292992, "train_rmse": 0.10318996070922459, "train_rmse_clean": null, "nrmse": 0.020794986921912978, "train_time_s": 39.89824867248535}
+checkpoint directory created: ./model_ckpt_2060896_129252930213376_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.016968245248349723, "train_rmse": 0.013700382571944392, "train_rmse_clean": null, "nrmse": 0.0032724670039465604, "train_time_s": 61.74533462524414}
+checkpoint directory created: ./model_ckpt_2060898_131601551443456_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.04085774591845848, "train_rmse": 0.02672056476832063, "train_rmse_clean": null, "nrmse": 0.007963420878711255, "train_time_s": 65.12295913696289}
+checkpoint directory created: ./model_ckpt_2060897_137600607557120_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.03922103744633132, "train_rmse": 0.0342085563037231, "train_rmse_clean": null, "nrmse": 0.0074740904144745485, "train_time_s": 58.792839765548706}
+checkpoint directory created: ./model_ckpt_2060901_137655075706368_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.030280987816567517, "train_rmse": 0.030461425453090385, "train_rmse_clean": null, "nrmse": 0.006053865103385212, "train_time_s": 61.59707427024841}
+checkpoint directory created: ./model_ckpt_2060903_131983546197504_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.036937625808449503, "train_rmse": 0.03140555697925995, "train_rmse_clean": null, "nrmse": 0.007216805201456099, "train_time_s": 39.66908407211304}
+checkpoint directory created: ./model_ckpt_2060905_133218069100032_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.02344500559402185, "train_rmse": 0.02194626810890732, "train_rmse_clean": null, "nrmse": 0.004521564020960911, "train_time_s": 65.15327501296997}
+checkpoint directory created: ./model_ckpt_2060908_140330356803072_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.05655037483721603, "train_rmse": 0.054325761086689184, "train_rmse_clean": null, "nrmse": 0.011022008815082094, "train_time_s": 61.63877725601196}
+checkpoint directory created: ./model_ckpt_2060906_124538766951936_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.05163435718498466, "train_rmse": 0.045044905688598647, "train_rmse_clean": null, "nrmse": 0.009839613616083662, "train_time_s": 66.33587718009949}
+checkpoint directory created: ./model_ckpt_2060911_129857473762816_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.0676893852687499, "train_rmse": 0.0672758272369478, "train_rmse_clean": null, "nrmse": 0.013532663129433296, "train_time_s": 52.204972982406616}
+checkpoint directory created: ./model_ckpt_2060910_131094711809536_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.07054491240376759, "train_rmse": 0.06436341432407877, "train_rmse_clean": null, "nrmse": 0.013782934870040182, "train_time_s": 56.592796325683594}
+checkpoint directory created: ./model_ckpt_2061831_127049046644224_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.05106862070185514, "train_rmse": 0.05012557857484712, "train_rmse_clean": null, "nrmse": 0.009849007586694138, "train_time_s": 58.84961247444153}
+checkpoint directory created: ./model_ckpt_2061865_133310788195840_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.102664004877969, "train_rmse": 0.10046784399948194, "train_rmse_clean": null, "nrmse": 0.020009833179954785, "train_time_s": 66.32117891311646}
+checkpoint directory created: ./model_ckpt_2061886_140370381403648_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.08362346371725327, "train_rmse": 0.07504384195495284, "train_rmse_clean": null, "nrmse": 0.015935563393740502, "train_time_s": 58.697038412094116}
+checkpoint directory created: ./model_ckpt_2061901_123984385066496_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.11969416040837189, "train_rmse": 0.11737012253605883, "train_rmse_clean": null, "nrmse": 0.023929612374758137, "train_time_s": 46.29498100280762}
+checkpoint directory created: ./model_ckpt_2061918_125258745394688_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.17052795449071745, "train_rmse": 0.17780848331416088, "train_rmse_clean": null, "nrmse": 0.033317437220904515, "train_time_s": 61.16058588027954}
+checkpoint directory created: ./model_ckpt_2061938_134308936226304_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.15406690514392096, "train_rmse": 0.1392266483229605, "train_rmse_clean": null, "nrmse": 0.02971308206030796, "train_time_s": 56.376338481903076}
+checkpoint directory created: ./model_ckpt_2061939_140090409674240_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.17922401777745378, "train_rmse": 0.17130824630268648, "train_rmse_clean": null, "nrmse": 0.034931841026763645, "train_time_s": 66.10111141204834}
+checkpoint directory created: ./model_ckpt_2062005_127664272000512_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.3570451555948466, "train_rmse": 0.33746563141363595, "train_rmse_clean": null, "nrmse": 0.06803970391190232, "train_time_s": 58.0280385017395}
+checkpoint directory created: ./model_ckpt_2062077_138793747703296_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.010664245132558037, "train_rmse": 0.010357023798540865, "train_rmse_clean": null, "nrmse": 0.002132027589490205, "train_time_s": 104.4222469329834}
+checkpoint directory created: ./model_ckpt_2062083_132519307957760_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.03643258832198493, "train_rmse": 0.029572708107294288, "train_rmse_clean": null, "nrmse": 0.007118131908858768, "train_time_s": 79.57204747200012}
+checkpoint directory created: ./model_ckpt_2062099_125999259702784_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.010656449456968753, "train_rmse": 0.00801546009235965, "train_rmse_clean": null, "nrmse": 0.0020551847711268853, "train_time_s": 106.94372534751892}
+checkpoint directory created: ./model_ckpt_2062109_128120116672000_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.07742372483308291, "train_rmse": 0.023694177800821947, "train_rmse_clean": null, "nrmse": 0.015090350507192875, "train_time_s": 101.92432284355164}
+checkpoint directory created: ./model_ckpt_2062112_139649391134208_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 304, "n_params_trainable": 304, "test_rmse": 0.08669736519918558, "train_rmse": 0.0859562152112332, "train_rmse_clean": null, "nrmse": 0.016521336211009475, "train_time_s": 102.91461610794067}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.04450600101989721, "train_rmse": 0.04126852458991692, "train_rmse_clean": null, "nrmse": 0.00889777203100912, "train_time_s": 8.102543592453003}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.05641266531700628, "train_rmse": 0.0559067704724745, "train_rmse_clean": null, "nrmse": 0.011021802500220366, "train_time_s": 8.303200721740723}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.09376671039014717, "train_rmse": 0.08935678339143749, "train_rmse_clean": null, "nrmse": 0.018083688756809595, "train_time_s": 7.823637962341309}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.04718988348266162, "train_rmse": 0.03968679332148417, "train_rmse_clean": null, "nrmse": 0.009197592645951753, "train_time_s": 10.222928524017334}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 60, "n_params_trainable": 60, "test_rmse": 0.034825712962039734, "train_rmse": 0.03800261876659805, "train_rmse_clean": null, "nrmse": 0.006636502866172155, "train_time_s": 10.842903852462769}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.029328825040973783, "train_rmse": 0.027561030959642352, "train_rmse_clean": null, "nrmse": 0.005863505890706043, "train_time_s": 17.830462217330933, "p_values": [2.3824868202209473, 2.5851473808288574, 2.1632556915283203, 2.4559059143066406, 2.1924479007720947, 2.5431880950927734, 2.400175094604492, 4.793298244476318, 5.163581848144531, 2.9841055870056152, 2.4666454792022705, 3.053283452987671, 2.7991647720336914, 1.9926971197128296, 1.9535528421401978], "p_mean": 2.795262416203817}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.020261717902260945, "train_rmse": 0.019391705278694715, "train_rmse_clean": null, "nrmse": 0.003958697072350111, "train_time_s": 20.44474196434021, "p_values": [2.6883087158203125, 2.4436733722686768, 2.2751617431640625, 2.410689353942871, 2.6560261249542236, 1.9877889156341553, 2.4381356239318848, 2.1466851234436035, 2.2762863636016846, 2.3279972076416016, 2.704568386077881, 2.2262918949127197, 2.492443799972534, 3.225992202758789, 2.592348098754883], "p_mean": 2.459493128458659}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.024540497407439243, "train_rmse": 0.02331338161757568, "train_rmse_clean": null, "nrmse": 0.004732838714368036, "train_time_s": 13.757928133010864, "p_values": [2.453645706176758, 2.101203441619873, 2.037921905517578, 1.9737458229064941, 2.906944990158081, 2.45162296295166, 2.535506010055542, 2.2634222507476807, 2.239412307739258, 2.142505407333374, 2.748199701309204, 2.3597042560577393, 2.695377826690674, 2.738727331161499, 2.4407079219818115], "p_mean": 2.405909856160482}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.02435438713569571, "train_rmse": 0.021745195950970686, "train_rmse_clean": null, "nrmse": 0.0047468168065776, "train_time_s": 18.03233528137207, "p_values": [2.2984824180603027, 2.348803997039795, 2.7913403511047363, 2.5301108360290527, 2.591588020324707, 2.3915762901306152, 2.363734006881714, 2.250997543334961, 2.3335704803466797, 2.53073787689209, 3.6570544242858887, 2.6405375003814697, 2.8030130863189697, 2.5265321731567383, 2.572384834289551], "p_mean": 2.5753642559051513}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 120, "test_rmse": 0.017212309879910848, "train_rmse": 0.015670028497205335, "train_rmse_clean": null, "nrmse": 0.0032800346105184585, "train_time_s": 13.425658226013184, "p_values": [2.421022891998291, 2.4034318923950195, 2.2798638343811035, 2.287813663482666, 3.4541842937469482, 2.8558356761932373, 2.1947247982025146, 2.4476354122161865, 2.189304828643799, 2.5092058181762695, 1.6662009954452515, 2.730243682861328, 2.6920840740203857, 2.828861713409424, 2.9147841930389404], "p_mean": 2.5250131845474244}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.04798125765396577, "train_rmse": 0.048620027401554466, "train_rmse_clean": null, "nrmse": 0.009592555668509374, "train_time_s": 15.88083529472351, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.05125708384907934, "train_rmse": 0.05072213138596293, "train_rmse_clean": null, "nrmse": 0.010014514502144573, "train_time_s": 11.230890274047852, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.09421111114140146, "train_rmse": 0.08398631655224165, "train_rmse_clean": null, "nrmse": 0.018169395132084324, "train_time_s": 13.294456958770752, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.047841831662993606, "train_rmse": 0.03728388919825454, "train_rmse_clean": null, "nrmse": 0.009324661274785437, "train_time_s": 13.794878721237183, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 120, "n_params_trainable": 105, "test_rmse": 0.02405890829928259, "train_rmse": 0.026984024355772185, "train_rmse_clean": null, "nrmse": 0.004584745014673499, "train_time_s": 9.928440809249878, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.03118158869379073, "train_rmse": 0.02976446379031472, "train_rmse_clean": null, "nrmse": 0.006233915908059317, "train_time_s": 8.120842218399048, "p_values": [3.0025084018707275, 1.703101634979248, 2.2653756141662598, 2.595466136932373, 2.372145414352417, 2.487027168273926, 2.3286185264587402, 2.2061939239501953, 2.0529818534851074, 1.9968669414520264, 2.1176817417144775, 2.3887200355529785, 2.705176591873169, 2.7918810844421387, 3.127793550491333], "p_mean": 2.4094359079996743}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.025532534870746693, "train_rmse": 0.02590906363850687, "train_rmse_clean": null, "nrmse": 0.004988499569980852, "train_time_s": 13.37845754623413, "p_values": [2.503920078277588, 2.2720415592193604, 1.6302709579467773, 2.2542495727539062, 2.4010016918182373, 2.326387882232666, 2.3031859397888184, 1.9557238817214966, 2.370734453201294, 2.2432522773742676, 2.525923728942871, 2.3305788040161133, 2.283453941345215, 2.864175319671631, 2.005995512008667], "p_mean": 2.284726373354594}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.04709128750054692, "train_rmse": 0.043801804283402745, "train_rmse_clean": null, "nrmse": 0.009081945850228009, "train_time_s": 10.835788249969482, "p_values": [1.9375911951065063, 3.1276392936706543, 1.5041954517364502, 3.951547145843506, 2.1180405616760254, 2.452361583709717, 2.2589151859283447, 2.1910717487335205, 2.257772922515869, 2.2237112522125244, 2.5605051517486572, 1.7340781688690186, 2.912186861038208, 2.2858266830444336, 3.0502030849456787], "p_mean": 2.437709752718608}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.04455708793090096, "train_rmse": 0.04511612429708656, "train_rmse_clean": null, "nrmse": 0.008684444928304485, "train_time_s": 10.833677053451538, "p_values": [2.1251862049102783, 2.6070196628570557, 2.37727427482605, 2.4254531860351562, 2.089726448059082, 2.6954879760742188, 2.1560516357421875, 3.2578511238098145, 1.7473363876342773, 2.759226083755493, 2.7603886127471924, 2.68168306350708, 1.6866724491119385, 2.1876916885375977, 2.6518964767456055], "p_mean": 2.4139296849568685}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 75, "n_params_trainable": 75, "test_rmse": 0.018440588793854573, "train_rmse": 0.02040066285540032, "train_rmse_clean": null, "nrmse": 0.0035140994964758983, "train_time_s": 11.53952431678772, "p_values": [2.710602045059204, 2.4161765575408936, 1.462935209274292, 2.067466974258423, 1.7947559356689453, 2.3467464447021484, 1.8904228210449219, 2.375795602798462, 2.2056832313537598, 2.541843891143799, 2.2247910499572754, 2.1499295234680176, 2.248112678527832, 2.8156471252441406, 2.645206928253174], "p_mean": 2.2597410678863525}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.2269051571417151, "train_rmse": 0.20883083554002724, "train_rmse_clean": null, "nrmse": 0.04536355355774773, "train_time_s": 5.705089092254639}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.18200435472425447, "train_rmse": 0.1758163728741824, "train_rmse_clean": null, "nrmse": 0.03555967513107459, "train_time_s": 3.937347650527954}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.1517508300203385, "train_rmse": 0.13290188135077763, "train_rmse_clean": null, "nrmse": 0.029266407739560376, "train_time_s": 4.35594630241394}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.22282590285924897, "train_rmse": 0.18929488865285293, "train_rmse_clean": null, "nrmse": 0.043430111163948855, "train_time_s": 5.712888717651367}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 201, "n_params_trainable": 201, "test_rmse": 0.1902098310278788, "train_rmse": 0.18803530318967887, "train_rmse_clean": null, "nrmse": 0.03624701352608589, "train_time_s": 3.853780508041382}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.020085425929135425, "train_rmse": 0.016597287522806425, "train_rmse_clean": null, "nrmse": 0.004015538061558677, "train_time_s": 10.734811305999756}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.020146258319480026, "train_rmse": 0.01905908323024852, "train_rmse_clean": null, "nrmse": 0.003936138792023911, "train_time_s": 11.730705261230469}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.03174701876380048, "train_rmse": 0.02733525736427911, "train_rmse_clean": null, "nrmse": 0.006122676202379472, "train_time_s": 8.047638177871704}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.022782763557835928, "train_rmse": 0.019811023853422594, "train_rmse_clean": null, "nrmse": 0.004440497901017288, "train_time_s": 10.470468759536743}
+{"experiment": "baseline", "eq_id": "I.12.1", "eq_name": "Coulomb (linear)", "eq_type": "polynomial", "n_vars": 2, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 105, "n_params_trainable": 105, "test_rmse": 0.02754280044233992, "train_rmse": 0.026715869954513582, "train_rmse_clean": null, "nrmse": 0.005248647006228892, "train_time_s": 10.926016330718994}

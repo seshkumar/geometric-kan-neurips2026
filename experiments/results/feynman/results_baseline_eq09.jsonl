@@ -1,0 +1,210 @@
+checkpoint directory created: ./model_ckpt_2093049_128214052144640_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.05819936492153399, "train_rmse": 0.0388036921288859, "train_rmse_clean": null, "nrmse": 0.05738852007518156, "train_time_s": 23.96286392211914}
+checkpoint directory created: ./model_ckpt_2093050_128925444756992_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.09673782826506283, "train_rmse": 0.06636730355229759, "train_rmse_clean": null, "nrmse": 0.09448435720688704, "train_time_s": 34.92560791969299}
+checkpoint directory created: ./model_ckpt_2093051_125075092223488_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.2702678169123587, "train_rmse": 0.22532806809022787, "train_rmse_clean": null, "nrmse": 0.28112619961365076, "train_time_s": 39.82967233657837}
+checkpoint directory created: ./model_ckpt_2093052_129285425051136_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.26578428526011066, "train_rmse": 0.2002908585250509, "train_rmse_clean": null, "nrmse": 0.2644595612102973, "train_time_s": 35.94766044616699}
+checkpoint directory created: ./model_ckpt_2093053_137082552866304_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.2817112421576322, "train_rmse": 0.2153359890360118, "train_rmse_clean": null, "nrmse": 0.29140388772615067, "train_time_s": 37.76634931564331}
+checkpoint directory created: ./model_ckpt_2093056_124491925800448_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g5", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 436, "n_params_trainable": 436, "test_rmse": 0.08728768511364393, "train_rmse": 0.06210791349467559, "train_rmse_clean": null, "nrmse": 0.0860715761454472, "train_time_s": 36.71991300582886}
+checkpoint directory created: ./model_ckpt_2093055_133283401913856_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g5", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 436, "n_params_trainable": 436, "test_rmse": 0.4944604798252499, "train_rmse": 0.402125616438866, "train_rmse_clean": null, "nrmse": 0.48294221028497397, "train_time_s": 40.932049036026}
+checkpoint directory created: ./model_ckpt_2093057_139673880864256_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g5", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 436, "n_params_trainable": 436, "test_rmse": 0.1780179291885382, "train_rmse": 0.12001845792745414, "train_rmse_clean": null, "nrmse": 0.18517004528176687, "train_time_s": 35.63518953323364}
+checkpoint directory created: ./model_ckpt_2093054_138664799585792_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g5", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 436, "n_params_trainable": 436, "test_rmse": 0.10781918079562303, "train_rmse": 0.06171883357477981, "train_rmse_clean": null, "nrmse": 0.10728178761719882, "train_time_s": 42.20035409927368}
+checkpoint directory created: ./model_ckpt_2093058_127328228255232_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g5", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 436, "n_params_trainable": 436, "test_rmse": 0.0916413556630098, "train_rmse": 0.05920295804999487, "train_rmse_clean": null, "nrmse": 0.09479439695826301, "train_time_s": 40.38686513900757}
+checkpoint directory created: ./model_ckpt_2093059_138099288335872_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g10", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 576, "n_params_trainable": 576, "test_rmse": 0.18916351735454917, "train_rmse": 0.11554877610850944, "train_rmse_clean": null, "nrmse": 0.1865280545213786, "train_time_s": 42.078364610672}
+checkpoint directory created: ./model_ckpt_2093060_135017946818048_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g10", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 576, "n_params_trainable": 576, "test_rmse": 0.09198170785957416, "train_rmse": 0.06154450274154044, "train_rmse_clean": null, "nrmse": 0.08983902882428316, "train_time_s": 45.07300114631653}
+checkpoint directory created: ./model_ckpt_2093061_127044866455040_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g10", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 576, "n_params_trainable": 576, "test_rmse": 0.2570801605404682, "train_rmse": 0.14992802142734973, "train_rmse_clean": null, "nrmse": 0.26740871093891694, "train_time_s": 46.393675327301025}
+checkpoint directory created: ./model_ckpt_2093062_140345496909312_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g10", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 576, "n_params_trainable": 576, "test_rmse": 0.18963135153448718, "train_rmse": 0.12485088126075539, "train_rmse_clean": null, "nrmse": 0.18868618951435306, "train_time_s": 37.92343235015869}
+checkpoint directory created: ./model_ckpt_2093063_125052666971648_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g10", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 576, "n_params_trainable": 576, "test_rmse": 0.09547238990981555, "train_rmse": 0.06307822568259036, "train_rmse_clean": null, "nrmse": 0.0987572429738528, "train_time_s": 41.43656015396118}
+checkpoint directory created: ./model_ckpt_2093064_124525231080960_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g20", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 856, "n_params_trainable": 856, "test_rmse": 0.10806700059676988, "train_rmse": 0.06184927909101745, "train_rmse_clean": null, "nrmse": 0.10656139017279369, "train_time_s": 51.060259103775024}
+checkpoint directory created: ./model_ckpt_2093065_139810433828352_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g20", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 856, "n_params_trainable": 856, "test_rmse": 0.1056832096854663, "train_rmse": 0.06264790775986029, "train_rmse_clean": null, "nrmse": 0.10322135935625716, "train_time_s": 51.81306719779968}
+checkpoint directory created: ./model_ckpt_2093066_128110893983232_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g20", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 856, "n_params_trainable": 856, "test_rmse": 0.09150177620610833, "train_rmse": 0.058661280836402874, "train_rmse_clean": null, "nrmse": 0.09517798640103543, "train_time_s": 32.14948534965515}
+checkpoint directory created: ./model_ckpt_2093067_126269446964736_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g20", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 856, "n_params_trainable": 856, "test_rmse": 0.30353824126524387, "train_rmse": 0.15909937321106327, "train_rmse_clean": null, "nrmse": 0.30202534366165307, "train_time_s": 53.90446615219116}
+checkpoint directory created: ./model_ckpt_2093068_125873023481344_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_g20", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 856, "n_params_trainable": 856, "test_rmse": 0.0948251426657345, "train_rmse": 0.061798136731646025, "train_rmse_clean": null, "nrmse": 0.09808772633759545, "train_time_s": 48.93538045883179}
+checkpoint directory created: ./model_ckpt_2093069_130804461655552_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.08129143193240207, "train_rmse": 0.05575850318604081, "train_rmse_clean": null, "nrmse": 0.08015886392716927, "train_time_s": 51.127251625061035}
+checkpoint directory created: ./model_ckpt_2093070_138914126046720_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.1465763808080851, "train_rmse": 0.10075902124255265, "train_rmse_clean": null, "nrmse": 0.14316193955085393, "train_time_s": 49.826210498809814}
+checkpoint directory created: ./model_ckpt_2093074_136291382457856_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.1522968076367306, "train_rmse": 0.11107493103217436, "train_rmse_clean": null, "nrmse": 0.1584155421586472, "train_time_s": 52.29090905189514}
+checkpoint directory created: ./model_ckpt_2093071_137424555304448_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.2191554649247962, "train_rmse": 0.15129588345266143, "train_rmse_clean": null, "nrmse": 0.21806314859484546, "train_time_s": 43.219175577163696}
+checkpoint directory created: ./model_ckpt_2093072_128146311165440_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.15076219250264167, "train_rmse": 0.10999231050707614, "train_rmse_clean": null, "nrmse": 0.1559493638979642, "train_time_s": 50.03204798698425}
+checkpoint directory created: ./model_ckpt_2093073_132471072908800_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.08401191755488036, "train_rmse": 0.048454953282, "train_rmse_clean": null, "nrmse": 0.08284144721601322, "train_time_s": 44.90932106971741}
+checkpoint directory created: ./model_ckpt_2093075_123834470000128_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.15943029721830726, "train_rmse": 0.11479572501005464, "train_rmse_clean": null, "nrmse": 0.15571642884828957, "train_time_s": 50.25142192840576}
+checkpoint directory created: ./model_ckpt_2093076_123333075924480_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.15324832168143132, "train_rmse": 0.11009898325350065, "train_rmse_clean": null, "nrmse": 0.1594052845938424, "train_time_s": 43.85097813606262}
+checkpoint directory created: ./model_ckpt_2093077_139475261715968_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.2197739048335876, "train_rmse": 0.12009816020008657, "train_rmse_clean": null, "nrmse": 0.21867850607075437, "train_time_s": 45.22500658035278}
+checkpoint directory created: ./model_ckpt_2093080_137155296585216_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.30637283907721624, "train_rmse": 0.21629574960372278, "train_rmse_clean": null, "nrmse": 0.3169139993030285, "train_time_s": 45.00340175628662}
+checkpoint directory created: ./model_ckpt_2093078_125357770098176_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.001_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.08050111663737702, "train_rmse": 0.05698731296357007, "train_rmse_clean": null, "nrmse": 0.07937955945820442, "train_time_s": 50.7498722076416}
+checkpoint directory created: ./model_ckpt_2093079_140213643118080_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.001_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.2935858045214559, "train_rmse": 0.22841617370164613, "train_rmse_clean": null, "nrmse": 0.2867468344365828, "train_time_s": 50.71661329269409}
+checkpoint directory created: ./model_ckpt_2093674_126780115301888_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.001_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.28824561218686284, "train_rmse": 0.24788489827364657, "train_rmse_clean": null, "nrmse": 0.2998262776351212, "train_time_s": 50.064815044403076}
+checkpoint directory created: ./model_ckpt_2093778_131928921183744_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.001_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.24972186248075445, "train_rmse": 0.22546671189503797, "train_rmse_clean": null, "nrmse": 0.2484771968803459, "train_time_s": 48.83877992630005}
+checkpoint directory created: ./model_ckpt_2093875_137078520956416_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.001_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.15830499413221943, "train_rmse": 0.12010655619284272, "train_rmse_clean": null, "nrmse": 0.16375168553188824, "train_time_s": 42.2136595249176}
+checkpoint directory created: ./model_ckpt_2093897_124131566933504_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.0003_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.13044564070917808, "train_rmse": 0.09248276005315859, "train_rmse_clean": null, "nrmse": 0.12862824672831968, "train_time_s": 49.05822014808655}
+checkpoint directory created: ./model_ckpt_2093904_130341763307008_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.0003_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.34276802593649336, "train_rmse": 0.29673843585555915, "train_rmse_clean": null, "nrmse": 0.3347833746375258, "train_time_s": 47.862306118011475}
+checkpoint directory created: ./model_ckpt_2093910_128268869465600_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.0003_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.38834118489376124, "train_rmse": 0.3171772339073229, "train_rmse_clean": null, "nrmse": 0.4039433281767592, "train_time_s": 45.31309127807617}
+checkpoint directory created: ./model_ckpt_2093934_140002311370240_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.0003_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.2749232537059356, "train_rmse": 0.249262601784082, "train_rmse_clean": null, "nrmse": 0.2735529791403014, "train_time_s": 43.22761535644531}
+checkpoint directory created: ./model_ckpt_2093935_124893333046784_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_lr0.0003_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.1881054120676353, "train_rmse": 0.1474019395244266, "train_rmse_clean": null, "nrmse": 0.19457742601612907, "train_time_s": 47.5388560295105}
+checkpoint directory created: ./model_ckpt_2093962_131837275276800_1729
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_steps10000_g3", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.07050943286284195, "train_rmse": 0.04069289650257213, "train_rmse_clean": null, "nrmse": 0.06952708176101895, "train_time_s": 84.56796169281006}
+checkpoint directory created: ./model_ckpt_2093967_133880369518080_1730
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_steps10000_g3", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.15785068550388814, "train_rmse": 0.09953864071829344, "train_rmse_clean": null, "nrmse": 0.15417361359028714, "train_time_s": 82.38904595375061}
+checkpoint directory created: ./model_ckpt_2093974_139647694685696_1731
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_steps10000_g3", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.15087481055720176, "train_rmse": 0.10313125102614862, "train_rmse_clean": null, "nrmse": 0.1569364143831071, "train_time_s": 83.3165328502655}
+checkpoint directory created: ./model_ckpt_2094001_126028657935872_1732
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_steps10000_g3", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.22262724207118367, "train_rmse": 0.14864234604249305, "train_rmse_clean": null, "nrmse": 0.22151762168325634, "train_time_s": 83.36770296096802}
+checkpoint directory created: ./model_ckpt_2094030_131006810191360_1733
+saving model version 0.0
+saving model version 0.1
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "spline_adam_steps10000_g3", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 380, "n_params_trainable": 380, "test_rmse": 0.13921781317456983, "train_rmse": 0.10005542882359197, "train_rmse_clean": null, "nrmse": 0.14400778502514391, "train_time_s": 81.45500349998474}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "tanh", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.17206558410079786, "train_rmse": 0.14789321428317237, "train_rmse_clean": null, "nrmse": 0.16966833299177195, "train_time_s": 7.73417329788208}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "tanh", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.21642077890112432, "train_rmse": 0.2133334913263525, "train_rmse_clean": null, "nrmse": 0.21137933885240578, "train_time_s": 7.473776340484619}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "tanh", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.14069413623272808, "train_rmse": 0.12211002023381567, "train_rmse_clean": null, "nrmse": 0.14634671741126362, "train_time_s": 7.4869794845581055}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "tanh", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.20398535568494935, "train_rmse": 0.2052229834079924, "train_rmse_clean": null, "nrmse": 0.20296865032849412, "train_time_s": 6.6118323802948}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "tanh", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 80, "n_params_trainable": 80, "test_rmse": 0.5172855785947625, "train_rmse": 0.4901288624746041, "train_rmse_clean": null, "nrmse": 0.535083468848001, "train_time_s": 6.7522900104522705}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "banach", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 160, "test_rmse": 0.1410609380906891, "train_rmse": 0.11390137288178614, "train_rmse_clean": null, "nrmse": 0.1390956497266892, "train_time_s": 13.920881986618042, "p_values": [2.287245512008667, 2.6232619285583496, 2.8243212699890137, 2.6414101123809814, 2.1512794494628906, 2.3973894119262695, 2.517580509185791, 2.23592472076416, 2.367553472518921, 2.6083717346191406, 1.6555864810943604, 2.5611491203308105, 2.2227773666381836, 2.2926816940307617, 3.2208099365234375, 2.415536642074585, 2.3466978073120117, 1.4436638355255127, 2.722959280014038, 2.2779347896575928], "p_mean": 2.390706753730774}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "banach", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 160, "test_rmse": 0.1298319437498776, "train_rmse": 0.1077717569349943, "train_rmse_clean": null, "nrmse": 0.1268075578099183, "train_time_s": 11.467994213104248, "p_values": [3.050354480743408, 2.798922538757324, 2.524411201477051, 3.177424669265747, 1.9380903244018555, 2.0895376205444336, 1.6033722162246704, 1.9792687892913818, 1.885669231414795, 2.3977503776550293, 1.835556149482727, 2.6331353187561035, 1.4910074472427368, 1.6928625106811523, 2.3633663654327393, 2.629868745803833, 2.457550525665283, 2.5473380088806152, 2.567753314971924, 2.5161447525024414], "p_mean": 2.3089692294597626}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "banach", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 160, "test_rmse": 0.10916664340453153, "train_rmse": 0.09570330920267622, "train_rmse_clean": null, "nrmse": 0.11355256402891084, "train_time_s": 14.204698085784912, "p_values": [2.4384894371032715, 2.131260633468628, 2.4849982261657715, 2.4352593421936035, 2.435220241546631, 2.215468645095825, 2.436666965484619, 2.080596923828125, 3.454191207885742, 1.4188299179077148, 2.406939744949341, 2.449687957763672, 3.6133296489715576, 2.3333375453948975, 2.245227336883545, 2.1729249954223633, 3.567080497741699, 2.388500690460205, 2.7342300415039062, 2.4620184898376465], "p_mean": 2.4952129244804384}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "banach", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 160, "test_rmse": 0.17769484271467206, "train_rmse": 0.1587425755624423, "train_rmse_clean": null, "nrmse": 0.17680917473230223, "train_time_s": 13.41210126876831, "p_values": [2.293783187866211, 1.8359899520874023, 2.3746089935302734, 2.8923850059509277, 2.633051633834839, 2.2559962272644043, 1.9466972351074219, 2.235635280609131, 2.021456718444824, 2.2134032249450684, 1.9015052318572998, 2.1161036491394043, 3.9479124546051025, 2.966604232788086, 1.790360927581787, 4.297486305236816, 2.318848133087158, 2.970867395401001, 2.9076247215270996, 1.7293051481246948], "p_mean": 2.482481282949448}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "banach", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 160, "test_rmse": 0.19049664218527607, "train_rmse": 0.16641312218165893, "train_rmse_clean": null, "nrmse": 0.19705092954900716, "train_time_s": 13.124349117279053, "p_values": [1.9686057567596436, 3.519601821899414, 3.7814314365386963, 3.8383936882019043, 1.7924153804779053, 2.320793390274048, 1.6081018447875977, 1.8910239934921265, 2.3704018592834473, 2.787781238555908, 2.156391143798828, 1.8492326736450195, 2.5911755561828613, 2.29733943939209, 1.590752124786377, 1.9281151294708252, 1.5148937702178955, 3.0171432495117188, 3.5169284343719482, 3.0555856227874756], "p_mean": 2.4698053777217863}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "banach_tanhonly", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 140, "test_rmse": 0.14143957500675874, "train_rmse": 0.12297184716422827, "train_rmse_clean": null, "nrmse": 0.13946901139976525, "train_time_s": 13.492484092712402, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "banach_tanhonly", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 140, "test_rmse": 0.2404440884902499, "train_rmse": 0.21393671356207733, "train_rmse_clean": null, "nrmse": 0.23484303454641312, "train_time_s": 12.650121688842773, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "banach_tanhonly", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 140, "test_rmse": 0.3298489642560085, "train_rmse": 0.27261429343205634, "train_rmse_clean": null, "nrmse": 0.3431011018150949, "train_time_s": 12.823148012161255, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "banach_tanhonly", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 140, "test_rmse": 0.23278529403202697, "train_rmse": 0.21067133445349384, "train_rmse_clean": null, "nrmse": 0.2316250438044964, "train_time_s": 12.82891058921814, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "banach_tanhonly", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 160, "n_params_trainable": 140, "test_rmse": 0.23394583535600155, "train_rmse": 0.21944207924099768, "train_rmse_clean": null, "nrmse": 0.2419950493205187, "train_time_s": 12.798253536224365, "p_values": [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5], "p_mean": 2.5}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "lp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 100, "n_params_trainable": 100, "test_rmse": 0.2677418062117809, "train_rmse": 0.2178796163788732, "train_rmse_clean": null, "nrmse": 0.2640115754092179, "train_time_s": 10.69989824295044, "p_values": [2.407172203063965, 2.4814987182617188, 1.7490001916885376, 1.809025526046753, 3.340785503387451, 2.466796398162842, 2.2759766578674316, 2.186758518218994, 1.8224565982818604, 2.610339641571045, 3.2432267665863037, 2.9059629440307617, 2.9648022651672363, 2.545605182647705, 2.2403597831726074, 2.239030122756958, 2.81967830657959, 2.985170841217041, 2.076911687850952, 1.9807181358337402], "p_mean": 2.457563799619675}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "lp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 100, "n_params_trainable": 100, "test_rmse": 0.2207708475357606, "train_rmse": 0.20219628397404676, "train_rmse_clean": null, "nrmse": 0.21562807428631758, "train_time_s": 10.950796127319336, "p_values": [1.860241413116455, 2.40902042388916, 1.7588167190551758, 3.1635115146636963, 2.2172012329101562, 2.1895480155944824, 2.2827882766723633, 2.1788742542266846, 2.5520172119140625, 2.3902103900909424, 2.4573283195495605, 2.527099609375, 2.152871608734131, 2.400850296020508, 2.58982253074646, 2.5596015453338623, 2.7992806434631348, 2.614565849304199, 2.6154985427856445, 2.585029125213623], "p_mean": 2.415208876132965}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "lp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 100, "n_params_trainable": 100, "test_rmse": 0.24297644865916368, "train_rmse": 0.23288544657184929, "train_rmse_clean": null, "nrmse": 0.25273836295988705, "train_time_s": 10.788637638092041, "p_values": [3.5174343585968018, 3.504398822784424, 2.434830665588379, 2.4760422706604004, 2.906714916229248, 2.986906051635742, 3.1690921783447266, 2.2836132049560547, 2.127149820327759, 1.3468345403671265, 2.1379494667053223, 2.8320813179016113, 2.4279069900512695, 1.6477274894714355, 2.160116672515869, 2.2084505558013916, 2.026048183441162, 2.553004503250122, 1.9025232791900635, 2.7524681091308594], "p_mean": 2.4700646698474884}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "lp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 100, "n_params_trainable": 100, "test_rmse": 0.22209004339300975, "train_rmse": 0.21816196600906324, "train_rmse_clean": null, "nrmse": 0.2209831005148073, "train_time_s": 8.563101530075073, "p_values": [2.1990513801574707, 2.815110206604004, 2.264533042907715, 2.195781946182251, 2.140749454498291, 2.092430830001831, 2.111541748046875, 2.252199411392212, 2.6827259063720703, 2.6852784156799316, 2.6063344478607178, 2.049329996109009, 2.197056531906128, 2.2220468521118164, 2.2579731941223145, 2.2354307174682617, 2.3541390895843506, 2.900144577026367, 1.8597447872161865, 2.8665194511413574], "p_mean": 2.349406099319458}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "lp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 100, "n_params_trainable": 100, "test_rmse": 0.19846822563207134, "train_rmse": 0.18795104051991274, "train_rmse_clean": null, "nrmse": 0.20529678580216215, "train_time_s": 10.644485235214233, "p_values": [1.3641597032546997, 2.163972854614258, 2.1817846298217773, 2.051027774810791, 2.5100574493408203, 2.28358793258667, 3.469048023223877, 2.3562915325164795, 2.63820743560791, 2.7488255500793457, 2.3885927200317383, 2.180971622467041, 2.1933155059814453, 2.122230052947998, 1.9809834957122803, 4.118347644805908, 2.8008475303649902, 2.450594902038574, 1.856450080871582, 2.671156883239746], "p_mean": 2.4265226662158965}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "mlp", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 2851, "n_params_trainable": 2851, "test_rmse": 0.02300858684604945, "train_rmse": 0.014801716826429168, "train_rmse_clean": null, "nrmse": 0.022688026749025633, "train_time_s": 7.30579137802124}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "mlp", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 2851, "n_params_trainable": 2851, "test_rmse": 0.021730405504168715, "train_rmse": 0.0125350247767404, "train_rmse_clean": null, "nrmse": 0.02122420394099228, "train_time_s": 8.054803133010864}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "mlp", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 2851, "n_params_trainable": 2851, "test_rmse": 0.023638346214382988, "train_rmse": 0.014310556046383427, "train_rmse_clean": null, "nrmse": 0.02458804941084105, "train_time_s": 8.026643753051758}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "mlp", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 2851, "n_params_trainable": 2851, "test_rmse": 0.022216177220105493, "train_rmse": 0.01756316130610358, "train_rmse_clean": null, "nrmse": 0.022105447181158356, "train_time_s": 6.853304624557495}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "mlp", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 2851, "n_params_trainable": 2851, "test_rmse": 0.02279691293672148, "train_rmse": 0.012795993964627661, "train_rmse_clean": null, "nrmse": 0.023581270690638784, "train_time_s": 7.4394426345825195}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "cheby", "seed": 1729, "n_train": 500, "sigma": 0.0, "n_params_total": 140, "n_params_trainable": 140, "test_rmse": 0.21481311860287455, "train_rmse": 0.1636839298434989, "train_rmse_clean": null, "nrmse": 0.211820300547508, "train_time_s": 8.831809520721436}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "cheby", "seed": 1730, "n_train": 500, "sigma": 0.0, "n_params_total": 140, "n_params_trainable": 140, "test_rmse": 0.20625742443806416, "train_rmse": 0.17381748322074486, "train_rmse_clean": null, "nrmse": 0.2014527358809517, "train_time_s": 8.751647472381592}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "cheby", "seed": 1731, "n_train": 500, "sigma": 0.0, "n_params_total": 140, "n_params_trainable": 140, "test_rmse": 0.12667592074640766, "train_rmse": 0.1104202919124937, "train_rmse_clean": null, "nrmse": 0.1317653007629306, "train_time_s": 8.932580471038818}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "cheby", "seed": 1732, "n_train": 500, "sigma": 0.0, "n_params_total": 140, "n_params_trainable": 140, "test_rmse": 0.09593118455185845, "train_rmse": 0.0936885978200408, "train_rmse_clean": null, "nrmse": 0.09545304361444915, "train_time_s": 8.881187677383423}
+{"experiment": "baseline", "eq_id": "I.8.14", "eq_name": "Euclidean distance", "eq_type": "compositional", "n_vars": 4, "model": "cheby", "seed": 1733, "n_train": 500, "sigma": 0.0, "n_params_total": 140, "n_params_trainable": 140, "test_rmse": 0.1963527565349681, "train_rmse": 0.17073892466062457, "train_rmse_clean": null, "nrmse": 0.20310853121019426, "train_time_s": 8.874373435974121}

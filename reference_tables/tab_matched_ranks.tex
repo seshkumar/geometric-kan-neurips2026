@@ -1,0 +1,24 @@
+\begin{tabular}{lccccccccc}
+\toprule
+ & & \multicolumn{4}{c}{noise $\sigma$ ($n=500$)} & \multicolumn{4}{c}{clean training size $n$} \\
+\cmidrule(lr){3-6}\cmidrule(lr){7-10}
+model & clean & 0.1 & 0.3 & 0.5 & 1.0 & 50 & 100 & 200 & 1000 \\
+\midrule
+Banach & 4.5 & \textbf{3.8} & \textbf{4.6} & 4.5 & 4.8 & \textbf{4.1} & \textbf{3.6} & 4.9 & 5.6 \\
+$\ell^p$ & 10.9 & 9.0 & 5.5 & \textbf{3.6} & \textbf{2.4} & 5.5 & 7.1 & 9.2 & 11.6 \\
+\midrule
+$\tanh$ & 11.8 & 9.5 & 6.1 & 5.3 & 4.1 & 6.9 & 9.0 & 11.0 & 12.1 \\
+generic learned power & 11.7 & 9.7 & 5.8 & 3.7 & 2.4 & 6.3 & 7.5 & 10.3 & 12.4 \\
+adaptive-slope tanh & 12.6 & 11.2 & 8.6 & 7.7 & 6.1 & 9.2 & 11.1 & 11.9 & 12.6 \\
+activation mixture & 7.7 & 7.0 & 5.2 & 5.2 & 5.6 & 4.9 & 6.1 & 7.3 & 8.1 \\
+rational & 10.9 & 8.5 & 6.0 & 4.3 & 4.4 & 6.3 & 6.7 & 9.1 & 11.4 \\
+spline (Adam) & \textbf{1.6} & 6.1 & 11.3 & 13.5 & 14.7 & 6.7 & 4.9 & \textbf{2.7} & \textbf{1.3} \\
+spline (Adam, Lipschitz-reg.) & 9.7 & 9.2 & 9.8 & 10.8 & 9.9 & 11.4 & 10.8 & 10.9 & 8.6 \\
+Chebyshev & 5.3 & 5.7 & 8.3 & 9.5 & 11.1 & 8.3 & 6.5 & 5.0 & 5.3 \\
+RBF & 4.4 & 5.4 & 6.9 & 7.8 & 8.9 & 7.5 & 5.8 & 4.5 & 4.4 \\
+Fourier & 5.8 & 8.8 & 11.9 & 12.8 & 13.3 & 14.2 & 12.4 & 7.5 & 5.7 \\
+wavelet & 8.3 & 9.3 & 11.7 & 12.5 & 12.1 & 12.6 & 11.5 & 10.1 & 7.6 \\
+Jacobi & 5.7 & 6.4 & 8.8 & 9.9 & 11.1 & 8.5 & 7.7 & 5.9 & 5.2 \\
+MLP & 9.2 & 10.2 & 9.4 & 9.0 & 9.0 & 7.5 & 9.3 & 9.5 & 8.0 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,33 @@
+\textbf{(a) Clean fitting}\par\smallskip
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{3}{c}{Full benchmark} & \multicolumn{3}{c}{Core-18} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Model & NRMSE & Wins & Rank & NRMSE & Wins & Rank \\
+\midrule
+Spline G=3 & 0.038 & \textbf{22} & \textbf{2.02} & 0.039 & 3 & 2.86 \\
+CV-regularized G3 & -- & -- & -- & 0.042 & \textbf{5} & \textbf{2.53} \\
+Tanh & 0.068 & 0 & 5.28 & 0.070 & 0 & 6.22 \\
+Banach & \textbf{0.032} & 13 & 2.22 & \textbf{0.031} & 4 & 2.56 \\
+$\ell^p$ & 0.069 & 0 & 4.68 & 0.088 & 0 & 5.50 \\
+MLP & 0.057 & 7 & 4.06 & 0.060 & 4 & 4.78 \\
+Chebyshev & 0.033 & 8 & 2.74 & 0.042 & 2 & 3.56 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\textbf{(b) Core-18 noise and noisy scarcity: median NRMSE}\par\smallskip
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+& \multicolumn{5}{c}{Label noise $\sigma$ ($n=500$)} & \multicolumn{5}{c}{Training-pool size $n$ ($\sigma=0.3$)} \\
+\cmidrule(lr){2-6}\cmidrule(lr){7-11}
+Model & 0.0 & 0.1 & 0.3 & 0.5 & 1.0 & 50 & 100 & 200 & 500 & 1000 \\
+\midrule
+Spline G=3 & 0.039 & 0.072 & 0.199 & 0.351 & 0.768 & 1.292 & 0.807 & 0.407 & 0.205 & 0.119 \\
+CV-regularized G3 & 0.042 & 0.056 & 0.124 & 0.185 & 0.312 & 0.388 & 0.260 & 0.176 & 0.131 & 0.088 \\
+Tanh & 0.070 & 0.079 & 0.137 & 0.195 & 0.324 & 0.410 & 0.292 & 0.203 & 0.137 & 0.104 \\
+Banach & \textbf{0.031} & \textbf{0.049} & \textbf{0.113} & 0.189 & 0.323 & 0.393 & \textbf{0.242} & 0.172 & \textbf{0.113} & \textbf{0.074} \\
+$\ell^p$ & 0.088 & 0.094 & 0.127 & \textbf{0.160} & \textbf{0.287} & \textbf{0.386} & 0.261 & \textbf{0.166} & 0.127 & 0.094 \\
+MLP & 0.060 & 0.081 & 0.163 & 0.245 & 0.383 & 0.397 & 0.319 & 0.223 & 0.163 & 0.122 \\
+Chebyshev & 0.042 & 0.060 & 0.141 & 0.231 & 0.524 & 0.657 & 0.430 & 0.267 & 0.141 & 0.083 \\
+\bottomrule
+\end{tabular}

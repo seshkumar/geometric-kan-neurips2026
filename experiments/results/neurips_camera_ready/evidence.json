@@ -2056,6 +2056,22 @@
       ],
       "bold_rule": "Best unrounded column value; minimum error/rank, maximum wins; exact ties bolded"
     },
+    "clean_noise_scarcity": {
+      "sources": [
+        "baseline",
+        "clean_noise",
+        "noise",
+        "scarcity"
+      ],
+      "scarcity_columns": [
+        "50",
+        "100",
+        "200",
+        "500",
+        "1000"
+      ],
+      "layout": "Clean panel above shared noise and noisy-scarcity rows; no omitted sample sizes"
+    },
     "ablation_00": {
       "models": [
         "lp_fixed_1.5",

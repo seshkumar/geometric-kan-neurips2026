@@ -3,6 +3,7 @@
   "artifacts": {
     "ablation_00.tex": true,
     "baseline.tex": true,
+    "clean_noise_scarcity.tex": true,
     "geometry_vertical.tex": true,
     "per_equation.tex": true,
     "branch_optimizer.tex": true,

@@ -32,16 +32,42 @@ def summary_cells(summary, model_index):
         cells.append(display)
     return cells
 
-def clean_noise_table(clean, noise, labels, core=None):
-    models = noise['models']
+def _aligned_clean_summaries(clean, models, core=None):
     core = core or dict(models=clean['models'], **clean['core'])
     summaries = []
     for source in (dict(models=clean['models'], **clean['full']), core):
         summaries.append({field: [source[field][source['models'].index(model)] if model in source['models'] else None for model in models] for field in ('median', 'wins', 'rank')})
+    return summaries
+
+def clean_noise_table(clean, noise, labels, core=None):
+    models = noise['models']
+    summaries = _aligned_clean_summaries(clean, models, core)
     values = np.asarray(noise['values'])
     lines = ['\\begin{tabular}{l' + 'r' * (6 + len(noise['columns'])) + '}', '\\toprule', '& \\multicolumn{3}{c}{Full benchmark, clean} & \\multicolumn{3}{c}{Core-18, clean}' + ' & \\multicolumn{' + str(len(noise['columns'])) + '}{c}{Core-18, label noise $\\sigma$} \\\\', '\\cmidrule(lr){2-4}\\cmidrule(lr){5-7}\\cmidrule(lr){8-' + str(7 + len(noise['columns'])) + '}', 'Model & NRMSE & Wins & Rank & NRMSE & Wins & Rank & ' + ' & '.join(noise['columns']) + ' \\\\', '\\midrule']
     for index, model in enumerate(models):
         cells = [cell for summary in summaries for cell in summary_cells(summary, index)]
+        for column, value in enumerate(values[index]):
+            display = f'{value:.3f}'
+            if value == values[:, column].min():
+                display = '\\textbf{' + display + '}'
+            cells.append(display)
+        lines.append(labels[model] + ' & ' + ' & '.join(cells) + ' \\\\')
+    return '\n'.join(lines + ['\\bottomrule', '\\end{tabular}'])
+
+def clean_noise_scarcity_table(clean, noise, scarcity, labels, core):
+    models = noise['models']
+    if scarcity['models'] != models:
+        raise ValueError('Noise and scarcity model order must match')
+    summaries = _aligned_clean_summaries(clean, models, core)
+    lines = ['\\textbf{(a) Clean fitting}\\par\\smallskip', '\\begin{tabular}{lrrrrrr}', '\\toprule', '& \\multicolumn{3}{c}{Full benchmark} & \\multicolumn{3}{c}{Core-18} \\\\', '\\cmidrule(lr){2-4}\\cmidrule(lr){5-7}', 'Model & NRMSE & Wins & Rank & NRMSE & Wins & Rank \\\\', '\\midrule']
+    for index, model in enumerate(models):
+        cells = [cell for summary in summaries for cell in summary_cells(summary, index)]
+        lines.append(labels[model] + ' & ' + ' & '.join(cells) + ' \\\\')
+    values = np.concatenate([noise['values'], scarcity['values']], axis=1)
+    n_noise, n_scarcity = (len(noise['columns']), len(scarcity['columns']))
+    lines += ['\\bottomrule', '\\end{tabular}', '\\par\\medskip', '\\textbf{(b) Core-18 noise and noisy scarcity: median NRMSE}\\par\\smallskip', '\\begin{tabular}{l' + 'r' * (n_noise + n_scarcity) + '}', '\\toprule', '& \\multicolumn{' + str(n_noise) + '}{c}{Label noise $\\sigma$ ($n=500$)}' + ' & \\multicolumn{' + str(n_scarcity) + '}{c}{Training-pool size $n$ ($\\sigma=0.3$)} \\\\', '\\cmidrule(lr){2-' + str(1 + n_noise) + '}\\cmidrule(lr){' + str(2 + n_noise) + '-' + str(1 + n_noise + n_scarcity) + '}', 'Model & ' + ' & '.join(noise['columns'] + scarcity['columns']) + ' \\\\', '\\midrule']
+    for index, model in enumerate(models):
+        cells = []
         for column, value in enumerate(values[index]):
             display = f'{value:.3f}'
             if value == values[:, column].min():

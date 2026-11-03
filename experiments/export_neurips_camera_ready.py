@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from experiments import feynman_dispatch as fd, feynman_runner as fr, aggregate_numbers as an
 from src.result_integrity import read_records, grid_inventory
-from src.reporting.neurips_camera_ready import describe, paired_ratios, replace_power_rows, summary_cells, clean_noise_table
+from src.reporting.neurips_camera_ready import describe, paired_ratios, replace_power_rows, summary_cells, clean_noise_table, clean_noise_scarcity_table
 OUT = ROOT / 'experiments/results/neurips_camera_ready'
 LABELS = {'spline_g3': 'Spline G=3', 'spline_cv_g3': 'CV-regularized G3', 'spline_adam_g3': 'Spline Adam', 'spline_adam_steps10000_g3': 'Spline Adam (10k)', 'tanh': 'Tanh', 'banach': 'Banach', 'lp': '$\\ell^p$', 'mlp': 'MLP', 'cheby': 'Chebyshev', 'banach_tanhonly': 'Banach, power branch off'}
 LABELS.update({f'lp_fixed_{p:.1f}': f'$\\ell^p$, fixed $p={p:g}$' for p in (1.5, 2.0, 2.5, 3.0, 4.0)})
@@ -86,6 +86,8 @@ def main():
             core_with_cv = dict(models=extended, **describe(matrices[conditions.index(0.0)]))
     save('clean_noise', clean_noise_table(evidence['tables']['baseline'], evidence['tables']['noise'], LABELS, core=core_with_cv))
     evidence['tables']['clean_noise'] = {'full_clean_source': 'baseline50', 'noise_source': 'noise', 'full_clean_ranking_models': models, 'core_clean_source': {'experiments': ['noise', 'noise_spline_reg'], 'sigma': 0.0}, 'core_clean': core_with_cv, 'noise_models': extended, 'unavailable_full_clean_entries': ['spline_cv_g3'], 'bold_rule': 'Best unrounded column value; minimum error/rank, maximum wins; exact ties bolded'}
+    save('clean_noise_scarcity', clean_noise_scarcity_table(evidence['tables']['baseline'], evidence['tables']['noise'], evidence['tables']['scarcity'], LABELS, core_with_cv))
+    evidence['tables']['clean_noise_scarcity'] = {'sources': ['baseline', 'clean_noise', 'noise', 'scarcity'], 'scarcity_columns': evidence['tables']['scarcity']['columns'], 'layout': 'Clean panel above shared noise and noisy-scarcity rows; no omitted sample sizes'}
     for sig in (0.0, 0.3):
         ms = ['lp_fixed_1.5', 'lp_fixed_2.0', 'lp_fixed_2.5', 'lp_fixed_3.0', 'lp_fixed_4.0', 'lp_learned', 'banach_fixed_2.0', 'banach_learned']
         x = matrix([r for r in populations['ablation_p'] if r['sigma'] == sig], ms, fr.EQUATION_IDS[:18])

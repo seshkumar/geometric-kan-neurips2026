@@ -102,6 +102,29 @@ def matched_error_table(summary):
         lines.append(labels[model] + ' & ' + ' & '.join(cells) + ' \\\\')
     return '\n'.join(lines + ['\\bottomrule', '\\end{tabular}'])
 
+def matched_per_equation_table(matrix, equations):
+    values = np.asarray(matrix)
+    if values.shape != (50, 15) or len(equations) != 50 or (not np.isfinite(values).all()):
+        raise ValueError('Expected all 50 targets and 15 model columns')
+    headers = ['B', 'L', 'T', 'P', 'A', 'M', 'Q', 'S', '$S_L$', 'C', 'R', 'F', 'W', 'J', 'N']
+    lines = ['{\\scriptsize\\setlength{\\tabcolsep}{2pt}', '\\begin{longtable}{l' + 'r' * 15 + '}', '\\caption{Clean test NRMSE by equation: median across five runs, for the same 15 models as Table~\\ref{tab:matched}. Bold marks the lowest unrounded value within each row.}\\label{tab:per_equation}\\\\', '\\toprule Target & ' + ' & '.join(headers) + ' \\\\ \\midrule\\endfirsthead', '\\toprule Target & ' + ' & '.join(headers) + ' \\\\ \\midrule\\endhead', '\\bottomrule\\endfoot']
+    for equation, row in zip(equations, values):
+        cells = []
+        for value in row:
+            text = f'{value:.3f}'
+            cells.append('\\textbf{' + text + '}' if value == min(row) else text)
+        lines.append(equation + ' & ' + ' & '.join(cells) + ' \\\\')
+    summary = describe(values)
+    lines.append('\\midrule')
+    for label, field, spec, optimum in [('Median NRMSE', 'median', '.3f', min), ('Wins', 'wins', 'g', max), ('Mean rank', 'rank', '.2f', min)]:
+        best = optimum(summary[field])
+        cells = []
+        for value in summary[field]:
+            text = format(value, spec)
+            cells.append('\\textbf{' + text + '}' if value == best else text)
+        lines.append(label + ' & ' + ' & '.join(cells) + ' \\\\')
+    return '\n'.join(lines + ['\\end{longtable}', '}'])
+
 def paired_ratios(comparisons, draws=100000, seed=20260929):
     rng = np.random.default_rng(seed)
     result = []

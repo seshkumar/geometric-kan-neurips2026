@@ -83,8 +83,9 @@ def main():
                 comparisons.append((f'{regime}/{v}:{m}/SplineCV', x[:, extended.index(m)], x[:, 1]))
         if regime == 'noise':
             evidence['degradation'] = dict(zip(extended, (np.median(matrices[-1], axis=0) / np.median(matrices[0], axis=0)).tolist()))
-    save('clean_noise', clean_noise_table(evidence['tables']['baseline'], evidence['tables']['noise'], LABELS))
-    evidence['tables']['clean_noise'] = {'clean_source': 'baseline', 'noise_source': 'noise', 'clean_ranking_models': models, 'noise_models': extended, 'unavailable_clean_entries': ['spline_cv_g3'], 'bold_rule': 'Best unrounded column value; minimum error/rank, maximum wins; exact ties bolded'}
+            core_with_cv = dict(models=extended, **describe(matrices[conditions.index(0.0)]))
+    save('clean_noise', clean_noise_table(evidence['tables']['baseline'], evidence['tables']['noise'], LABELS, core=core_with_cv))
+    evidence['tables']['clean_noise'] = {'full_clean_source': 'baseline50', 'noise_source': 'noise', 'full_clean_ranking_models': models, 'core_clean_source': {'experiments': ['noise', 'noise_spline_reg'], 'sigma': 0.0}, 'core_clean': core_with_cv, 'noise_models': extended, 'unavailable_full_clean_entries': ['spline_cv_g3'], 'bold_rule': 'Best unrounded column value; minimum error/rank, maximum wins; exact ties bolded'}
     for sig in (0.0, 0.3):
         ms = ['lp_fixed_1.5', 'lp_fixed_2.0', 'lp_fixed_2.5', 'lp_fixed_3.0', 'lp_fixed_4.0', 'lp_learned', 'banach_fixed_2.0', 'banach_learned']
         x = matrix([r for r in populations['ablation_p'] if r['sigma'] == sig], ms, fr.EQUATION_IDS[:18])

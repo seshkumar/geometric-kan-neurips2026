@@ -1987,9 +1987,9 @@
       ]
     },
     "clean_noise": {
-      "clean_source": "baseline",
+      "full_clean_source": "baseline50",
       "noise_source": "noise",
-      "clean_ranking_models": [
+      "full_clean_ranking_models": [
         "spline_g3",
         "tanh",
         "banach",
@@ -1997,6 +1997,51 @@
         "mlp",
         "cheby"
       ],
+      "core_clean_source": {
+        "experiments": [
+          "noise",
+          "noise_spline_reg"
+        ],
+        "sigma": 0.0
+      },
+      "core_clean": {
+        "models": [
+          "spline_g3",
+          "spline_cv_g3",
+          "tanh",
+          "banach",
+          "lp",
+          "mlp",
+          "cheby"
+        ],
+        "median": [
+          0.03910016170766911,
+          0.04195829562457019,
+          0.07023891003445945,
+          0.030740565789872797,
+          0.08772966357866513,
+          0.05993713422767198,
+          0.042315874138254495
+        ],
+        "rank": [
+          2.861111111111111,
+          2.5277777777777777,
+          6.222222222222222,
+          2.5555555555555554,
+          5.5,
+          4.777777777777778,
+          3.5555555555555554
+        ],
+        "wins": [
+          3.0,
+          5.0,
+          0.0,
+          4.0,
+          0.0,
+          4.0,
+          2.0
+        ]
+      },
       "noise_models": [
         "spline_g3",
         "spline_cv_g3",
@@ -2006,7 +2051,7 @@
         "mlp",
         "cheby"
       ],
-      "unavailable_clean_entries": [
+      "unavailable_full_clean_entries": [
         "spline_cv_g3"
       ],
       "bold_rule": "Best unrounded column value; minimum error/rank, maximum wins; exact ties bolded"

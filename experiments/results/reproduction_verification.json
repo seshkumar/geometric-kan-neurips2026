@@ -2,18 +2,18 @@
   "all_tables_and_figure_match": true,
   "artifacts": {
     "ablation_00.tex": true,
-    "tab_matched_ranks.tex": true,
-    "matched_curves.pdf": true,
     "baseline.tex": true,
     "per_equation.tex": true,
     "branch_optimizer.tex": true,
     "paired.tex": true,
     "scarcity.tex": true,
-    "tab_matched_paired.tex": true,
     "ablation_03.tex": true,
-    "tab_extrap_neurips.tex": true,
     "geometry.tex": true,
+    "noise.tex": true,
     "parameter_counts.tex": true,
-    "noise.tex": true
+    "tab_matched_ranks.tex": true,
+    "tab_matched_paired.tex": true,
+    "tab_extrap_neurips.tex": true,
+    "matched_curves.pdf": true
   }
 }

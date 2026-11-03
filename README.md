@@ -31,7 +31,7 @@ Final proceedings pagination is not supplied. The arXiv link identifies the work
 | `reproduce.py` | Verify the release, regenerate tables, or run one declared fit |
 | `experiments/feynman_runner.py` | Core symbolic-regression models, data generation and exact pykan baseline |
 | `experiments/feynman_dispatch.py` | Declared per-equation configuration grids |
-| `experiments/rebuttal/run_baselines.py` | Matched models, generator and validation-selected training |
+| `src/matched_models.py` | Matched models, generator and validation-selected training |
 | `experiments/export_neurips_camera_ready.py` | Core tables, ablations, exponent summaries and paired intervals |
 | `experiments/aggregate_neurips_public.py` | Matched ranks, paired comparisons, extrapolation and figure |
 | `src/` | Reusable model, selection, integrity and reporting functions |

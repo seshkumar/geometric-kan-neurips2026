@@ -11,14 +11,12 @@ from experiments import feynman_dispatch as fd, feynman_runner as fr, aggregate_
 from src.result_integrity import read_records, grid_inventory
 from src.reporting.neurips_camera_ready import describe, paired_ratios, replace_power_rows
 OUT = ROOT / 'experiments/results/neurips_camera_ready'
-DOC = ROOT / 'docs/neurips2026/camera_ready_tables'
 LABELS = {'spline_g3': 'Spline G=3', 'spline_cv_g3': 'CV-regularized G3', 'spline_adam_g3': 'Spline Adam', 'spline_adam_steps10000_g3': 'Spline Adam (10k)', 'tanh': 'Tanh', 'banach': 'Banach', 'lp': '$\\ell^p$', 'mlp': 'MLP', 'cheby': 'Chebyshev', 'banach_tanhonly': 'Banach, power branch off'}
 LABELS.update({f'lp_fixed_{p:.1f}': f'$\\ell^p$, fixed $p={p:g}$' for p in (1.5, 2.0, 2.5, 3.0, 4.0)})
 LABELS.update({'lp_learned': '$\\ell^p$, learned $p$', 'banach_fixed_2.0': 'Banach, fixed $p=2$', 'banach_learned': 'Banach, learned $p$'})
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
-    DOC.mkdir(parents=True, exist_ok=True)
     evidence = {'command': 'python experiments/export_neurips_camera_ready.py', 'revision': 'public-release', 'scope': 'Geometric-response symbolic-regression population', 'provenance_limit': 'Declared input identities are checked before reporting; file hashes accompany generated summaries.', 'inventory': {}, 'inputs': [], 'tables': {}}
     populations = {}
     for name in ('baseline50', 'baseline', 'noise', 'noise_spline_reg', 'scarcity', 'scarcity_spline_reg', 'ablation_p'):
@@ -54,7 +52,6 @@ def main():
 
     def save(name, text):
         (OUT / f'{name}.tex').write_text(text + '\n')
-        shutil.copy2(OUT / f'{name}.tex', DOC / f'{name}.tex')
 
     def table(name, models, columns, values, bold=True):
         x = np.asarray(values)

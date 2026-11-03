@@ -24,10 +24,11 @@ def tables():
     subprocess.run([sys.executable, str(ROOT / 'experiments/aggregate_neurips_public.py')], cwd=ROOT, check=True)
     parameter_table()
     checks = {}
-    for reference in (ROOT / 'reference_tables').iterdir():
+    reference_artifacts = json.loads((ROOT / 'release_manifest.json').read_text())['reference_artifact_sha256']
+    for name, digest in reference_artifacts.items():
         base = ROOT / 'experiments/results'
-        source = base / 'neurips_public_matched' / reference.name if reference.name.startswith(('tab_', 'matched_')) else base / 'neurips_camera_ready' / reference.name
-        checks[reference.name] = source.read_bytes() == reference.read_bytes()
+        source = base / 'neurips_public_matched' / name if name.startswith(('tab_', 'matched_')) else base / 'neurips_camera_ready' / name
+        checks[name] = hashlib.sha256(source.read_bytes()).hexdigest() == digest
     result = {'all_tables_and_figure_match': all(checks.values()), 'artifacts': checks}
     (ROOT / 'experiments/results/reproduction_verification.json').write_text(json.dumps(result, indent=2) + '\n')
     if not result['all_tables_and_figure_match']:
@@ -35,7 +36,7 @@ def tables():
     return result
 
 def parameter_table():
-    from experiments.rebuttal import run_baselines as rb
+    from src import matched_models as rb
     from src.reporting.neurips_public_parameters import parameter_counts
     from src.reporting.neurips_public_formatting import LABEL, ROSTER
     rows = [json.loads(line) for line in (ROOT / 'experiments/results/neurips_public_inputs/baseline.jsonl').read_text().splitlines()]
@@ -59,7 +60,7 @@ def run_fit(args):
     torch.set_num_threads(1)
     if args.command == 'core':
         from experiments import feynman_runner as fr
-        from src.neurips_rebuttal_models import LpC1KANLayer, BanachC1KANLayer
+        from src.edge_models import LpC1KANLayer, BanachC1KANLayer
         previous = (fr.LpKANLayer, fr.BanachKANLayer)
         fr.LpKANLayer, fr.BanachKANLayer = (LpC1KANLayer, BanachC1KANLayer)
         try:
@@ -73,13 +74,13 @@ def run_fit(args):
         finally:
             fr.LpKANLayer, fr.BanachKANLayer = previous
     else:
-        from experiments.rebuttal import run_baselines as rb
+        from src import matched_models as rb
         if args.command == 'matched':
             record = rb.run_one_config(rb.select_equations('50')[args.eq_idx], args.model, args.seed, args.n_train, args.sigma, 5000, 0.01)
             record['condition'] = args.condition
             record['duality_map'] = 'c1' if args.model in ('banach_c1', 'lp_c1') else 'comparator'
         else:
-            from experiments.rebuttal.extrapolation import gen_extrap
+            from src.extrapolation import gen_extrap
             eq = rb.select_equations('50')[args.eq_idx]
             x, y, xt, yt = gen_extrap(eq, args.seed)
             torch.manual_seed(args.seed)

@@ -13,7 +13,7 @@
       ],
       "source_sha256": "16a7131521b7edabf72d087c0a1d5aed5e3effdbbf3089cec4cf884863e69c06"
     },
-    "src/neurips_rebuttal_models.py": {
+    "src/edge_models.py": {
       "definitions": [
         "AdaSlopeKANLayer",
         "BanachC1KANLayer",
@@ -43,7 +43,7 @@
       ],
       "source_sha256": "4bfc89d122de67daa5501d75a7711e364dd87b47261679556a5887f6a6161e69"
     },
-    "experiments/rebuttal/run_baselines.py": {
+    "src/matched_models.py": {
       "definitions": [
         "BanachC1KANLayer",
         "BanachKANLayer",
@@ -77,28 +77,41 @@
       ],
       "source_sha256": "d7a95acc95b468ec24718663c285eba69a00cf48aceec46aa649f1fdee99eb02"
     },
-    "experiments/rebuttal/extrapolation.py": {
+    "src/extrapolation.py": {
       "definitions": [
         "gen_extrap"
       ],
       "source_sha256": "addfe3c2b2ff10215da4c1db062c53d0484da9e86e15bb1937b716175c38b0ed"
     }
   },
+  "reference_artifact_sha256": {
+    "ablation_00.tex": "3038e1fd698d5b0a09d8f51c4198e4b4b716d9867c791de218d4ea83c99abfd6",
+    "baseline.tex": "d47cb4966ce331b84b6a989eb92d28838f0a8d62b569fbab7c9a97e80d8c6cdc",
+    "per_equation.tex": "ee4771cc30f2fb85911ae832ddccff3e89c1e4ad2e52ff73305dcc0520d5e7bf",
+    "branch_optimizer.tex": "dbdfec1a0bc38f8633991e674ea306e690b116c8afa305750f58aaa8c1a5b07a",
+    "paired.tex": "aac31ddbb33d7450ac91256e80a39e433b140215c6876e571fbe7a99de6d7d3c",
+    "scarcity.tex": "4715fd1bc06f4b782e9fde51e3f527cfc6d91b8206c39bc9b65e750c9425bf57",
+    "ablation_03.tex": "84d6b8a3dc440b477aa643955b3869517bfd0c45c396c0828db71091a65cf198",
+    "geometry.tex": "a577ed6319b9f85978bee04d7877fec4cd32b045ffa39d6b2a3f172f526cd6aa",
+    "noise.tex": "03694f0f4432676d7524e5da8cd75a2d2152d2766d50dd7dd0461362443ec134",
+    "parameter_counts.tex": "f1bc220dd7b5b5a2a91a85cef88c62792ec1f04c36189987d1b88d218331e308",
+    "tab_matched_ranks.tex": "c5a58716742c27e04835e0851086a1d094cba042cbde97919ad654b8b5090f7f",
+    "tab_matched_paired.tex": "8121ae2c6c3d7c1bed386ceabbf0248475c0ec2943f62f6ef15b83f19a562faf",
+    "tab_extrap_neurips.tex": "916eeff0a3fe9b48544726fd8022e5e3c7a41b30b5c6f341d9598138f709ec96",
+    "matched_curves.pdf": "4081ea44a6767d3e1a11fed451198ce98b0c5707c59f8d9d25981ca2924066d3"
+  },
   "sha256": {
     ".gitignore": "72233d77db6c5d4fd5033ef0846494e101a3c36257464e1e822055e5a956a65b",
     "CITATION.cff": "e6af02f6f0cfaa1518cf8cfb1df1d55e12e4620091120a10a4e0880f38b250cb",
     "LICENSE": "0d934798b6645349d8137508beb206fcfa14e2a677b7e4bbfb916978c9125a43",
-    "README.md": "3be1d7360c427f9cb1c9860df64c48821d18f87dfc1ba38200dab633ae4d5b6e",
+    "README.md": "8520d0d9d240cba94214b8217e00be0f7b45e8e716559b86f86024d790ffd76a",
     "THIRD_PARTY_NOTICES.md": "e79128e21eed8d059d61f1a3c18986b559b422fe6311b6d82201fdf21d58ed89",
     "experiments/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "experiments/aggregate_neurips_public.py": "d58430fae48e081b60cdb00108d5b2837bef5c72fe8aa7c35570452d302ac061",
     "experiments/aggregate_numbers.py": "838e1ad59442672e42a795134715a938624933ed83a9b34576ab1aadce1d0e65",
-    "experiments/export_neurips_camera_ready.py": "e1b986015b7f1e22b5c217f7c8f9454affbda9918a32fec26132a8129427753a",
+    "experiments/export_neurips_camera_ready.py": "0943c428bd469c1e95eede813fc17ca3c13347381f1b6181924ed6a919fbc634",
     "experiments/feynman_dispatch.py": "ddcf616061c0871b43208b847d212d9faf75ad4bc9b5a933ea5fe16b7277933d",
-    "experiments/feynman_runner.py": "c21388a62c39bb9ef629ac5843fb7c4ca641823a8b0d63733eb53b196c908a80",
-    "experiments/rebuttal/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "experiments/rebuttal/extrapolation.py": "3a6ef19a085595e8020232565f8ad479d222ee8f4808518b941079c0845fe397",
-    "experiments/rebuttal/run_baselines.py": "004e0503dd43990c6755970143f3807c4fefcef66486edcfe2c23942681b24fb",
+    "experiments/feynman_runner.py": "da93cdf130305541c4c7f5ac79441c93fecc37c61b6d88ebd919411715b9f575",
     "experiments/results/feynman/results_ablation_p_eq00.jsonl": "28a4e482d2c67573b2e3a095b59e4fdb65eea60f049adc898cb9f96d2ac8f83e",
     "experiments/results/feynman/results_ablation_p_eq01.jsonl": "bcc921998a9ee81d6a60b8ea0613f889cc8b7261bc3c2b7524280d13667d357c",
     "experiments/results/feynman/results_ablation_p_eq02.jsonl": "6115c22f150ad27b3db74ce46efe8f6fbed8e6e606b721078c417a00eae7485e",
@@ -384,28 +397,16 @@
     "experiments/results/neurips_public_inputs/extrapolation.jsonl": "041098995ed96685d537add480d81cb3fbc0bae7c5c75d7d4a81206a667a7f2b",
     "experiments/results/neurips_public_inputs/noisy.jsonl": "26d6746d942ec2dd1f0594c2a9352471e2f8fc15eba2549c85bdf2c8cdf337a8",
     "experiments/results/neurips_public_inputs/small_sample.jsonl": "6592a1cdefc35a7c6e2d75894be2141700df1797029bec94bbe4406b131d8bd2",
-    "reference_tables/ablation_00.tex": "3038e1fd698d5b0a09d8f51c4198e4b4b716d9867c791de218d4ea83c99abfd6",
-    "reference_tables/ablation_03.tex": "84d6b8a3dc440b477aa643955b3869517bfd0c45c396c0828db71091a65cf198",
-    "reference_tables/baseline.tex": "d47cb4966ce331b84b6a989eb92d28838f0a8d62b569fbab7c9a97e80d8c6cdc",
-    "reference_tables/branch_optimizer.tex": "dbdfec1a0bc38f8633991e674ea306e690b116c8afa305750f58aaa8c1a5b07a",
-    "reference_tables/geometry.tex": "a577ed6319b9f85978bee04d7877fec4cd32b045ffa39d6b2a3f172f526cd6aa",
-    "reference_tables/matched_curves.pdf": "4081ea44a6767d3e1a11fed451198ce98b0c5707c59f8d9d25981ca2924066d3",
-    "reference_tables/noise.tex": "03694f0f4432676d7524e5da8cd75a2d2152d2766d50dd7dd0461362443ec134",
-    "reference_tables/paired.tex": "aac31ddbb33d7450ac91256e80a39e433b140215c6876e571fbe7a99de6d7d3c",
-    "reference_tables/parameter_counts.tex": "f1bc220dd7b5b5a2a91a85cef88c62792ec1f04c36189987d1b88d218331e308",
-    "reference_tables/per_equation.tex": "ee4771cc30f2fb85911ae832ddccff3e89c1e4ad2e52ff73305dcc0520d5e7bf",
-    "reference_tables/scarcity.tex": "4715fd1bc06f4b782e9fde51e3f527cfc6d91b8206c39bc9b65e750c9425bf57",
-    "reference_tables/tab_extrap_neurips.tex": "916eeff0a3fe9b48544726fd8022e5e3c7a41b30b5c6f341d9598138f709ec96",
-    "reference_tables/tab_matched_paired.tex": "8121ae2c6c3d7c1bed386ceabbf0248475c0ec2943f62f6ef15b83f19a562faf",
-    "reference_tables/tab_matched_ranks.tex": "c5a58716742c27e04835e0851086a1d094cba042cbde97919ad654b8b5090f7f",
     "reproduce.py": "9ce77d134d66da0b400c6f38fdade3ff4f1f577a14151b258d36b58806deec17",
     "requirements.txt": "bfd22e39f58d1079f2a8902aeaf7e8a1d8afac5ba07fccb0a511594dd0560028",
     "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/edge_models.py": "7e73a5ac6b75ed7d3604f0d227d5bc4725743c4cc5bc3f9153a5aa62afc367cd",
+    "src/extrapolation.py": "3a6ef19a085595e8020232565f8ad479d222ee8f4808518b941079c0845fe397",
     "src/kan_layer.py": "3fa0c4e6443a7becd8c1f695a7b899607a47c137d917fef497ac71e7251ccd49",
-    "src/neurips_rebuttal_models.py": "7e73a5ac6b75ed7d3604f0d227d5bc4725743c4cc5bc3f9153a5aa62afc367cd",
+    "src/matched_models.py": "004e0503dd43990c6755970143f3807c4fefcef66486edcfe2c23942681b24fb",
     "src/reporting/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "src/reporting/neurips_camera_ready.py": "b75caf9e2cc4da3fae97bcd911f3e1594f9d5abec3f0096a6db4de912aa36098",
-    "src/reporting/neurips_public_driver.py": "565d77e2422b17b701782519bb6243bf2cfb85e772a1db648d62d5214a230612",
+    "src/reporting/neurips_public_driver.py": "33acd4b2c9552c73422584dfdd2ee59c1a5cc74d724412b190acee08e75fbf64",
     "src/reporting/neurips_public_formatting.py": "548533799ce235431d98b9406ee87c20529d5a0dfd918fa6b3d1c742eb102e87",
     "src/reporting/neurips_public_matched.py": "f26b40155564dfc5f52fd6435dd51a706d3f7ea5e8d205dfc2e74e651fbbd1b3",
     "src/reporting/neurips_public_parameters.py": "c6d3811dedb2ba295b916eb720fc5575a0489ae4e7fb4ff6df4864acbe527029",

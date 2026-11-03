@@ -125,6 +125,20 @@ def matched_per_equation_table(matrix, equations):
         lines.append(label + ' & ' + ' & '.join(cells) + ' \\\\')
     return '\n'.join(lines + ['\\end{longtable}', '}'])
 
+def geometry_extrapolation_table(geometry, extrapolation):
+    by_model = {row['model']: row for row in geometry}
+    models = [('banach_c1', 'Banach'), ('lp_c1', '$\\ell^p$'), ('tanh', '$\\tanh$'), ('spline', 'Spline (Adam)')]
+    lines = ['\\begin{tabular}{lrrrrr}', '\\toprule', '& \\multicolumn{4}{c}{Learned exponents: clean 50-equation fits} & Extrapolation \\\\', '\\cmidrule(lr){2-5}\\cmidrule(lr){6-6}', 'Model & Median $p$ & 5th pct. & 95th pct. & Fraction $p<2$ & NRMSE \\\\', '\\midrule']
+    best = min((extrapolation[model] for model, _ in models))
+    for model, label in models:
+        record = by_model.get(model.removesuffix('_c1'))
+        cells = [f'{record[key]:.3f}' for key in ('median', 'q05', 'q95', 'fraction_below2')] if record else ['--'] * 4
+        error = extrapolation[model]
+        text = f'{error:.3f}'
+        cells.append('\\textbf{' + text + '}' if error == best else text)
+        lines.append(label + ' & ' + ' & '.join(cells) + ' \\\\')
+    return '\n'.join(lines + ['\\bottomrule', '\\end{tabular}'])
+
 def paired_ratios(comparisons, draws=100000, seed=20260929):
     rng = np.random.default_rng(seed)
     result = []

@@ -53,12 +53,13 @@ def main():
     def save(name, text):
         (OUT / f'{name}.tex').write_text(text + '\n')
 
-    def table(name, models, columns, values, bold=True):
+    def table(name, models, columns, values, bold=True, label_overrides=None):
         x = np.asarray(values)
         lines = ['\\begin{tabular}{l' + 'r' * len(columns) + '}', '\\toprule', 'Model & ' + ' & '.join(columns) + ' \\\\', '\\midrule']
         for m, row in zip(models, x):
             cells = ['\\textbf{' + f'{v:.3f}' + '}' if bold and v == x[:, j].min() else f'{v:.3f}' for j, v in enumerate(row)]
-            lines.append(LABELS.get(m, m.replace('_', '\\_')) + ' & ' + ' & '.join(cells) + ' \\\\')
+            label = (label_overrides or {}).get(m, LABELS.get(m, m.replace('_', '\\_')))
+            lines.append(label + ' & ' + ' & '.join(cells) + ' \\\\')
         lines += ['\\bottomrule', '\\end{tabular}']
         save(name, '\n'.join(lines))
         evidence['tables'][name] = {'models': models, 'columns': columns, 'values': x.tolist()}
@@ -92,10 +93,18 @@ def main():
         ms = ['lp_fixed_1.5', 'lp_fixed_2.0', 'lp_fixed_2.5', 'lp_fixed_3.0', 'lp_fixed_4.0', 'lp_learned', 'banach_fixed_2.0', 'banach_learned']
         x = matrix([r for r in populations['ablation_p'] if r['sigma'] == sig], ms, fr.EQUATION_IDS[:18])
         table('ablation_' + str(sig).replace('.', ''), ms, ['Median NRMSE'], np.median(x, axis=0)[:, None])
+        medians = np.median(x, axis=0)
+        best_fixed = int(np.argmin(medians[:5]))
+        keep = [best_fixed, 5, 6, 7]
+        compact = 'ablation_compact_' + str(sig).replace('.', '')
+        table(compact, [ms[i] for i in keep], ['Median NRMSE'], medians[keep, None])
+        evidence['tables'][compact]['display_selection'] = {'criterion': 'Lowest benchmark median among the five fixed lp exponents, separately per condition; descriptive display only, not validation-selected tuning', 'chosen_fixed_model': ms[best_fixed], 'full_sweep': 'ablation_' + str(sig).replace('.', '')}
         comparisons.append((f'fixed_p/{sig}:learned/fixed2.5', x[:, 5], x[:, 2]))
     ms = ['banach', 'banach_tanhonly', 'tanh', 'lp', 'spline_g3', 'spline_adam_g3', 'spline_adam_steps10000_g3']
     x = matrix(populations['baseline'], ms, fr.EQUATION_IDS[:18])
     table('branch_optimizer', ms, ['Clean NRMSE'], np.median(x, axis=0)[:, None])
+    keep = [0, 1, 4, 5]
+    table('branch_optimizer_compact', [ms[i] for i in keep], ['Clean NRMSE'], np.median(x, axis=0)[keep, None], label_overrides={'banach_tanhonly': 'Banach, power off'})
     comparisons.append(('branch:Banach/power_off', x[:, 0], x[:, 1]))
     evidence['paired'] = paired_ratios(comparisons)
     evidence['bootstrap'] = {'draws': 100000, 'seed': 20260929, 'family_size': len(comparisons), 'unit': 'equation, after within-equation seed median'}

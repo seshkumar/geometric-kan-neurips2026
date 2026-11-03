@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 import numpy as np
 from src.result_integrity import read_records, grid_inventory
-from src.reporting.neurips_camera_ready import describe, paired_ratios, matched_error_table, matched_per_equation_table
+from src.reporting.neurips_camera_ready import describe, paired_ratios, matched_error_table, matched_per_equation_table, geometry_extrapolation_table
 from src.reporting.neurips_public_formatting import C1, ROSTER, LABEL, CELLS, PAIR_TARGETS, EXTRAP_NEURIPS, paired_table, curves
 FIELDS = ('eq_id', 'model', 'seed', 'sigma', 'n_train')
 EXTRAP_MODELS = C1 + ['banach', 'lp', 'tanh', 'spline', 'cheby', 'rbf', 'fourier']
@@ -73,6 +73,8 @@ def export(input_dir, output_dir):
     output_dir.mkdir(parents=True, exist_ok=True)
     (output_dir / 'summary.json').write_text(json.dumps(summary, indent=2, allow_nan=False) + '\n')
     (output_dir / 'tab_matched_nrmse.tex').write_text(matched_error_table(summary) + '\n')
+    geometry = json.loads((input_dir.parent / 'neurips_camera_ready/evidence.json').read_text())['geometry']
+    (output_dir / 'tab_geometry_extrapolation.tex').write_text(geometry_extrapolation_table(geometry, summary['extrapolation']['median']) + '\n')
     clean = seed_median_matrix(loaded['baseline'], ROSTER, equations, lambda r: True, seeds=seeds)
     (output_dir / 'tab_matched_per_equation.tex').write_text(matched_per_equation_table(clean, equations) + '\n')
     (output_dir / 'inventory.json').write_text(json.dumps(dict(inputs=inputs, grids=inventories), indent=2) + '\n')

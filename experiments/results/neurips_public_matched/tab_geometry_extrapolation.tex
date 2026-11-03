@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrrr}
+\toprule
+& \multicolumn{4}{c}{Learned exponents: clean 50-equation fits} & Extrapolation \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-6}
+Model & Median $p$ & 5th pct. & 95th pct. & Fraction $p<2$ & NRMSE \\
+\midrule
+Banach & 2.350 & 1.646 & 4.405 & 0.187 & \textbf{0.407} \\
+$\ell^p$ & 2.296 & 1.445 & 4.439 & 0.284 & 0.675 \\
+$\tanh$ & -- & -- & -- & -- & 1.053 \\
+Spline (Adam) & -- & -- & -- & -- & 0.581 \\
+\bottomrule
+\end{tabular}

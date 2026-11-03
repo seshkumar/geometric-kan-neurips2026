@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from experiments import feynman_dispatch as fd, feynman_runner as fr, aggregate_numbers as an
 from src.result_integrity import read_records, grid_inventory
-from src.reporting.neurips_camera_ready import describe, paired_ratios, replace_power_rows
+from src.reporting.neurips_camera_ready import describe, paired_ratios, replace_power_rows, summary_cells, clean_noise_table
 OUT = ROOT / 'experiments/results/neurips_camera_ready'
 LABELS = {'spline_g3': 'Spline G=3', 'spline_cv_g3': 'CV-regularized G3', 'spline_adam_g3': 'Spline Adam', 'spline_adam_steps10000_g3': 'Spline Adam (10k)', 'tanh': 'Tanh', 'banach': 'Banach', 'lp': '$\\ell^p$', 'mlp': 'MLP', 'cheby': 'Chebyshev', 'banach_tanhonly': 'Banach, power branch off'}
 LABELS.update({f'lp_fixed_{p:.1f}': f'$\\ell^p$, fixed $p={p:g}$' for p in (1.5, 2.0, 2.5, 3.0, 4.0)})
@@ -68,7 +68,7 @@ def main():
     stats = [describe(full), describe(core)]
     lines = ['\\begin{tabular}{lrrrrrr}', '\\toprule', '& \\multicolumn{3}{c}{Full benchmark} & \\multicolumn{3}{c}{Core subset} \\\\', 'Model & NRMSE & Wins & Rank & NRMSE & Wins & Rank \\\\', '\\midrule']
     for j, m in enumerate(models):
-        cells = [f"{s['median'][j]:.3f} & {s['wins'][j]:g} & {s['rank'][j]:.2f}" for s in stats]
+        cells = [' & '.join(summary_cells(s, j)) for s in stats]
         lines.append(LABELS[m] + ' & ' + ' & '.join(cells) + ' \\\\')
     save('baseline', '\n'.join(lines + ['\\bottomrule', '\\end{tabular}']))
     evidence['tables']['baseline'] = {'models': models, 'full': stats[0], 'core': stats[1]}
@@ -83,6 +83,8 @@ def main():
                 comparisons.append((f'{regime}/{v}:{m}/SplineCV', x[:, extended.index(m)], x[:, 1]))
         if regime == 'noise':
             evidence['degradation'] = dict(zip(extended, (np.median(matrices[-1], axis=0) / np.median(matrices[0], axis=0)).tolist()))
+    save('clean_noise', clean_noise_table(evidence['tables']['baseline'], evidence['tables']['noise'], LABELS))
+    evidence['tables']['clean_noise'] = {'clean_source': 'baseline', 'noise_source': 'noise', 'clean_ranking_models': models, 'noise_models': extended, 'unavailable_clean_entries': ['spline_cv_g3'], 'bold_rule': 'Best unrounded column value; minimum error/rank, maximum wins; exact ties bolded'}
     for sig in (0.0, 0.3):
         ms = ['lp_fixed_1.5', 'lp_fixed_2.0', 'lp_fixed_2.5', 'lp_fixed_3.0', 'lp_fixed_4.0', 'lp_learned', 'banach_fixed_2.0', 'banach_learned']
         x = matrix([r for r in populations['ablation_p'] if r['sigma'] == sig], ms, fr.EQUATION_IDS[:18])

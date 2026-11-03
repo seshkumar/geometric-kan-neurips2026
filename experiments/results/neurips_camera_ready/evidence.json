@@ -1986,6 +1986,31 @@
         ]
       ]
     },
+    "clean_noise": {
+      "clean_source": "baseline",
+      "noise_source": "noise",
+      "clean_ranking_models": [
+        "spline_g3",
+        "tanh",
+        "banach",
+        "lp",
+        "mlp",
+        "cheby"
+      ],
+      "noise_models": [
+        "spline_g3",
+        "spline_cv_g3",
+        "tanh",
+        "banach",
+        "lp",
+        "mlp",
+        "cheby"
+      ],
+      "unavailable_clean_entries": [
+        "spline_cv_g3"
+      ],
+      "bold_rule": "Best unrounded column value; minimum error/rank, maximum wins; exact ties bolded"
+    },
     "ablation_00": {
       "models": [
         "lp_fixed_1.5",

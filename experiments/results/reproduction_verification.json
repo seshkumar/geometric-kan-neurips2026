@@ -10,6 +10,7 @@
     "scarcity.tex": true,
     "ablation_03.tex": true,
     "geometry.tex": true,
+    "clean_noise.tex": true,
     "noise.tex": true,
     "parameter_counts.tex": true,
     "tab_matched_ranks.tex": true,

@@ -2,7 +2,7 @@
 
 Code and retained experiment outputs for *Geometry-Constrained Kolmogorov–Arnold Networks: Learning Edge Geometry via Banach Duality*.
 
-The repository is self-contained: its drivers, model library, equation generators and retained outputs support the camera-ready symbolic-regression tables and matched-comparison figure. CPU execution is sufficient; no GPU, external dataset download or access to another research repository is required. New training is separate from regeneration of tables using the supplied outputs.
+The repository is self-contained: its drivers, model library, equation generators and retained outputs support the camera-ready symbolic-regression and PMLB tables and motivation figure. CPU execution is sufficient. Regeneration uses retained outputs; fresh PMLB training downloads missing inputs through the official PMLB loader. New training is separate from regeneration of tables using the supplied outputs.
 
 ## Publication reference
 
@@ -162,3 +162,20 @@ python experiments/neurips_figure1_matched.py export --out fresh_runs/figure1
 ```
 
 Noise seeds and the fixed optimiser-initialisation stream are declared in the configuration. Restart selection uses noisy-training error only. Clean-grid errors and refit variation are supplemental diagnostics. The main annotations are noisy-training NRMSE; pointwise bands are ranges across refits, not confidence intervals.
+
+## PMLB tabular regression
+
+The retained comparison contains all 15 models on the 12 declared datasets. Regenerate the manuscript tables without fitting:
+
+```bash
+python experiments/neurips_pmlb15.py summarize --out experiments/results/neurips_pmlb15/pmlb15_pbs_v1
+python experiments/export_neurips_pmlb_tables.py
+```
+
+For new training, choose a fresh output directory and run every dataset index from 0 through 11:
+
+```bash
+python experiments/neurips_pmlb15.py run --dataset-idx 0 --out experiments/results/neurips_pmlb15/fresh_v1 --workers 4
+```
+
+Missing inputs download into the shared PMLB cache. The original PMLB split and population-standard-deviation error convention are retained. Checkpoints use training-derived validation labels; held-out test labels do not select fits. Summarization requires the complete population. Generated main-text wins and ranks use the five displayed models; appendix panels use all 15 models together. Full dataset identifiers and the retained protocol accompany the tables. Upstream datasets retain their own terms; raw dataset files are not redistributed in this kit.

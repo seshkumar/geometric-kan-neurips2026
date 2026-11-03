@@ -10,3 +10,4 @@ scikit-learn==1.8.0
 PyYAML==6.0.3
 tqdm==4.67.3
 pytest==9.0.2
+pmlb==1.0.1.post3

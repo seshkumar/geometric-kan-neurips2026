@@ -24,12 +24,14 @@ def tables():
     subprocess.run([sys.executable, str(ROOT / 'experiments/aggregate_neurips_public.py')], cwd=ROOT, check=True)
     subprocess.run([sys.executable, str(ROOT / 'experiments/neurips_figure1_matched.py'), 'export'], cwd=ROOT, check=True)
     subprocess.run([sys.executable, str(ROOT / 'experiments/export_neurips_figure1_manuscript.py')], cwd=ROOT, check=True)
+    subprocess.run([sys.executable, str(ROOT / 'experiments/neurips_pmlb15.py'), 'summarize', '--out', str(ROOT / 'experiments/results/neurips_pmlb15/pmlb15_pbs_v1')], cwd=ROOT, check=True)
+    subprocess.run([sys.executable, str(ROOT / 'experiments/export_neurips_pmlb_tables.py')], cwd=ROOT, check=True)
     parameter_table()
     checks = {}
     reference_artifacts = json.loads((ROOT / 'release_manifest.json').read_text())['reference_artifact_sha256']
     for name, digest in reference_artifacts.items():
         base = ROOT / 'experiments/results'
-        source = base / 'neurips_figure1_matched' / name if name.startswith(('figure1_', 'shape_')) else base / 'neurips_public_matched' / name if name.startswith(('tab_', 'matched_')) else base / 'neurips_camera_ready' / name
+        source = base / 'neurips_pmlb15_manuscript' / name.removeprefix('pmlb_') if name.startswith('pmlb_') else base / 'neurips_figure1_matched' / name if name.startswith(('figure1_', 'shape_')) else base / 'neurips_public_matched' / name if name.startswith(('tab_', 'matched_')) else base / 'neurips_camera_ready' / name
         checks[name] = hashlib.sha256(source.read_bytes()).hexdigest() == digest
     result = {'all_tables_and_figure_match': all(checks.values()), 'artifacts': checks}
     (ROOT / 'experiments/results/reproduction_verification.json').write_text(json.dumps(result, indent=2) + '\n')

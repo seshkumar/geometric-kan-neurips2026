@@ -2072,6 +2072,15 @@
       ],
       "layout": "Clean panel above shared noise and noisy-scarcity rows; no omitted sample sizes"
     },
+    "core_spline_comparison": {
+      "scope": "Geometric-response symbolic-regression population",
+      "sources": [
+        "clean_noise/core_clean",
+        "noise",
+        "scarcity"
+      ],
+      "layout": "Clean NRMSE, wins and rank; nonzero-noise and noisy-scarcity NRMSE in shared rows"
+    },
     "ablation_00": {
       "models": [
         "lp_fixed_1.5",
@@ -2112,6 +2121,36 @@
           0.030740565789872797
         ]
       ]
+    },
+    "ablation_compact_00": {
+      "models": [
+        "lp_fixed_1.5",
+        "lp_learned",
+        "banach_fixed_2.0",
+        "banach_learned"
+      ],
+      "columns": [
+        "Median NRMSE"
+      ],
+      "values": [
+        [
+          0.1721656528707342
+        ],
+        [
+          0.08772966357866513
+        ],
+        [
+          0.06292335798345547
+        ],
+        [
+          0.030740565789872797
+        ]
+      ],
+      "display_selection": {
+        "criterion": "Lowest benchmark median among the five fixed lp exponents, separately per condition; descriptive display only, not validation-selected tuning",
+        "chosen_fixed_model": "lp_fixed_1.5",
+        "full_sweep": "ablation_00"
+      }
     },
     "ablation_03": {
       "models": [
@@ -2154,6 +2193,36 @@
         ]
       ]
     },
+    "ablation_compact_03": {
+      "models": [
+        "lp_fixed_2.5",
+        "lp_learned",
+        "banach_fixed_2.0",
+        "banach_learned"
+      ],
+      "columns": [
+        "Median NRMSE"
+      ],
+      "values": [
+        [
+          0.2026740055406142
+        ],
+        [
+          0.1270463772390813
+        ],
+        [
+          0.13950328670366108
+        ],
+        [
+          0.11323814543518732
+        ]
+      ],
+      "display_selection": {
+        "criterion": "Lowest benchmark median among the five fixed lp exponents, separately per condition; descriptive display only, not validation-selected tuning",
+        "chosen_fixed_model": "lp_fixed_2.5",
+        "full_sweep": "ablation_03"
+      }
+    },
     "branch_optimizer": {
       "models": [
         "banach",
@@ -2188,6 +2257,31 @@
         ],
         [
           0.044724069728723836
+        ]
+      ]
+    },
+    "branch_optimizer_compact": {
+      "models": [
+        "banach",
+        "banach_tanhonly",
+        "spline_g3",
+        "spline_adam_g3"
+      ],
+      "columns": [
+        "Clean NRMSE"
+      ],
+      "values": [
+        [
+          0.030740565789872797
+        ],
+        [
+          0.0816133412791214
+        ],
+        [
+          0.03867784211168545
+        ],
+        [
+          0.04256194052084618
         ]
       ]
     },

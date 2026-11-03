@@ -102,6 +102,20 @@ def matched_error_table(summary):
         lines.append(labels[model] + ' & ' + ' & '.join(cells) + ' \\\\')
     return '\n'.join(lines + ['\\bottomrule', '\\end{tabular}'])
 
+def core_spline_comparison_table(core, noise, scarcity, labels):
+    models = noise['models']
+    if core['models'] != models or scarcity['models'] != models or float(noise['columns'][0]) != 0.0:
+        raise ValueError('Expected aligned core spline populations and a zero-noise clean column')
+    values = np.concatenate([np.asarray(noise['values'])[:, 1:], scarcity['values']], axis=1)
+    lines = ['\\begin{tabular}{l' + 'r' * 12 + '}', '\\toprule', '& \\multicolumn{3}{c}{Clean} & \\multicolumn{4}{c}{Noise $\\sigma$ ($n=500$)} & \\multicolumn{5}{c}{Training size $n$ ($\\sigma=0.3$)} \\\\', '\\cmidrule(lr){2-4}\\cmidrule(lr){5-8}\\cmidrule(lr){9-13}', 'Model & NRMSE & Wins & Rank & ' + ' & '.join(noise['columns'][1:] + scarcity['columns']) + ' \\\\', '\\midrule']
+    for index, model in enumerate(models):
+        cells = summary_cells(core, index)
+        for column, value in enumerate(values[index]):
+            text = f'{value:.3f}'
+            cells.append('\\textbf{' + text + '}' if value == values[:, column].min() else text)
+        lines.append(labels[model] + ' & ' + ' & '.join(cells) + ' \\\\')
+    return '\n'.join(lines + ['\\bottomrule', '\\end{tabular}'])
+
 def matched_per_equation_table(matrix, equations):
     values = np.asarray(matrix)
     if values.shape != (50, 15) or len(equations) != 50 or (not np.isfinite(values).all()):
@@ -128,16 +142,43 @@ def matched_per_equation_table(matrix, equations):
 def geometry_extrapolation_table(geometry, extrapolation):
     by_model = {row['model']: row for row in geometry}
     models = [('banach_c1', 'Banach'), ('lp_c1', '$\\ell^p$'), ('tanh', '$\\tanh$'), ('spline', 'Spline (Adam)')]
-    lines = ['\\begin{tabular}{lrrrrr}', '\\toprule', '& \\multicolumn{4}{c}{Learned exponents: clean 50-equation fits} & Extrapolation \\\\', '\\cmidrule(lr){2-5}\\cmidrule(lr){6-6}', 'Model & Median $p$ & 5th pct. & 95th pct. & Fraction $p<2$ & NRMSE \\\\', '\\midrule']
+    lines = ['\\begin{minipage}[t]{.56\\linewidth}\\vspace{0pt}\\centering', '\\begin{tabular}{lrr}', '\\toprule', 'Metric & $\\ell^p$ & Banach \\\\', '\\midrule']
+    for label, key in [('Median $p$', 'median'), ('5th percentile', 'q05'), ('95th percentile', 'q95'), ('Fraction $p<2$', 'fraction_below2')]:
+        lines.append(label + ' & ' + ' & '.join((f'{by_model[m][key]:.3f}' for m in ('lp', 'banach'))) + ' \\\\')
+    lines += ['\\bottomrule\\end{tabular}\\par\\smallskip (a)\\end{minipage}\\hfill', '\\begin{minipage}[t]{.38\\linewidth}\\vspace{0pt}\\centering', '\\begin{tabular}{lr}', '\\toprule', 'Model & Extrap. NRMSE \\\\', '\\midrule']
     best = min((extrapolation[model] for model, _ in models))
     for model, label in models:
-        record = by_model.get(model.removesuffix('_c1'))
-        cells = [f'{record[key]:.3f}' for key in ('median', 'q05', 'q95', 'fraction_below2')] if record else ['--'] * 4
         error = extrapolation[model]
         text = f'{error:.3f}'
-        cells.append('\\textbf{' + text + '}' if error == best else text)
-        lines.append(label + ' & ' + ' & '.join(cells) + ' \\\\')
-    return '\n'.join(lines + ['\\bottomrule', '\\end{tabular}'])
+        cell = '\\textbf{' + text + '}' if error == best else text
+        lines.append(label + ' & ' + cell + ' \\\\')
+    return '\n'.join(lines + ['\\bottomrule\\end{tabular}\\par\\smallskip (b)\\end{minipage}'])
+
+def auxiliary_paired_table(rows):
+    groups = {'clean50': 'Clean fitting: all 50 equations', 'noise': 'Label noise: 18-equation core, $n=500$', 'scarcity': 'Sample scarcity: 18-equation core, $\\sigma=0.3$', 'fixed_p': 'Exponent learning: 18-equation core, $n=500$', 'branch': 'Power-branch removal: 18-equation core, clean labels'}
+    heading = '\\toprule Condition & Comparison (first / second) & Ratio & 95\\% interval & Adjusted interval \\\\ \\midrule'
+    lines = ['\\begin{table}[!htbp]\\centering\\small', '\\caption{Auxiliary equation-paired NRMSE ratios. Values below one favour the first model; values above one favour the second. Intervals are 95\\% bootstrap intervals; the final column adjusts across all 24 comparisons. CV spline denotes CV-regularized G3.}\\label{tab:paired}', '\\begin{tabular}{llrrr}', heading]
+    previous = None
+    for row in rows:
+        label = row['comparison']
+        prefix, comparison = label.split(':', 1)
+        group = prefix.split('/')[0]
+        if group != previous:
+            lines.append('\\multicolumn{5}{l}{\\textbf{' + groups[group] + '}}\\\\*')
+            previous = group
+        if group == 'clean50':
+            condition, display = ('Clean', 'Banach / Spline G=3')
+        elif group in ('noise', 'scarcity'):
+            value = float(prefix.split('/')[1])
+            condition = f'$\\sigma={value:g}$' if group == 'noise' else f'$n={value:g}$'
+            display = ('Banach' if comparison.startswith('banach/') else '$\\ell^p$') + ' / CV spline'
+        elif group == 'fixed_p':
+            condition = f"$\\sigma={float(prefix.split('/')[1]):g}$"
+            display = '$\\ell^p$: learned / fixed $p=2.5$'
+        else:
+            condition, display = ('Clean', 'Banach / power branch off')
+        lines.append(condition + ' & ' + display + f" & {row['ratio']:.3f} & [{row['ci95'][0]:.3f}, {row['ci95'][1]:.3f}] & [{row['family_ci'][0]:.3f}, {row['family_ci'][1]:.3f}]" + ' \\\\')
+    return '\n'.join(lines + ['\\bottomrule\\end{tabular}\\end{table}'])
 
 def paired_ratios(comparisons, draws=100000, seed=20260929):
     rng = np.random.default_rng(seed)

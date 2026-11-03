@@ -1,12 +1,20 @@
-\begin{tabular}{lrrrrr}
+\begin{minipage}[t]{.56\linewidth}\vspace{0pt}\centering
+\begin{tabular}{lrr}
 \toprule
-& \multicolumn{4}{c}{Learned exponents: clean 50-equation fits} & Extrapolation \\
-\cmidrule(lr){2-5}\cmidrule(lr){6-6}
-Model & Median $p$ & 5th pct. & 95th pct. & Fraction $p<2$ & NRMSE \\
+Metric & $\ell^p$ & Banach \\
 \midrule
-Banach & 2.350 & 1.646 & 4.405 & 0.187 & \textbf{0.407} \\
-$\ell^p$ & 2.296 & 1.445 & 4.439 & 0.284 & 0.675 \\
-$\tanh$ & -- & -- & -- & -- & 1.053 \\
-Spline (Adam) & -- & -- & -- & -- & 0.581 \\
-\bottomrule
-\end{tabular}
+Median $p$ & 2.296 & 2.350 \\
+5th percentile & 1.445 & 1.646 \\
+95th percentile & 4.439 & 4.405 \\
+Fraction $p<2$ & 0.284 & 0.187 \\
+\bottomrule\end{tabular}\par\smallskip (a)\end{minipage}\hfill
+\begin{minipage}[t]{.38\linewidth}\vspace{0pt}\centering
+\begin{tabular}{lr}
+\toprule
+Model & Extrap. NRMSE \\
+\midrule
+Banach & \textbf{0.407} \\
+$\ell^p$ & 0.675 \\
+$\tanh$ & 1.053 \\
+Spline (Adam) & 0.581 \\
+\bottomrule\end{tabular}\par\smallskip (b)\end{minipage}

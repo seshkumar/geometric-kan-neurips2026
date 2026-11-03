@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from experiments import feynman_dispatch as fd, feynman_runner as fr, aggregate_numbers as an
 from src.result_integrity import read_records, grid_inventory
-from src.reporting.neurips_camera_ready import describe, paired_ratios, replace_power_rows, summary_cells, clean_noise_table, clean_noise_scarcity_table
+from src.reporting.neurips_camera_ready import describe, paired_ratios, replace_power_rows, summary_cells, clean_noise_table, clean_noise_scarcity_table, core_spline_comparison_table, auxiliary_paired_table
 OUT = ROOT / 'experiments/results/neurips_camera_ready'
 LABELS = {'spline_g3': 'Spline G=3', 'spline_cv_g3': 'CV-regularized G3', 'spline_adam_g3': 'Spline Adam', 'spline_adam_steps10000_g3': 'Spline Adam (10k)', 'tanh': 'Tanh', 'banach': 'Banach', 'lp': '$\\ell^p$', 'mlp': 'MLP', 'cheby': 'Chebyshev', 'banach_tanhonly': 'Banach, power branch off'}
 LABELS.update({f'lp_fixed_{p:.1f}': f'$\\ell^p$, fixed $p={p:g}$' for p in (1.5, 2.0, 2.5, 3.0, 4.0)})
@@ -89,6 +89,8 @@ def main():
     evidence['tables']['clean_noise'] = {'full_clean_source': 'baseline50', 'noise_source': 'noise', 'full_clean_ranking_models': models, 'core_clean_source': {'experiments': ['noise', 'noise_spline_reg'], 'sigma': 0.0}, 'core_clean': core_with_cv, 'noise_models': extended, 'unavailable_full_clean_entries': ['spline_cv_g3'], 'bold_rule': 'Best unrounded column value; minimum error/rank, maximum wins; exact ties bolded'}
     save('clean_noise_scarcity', clean_noise_scarcity_table(evidence['tables']['baseline'], evidence['tables']['noise'], evidence['tables']['scarcity'], LABELS, core_with_cv))
     evidence['tables']['clean_noise_scarcity'] = {'sources': ['baseline', 'clean_noise', 'noise', 'scarcity'], 'scarcity_columns': evidence['tables']['scarcity']['columns'], 'layout': 'Clean panel above shared noise and noisy-scarcity rows; no omitted sample sizes'}
+    save('core_spline_comparison', core_spline_comparison_table(core_with_cv, evidence['tables']['noise'], evidence['tables']['scarcity'], LABELS))
+    evidence['tables']['core_spline_comparison'] = {'scope': 'Geometric-response symbolic-regression population', 'sources': ['clean_noise/core_clean', 'noise', 'scarcity'], 'layout': 'Clean NRMSE, wins and rank; nonzero-noise and noisy-scarcity NRMSE in shared rows'}
     for sig in (0.0, 0.3):
         ms = ['lp_fixed_1.5', 'lp_fixed_2.0', 'lp_fixed_2.5', 'lp_fixed_3.0', 'lp_fixed_4.0', 'lp_learned', 'banach_fixed_2.0', 'banach_learned']
         x = matrix([r for r in populations['ablation_p'] if r['sigma'] == sig], ms, fr.EQUATION_IDS[:18])
@@ -108,11 +110,7 @@ def main():
     comparisons.append(('branch:Banach/power_off', x[:, 0], x[:, 1]))
     evidence['paired'] = paired_ratios(comparisons)
     evidence['bootstrap'] = {'draws': 100000, 'seed': 20260929, 'family_size': len(comparisons), 'unit': 'equation, after within-equation seed median'}
-    lines = ['\\begin{longtable}{lrrr}', '\\caption{Paired geometric-mean NRMSE ratios; below one favours the numerator.}\\label{tab:paired}\\\\', '\\toprule Comparison & Ratio & 95\\% interval & Family interval \\\\ \\midrule \\endhead']
-    for r in evidence['paired']:
-        display = r['comparison'].replace('SplineCV', LABELS['spline_cv_g3']).replace('_', '\\_')
-        lines.append(display + f" & {r['ratio']:.3f} & [{r['ci95'][0]:.3f}, {r['ci95'][1]:.3f}] & [{r['family_ci'][0]:.3f}, {r['family_ci'][1]:.3f}]" + ' \\\\')
-    save('paired', '\n'.join(lines + ['\\bottomrule\\end{longtable}']))
+    save('paired', auxiliary_paired_table(evidence['paired']))
     lines = ['\\begin{longtable}{lrrrrrr}', '\\caption{Clean full-benchmark seed-median NRMSE by implemented target identifier.}\\\\', '\\toprule Target & Spline & Tanh & Banach & $\\ell^p$ & MLP & Cheby \\\\ \\midrule \\endhead']
     for e, row in zip(fr.EQUATION_IDS, full):
         lines.append(e + ' & ' + ' & '.join((f'{v:.4f}' for v in row)) + ' \\\\')

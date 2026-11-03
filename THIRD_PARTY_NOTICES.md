@@ -40,3 +40,7 @@ python experiments/export_neurips_public_licenses.py
 ```
 
 The exporter reads installed distribution metadata and notice files; it does not import model packages, fit models, install dependencies or publish an archive. Its retained manifest is `experiments/results/neurips_public_release/licenses.json`.
+
+## PMLB loader
+
+The PMLB loader is distributed under the MIT licence; its licence is retained in [pmlb-LICENSE.txt](third_party_licenses/pmlb-LICENSE.txt). Individual source datasets retain their upstream terms. Raw PMLB data are downloaded by the official loader for fresh fitting and are not bundled with this kit.

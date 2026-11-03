@@ -76,6 +76,32 @@ def clean_noise_scarcity_table(clean, noise, scarcity, labels, core):
         lines.append(labels[model] + ' & ' + ' & '.join(cells) + ' \\\\')
     return '\n'.join(lines + ['\\bottomrule', '\\end{tabular}'])
 
+def matched_error_table(summary):
+    from src.reporting.neurips_public_formatting import LABEL, ROSTER
+    models = summary['roster']
+    if models != ROSTER:
+        raise ValueError('Unexpected matched model roster')
+    keys = ['clean'] + [f'sigma={s}' for s in (0.1, 0.3, 0.5, 1.0)] + [f'n={n}' for n in (50, 100, 200, 1000)]
+    for key in keys:
+        if set(summary['cells'][key]) != set(models) or not np.isclose(sum((summary['cells'][key][m]['wins'] for m in models)), 50.0, rtol=0, atol=1e-12):
+            raise ValueError('Expected full 50-target summaries for every displayed condition')
+    values = np.array([[summary['cells'][key][model]['median'] for key in keys] for model in models])
+    ranks = [summary['cells']['clean'][model]['rank'] for model in models]
+    wins = [summary['cells']['clean'][model]['wins'] for model in models]
+    lines = ['\\begin{tabular}{lrrrrrrrrrrr}', '\\toprule', '& \\multicolumn{3}{c}{Clean} & \\multicolumn{4}{c}{Label noise $\\sigma$ ($n=500$)} & \\multicolumn{4}{c}{Clean training size $n$} \\\\', '\\cmidrule(lr){2-4}\\cmidrule(lr){5-8}\\cmidrule(lr){9-12}', 'Model & NRMSE & Wins & Rank & 0.1 & 0.3 & 0.5 & 1.0 & 50 & 100 & 200 & 1000 \\\\', '\\midrule']
+    labels = dict(LABEL, spline_lip='Spline (Adam, Lip.-reg.)', pow='Learned power', adaslope='Adaptive-slope tanh', mixture='Activation mixture', rational="Rational/Pad\\'e")
+    for index, model in enumerate(models):
+        cells = []
+        for column, value in enumerate(values[index]):
+            cell = f'{value:.3f}'
+            cells.append('\\textbf{' + cell + '}' if value == values[:, column].min() else cell)
+        rank = f'{ranks[index]:.2f}'
+        win = f'{wins[index]:g}'
+        cells.insert(1, '\\textbf{' + rank + '}' if ranks[index] == min(ranks) else rank)
+        cells.insert(1, '\\textbf{' + win + '}' if wins[index] == max(wins) else win)
+        lines.append(labels[model] + ' & ' + ' & '.join(cells) + ' \\\\')
+    return '\n'.join(lines + ['\\bottomrule', '\\end{tabular}'])
+
 def paired_ratios(comparisons, draws=100000, seed=20260929):
     rng = np.random.default_rng(seed)
     result = []

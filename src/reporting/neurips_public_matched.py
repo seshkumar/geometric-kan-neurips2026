@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 import numpy as np
 from src.result_integrity import read_records, grid_inventory
-from src.reporting.neurips_camera_ready import describe, paired_ratios
+from src.reporting.neurips_camera_ready import describe, paired_ratios, matched_error_table
 from src.reporting.neurips_public_formatting import C1, ROSTER, LABEL, CELLS, PAIR_TARGETS, EXTRAP_NEURIPS, paired_table, curves
 FIELDS = ('eq_id', 'model', 'seed', 'sigma', 'n_train')
 EXTRAP_MODELS = C1 + ['banach', 'lp', 'tanh', 'spline', 'cheby', 'rbf', 'fourier']
@@ -72,6 +72,7 @@ def export(input_dir, output_dir):
     summary['extrapolation'] = {'median': {m: float(np.median(xe[:, i])) for i, m in enumerate(EXTRAP_MODELS)}, 'paired': extrapolation_pairs(xe), 'family_slots': len(EXTRAP_SLOTS), 'reserved_slots': [2, 3], 'reservation_reason': 'Preserve the original correction and bootstrap draw positions; reserved slots have no reported estimate or experimental assertion.'}
     output_dir.mkdir(parents=True, exist_ok=True)
     (output_dir / 'summary.json').write_text(json.dumps(summary, indent=2, allow_nan=False) + '\n')
+    (output_dir / 'tab_matched_nrmse.tex').write_text(matched_error_table(summary) + '\n')
     (output_dir / 'inventory.json').write_text(json.dumps(dict(inputs=inputs, grids=inventories), indent=2) + '\n')
     curves(summary, output_dir)
     paired_table(summary, output_dir)

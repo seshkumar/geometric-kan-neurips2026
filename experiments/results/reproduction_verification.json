@@ -14,6 +14,9 @@
     "tab_matched_ranks.tex": true,
     "tab_matched_paired.tex": true,
     "tab_extrap_neurips.tex": true,
-    "matched_curves.pdf": true
+    "matched_curves.pdf": true,
+    "figure1_matched.pdf": true,
+    "shape_step.tex": true,
+    "shape_staircase.tex": true
   }
 }

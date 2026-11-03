@@ -1,0 +1,394 @@
+{
+  "protocol": {
+    "parameters": 21,
+    "n_train": 2000,
+    "n_eval": 4000,
+    "sigma": 0.03,
+    "data_seeds": [
+      1729,
+      1730,
+      1731,
+      1732,
+      1733
+    ],
+    "init_seed": 1729,
+    "edges": 5,
+    "restarts": 18,
+    "lbfgs_outer": 100,
+    "lbfgs_inner": 20,
+    "epsilon": 1e-08,
+    "evaluation": "fixed midpoint grid; clean targets",
+    "selection": "noisy-training MSE only; no clean-target selection",
+    "noise_stream": "default_rng(data_seed); step then staircase",
+    "comparison": "equal trainable parameter count; not equal computation",
+    "figure_curve_seed": 1729,
+    "figure_band": "pointwise minimum and maximum across noisy refits; not a confidence interval",
+    "scope": "two illustrative monotone targets; no universal or adversarial robustness claim",
+    "source_sha256": {
+      "src/neurips_figure1.py": "2f0f37430058cfa9bfe257750945f3629744694784c42e86a3f2bd8a1e18b372",
+      "src/reporting/neurips_figure1_study.py": "984911014cfaddaadefb3c903eba4602a9a6898ed25a8581420fc60bcbfa7b83",
+      "experiments/neurips_figure1_matched.py": "8c6e6b4a3858707954622a1b3aa0fa844c755a04bf0ef286e67b3e74422ec4a2"
+    }
+  },
+  "metrics": {
+    "step": {
+      "spline": {
+        "parameters": 21,
+        "train_noisy_nrmse": 0.17471049763902965,
+        "clean_grid_nrmse": 0.16505959947691132,
+        "negative_variation": 0.44417377778155775,
+        "range_overshoot": 0.10441208658178636,
+        "refit_variation_rms": 0.003536386359248397,
+        "training_time_s": 0.07704041099714232
+      },
+      "cheby": {
+        "parameters": 21,
+        "train_noisy_nrmse": 0.18458420432747946,
+        "clean_grid_nrmse": 0.17629071015147593,
+        "negative_variation": 0.8487039905064871,
+        "range_overshoot": 0.09294876297034815,
+        "refit_variation_rms": 0.0033330480483705566,
+        "training_time_s": 0.00881455199123593
+      },
+      "rbf": {
+        "parameters": 21,
+        "train_noisy_nrmse": 0.1654533193299711,
+        "clean_grid_nrmse": 0.1545607397093288,
+        "negative_variation": 0.5748651939027906,
+        "range_overshoot": 0.10105573948034352,
+        "refit_variation_rms": 0.003557919719954703,
+        "training_time_s": 0.015149282000493258
+      },
+      "haar": {
+        "parameters": 21,
+        "train_noisy_nrmse": 0.06344978901555998,
+        "clean_grid_nrmse": 0.006678094474988853,
+        "negative_variation": 0.03424286070496518,
+        "range_overshoot": 0.0060044335317915865,
+        "refit_variation_rms": 0.0034924464746544197,
+        "training_time_s": 0.009213323995936662
+      },
+      "fourier": {
+        "parameters": 21,
+        "train_noisy_nrmse": 0.21092236026700684,
+        "clean_grid_nrmse": 0.20107875678709722,
+        "negative_variation": 1.9192381301159507,
+        "range_overshoot": 0.0939427794329244,
+        "refit_variation_rms": 0.0035385965694922084,
+        "training_time_s": 0.013517694005713565
+      },
+      "lp": {
+        "parameters": 21,
+        "train_noisy_nrmse": 0.05939542365738688,
+        "clean_grid_nrmse": 0.031738527366799614,
+        "negative_variation": 0.020964957984879684,
+        "range_overshoot": 0.00950347164359766,
+        "refit_variation_rms": 0.01284746501716764,
+        "training_time_s": 285.5919542650008
+      }
+    },
+    "staircase": {
+      "spline": {
+        "parameters": 21,
+        "train_noisy_nrmse": 0.13612874074580644,
+        "clean_grid_nrmse": 0.10694600086260836,
+        "negative_variation": 0.2494000323133284,
+        "range_overshoot": 0.029033536473347832,
+        "refit_variation_rms": 0.0027510509102089587,
+        "training_time_s": 0.04675473799943575
+      },
+      "cheby": {
+        "parameters": 21,
+        "train_noisy_nrmse": 0.14104650354312487,
+        "clean_grid_nrmse": 0.11306881611429505,
+        "negative_variation": 0.31276435466179375,
+        "range_overshoot": 0.019765992308212188,
+        "refit_variation_rms": 0.0029673684583422103,
+        "training_time_s": 0.0065085430069302674
+      },
+      "rbf": {
+        "parameters": 21,
+        "train_noisy_nrmse": 0.14268777754337278,
+        "clean_grid_nrmse": 0.11484570143230914,
+        "negative_variation": 0.3707422860234576,
+        "range_overshoot": 0.03049412625748471,
+        "refit_variation_rms": 0.0027244770595756594,
+        "training_time_s": 0.010460931000125129
+      },
+      "haar": {
+        "parameters": 21,
+        "train_noisy_nrmse": 0.17811534613474503,
+        "clean_grid_nrmse": 0.15431150056134632,
+        "negative_variation": 0.018821753344038433,
+        "range_overshoot": 0.005771380659820968,
+        "refit_variation_rms": 0.0028941254513571244,
+        "training_time_s": 0.007263436993525829
+      },
+      "fourier": {
+        "parameters": 21,
+        "train_noisy_nrmse": 0.24051066736242183,
+        "clean_grid_nrmse": 0.22429145150228513,
+        "negative_variation": 1.5242744500325727,
+        "range_overshoot": 0.09689756267546268,
+        "refit_variation_rms": 0.0027565521537110255,
+        "training_time_s": 0.010736847001680871
+      },
+      "lp": {
+        "parameters": 21,
+        "train_noisy_nrmse": 0.1450600829547844,
+        "clean_grid_nrmse": 0.11446601812090851,
+        "negative_variation": 0.1341982733481899,
+        "range_overshoot": 0.029763978332281837,
+        "refit_variation_rms": 0.03217561274244877,
+        "training_time_s": 372.68787310900007
+      }
+    }
+  },
+  "inputs": [
+    {
+      "path": "step_1729/spline.json",
+      "sha256": "2e0bb2821b554e57c560f88e0eadd51d0b5c4e5a8e0e487fe74d82f7f7ce0a96"
+    },
+    {
+      "path": "step_1730/spline.json",
+      "sha256": "61126ac8ea9d96e094f7e8fcc8921d004fafcb3b81ff4edd60416c6e7887fd25"
+    },
+    {
+      "path": "step_1731/spline.json",
+      "sha256": "e1bfc7ade5cc5730e9084a2cf40a879fb92467a87eb767feac2b992147ff8a39"
+    },
+    {
+      "path": "step_1732/spline.json",
+      "sha256": "bff49840ef839bf219ae907bccc4a436769c62d065347923bb5bfe5a81308181"
+    },
+    {
+      "path": "step_1733/spline.json",
+      "sha256": "dfbb244bdbe180af511f88346d65cc5f62154664b67f97f513815e81169a1965"
+    },
+    {
+      "path": "step_1729/cheby.json",
+      "sha256": "fc9d82feab5566cca200f28b29f643fbf1cc494c144d28a867b29d414527fb33"
+    },
+    {
+      "path": "step_1730/cheby.json",
+      "sha256": "e39aaf62a672d70ae565f521e2bdfad18bec68eb8c557f0864fb7a5a81636fd6"
+    },
+    {
+      "path": "step_1731/cheby.json",
+      "sha256": "efafcac944b56d8528bb9d42635b90793a54fd3718933b7476528f14fe9b4de5"
+    },
+    {
+      "path": "step_1732/cheby.json",
+      "sha256": "d4666a598b98e93ca8f40c6b112cb0f7ff7cccefd025076c3c9da4eb2c9b174f"
+    },
+    {
+      "path": "step_1733/cheby.json",
+      "sha256": "c55c555e92e80c3e420ae67b16211d732ab1b8ee1f741929f0e679ee5a05c517"
+    },
+    {
+      "path": "step_1729/rbf.json",
+      "sha256": "792b4a3f38dc67f6418936acecb9e04b84f6c35fdd04fbbc56fe9b37bce4381e"
+    },
+    {
+      "path": "step_1730/rbf.json",
+      "sha256": "edb414e599bc932f2a9aa63d631ea8d4d1409468026e367c4935fcc1ee8409a4"
+    },
+    {
+      "path": "step_1731/rbf.json",
+      "sha256": "2acbfa5332ee3082319927a275f29250f7ff49f3ff34a70f02dce716b93877fd"
+    },
+    {
+      "path": "step_1732/rbf.json",
+      "sha256": "c635f02fa32356049c44583681b487f9d8f054bd4755593b4e2c7e98d5519e2f"
+    },
+    {
+      "path": "step_1733/rbf.json",
+      "sha256": "ebad9ce681a62f45c906a45ad4a80147a7350ceb0983913abf949737480956c9"
+    },
+    {
+      "path": "step_1729/haar.json",
+      "sha256": "85dcf333838d47cd1184dedc779fc87600847ae685b1b3f44094329b6e0a6648"
+    },
+    {
+      "path": "step_1730/haar.json",
+      "sha256": "2564cbcb04d5ae4eac7e14865ebbf23832a5c37c8df77800007e41a323d3d9fe"
+    },
+    {
+      "path": "step_1731/haar.json",
+      "sha256": "666dd43de6e27dfff628bc8c0c03e258b9e9b1da78a9233d543526ffb26cff0e"
+    },
+    {
+      "path": "step_1732/haar.json",
+      "sha256": "9160b57d8392c6469ac8e22ae618f0391aa6de890059e72df47cad8ad692b713"
+    },
+    {
+      "path": "step_1733/haar.json",
+      "sha256": "7d24e1348db08768474da13648bbc4867f28879dcffcf612ed9b937d95665ec3"
+    },
+    {
+      "path": "step_1729/fourier.json",
+      "sha256": "6bacac9d5dcad4d1474261d92438b62dafc4082c0aa0e5503f4155520b1695cc"
+    },
+    {
+      "path": "step_1730/fourier.json",
+      "sha256": "db5354e8b85c5f974e09c3f89ffcd7014395420a8877e4f52b9f592620ef5f59"
+    },
+    {
+      "path": "step_1731/fourier.json",
+      "sha256": "9fd039e9267a95bf03e1a0fa12d791212560139cc198a9c02dea5765706a81fa"
+    },
+    {
+      "path": "step_1732/fourier.json",
+      "sha256": "017daf4c61c3770472e9424365e31f16ae3e3f362e8a1ba993e2abfaa7f7f293"
+    },
+    {
+      "path": "step_1733/fourier.json",
+      "sha256": "8bde6b2e74c50053c39ea37a33874c6215d1136377e89ea5dec4eaaeedc4ab12"
+    },
+    {
+      "path": "step_1729/lp.json",
+      "sha256": "13d93fbf8bb50057c5e51368946b756ee5b05bfbaec1464f9c0c1d424521c8b1"
+    },
+    {
+      "path": "step_1730/lp.json",
+      "sha256": "50acad4d0f47fa8a379ac724f8541a65339bd41c9d049943f8ce4a4166494a4f"
+    },
+    {
+      "path": "step_1731/lp.json",
+      "sha256": "9e53a667b7330ae8a5b65dc2c03dbca92481d1749b970a67be726ea76bf3fc7b"
+    },
+    {
+      "path": "step_1732/lp.json",
+      "sha256": "106e95a84f87d7845039591a18eac03a5be7c7662edb141cc11f6c8b94c4ba6b"
+    },
+    {
+      "path": "step_1733/lp.json",
+      "sha256": "183178ab03888fa2bc7858d6053fe122dd8abc172ff3f821c4635d143a8db131"
+    },
+    {
+      "path": "staircase_1729/spline.json",
+      "sha256": "cd69447d373462089228916a9b37fba242546a7a082aa7d0b1f8c9772e0b1a1c"
+    },
+    {
+      "path": "staircase_1730/spline.json",
+      "sha256": "102bbe5183194f9cd8dd2d9b3ed389ccf22bad71e32ac1f07166cb151ac01b67"
+    },
+    {
+      "path": "staircase_1731/spline.json",
+      "sha256": "fb3bf25b14a3bb19cdb2b6cf8ab1f3b7f1c2c9a0742d19391261381f12fb1fb0"
+    },
+    {
+      "path": "staircase_1732/spline.json",
+      "sha256": "2c0dbf3c34422e0b8490ca0f9c01c7c43a87dd6670f8ff40f0762a2d2d555c2b"
+    },
+    {
+      "path": "staircase_1733/spline.json",
+      "sha256": "ee7567795557d0b9f000802f18a49e19ce2084644f6c314aaf487040dcf8c721"
+    },
+    {
+      "path": "staircase_1729/cheby.json",
+      "sha256": "5bd1998bea33eca5a4c689cb72d437bcc523d09b52f8f4d1d843fbe926c6941d"
+    },
+    {
+      "path": "staircase_1730/cheby.json",
+      "sha256": "96b82f919d4fc01e85858313874bec4bd7caa298bbd0e57354060df8dc8e9449"
+    },
+    {
+      "path": "staircase_1731/cheby.json",
+      "sha256": "4edd1ec028d2324b1316f2b3f6762b36a30a59489eece4b3d6686fa1bd910de1"
+    },
+    {
+      "path": "staircase_1732/cheby.json",
+      "sha256": "b702f3f97a93c02c1e1f02ff419d4a9f6fd597998d497c40cfec88e81e3facd0"
+    },
+    {
+      "path": "staircase_1733/cheby.json",
+      "sha256": "87645249ee38ec6ff15739a6f8b675c764ab2c95933104432671e4f97ab4a801"
+    },
+    {
+      "path": "staircase_1729/rbf.json",
+      "sha256": "7483a7ad0e40b7c26db838c3e5a7fdb9fc8a9144c53c95060b2221008722b17a"
+    },
+    {
+      "path": "staircase_1730/rbf.json",
+      "sha256": "59647ec52aca82de54c1188cc5dc28df89bdfd0a17c5b354dfdd39238cba2ea7"
+    },
+    {
+      "path": "staircase_1731/rbf.json",
+      "sha256": "b268fea9ee7191c45e67f9bc6e49b6f978905f10bde64e8cdc80e06e7dc6a261"
+    },
+    {
+      "path": "staircase_1732/rbf.json",
+      "sha256": "8623aca832eca4000498f88954f224311fad1032b7c88cf47655128fcd104eb5"
+    },
+    {
+      "path": "staircase_1733/rbf.json",
+      "sha256": "1c187be490deb81b511d80bd465fa4a002a2466d4eb5ac17458c8b23372fc1fe"
+    },
+    {
+      "path": "staircase_1729/haar.json",
+      "sha256": "0a31bb38e2ed5908a1ea7272a266a7f397e13386650ab393912e19c677c76c46"
+    },
+    {
+      "path": "staircase_1730/haar.json",
+      "sha256": "49b6faaee3b131811f808e069c35e9e152694bfd6d43812faaf90a78d340544d"
+    },
+    {
+      "path": "staircase_1731/haar.json",
+      "sha256": "bb2762353a6a99336f9e6ee22d201113ee2106100f37504565b22e6260804acf"
+    },
+    {
+      "path": "staircase_1732/haar.json",
+      "sha256": "b28158b33ade96f4ec0c7f4db7dbda98f70880cb3ff1235a51f1b781bd462a47"
+    },
+    {
+      "path": "staircase_1733/haar.json",
+      "sha256": "d596d8ad2df01484011f76f31ab7365f5770410997a7728359ab8eaa7fd608a9"
+    },
+    {
+      "path": "staircase_1729/fourier.json",
+      "sha256": "b87af625139aaa15a365adf56465ad7dc96806a8fdd2af22906282299f18b98d"
+    },
+    {
+      "path": "staircase_1730/fourier.json",
+      "sha256": "0cd01dd64ca4b9aab6c31a0d4366540bd9d4f17f4c2d41919beffc0c198e9e43"
+    },
+    {
+      "path": "staircase_1731/fourier.json",
+      "sha256": "75395f9146c5553b0da937d977253ebb55c0b09f5968cc7eddd47dc40d47b813"
+    },
+    {
+      "path": "staircase_1732/fourier.json",
+      "sha256": "e7f6ec5743f5ae5441ca6dad0af886401b941e75d27ebe005016424e799e1575"
+    },
+    {
+      "path": "staircase_1733/fourier.json",
+      "sha256": "83044882c97e8797f9b4eabcea3b0cdbb48085502c93094f9b14aa27412ea1e8"
+    },
+    {
+      "path": "staircase_1729/lp.json",
+      "sha256": "bfadacec11fcab919047ad80a103110b34c322f143e0ad5bbc6097f4ccf43944"
+    },
+    {
+      "path": "staircase_1730/lp.json",
+      "sha256": "719477a583b0994c75350d6f7c96ee82588fc120df4fb26e12315c4138797a99"
+    },
+    {
+      "path": "staircase_1731/lp.json",
+      "sha256": "8369e372c674d9ef2df9a98ffc4a0fb3fc12a0eda5784816ceca0801a736364f"
+    },
+    {
+      "path": "staircase_1732/lp.json",
+      "sha256": "c17d9d19615c7a1d89479de30070d858cc75c758037246fcce6c90a8c5a8a7bc"
+    },
+    {
+      "path": "staircase_1733/lp.json",
+      "sha256": "afe36538221fab18efe64fead62d215244452aaeb1363529da6e519dccc60eb3"
+    }
+  ],
+  "counts_match": true,
+  "training_nrmse": "against noisy training labels; population standard deviation",
+  "clean_nrmse": "against clean midpoint-grid targets; sample standard deviation",
+  "shape_scope": "negative variation and range overshoot concern these monotone targets only",
+  "robustness_scope": "refit variation across independent label-noise draws with fixed initialisation stream"
+}

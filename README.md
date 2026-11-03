@@ -34,6 +34,7 @@ Final proceedings pagination is not supplied. The arXiv link identifies the work
 | `src/matched_models.py` | Matched models, generator and validation-selected training |
 | `experiments/export_neurips_camera_ready.py` | Core tables, ablations, exponent summaries and paired intervals |
 | `experiments/aggregate_neurips_public.py` | Matched ranks, paired comparisons, extrapolation and figure |
+| `experiments/neurips_figure1_matched.py` | Exactly matched noisy step/staircase motivation study |
 | `src/` | Reusable model, selection, integrity and reporting functions |
 | `experiments/results/` | Retained inputs and generated reporting artifacts |
 | `release_manifest.json` | File inventory and integrity checks |
@@ -76,6 +77,7 @@ The first command checks the release inventory. The second reads the supplied pe
 | Per-equation clean fitting | Same exporter | Same tree: `per_equation.tex` |
 | Matched activations and fixed bases | `experiments/aggregate_neurips_public.py` | Public matched-summary output tree printed by the driver |
 | Matched figure and extrapolation | Same public matched aggregator | Same tree: tables, numerical summary and `matched_curves.pdf` |
+| Figure 1 and shape diagnostics | `experiments/neurips_figure1_matched.py export`; `experiments/export_neurips_figure1_manuscript.py` | `experiments/results/neurips_figure1_matched/` |
 
 Regeneration refreshes derived reporting artifacts. The retained raw fit records are inputs. Use a separate checkout if you want to preserve derived files byte-for-byte while comparing a different environment.
 
@@ -139,3 +141,24 @@ The release demonstrates the specified model and reporting protocols. It does no
 Original release code and generated result artifacts are distributed under [Apache-2.0](LICENSE), following the same release pattern as the [VCGP reproducibility kit](https://github.com/seshkumar/vcgp-graph-gp). Installed dependencies retain their own licences and bundled notices; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Manuscript files and the conference style are not included in this code licence.
 
 Please use the full publication reference above, the BibTeX entry, or [CITATION.cff](CITATION.cff) when citing this work.
+
+## 8. Parameter-matched motivation figure
+
+The step and staircase illustration uses the submitted B-spline, Chebyshev, Gaussian radial-basis, Haar-wavelet, Fourier and power-response constructions. Each fit has exactly 21 trainable scalars. Inputs, noisy labels, coefficients, nonlinear states and predictions are retained. This motivates studying fitted response shapes; it does not claim a universally preferable family, equal fitting compute or general robustness.
+
+Regenerate the figure and its descriptive diagnostics without fitting:
+
+```bash
+python experiments/neurips_figure1_matched.py export
+python experiments/export_neurips_figure1_manuscript.py
+```
+
+To repeat the declared fitting protocol in a fresh directory:
+
+```bash
+OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 \
+python experiments/neurips_figure1_matched.py run --out fresh_runs/figure1 --workers 5
+python experiments/neurips_figure1_matched.py export --out fresh_runs/figure1
+```
+
+Noise seeds and the fixed optimiser-initialisation stream are declared in the configuration. Restart selection uses noisy-training error only. Clean-grid errors and refit variation are supplemental diagnostics. The main annotations are noisy-training NRMSE; pointwise bands are ranges across refits, not confidence intervals.

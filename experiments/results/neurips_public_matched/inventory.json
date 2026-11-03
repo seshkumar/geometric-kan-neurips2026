@@ -1,25 +1,25 @@
 {
   "inputs": [
     {
-      "path": "/home/skarri/BanachKAN/experiments/results/neurips_public_release/repository_public_v3/experiments/results/neurips_public_inputs/baseline.jsonl",
+      "path": "/home/skarri/BanachKAN/experiments/results/neurips_public_release/repository_public_v5/experiments/results/neurips_public_inputs/baseline.jsonl",
       "sha256": "b86fe5ef4aa4d09703bff4eeb57af9df0b7b24b82166095da7ca4ebafece637b",
       "records": 3750,
       "console_lines": 0
     },
     {
-      "path": "/home/skarri/BanachKAN/experiments/results/neurips_public_release/repository_public_v3/experiments/results/neurips_public_inputs/noisy.jsonl",
+      "path": "/home/skarri/BanachKAN/experiments/results/neurips_public_release/repository_public_v5/experiments/results/neurips_public_inputs/noisy.jsonl",
       "sha256": "26d6746d942ec2dd1f0594c2a9352471e2f8fc15eba2549c85bdf2c8cdf337a8",
       "records": 18750,
       "console_lines": 0
     },
     {
-      "path": "/home/skarri/BanachKAN/experiments/results/neurips_public_release/repository_public_v3/experiments/results/neurips_public_inputs/small_sample.jsonl",
+      "path": "/home/skarri/BanachKAN/experiments/results/neurips_public_release/repository_public_v5/experiments/results/neurips_public_inputs/small_sample.jsonl",
       "sha256": "6592a1cdefc35a7c6e2d75894be2141700df1797029bec94bbe4406b131d8bd2",
       "records": 18750,
       "console_lines": 0
     },
     {
-      "path": "/home/skarri/BanachKAN/experiments/results/neurips_public_release/repository_public_v3/experiments/results/neurips_public_inputs/extrapolation.jsonl",
+      "path": "/home/skarri/BanachKAN/experiments/results/neurips_public_release/repository_public_v5/experiments/results/neurips_public_inputs/extrapolation.jsonl",
       "sha256": "041098995ed96685d537add480d81cb3fbc0bae7c5c75d7d4a81206a667a7f2b",
       "records": 2250,
       "console_lines": 0

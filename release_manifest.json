@@ -87,6 +87,7 @@
   "reference_artifact_sha256": {
     "ablation_00.tex": "3038e1fd698d5b0a09d8f51c4198e4b4b716d9867c791de218d4ea83c99abfd6",
     "baseline.tex": "d47cb4966ce331b84b6a989eb92d28838f0a8d62b569fbab7c9a97e80d8c6cdc",
+    "geometry_vertical.tex": "f7b5b704b08d53b3ab37a90f7b6eaba92a8a0eb2857091e963dace76e5fc4e29",
     "per_equation.tex": "ee4771cc30f2fb85911ae832ddccff3e89c1e4ad2e52ff73305dcc0520d5e7bf",
     "branch_optimizer.tex": "dbdfec1a0bc38f8633991e674ea306e690b116c8afa305750f58aaa8c1a5b07a",
     "paired.tex": "aac31ddbb33d7450ac91256e80a39e433b140215c6876e571fbe7a99de6d7d3c",
@@ -112,7 +113,7 @@
     "experiments/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "experiments/aggregate_neurips_public.py": "d58430fae48e081b60cdb00108d5b2837bef5c72fe8aa7c35570452d302ac061",
     "experiments/aggregate_numbers.py": "838e1ad59442672e42a795134715a938624933ed83a9b34576ab1aadce1d0e65",
-    "experiments/export_neurips_camera_ready.py": "0943c428bd469c1e95eede813fc17ca3c13347381f1b6181924ed6a919fbc634",
+    "experiments/export_neurips_camera_ready.py": "7a49aeb34f4181deee5307c6725e867cd7cf4254517388d00d3048c49e6ae77f",
     "experiments/export_neurips_figure1_manuscript.py": "35ef0d8679a1b6b1a511abd8d5d261a3db664db085bb97773757cc799d2a157d",
     "experiments/feynman_dispatch.py": "ddcf616061c0871b43208b847d212d9faf75ad4bc9b5a933ea5fe16b7277933d",
     "experiments/feynman_runner.py": "da93cdf130305541c4c7f5ac79441c93fecc37c61b6d88ebd919411715b9f575",

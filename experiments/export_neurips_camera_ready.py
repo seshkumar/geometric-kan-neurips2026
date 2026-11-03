@@ -110,6 +110,10 @@ def main():
         geometry.append({'model': model, 'edges': len(ps), 'median': float(np.median(ps)), 'q05': float(np.quantile(ps, 0.05)), 'q95': float(np.quantile(ps, 0.95)), 'fraction_below2': float(np.mean(ps < 2))})
     evidence['geometry'] = geometry
     table('geometry', [r['model'] for r in geometry], ['Median $p$', '5th pct.', '95th pct.', 'Fraction $p<2$'], [[r[k] for k in ('median', 'q05', 'q95', 'fraction_below2')] for r in geometry], bold=False)
+    lines = ['\\begin{tabular}{lrr}', '\\toprule', 'Metric & $\\ell^p$ & Banach \\\\', '\\midrule']
+    for label, key in [('Median $p$', 'median'), ('5th pct.', 'q05'), ('95th pct.', 'q95'), ('Fraction $p<2$', 'fraction_below2')]:
+        lines.append(label + ' & ' + ' & '.join((f'{r[key]:.3f}' for r in geometry)) + ' \\\\')
+    save('geometry_vertical', '\n'.join(lines + ['\\bottomrule', '\\end{tabular}']))
     (OUT / 'evidence.json').write_text(json.dumps(evidence, indent=2, allow_nan=False) + '\n')
     print(json.dumps({'inventory': evidence['inventory'], 'baseline': evidence['tables']['baseline'], 'degradation': evidence['degradation'], 'paired': evidence['paired']}, indent=2))
 if __name__ == '__main__':

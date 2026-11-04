@@ -16,6 +16,10 @@ LABELS.update({f'lp_fixed_{p:.1f}': f'$\\ell^p$, fixed $p={p:g}$' for p in (1.5,
 LABELS.update({'lp_learned': '$\\ell^p$, learned $p$', 'banach_fixed_2.0': 'Banach, fixed $p=2$', 'banach_learned': 'Banach, learned $p$'})
 
 def main():
+    if (ROOT / 'experiments/results/neurips_sample_sd/symbolic/summary.json').exists():
+        from src.reporting.neurips_sample_sd_results import export
+        print(export(ROOT))
+        return
     OUT.mkdir(parents=True, exist_ok=True)
     evidence = {'command': 'python experiments/export_neurips_camera_ready.py', 'revision': 'public-release', 'scope': 'Geometric-response symbolic-regression population', 'provenance_limit': 'Declared input identities are checked before reporting; file hashes accompany generated summaries.', 'inventory': {}, 'inputs': [], 'tables': {}}
     populations = {}

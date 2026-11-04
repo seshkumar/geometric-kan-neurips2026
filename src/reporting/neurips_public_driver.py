@@ -20,13 +20,17 @@ def verify(root=ROOT):
 
 def tables():
     verify()
-    subprocess.run([sys.executable, str(ROOT / 'experiments/export_neurips_camera_ready.py')], cwd=ROOT, check=True)
-    subprocess.run([sys.executable, str(ROOT / 'experiments/aggregate_neurips_public.py')], cwd=ROOT, check=True)
+    canonical = (ROOT / 'experiments/results/neurips_sample_sd/symbolic/summary.json').exists()
+    if canonical:
+        subprocess.run([sys.executable, str(ROOT / 'experiments/export_neurips_sample_sd.py')], cwd=ROOT, check=True)
+    else:
+        subprocess.run([sys.executable, str(ROOT / 'experiments/export_neurips_camera_ready.py')], cwd=ROOT, check=True)
+        subprocess.run([sys.executable, str(ROOT / 'experiments/aggregate_neurips_public.py')], cwd=ROOT, check=True)
     subprocess.run([sys.executable, str(ROOT / 'experiments/neurips_figure1_matched.py'), 'export'], cwd=ROOT, check=True)
     subprocess.run([sys.executable, str(ROOT / 'experiments/export_neurips_figure1_manuscript.py')], cwd=ROOT, check=True)
     subprocess.run([sys.executable, str(ROOT / 'experiments/neurips_pmlb15.py'), 'summarize', '--out', str(ROOT / 'experiments/results/neurips_pmlb15/pmlb15_pbs_v1')], cwd=ROOT, check=True)
     subprocess.run([sys.executable, str(ROOT / 'experiments/export_neurips_pmlb_tables.py')], cwd=ROOT, check=True)
-    for study, run in [('extrap15', 'extrap15_v1'), ('tied_affine', 'tied_affine_v1')]:
+    for study, run in [] if canonical else [('extrap15', 'extrap15_v1'), ('tied_affine', 'tied_affine_v1')]:
         result_dir = ROOT / 'experiments/results/neurips_followup' / study / run
         declared = json.loads((result_dir / 'protocol.json').read_text())['protocol']
         if declared.get('profile') == 'extrapolation':
@@ -34,13 +38,16 @@ def tables():
         else:
             command = [sys.executable, str(ROOT / 'experiments/neurips_followup.py'), 'summarize', '--study', study, '--out', str(result_dir)]
         subprocess.run(command, cwd=ROOT, check=True, stdout=subprocess.DEVNULL)
-    subprocess.run([sys.executable, str(ROOT / 'experiments/export_neurips_followup_tables.py')], cwd=ROOT, check=True)
+    if not canonical:
+        subprocess.run([sys.executable, str(ROOT / 'experiments/export_neurips_followup_tables.py')], cwd=ROOT, check=True)
+    if (ROOT / 'experiments/results/neurips_figure1_budget').exists():
+        subprocess.run([sys.executable, str(ROOT / 'experiments/neurips_figure1_budget.py'), 'export'], cwd=ROOT, check=True)
     parameter_table()
     checks = {}
     reference_artifacts = json.loads((ROOT / 'release_manifest.json').read_text())['reference_artifact_sha256']
     for name, digest in reference_artifacts.items():
         base = ROOT / 'experiments/results'
-        source = base / 'neurips_followup_tables' / name.removeprefix('followup_') if name.startswith('followup_') else base / 'neurips_pmlb15_manuscript' / name.removeprefix('pmlb_') if name.startswith('pmlb_') else base / 'neurips_figure1_matched' / name if name.startswith(('figure1_', 'shape_')) else base / 'neurips_public_matched' / name if name.startswith(('tab_', 'matched_')) else base / 'neurips_camera_ready' / name
+        source = base / 'neurips_figure1_budget/budget_sweep.tex' if name == 'figure1_budget.tex' else base / 'neurips_followup_tables' / name.removeprefix('followup_') if name.startswith('followup_') else base / 'neurips_pmlb15_manuscript' / name.removeprefix('pmlb_') if name.startswith('pmlb_') else base / 'neurips_figure1_matched' / name if name.startswith(('figure1_', 'shape_')) else base / 'neurips_public_matched' / name if name.startswith(('tab_', 'matched_')) else base / 'neurips_camera_ready' / name
         checks[name] = hashlib.sha256(source.read_bytes()).hexdigest() == digest
     result = {'all_tables_and_figure_match': all(checks.values()), 'artifacts': checks}
     (ROOT / 'experiments/results/reproduction_verification.json').write_text(json.dumps(result, indent=2) + '\n')
@@ -52,7 +59,11 @@ def parameter_table():
     from src import matched_models as rb
     from src.reporting.neurips_public_parameters import parameter_counts
     from src.reporting.neurips_public_formatting import LABEL, ROSTER
-    rows = [json.loads(line) for line in (ROOT / 'experiments/results/neurips_public_inputs/baseline.jsonl').read_text().splitlines()]
+    canonical = ROOT / 'experiments/results/neurips_sample_sd/symbolic'
+    if canonical.exists():
+        rows = [dict(r, n_vars=r['n_features']) for path in canonical.glob('eq_*/fits.jsonl') for line in path.read_text().splitlines() for r in [json.loads(line)] if r['model'] in ROSTER and r['n_train'] == 500 and (r['sigma'] == 0.0)]
+    else:
+        rows = [json.loads(line) for line in (ROOT / 'experiments/results/neurips_public_inputs/baseline.jsonl').read_text().splitlines()]
     counts, dimensions = parameter_counts(rows)
     for model in ROSTER:
         for d in dimensions:

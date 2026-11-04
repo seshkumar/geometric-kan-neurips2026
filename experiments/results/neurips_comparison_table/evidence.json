@@ -1,0 +1,1018 @@
+{
+  "command": "python experiments/export_neurips_sample_sd.py",
+  "inputs": [
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_00/fits.jsonl",
+      "sha256": "6d7820bc947f0fee01b5fd52748e4af709d4bf94ef9170265569f5b2ca70a717",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_01/fits.jsonl",
+      "sha256": "dcd38948ba0487001165c64ddda9ff3fad4dbb888f9734884ef24e40d56aca12",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_02/fits.jsonl",
+      "sha256": "3335d50e9b2cdb9090d8b12febcdc29086171e613d1f816059903f396078747c",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_03/fits.jsonl",
+      "sha256": "475167d6cce366a4f275f53f6b0fc625181feb637d8668ad51bfb25ca948d62a",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_04/fits.jsonl",
+      "sha256": "033962f5aecdc4febc79729734e1e6be0fa991793917ba007adc03588bbcf519",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_05/fits.jsonl",
+      "sha256": "61e145624b493aa10128f709a6d88fe3e844f51907f04a69b063289970bb7909",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_06/fits.jsonl",
+      "sha256": "39b6c99baf05fa07627aed3d217b26e26a637c1df1b8e0ef5931f5ae4ea8200f",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_07/fits.jsonl",
+      "sha256": "7086b13d9eaa323630cb47d674bea78d1846d17d8a80b46470ad31b9506237a8",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_08/fits.jsonl",
+      "sha256": "d8505716b019f45ded105efd827e77931a3b07eea7a4f8c775471c78f623c022",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_09/fits.jsonl",
+      "sha256": "098e18cdac739b94d09aeba293b62190d279e7bc1f316d1950b3aaea0dd02b10",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_10/fits.jsonl",
+      "sha256": "12875df3ea7c38ff011b4d04d0a08c62bac7e311976e4f578436d4651b6d32a9",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_11/fits.jsonl",
+      "sha256": "79aecfc9dba01aca2072a524269f255514a51fd7ba13ac7c2b3a26598a93b652",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_12/fits.jsonl",
+      "sha256": "37abac4f3e57d809ed34954536290f9322ed26bab8289c29bb340d7c48f3b7b6",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_13/fits.jsonl",
+      "sha256": "213704b16f754fe853348f5704b90a1b74673cb06323a74155c0b43ea461d0f0",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_14/fits.jsonl",
+      "sha256": "b0eccc36e02ebbf2f9db32d35203b557427e5a1a1ff52714021e3abffb14f2dd",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_15/fits.jsonl",
+      "sha256": "d3e5269f607a98963e7ad46c74d096cef6f109db6b6f0719f64ec67c8227edbc",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_16/fits.jsonl",
+      "sha256": "e99f0ffd7a14e220c974f3a3aa324c54caa8185a9e8073ef97abe90d6b58264e",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_17/fits.jsonl",
+      "sha256": "347b9734ec933d8faeea07a5277a3ecf81bcee17c692874c91344c13dc3391c1",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_18/fits.jsonl",
+      "sha256": "800ba2b131d41fcaaa6821305e6f16f481e7d56625a2dc67275eb8563c7c3bdf",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_19/fits.jsonl",
+      "sha256": "67829284fc17b83ce0f24a2f6abcba3ed5b5714e36faf109fd140cccfab4637b",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_20/fits.jsonl",
+      "sha256": "dbdaf39dcac217b8e79d4f22387fba8f459df5b0a0547f0764c7f666de520cbd",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_21/fits.jsonl",
+      "sha256": "2a1f36ce1627fa5f1bfa4defceb57e3dad32e491dd7481989e5370038fe53af9",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_22/fits.jsonl",
+      "sha256": "cbac80cfb843d8e7fc75be3862a2808b7e35f613084e0ebe8c472fdc27d879b4",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_23/fits.jsonl",
+      "sha256": "5eff2ef1e5daae81707d77b045acb881cfdcee0d2c714e2cc7304c31dd9bb308",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_24/fits.jsonl",
+      "sha256": "b08322bab4e82930d02f5cccd40452de6f3d31da6098ebb99d20724f1d7d8faa",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_25/fits.jsonl",
+      "sha256": "a200f5d9992cbe36471cb319bcc25287e953da32ef66d334c79f6f603fb34a32",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_26/fits.jsonl",
+      "sha256": "090aa16465798b3acd23ea7c7f875ff164dfdb699be0181a74f80084de7c9820",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_27/fits.jsonl",
+      "sha256": "8c87bd8b29848e19462c56e6506e4fb287b703804aa33a5465d72fc794a6e0fd",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_28/fits.jsonl",
+      "sha256": "10f1d3647bf1b9252bfc54cc9689779d186b66cfd7cd550dec20e6e94ac76483",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_29/fits.jsonl",
+      "sha256": "0f969ffeea4fe348328291686c3b131cfe874901278247b5783a1f33dd4e4752",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_30/fits.jsonl",
+      "sha256": "e701b0d88f6d60d593722e44f11db09e75b028445650812cb3665ea953186cc4",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_31/fits.jsonl",
+      "sha256": "fdfd6d6f7de7a69cdd4c177977b9b2ed6a5e1d5ee9ed8b22d6685a6b4ac7277a",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_32/fits.jsonl",
+      "sha256": "08404fa4e8aa00c72c9089353a0b810113c5cb9ff3bcaa6b889cffc696b48633",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_33/fits.jsonl",
+      "sha256": "9322abb8540f6fb150620a77b72f24bef3ef5144a019b2f29aba38bea69b0726",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_34/fits.jsonl",
+      "sha256": "5d564f7eaf1929d840670dd4c8c9bf7ebc51274aab3ce8a40fdc7014eef3ec63",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_35/fits.jsonl",
+      "sha256": "69605fb30efe504de5d035cb2bbc9028589fa5a076ad95be4207c64b2065cafe",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_36/fits.jsonl",
+      "sha256": "5d455e36331c46806564c4a2e2a19aa99f09e2edc65e473e7147c445020072a0",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_37/fits.jsonl",
+      "sha256": "50dee8b44ddc1a957ca55b3aaf0ddb61c5e6e43e3348b9d4ead0d63d02c8d2aa",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_38/fits.jsonl",
+      "sha256": "0a8dbdf97b8b3f2f78e8d6557038925db962c567c5ac07f1a4b03813d92d5719",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_39/fits.jsonl",
+      "sha256": "1d6a206a9a12534fefaee97578ae59afb74266882c6fba27a2957f978c9e5774",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_40/fits.jsonl",
+      "sha256": "3f0616c698fc25bc0c7e55c80b58d38ba46827ac824d7df03910c9e278388ddb",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_41/fits.jsonl",
+      "sha256": "7d5b6be54a7acde3249be605c6564ba71864c457960c2062c99a626e9d47ad82",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_42/fits.jsonl",
+      "sha256": "0123b44b0f0d88ddfb647dc7162183dffd1eea6c637dc44fcaeed0b0c95416eb",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_43/fits.jsonl",
+      "sha256": "f47472f5753c760ee19fe93a033c7c7b242741544bb3b2afd89afa5ab0e876ac",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_44/fits.jsonl",
+      "sha256": "0a2d731405c08d1317d683669b893f43cc5053aa255450620efdae7fdecbb1b4",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_45/fits.jsonl",
+      "sha256": "0fdbff2c6d1a7751a828b5e85b45e3dbb6a12ef1ec7dc0824533c11cfdcd77bd",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_46/fits.jsonl",
+      "sha256": "d29cf84ec49b21556705da83ee85490983859047a604b9c87ec3ec216a59bc26",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_47/fits.jsonl",
+      "sha256": "a35f4e3da3ef3a4586c73915320132c43c029e89bc1f1fd9702240820cda843f",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_48/fits.jsonl",
+      "sha256": "53b8d2e0c19b50a8e36573d99bfd3c803961d73dba84586b2974be3527f6829a",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_49/fits.jsonl",
+      "sha256": "25dd6f3f8c9fa80ddc91586648cc09cbcd3b1089e7304f9e60d300136929b105",
+      "records": 680,
+      "console_lines": 0
+    }
+  ],
+  "roster": [
+    "banach_c1",
+    "lp_c1",
+    "tanh",
+    "pow",
+    "adaslope",
+    "mixture",
+    "rational",
+    "spline",
+    "spline_lip",
+    "cheby",
+    "rbf",
+    "fourier",
+    "wavelet",
+    "jacobi",
+    "mlp"
+  ],
+  "cells": {
+    "clean": {
+      "banach_c1": {
+        "median": 0.03159056846918518,
+        "rank": 4.64,
+        "wins": 5.0
+      },
+      "lp_c1": {
+        "median": 0.06942769631889131,
+        "rank": 10.76,
+        "wins": 0.0
+      },
+      "tanh": {
+        "median": 0.06786753245266008,
+        "rank": 11.86,
+        "wins": 0.0
+      },
+      "pow": {
+        "median": 0.0761182975119315,
+        "rank": 11.66,
+        "wins": 0.0
+      },
+      "adaslope": {
+        "median": 0.0702866225213295,
+        "rank": 12.64,
+        "wins": 0.0
+      },
+      "mixture": {
+        "median": 0.04222120040870367,
+        "rank": 7.68,
+        "wins": 1.0
+      },
+      "rational": {
+        "median": 0.06891844514305642,
+        "rank": 10.66,
+        "wins": 0.0
+      },
+      "spline": {
+        "median": 0.019129971830973765,
+        "rank": 1.6,
+        "wins": 37.0
+      },
+      "spline_lip": {
+        "median": 0.0634838184125206,
+        "rank": 9.68,
+        "wins": 2.0
+      },
+      "cheby": {
+        "median": 0.03250226298911939,
+        "rank": 5.38,
+        "wins": 0.0
+      },
+      "rbf": {
+        "median": 0.02792436721730963,
+        "rank": 4.38,
+        "wins": 1.0
+      },
+      "fourier": {
+        "median": 0.030117278268394655,
+        "rank": 5.88,
+        "wins": 2.0
+      },
+      "wavelet": {
+        "median": 0.03600690611049633,
+        "rank": 8.36,
+        "wins": 0.0
+      },
+      "jacobi": {
+        "median": 0.03598674290994966,
+        "rank": 5.72,
+        "wins": 0.0
+      },
+      "mlp": {
+        "median": 0.05671882441734444,
+        "rank": 9.1,
+        "wins": 2.0
+      }
+    },
+    "sigma=0.1": {
+      "banach_c1": {
+        "median": 0.04889943765818219,
+        "rank": 3.68,
+        "wins": 14.0
+      },
+      "lp_c1": {
+        "median": 0.07567444687365535,
+        "rank": 8.7,
+        "wins": 4.0
+      },
+      "tanh": {
+        "median": 0.07329698270272839,
+        "rank": 9.3,
+        "wins": 2.0
+      },
+      "pow": {
+        "median": 0.08230402442108692,
+        "rank": 9.66,
+        "wins": 4.0
+      },
+      "adaslope": {
+        "median": 0.07957872417230212,
+        "rank": 11.2,
+        "wins": 0.0
+      },
+      "mixture": {
+        "median": 0.06111282326583281,
+        "rank": 6.86,
+        "wins": 2.0
+      },
+      "rational": {
+        "median": 0.07535642064197347,
+        "rank": 8.88,
+        "wins": 3.0
+      },
+      "spline": {
+        "median": 0.056567090074003054,
+        "rank": 6.08,
+        "wins": 1.0
+      },
+      "spline_lip": {
+        "median": 0.07511801047420039,
+        "rank": 9.4,
+        "wins": 2.0
+      },
+      "cheby": {
+        "median": 0.05280524181744908,
+        "rank": 6.24,
+        "wins": 2.0
+      },
+      "rbf": {
+        "median": 0.05279558733237398,
+        "rank": 5.26,
+        "wins": 7.0
+      },
+      "fourier": {
+        "median": 0.057345035441248166,
+        "rank": 8.66,
+        "wins": 3.0
+      },
+      "wavelet": {
+        "median": 0.06059943135501306,
+        "rank": 9.48,
+        "wins": 0.0
+      },
+      "jacobi": {
+        "median": 0.055138348872455334,
+        "rank": 6.4,
+        "wins": 3.0
+      },
+      "mlp": {
+        "median": 0.07639127938695425,
+        "rank": 10.2,
+        "wins": 3.0
+      }
+    },
+    "sigma=0.3": {
+      "banach_c1": {
+        "median": 0.11365829653688604,
+        "rank": 4.46,
+        "wins": 7.0
+      },
+      "lp_c1": {
+        "median": 0.11563531103995386,
+        "rank": 5.84,
+        "wins": 8.0
+      },
+      "tanh": {
+        "median": 0.11783369921483283,
+        "rank": 5.78,
+        "wins": 5.0
+      },
+      "pow": {
+        "median": 0.12606060615053488,
+        "rank": 5.6,
+        "wins": 14.0
+      },
+      "adaslope": {
+        "median": 0.13323226928959037,
+        "rank": 8.58,
+        "wins": 1.0
+      },
+      "mixture": {
+        "median": 0.12030466856383386,
+        "rank": 5.02,
+        "wins": 5.0
+      },
+      "rational": {
+        "median": 0.1252117891311291,
+        "rank": 6.06,
+        "wins": 3.0
+      },
+      "spline": {
+        "median": 0.16325593329701132,
+        "rank": 11.42,
+        "wins": 0.0
+      },
+      "spline_lip": {
+        "median": 0.15618561437005574,
+        "rank": 9.86,
+        "wins": 1.0
+      },
+      "cheby": {
+        "median": 0.14502752064474891,
+        "rank": 8.52,
+        "wins": 1.0
+      },
+      "rbf": {
+        "median": 0.13263292652825445,
+        "rank": 6.86,
+        "wins": 1.0
+      },
+      "fourier": {
+        "median": 0.1653946855439083,
+        "rank": 11.94,
+        "wins": 0.0
+      },
+      "wavelet": {
+        "median": 0.16521206020087842,
+        "rank": 11.86,
+        "wins": 0.0
+      },
+      "jacobi": {
+        "median": 0.1458932121315072,
+        "rank": 8.46,
+        "wins": 0.0
+      },
+      "mlp": {
+        "median": 0.16605446549996897,
+        "rank": 9.74,
+        "wins": 4.0
+      }
+    },
+    "sigma=0.5": {
+      "banach_c1": {
+        "median": 0.18546114406384978,
+        "rank": 4.8,
+        "wins": 2.0
+      },
+      "lp_c1": {
+        "median": 0.16204813797254253,
+        "rank": 3.26,
+        "wins": 17.0
+      },
+      "tanh": {
+        "median": 0.17766035158752566,
+        "rank": 5.38,
+        "wins": 5.0
+      },
+      "pow": {
+        "median": 0.16698117338340593,
+        "rank": 3.68,
+        "wins": 10.0
+      },
+      "adaslope": {
+        "median": 0.19415439375832702,
+        "rank": 7.84,
+        "wins": 0.0
+      },
+      "mixture": {
+        "median": 0.1804004365785314,
+        "rank": 5.08,
+        "wins": 4.0
+      },
+      "rational": {
+        "median": 0.16851920686893948,
+        "rank": 4.16,
+        "wins": 6.0
+      },
+      "spline": {
+        "median": 0.29505605273903124,
+        "rank": 13.56,
+        "wins": 0.0
+      },
+      "spline_lip": {
+        "median": 0.2591491188904791,
+        "rank": 10.56,
+        "wins": 0.0
+      },
+      "cheby": {
+        "median": 0.2338669281950768,
+        "rank": 9.5,
+        "wins": 1.0
+      },
+      "rbf": {
+        "median": 0.2066970604552361,
+        "rank": 8.08,
+        "wins": 0.0
+      },
+      "fourier": {
+        "median": 0.2789364776943374,
+        "rank": 12.72,
+        "wins": 0.0
+      },
+      "wavelet": {
+        "median": 0.2715779140779823,
+        "rank": 12.54,
+        "wins": 0.0
+      },
+      "jacobi": {
+        "median": 0.23791000173204047,
+        "rank": 10.08,
+        "wins": 0.0
+      },
+      "mlp": {
+        "median": 0.25775296397945596,
+        "rank": 8.76,
+        "wins": 5.0
+      }
+    },
+    "sigma=1.0": {
+      "banach_c1": {
+        "median": 0.34942679907809304,
+        "rank": 5.12,
+        "wins": 3.0
+      },
+      "lp_c1": {
+        "median": 0.2832935432408117,
+        "rank": 2.5,
+        "wins": 14.0
+      },
+      "tanh": {
+        "median": 0.32379231778621087,
+        "rank": 3.82,
+        "wins": 1.0
+      },
+      "pow": {
+        "median": 0.27473029924234094,
+        "rank": 2.42,
+        "wins": 20.0
+      },
+      "adaslope": {
+        "median": 0.354119961986207,
+        "rank": 6.38,
+        "wins": 0.0
+      },
+      "mixture": {
+        "median": 0.3399841724028191,
+        "rank": 5.32,
+        "wins": 0.0
+      },
+      "rational": {
+        "median": 0.29960447459327477,
+        "rank": 4.28,
+        "wins": 7.0
+      },
+      "spline": {
+        "median": 0.7430396983171266,
+        "rank": 14.76,
+        "wins": 0.0
+      },
+      "spline_lip": {
+        "median": 0.5450816012970392,
+        "rank": 10.0,
+        "wins": 1.0
+      },
+      "cheby": {
+        "median": 0.541885163081166,
+        "rank": 10.9,
+        "wins": 0.0
+      },
+      "rbf": {
+        "median": 0.5008840776693201,
+        "rank": 8.8,
+        "wins": 0.0
+      },
+      "fourier": {
+        "median": 0.6223975370890373,
+        "rank": 13.28,
+        "wins": 0.0
+      },
+      "wavelet": {
+        "median": 0.5569490017281827,
+        "rank": 12.22,
+        "wins": 0.0
+      },
+      "jacobi": {
+        "median": 0.5520969377435814,
+        "rank": 11.32,
+        "wins": 0.0
+      },
+      "mlp": {
+        "median": 0.4923020915608157,
+        "rank": 8.88,
+        "wins": 4.0
+      }
+    },
+    "n=50": {
+      "banach_c1": {
+        "median": 0.1383902103555817,
+        "rank": 3.64,
+        "wins": 16.0
+      },
+      "lp_c1": {
+        "median": 0.16999366672435806,
+        "rank": 5.62,
+        "wins": 8.0
+      },
+      "tanh": {
+        "median": 0.2106724118286511,
+        "rank": 6.94,
+        "wins": 0.0
+      },
+      "pow": {
+        "median": 0.17093145954530403,
+        "rank": 6.28,
+        "wins": 4.0
+      },
+      "adaslope": {
+        "median": 0.25743592434178797,
+        "rank": 9.16,
+        "wins": 0.0
+      },
+      "mixture": {
+        "median": 0.16291084280729878,
+        "rank": 4.98,
+        "wins": 5.0
+      },
+      "rational": {
+        "median": 0.18939303860377604,
+        "rank": 6.4,
+        "wins": 3.0
+      },
+      "spline": {
+        "median": 0.2130813647012872,
+        "rank": 7.14,
+        "wins": 3.0
+      },
+      "spline_lip": {
+        "median": 0.2968714463232065,
+        "rank": 11.12,
+        "wins": 2.0
+      },
+      "cheby": {
+        "median": 0.23622645748966847,
+        "rank": 8.46,
+        "wins": 1.0
+      },
+      "rbf": {
+        "median": 0.2056343781206642,
+        "rank": 7.46,
+        "wins": 2.0
+      },
+      "fourier": {
+        "median": 0.5087467358436699,
+        "rank": 14.2,
+        "wins": 0.0
+      },
+      "wavelet": {
+        "median": 0.36703742433827924,
+        "rank": 12.7,
+        "wins": 0.0
+      },
+      "jacobi": {
+        "median": 0.23329923837080327,
+        "rank": 8.34,
+        "wins": 0.0
+      },
+      "mlp": {
+        "median": 0.21917073676291327,
+        "rank": 7.56,
+        "wins": 6.0
+      }
+    },
+    "n=100": {
+      "banach_c1": {
+        "median": 0.06866563185758626,
+        "rank": 3.68,
+        "wins": 17.0
+      },
+      "lp_c1": {
+        "median": 0.10653183062889841,
+        "rank": 6.9,
+        "wins": 2.0
+      },
+      "tanh": {
+        "median": 0.1410573476043093,
+        "rank": 8.96,
+        "wins": 2.0
+      },
+      "pow": {
+        "median": 0.11993172659719224,
+        "rank": 7.52,
+        "wins": 1.0
+      },
+      "adaslope": {
+        "median": 0.16272821405693774,
+        "rank": 11.14,
+        "wins": 0.0
+      },
+      "mixture": {
+        "median": 0.10259012330536058,
+        "rank": 6.5,
+        "wins": 0.0
+      },
+      "rational": {
+        "median": 0.11406827503570414,
+        "rank": 6.78,
+        "wins": 3.0
+      },
+      "spline": {
+        "median": 0.08328570264098267,
+        "rank": 4.84,
+        "wins": 12.0
+      },
+      "spline_lip": {
+        "median": 0.16636953417257758,
+        "rank": 10.8,
+        "wins": 1.0
+      },
+      "cheby": {
+        "median": 0.0929193447438828,
+        "rank": 6.46,
+        "wins": 1.0
+      },
+      "rbf": {
+        "median": 0.09603874568553081,
+        "rank": 5.96,
+        "wins": 4.0
+      },
+      "fourier": {
+        "median": 0.15080671058965942,
+        "rank": 12.24,
+        "wins": 0.0
+      },
+      "wavelet": {
+        "median": 0.16571618560315174,
+        "rank": 11.54,
+        "wins": 0.0
+      },
+      "jacobi": {
+        "median": 0.100793237595898,
+        "rank": 7.56,
+        "wins": 1.0
+      },
+      "mlp": {
+        "median": 0.12699422878649647,
+        "rank": 9.12,
+        "wins": 6.0
+      }
+    },
+    "n=200": {
+      "banach_c1": {
+        "median": 0.04101631981737633,
+        "rank": 4.62,
+        "wins": 5.0
+      },
+      "lp_c1": {
+        "median": 0.07467544404063145,
+        "rank": 9.28,
+        "wins": 2.0
+      },
+      "tanh": {
+        "median": 0.10072656207030678,
+        "rank": 11.1,
+        "wins": 0.0
+      },
+      "pow": {
+        "median": 0.09465910662390642,
+        "rank": 10.28,
+        "wins": 0.0
+      },
+      "adaslope": {
+        "median": 0.11438631005745487,
+        "rank": 11.86,
+        "wins": 0.0
+      },
+      "mixture": {
+        "median": 0.05729280860968024,
+        "rank": 7.52,
+        "wins": 1.0
+      },
+      "rational": {
+        "median": 0.06973774964507302,
+        "rank": 8.88,
+        "wins": 0.0
+      },
+      "spline": {
+        "median": 0.030466078060991855,
+        "rank": 2.94,
+        "wins": 30.0
+      },
+      "spline_lip": {
+        "median": 0.08848397115391432,
+        "rank": 10.76,
+        "wins": 1.0
+      },
+      "cheby": {
+        "median": 0.04525012071779016,
+        "rank": 4.82,
+        "wins": 3.0
+      },
+      "rbf": {
+        "median": 0.03895867485372834,
+        "rank": 4.52,
+        "wins": 2.0
+      },
+      "fourier": {
+        "median": 0.04941110357720449,
+        "rank": 7.56,
+        "wins": 2.0
+      },
+      "wavelet": {
+        "median": 0.06715493609628309,
+        "rank": 10.32,
+        "wins": 0.0
+      },
+      "jacobi": {
+        "median": 0.0500796314029631,
+        "rank": 5.98,
+        "wins": 1.0
+      },
+      "mlp": {
+        "median": 0.0823158645387656,
+        "rank": 9.56,
+        "wins": 3.0
+      }
+    },
+    "n=1000": {
+      "banach_c1": {
+        "median": 0.028883399882074313,
+        "rank": 5.5,
+        "wins": 1.0
+      },
+      "lp_c1": {
+        "median": 0.058107842161032465,
+        "rank": 11.68,
+        "wins": 0.0
+      },
+      "tanh": {
+        "median": 0.0656569958715256,
+        "rank": 12.04,
+        "wins": 0.0
+      },
+      "pow": {
+        "median": 0.06566944676919809,
+        "rank": 12.38,
+        "wins": 0.0
+      },
+      "adaslope": {
+        "median": 0.071690338860621,
+        "rank": 12.58,
+        "wins": 0.0
+      },
+      "mixture": {
+        "median": 0.03803891113998595,
+        "rank": 8.1,
+        "wins": 1.0
+      },
+      "rational": {
+        "median": 0.06261599877341893,
+        "rank": 11.36,
+        "wins": 0.0
+      },
+      "spline": {
+        "median": 0.011247280877679157,
+        "rank": 1.32,
+        "wins": 42.0
+      },
+      "spline_lip": {
+        "median": 0.044430478024074016,
+        "rank": 8.68,
+        "wins": 2.0
+      },
+      "cheby": {
+        "median": 0.02596934328103243,
+        "rank": 5.26,
+        "wins": 0.0
+      },
+      "rbf": {
+        "median": 0.02126920197479719,
+        "rank": 4.34,
+        "wins": 0.0
+      },
+      "fourier": {
+        "median": 0.02307743822378573,
+        "rank": 5.8,
+        "wins": 0.0
+      },
+      "wavelet": {
+        "median": 0.02801147702181115,
+        "rank": 7.6,
+        "wins": 0.0
+      },
+      "jacobi": {
+        "median": 0.023821008600892042,
+        "rank": 5.26,
+        "wins": 0.0
+      },
+      "mlp": {
+        "median": 0.03730093065412157,
+        "rank": 8.1,
+        "wins": 4.0
+      }
+    }
+  },
+  "scope": "Complete canonical sample-SD population; references fitted once"
+}

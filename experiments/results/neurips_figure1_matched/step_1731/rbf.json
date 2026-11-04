@@ -5,7 +5,7 @@
   "n_trainable_parameters": 21,
   "training_time_s": 0.002955178999400232,
   "learned_p": [],
-  "train_noisy_nrmse": 0.16572092592573529,
+  "train_noisy_nrmse": 0.16567949051417982,
   "metrics": {
     "clean_grid_nrmse": 0.15454230807176006,
     "negative_variation": 0.5877388997750961,
@@ -61,5 +61,6 @@
     ]
   },
   "input_sha256": "dfc7ceaf053a9d10315ee84091a445c654e6e4799debaa45cb3cbf281379d93c",
-  "predictions_sha256": "7b0e0dfce59b4609de180ebb2cdaa92f80766fbf9017a0351762dbc181f22b7c"
+  "predictions_sha256": "7b0e0dfce59b4609de180ebb2cdaa92f80766fbf9017a0351762dbc181f22b7c",
+  "metric_ddof": 1
 }

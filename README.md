@@ -8,7 +8,7 @@ The repository is self-contained: its drivers, model library, equation generator
 
 Fresh experiments now use sample standard deviation (SD, correction one) for target normalization and normalized root mean squared error. PMLB feature scaling also uses sample SD. In-domain symbolic studies share the original core generator and target-normalization routine, so overlapping configurations receive identical inputs and labels. Existing model families, seeds, splits, optimizers and fitting budgets are retained.
 
-The bundled numerical tables still describe their recorded populations while the replacement runs are pending. `reproduce.py tables` regenerates those retained artifacts; it does not relabel them as new sample-SD results. New fits must not be compared with them as numerically identical reruns. There is no claim that this convention is empirically superior or that it will recover an earlier benchmark median.
+The bundled results and regenerated tables use sample SD. Every repeated Banach reference reads one canonical fit. The retained repair audit preserves the failed extrapolation predecessor and its first unchanged-protocol local replay; its very large finite error is included. Completed valid fits are unchanged. No claim of bitwise agreement across hardware is made.
 
 The unified symbolic rerun fits repeated configurations once. Its learned Banach row supplies both the exponent-control and affine-control references. Fresh outputs use one canonical tree; explicit replacement records the previous manifest and invalidates stale summaries. Incomplete or mixed-convention populations are rejected.
 
@@ -230,3 +230,13 @@ python experiments/neurips_followup.py run --study tied_affine --case-index 0 --
 ```
 
 The same driver accepts `--study extrap15`. Existing bundled result trees are not fresh-run destinations. The extrapolation bootstrap family has 26 actual contrasts; the affine controls use three contrasts separately within each condition. These analyses do not establish uniform superiority across tasks or noise levels.
+
+## Motivation budget sweep
+
+The appendix extends the noisy scalar illustration to exactly matched parameter budgets, reusing the retained figure column. It is not a test-set or equal-compute comparison. Regenerate it without fitting:
+
+```bash
+python experiments/neurips_figure1_budget.py export
+```
+
+Run missing budget fits into the declared study with `python experiments/neurips_figure1_budget.py run`; completed per-model records are reused.

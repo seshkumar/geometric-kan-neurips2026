@@ -1,0 +1,1124 @@
+{
+  "command": "python experiments/export_neurips_sample_sd.py",
+  "protocol": {
+    "profile": "symbolic",
+    "target_sd_ddof": 1,
+    "metric_ddof": 1,
+    "canonical_generator": "Original core generator; training-only sample-SD normalization",
+    "seeds": [
+      1729,
+      1730,
+      1731,
+      1732,
+      1733
+    ],
+    "equations": [
+      "I.12.1",
+      "I.14.4",
+      "I.25.13",
+      "I.34.14",
+      "I.14.3",
+      "I.18.12",
+      "I.34.10",
+      "I.47.23",
+      "III.17.37",
+      "I.8.14",
+      "I.13.4",
+      "I.29.16",
+      "III.4.32",
+      "I.12.11",
+      "I.44.4",
+      "II.35.21",
+      "III.14.14",
+      "I.40.1",
+      "II.6.15a",
+      "I.12.4",
+      "I.10.7",
+      "I.6.20a",
+      "F.43",
+      "I.16.6",
+      "I.27.6",
+      "II.2.42",
+      "II.15.4",
+      "III.15.12",
+      "I.18.16",
+      "II.11.17",
+      "I.37.4",
+      "I.26.2",
+      "F.33",
+      "F.34",
+      "III.10.19",
+      "I.15.3t",
+      "I.24.6",
+      "I.18.4",
+      "I.13.12",
+      "F.40",
+      "I.39.11",
+      "I.48.20",
+      "II.11.27",
+      "F.44",
+      "F.45",
+      "F.46",
+      "F.31",
+      "F.48",
+      "F.49",
+      "III.21.1"
+    ],
+    "validation_seed": 0,
+    "validation_fraction": 0.2,
+    "reference_policy": "Fit each unique configuration once; every table reads the same canonical reference",
+    "tasks_by_case": [
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      1075,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680,
+      680
+    ],
+    "aliases": {
+      "banach": "banach_c1",
+      "banach_learned": "banach_c1",
+      "independent_c1": "banach_c1",
+      "lp": "lp_c1",
+      "lp_learned": "lp_c1"
+    },
+    "performance_evidence": true
+  },
+  "inputs": [
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_00/fits.jsonl",
+      "sha256": "6d7820bc947f0fee01b5fd52748e4af709d4bf94ef9170265569f5b2ca70a717",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_01/fits.jsonl",
+      "sha256": "dcd38948ba0487001165c64ddda9ff3fad4dbb888f9734884ef24e40d56aca12",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_02/fits.jsonl",
+      "sha256": "3335d50e9b2cdb9090d8b12febcdc29086171e613d1f816059903f396078747c",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_03/fits.jsonl",
+      "sha256": "475167d6cce366a4f275f53f6b0fc625181feb637d8668ad51bfb25ca948d62a",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_04/fits.jsonl",
+      "sha256": "033962f5aecdc4febc79729734e1e6be0fa991793917ba007adc03588bbcf519",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_05/fits.jsonl",
+      "sha256": "61e145624b493aa10128f709a6d88fe3e844f51907f04a69b063289970bb7909",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_06/fits.jsonl",
+      "sha256": "39b6c99baf05fa07627aed3d217b26e26a637c1df1b8e0ef5931f5ae4ea8200f",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_07/fits.jsonl",
+      "sha256": "7086b13d9eaa323630cb47d674bea78d1846d17d8a80b46470ad31b9506237a8",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_08/fits.jsonl",
+      "sha256": "d8505716b019f45ded105efd827e77931a3b07eea7a4f8c775471c78f623c022",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_09/fits.jsonl",
+      "sha256": "098e18cdac739b94d09aeba293b62190d279e7bc1f316d1950b3aaea0dd02b10",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_10/fits.jsonl",
+      "sha256": "12875df3ea7c38ff011b4d04d0a08c62bac7e311976e4f578436d4651b6d32a9",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_11/fits.jsonl",
+      "sha256": "79aecfc9dba01aca2072a524269f255514a51fd7ba13ac7c2b3a26598a93b652",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_12/fits.jsonl",
+      "sha256": "37abac4f3e57d809ed34954536290f9322ed26bab8289c29bb340d7c48f3b7b6",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_13/fits.jsonl",
+      "sha256": "213704b16f754fe853348f5704b90a1b74673cb06323a74155c0b43ea461d0f0",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_14/fits.jsonl",
+      "sha256": "b0eccc36e02ebbf2f9db32d35203b557427e5a1a1ff52714021e3abffb14f2dd",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_15/fits.jsonl",
+      "sha256": "d3e5269f607a98963e7ad46c74d096cef6f109db6b6f0719f64ec67c8227edbc",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_16/fits.jsonl",
+      "sha256": "e99f0ffd7a14e220c974f3a3aa324c54caa8185a9e8073ef97abe90d6b58264e",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_17/fits.jsonl",
+      "sha256": "347b9734ec933d8faeea07a5277a3ecf81bcee17c692874c91344c13dc3391c1",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_18/fits.jsonl",
+      "sha256": "800ba2b131d41fcaaa6821305e6f16f481e7d56625a2dc67275eb8563c7c3bdf",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_19/fits.jsonl",
+      "sha256": "67829284fc17b83ce0f24a2f6abcba3ed5b5714e36faf109fd140cccfab4637b",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_20/fits.jsonl",
+      "sha256": "dbdaf39dcac217b8e79d4f22387fba8f459df5b0a0547f0764c7f666de520cbd",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_21/fits.jsonl",
+      "sha256": "2a1f36ce1627fa5f1bfa4defceb57e3dad32e491dd7481989e5370038fe53af9",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_22/fits.jsonl",
+      "sha256": "cbac80cfb843d8e7fc75be3862a2808b7e35f613084e0ebe8c472fdc27d879b4",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_23/fits.jsonl",
+      "sha256": "5eff2ef1e5daae81707d77b045acb881cfdcee0d2c714e2cc7304c31dd9bb308",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_24/fits.jsonl",
+      "sha256": "b08322bab4e82930d02f5cccd40452de6f3d31da6098ebb99d20724f1d7d8faa",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_25/fits.jsonl",
+      "sha256": "a200f5d9992cbe36471cb319bcc25287e953da32ef66d334c79f6f603fb34a32",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_26/fits.jsonl",
+      "sha256": "090aa16465798b3acd23ea7c7f875ff164dfdb699be0181a74f80084de7c9820",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_27/fits.jsonl",
+      "sha256": "8c87bd8b29848e19462c56e6506e4fb287b703804aa33a5465d72fc794a6e0fd",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_28/fits.jsonl",
+      "sha256": "10f1d3647bf1b9252bfc54cc9689779d186b66cfd7cd550dec20e6e94ac76483",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_29/fits.jsonl",
+      "sha256": "0f969ffeea4fe348328291686c3b131cfe874901278247b5783a1f33dd4e4752",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_30/fits.jsonl",
+      "sha256": "e701b0d88f6d60d593722e44f11db09e75b028445650812cb3665ea953186cc4",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_31/fits.jsonl",
+      "sha256": "fdfd6d6f7de7a69cdd4c177977b9b2ed6a5e1d5ee9ed8b22d6685a6b4ac7277a",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_32/fits.jsonl",
+      "sha256": "08404fa4e8aa00c72c9089353a0b810113c5cb9ff3bcaa6b889cffc696b48633",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_33/fits.jsonl",
+      "sha256": "9322abb8540f6fb150620a77b72f24bef3ef5144a019b2f29aba38bea69b0726",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_34/fits.jsonl",
+      "sha256": "5d564f7eaf1929d840670dd4c8c9bf7ebc51274aab3ce8a40fdc7014eef3ec63",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_35/fits.jsonl",
+      "sha256": "69605fb30efe504de5d035cb2bbc9028589fa5a076ad95be4207c64b2065cafe",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_36/fits.jsonl",
+      "sha256": "5d455e36331c46806564c4a2e2a19aa99f09e2edc65e473e7147c445020072a0",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_37/fits.jsonl",
+      "sha256": "50dee8b44ddc1a957ca55b3aaf0ddb61c5e6e43e3348b9d4ead0d63d02c8d2aa",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_38/fits.jsonl",
+      "sha256": "0a8dbdf97b8b3f2f78e8d6557038925db962c567c5ac07f1a4b03813d92d5719",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_39/fits.jsonl",
+      "sha256": "1d6a206a9a12534fefaee97578ae59afb74266882c6fba27a2957f978c9e5774",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_40/fits.jsonl",
+      "sha256": "3f0616c698fc25bc0c7e55c80b58d38ba46827ac824d7df03910c9e278388ddb",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_41/fits.jsonl",
+      "sha256": "7d5b6be54a7acde3249be605c6564ba71864c457960c2062c99a626e9d47ad82",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_42/fits.jsonl",
+      "sha256": "0123b44b0f0d88ddfb647dc7162183dffd1eea6c637dc44fcaeed0b0c95416eb",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_43/fits.jsonl",
+      "sha256": "f47472f5753c760ee19fe93a033c7c7b242741544bb3b2afd89afa5ab0e876ac",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_44/fits.jsonl",
+      "sha256": "0a2d731405c08d1317d683669b893f43cc5053aa255450620efdae7fdecbb1b4",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_45/fits.jsonl",
+      "sha256": "0fdbff2c6d1a7751a828b5e85b45e3dbb6a12ef1ec7dc0824533c11cfdcd77bd",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_46/fits.jsonl",
+      "sha256": "d29cf84ec49b21556705da83ee85490983859047a604b9c87ec3ec216a59bc26",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_47/fits.jsonl",
+      "sha256": "a35f4e3da3ef3a4586c73915320132c43c029e89bc1f1fd9702240820cda843f",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_48/fits.jsonl",
+      "sha256": "53b8d2e0c19b50a8e36573d99bfd3c803961d73dba84586b2974be3527f6829a",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_49/fits.jsonl",
+      "sha256": "25dd6f3f8c9fa80ddc91586648cc09cbcd3b1089e7304f9e60d300136929b105",
+      "records": 680,
+      "console_lines": 0
+    }
+  ],
+  "inventory": {
+    "sample_sd_symbolic": {
+      "records": 41110,
+      "unique": 41110,
+      "expected": 41110,
+      "missing_count": 0,
+      "missing_examples": [],
+      "extra_count": 0,
+      "extra_examples": [],
+      "duplicate_keys": 0,
+      "conflicting_keys": 0,
+      "invalid_count": 0,
+      "invalid_examples": [],
+      "complete_and_valid": true
+    }
+  },
+  "c1_inventory": {
+    "sample_sd_symbolic": {
+      "records": 41110,
+      "unique": 41110,
+      "expected": 41110,
+      "missing_count": 0,
+      "missing_examples": [],
+      "extra_count": 0,
+      "extra_examples": [],
+      "duplicate_keys": 0,
+      "conflicting_keys": 0,
+      "invalid_count": 0,
+      "invalid_examples": [],
+      "complete_and_valid": true
+    }
+  },
+  "tables": {
+    "baseline": {
+      "models": [
+        "spline_g3",
+        "tanh",
+        "banach",
+        "lp",
+        "mlp",
+        "cheby"
+      ],
+      "full": {
+        "median": [
+          0.036592164811747284,
+          0.06786753245266008,
+          0.03159056846918518,
+          0.06942769631889131,
+          0.05671882441734444,
+          0.03250226298911939
+        ],
+        "rank": [
+          2.1,
+          5.22,
+          2.24,
+          4.64,
+          4.08,
+          2.72
+        ],
+        "wins": [
+          22.0,
+          0.0,
+          13.0,
+          0.0,
+          7.0,
+          8.0
+        ]
+      },
+      "core": {
+        "median": [
+          0.036592164811747284,
+          0.07023890812062464,
+          0.03074056552332811,
+          0.08772966518220723,
+          0.06001470133872174,
+          0.04231587675705247
+        ],
+        "rank": [
+          2.4444444444444446,
+          5.111111111111111,
+          2.0,
+          4.555555555555555,
+          4.055555555555555,
+          2.8333333333333335
+        ],
+        "wins": [
+          6.0,
+          0.0,
+          6.0,
+          0.0,
+          4.0,
+          2.0
+        ]
+      }
+    },
+    "noise": {
+      "models": [
+        "spline_g3",
+        "spline_cv_g3",
+        "tanh",
+        "banach",
+        "lp",
+        "mlp",
+        "cheby"
+      ],
+      "columns": [
+        "0.0",
+        "0.1",
+        "0.3",
+        "0.5",
+        "1.0"
+      ],
+      "values": [
+        [
+          0.036592164811747284,
+          0.0753895371491905,
+          0.20072931536060773,
+          0.34726283037676825,
+          0.7839152169188557
+        ],
+        [
+          0.040102169517828426,
+          0.057036350650250894,
+          0.13085133606876698,
+          0.18662284901217863,
+          0.3285294948747862
+        ],
+        [
+          0.07023890812062464,
+          0.07903534401466161,
+          0.13690457152908694,
+          0.19498431243597164,
+          0.323671858366694
+        ],
+        [
+          0.03074056552332811,
+          0.04875526805021929,
+          0.11323814383259198,
+          0.18938085891364598,
+          0.3226086622073911
+        ],
+        [
+          0.08772966518220723,
+          0.09413762053998495,
+          0.12704637497019391,
+          0.16024553377477907,
+          0.2869155341554854
+        ],
+        [
+          0.06001470133872174,
+          0.08132405678221713,
+          0.16321755149422146,
+          0.2446820384311585,
+          0.3833648909789099
+        ],
+        [
+          0.04231587675705247,
+          0.060106322079140115,
+          0.14132731735256737,
+          0.23140875962005425,
+          0.5241273478659905
+        ]
+      ]
+    },
+    "scarcity": {
+      "models": [
+        "spline_g3",
+        "spline_cv_g3",
+        "tanh",
+        "banach",
+        "lp",
+        "mlp",
+        "cheby"
+      ],
+      "columns": [
+        "50",
+        "100",
+        "200",
+        "500",
+        "1000"
+      ],
+      "values": [
+        [
+          1.0756453210263626,
+          0.8521167415174362,
+          0.402357735918915,
+          0.20072931536060773,
+          0.11370589309302115
+        ],
+        [
+          0.42717232232724633,
+          0.2538252658430137,
+          0.18423656746225722,
+          0.13085133606876698,
+          0.08377192923447968
+        ],
+        [
+          0.4103714219156087,
+          0.2917789596278083,
+          0.2030944386558306,
+          0.13690457152908694,
+          0.10366346690292484
+        ],
+        [
+          0.39273901697310043,
+          0.24205141432389043,
+          0.17154816901700742,
+          0.11323814383259198,
+          0.07434038230396393
+        ],
+        [
+          0.38552698110457845,
+          0.2612712074801389,
+          0.16638545672629135,
+          0.12704637497019391,
+          0.09382575302419283
+        ],
+        [
+          0.3973343473681017,
+          0.319085658076739,
+          0.22299258110239956,
+          0.16321755149422146,
+          0.12222580930937356
+        ],
+        [
+          0.6569578607062418,
+          0.4299585756131684,
+          0.26747457795638013,
+          0.14132731735256737,
+          0.08345341864458095
+        ]
+      ]
+    },
+    "ablation_00": {
+      "models": [
+        "lp_fixed_1.5",
+        "lp_fixed_2.0",
+        "lp_fixed_2.5",
+        "lp_fixed_3.0",
+        "lp_fixed_4.0",
+        "lp_learned",
+        "banach_fixed_2.0",
+        "banach_learned"
+      ],
+      "columns": [
+        "Median NRMSE"
+      ],
+      "values": [
+        [
+          0.1721656528707342
+        ],
+        [
+          0.48225193051007176
+        ],
+        [
+          0.17791940584459984
+        ],
+        [
+          0.18145725079236658
+        ],
+        [
+          0.19807490663649593
+        ],
+        [
+          0.08772966518220723
+        ],
+        [
+          0.06292335798345547
+        ],
+        [
+          0.03074056552332811
+        ]
+      ]
+    },
+    "ablation_03": {
+      "models": [
+        "lp_fixed_1.5",
+        "lp_fixed_2.0",
+        "lp_fixed_2.5",
+        "lp_fixed_3.0",
+        "lp_fixed_4.0",
+        "lp_learned",
+        "banach_fixed_2.0",
+        "banach_learned"
+      ],
+      "columns": [
+        "Median NRMSE"
+      ],
+      "values": [
+        [
+          0.21562896206534704
+        ],
+        [
+          0.4826838677312001
+        ],
+        [
+          0.2026740055406142
+        ],
+        [
+          0.20381337773847402
+        ],
+        [
+          0.22137024307977385
+        ],
+        [
+          0.12704637497019391
+        ],
+        [
+          0.13950328670366108
+        ],
+        [
+          0.11323814383259198
+        ]
+      ]
+    },
+    "branch_optimizer": {
+      "models": [
+        "banach",
+        "banach_tanhonly",
+        "tanh",
+        "lp",
+        "spline_g3",
+        "spline_adam_g3",
+        "spline_adam_steps10000_g3"
+      ],
+      "columns": [
+        "Clean NRMSE"
+      ],
+      "values": [
+        [
+          0.03074056552332811
+        ],
+        [
+          0.0816133412791214
+        ],
+        [
+          0.07023890812062464
+        ],
+        [
+          0.08772966518220723
+        ],
+        [
+          0.036592164811747284
+        ],
+        [
+          0.042452281730674855
+        ],
+        [
+          0.04231899834253927
+        ]
+      ]
+    }
+  },
+  "paired": [
+    {
+      "comparison": "clean50:Banach/Spline",
+      "equations": 50,
+      "ratio": 1.299464669625284,
+      "ci95": [
+        1.0640749508039384,
+        1.6020337976352412
+      ],
+      "family_ci": [
+        0.9556469949507472,
+        1.8192513919292763
+      ]
+    },
+    {
+      "comparison": "noise/0.0:banach/SplineCV",
+      "equations": 18,
+      "ratio": 1.240676601938372,
+      "ci95": [
+        0.9056071862520738,
+        1.7028069741952483
+      ],
+      "family_ci": [
+        0.7583906957703908,
+        2.0488949644506373
+      ]
+    },
+    {
+      "comparison": "noise/0.0:lp/SplineCV",
+      "equations": 18,
+      "ratio": 2.534616593426262,
+      "ci95": [
+        1.8687550406078377,
+        3.4761624979278527
+      ],
+      "family_ci": [
+        1.5794810350390331,
+        4.191874442471866
+      ]
+    },
+    {
+      "comparison": "noise/0.1:banach/SplineCV",
+      "equations": 18,
+      "ratio": 0.923848718385581,
+      "ci95": [
+        0.8203891826868341,
+        1.0372463023643588
+      ],
+      "family_ci": [
+        0.7668318695639381,
+        1.100751546586057
+      ]
+    },
+    {
+      "comparison": "noise/0.1:lp/SplineCV",
+      "equations": 18,
+      "ratio": 1.325460367875009,
+      "ci95": [
+        1.0476262122486253,
+        1.6823680174004711
+      ],
+      "family_ci": [
+        0.9174407720295156,
+        1.9230515472499716
+      ]
+    },
+    {
+      "comparison": "noise/0.3:banach/SplineCV",
+      "equations": 18,
+      "ratio": 1.010224878819324,
+      "ci95": [
+        0.9168532330995535,
+        1.1168187282254252
+      ],
+      "family_ci": [
+        0.868975847598907,
+        1.1838192557476992
+      ]
+    },
+    {
+      "comparison": "noise/0.3:lp/SplineCV",
+      "equations": 18,
+      "ratio": 1.0540823207903378,
+      "ci95": [
+        0.9500929923579068,
+        1.159290054879138
+      ],
+      "family_ci": [
+        0.8948452452732343,
+        1.2183076927481566
+      ]
+    },
+    {
+      "comparison": "noise/0.5:banach/SplineCV",
+      "equations": 18,
+      "ratio": 1.0550882658618843,
+      "ci95": [
+        0.9698091090939167,
+        1.163147335483447
+      ],
+      "family_ci": [
+        0.9347007241323712,
+        1.2354142512958823
+      ]
+    },
+    {
+      "comparison": "noise/0.5:lp/SplineCV",
+      "equations": 18,
+      "ratio": 0.931662546437974,
+      "ci95": [
+        0.8537392248747301,
+        1.0191339619458564
+      ],
+      "family_ci": [
+        0.8163530238059096,
+        1.0722113099803647
+      ]
+    },
+    {
+      "comparison": "noise/1.0:banach/SplineCV",
+      "equations": 18,
+      "ratio": 0.9154570007951319,
+      "ci95": [
+        0.8130173097977089,
+        1.0363028756268744
+      ],
+      "family_ci": [
+        0.7646990458628488,
+        1.1101670754990285
+      ]
+    },
+    {
+      "comparison": "noise/1.0:lp/SplineCV",
+      "equations": 18,
+      "ratio": 0.7668811247170706,
+      "ci95": [
+        0.6798152416115018,
+        0.8588624690230998
+      ],
+      "family_ci": [
+        0.632893975835153,
+        0.9103719107342684
+      ]
+    },
+    {
+      "comparison": "scarcity/50:banach/SplineCV",
+      "equations": 18,
+      "ratio": 0.9254641046899175,
+      "ci95": [
+        0.8167946835894281,
+        1.0401663285887197
+      ],
+      "family_ci": [
+        0.757589594844023,
+        1.1043731827797398
+      ]
+    },
+    {
+      "comparison": "scarcity/50:lp/SplineCV",
+      "equations": 18,
+      "ratio": 0.8620201674562299,
+      "ci95": [
+        0.7637397083098799,
+        0.9753173951025068
+      ],
+      "family_ci": [
+        0.7145134398889555,
+        1.0429270326564934
+      ]
+    },
+    {
+      "comparison": "scarcity/100:banach/SplineCV",
+      "equations": 18,
+      "ratio": 0.9774362476688677,
+      "ci95": [
+        0.8661995932270173,
+        1.094150737011245
+      ],
+      "family_ci": [
+        0.8087421400920791,
+        1.1598738359465763
+      ]
+    },
+    {
+      "comparison": "scarcity/100:lp/SplineCV",
+      "equations": 18,
+      "ratio": 0.9184584341704614,
+      "ci95": [
+        0.7977038340650127,
+        1.0422581535980204
+      ],
+      "family_ci": [
+        0.7276622126527086,
+        1.1077096536885391
+      ]
+    },
+    {
+      "comparison": "scarcity/200:banach/SplineCV",
+      "equations": 18,
+      "ratio": 0.9560728236921553,
+      "ci95": [
+        0.8663945890743106,
+        1.0549121151796346
+      ],
+      "family_ci": [
+        0.8204822457457835,
+        1.1128782134222874
+      ]
+    },
+    {
+      "comparison": "scarcity/200:lp/SplineCV",
+      "equations": 18,
+      "ratio": 0.8826034879265449,
+      "ci95": [
+        0.8055975928790637,
+        0.9717462101929167
+      ],
+      "family_ci": [
+        0.769636761893699,
+        1.0269489539647516
+      ]
+    },
+    {
+      "comparison": "scarcity/500:banach/SplineCV",
+      "equations": 18,
+      "ratio": 1.010224878819324,
+      "ci95": [
+        0.9171157494313789,
+        1.1176467381555435
+      ],
+      "family_ci": [
+        0.8720718478401839,
+        1.182244694884595
+      ]
+    },
+    {
+      "comparison": "scarcity/500:lp/SplineCV",
+      "equations": 18,
+      "ratio": 1.0540823207903378,
+      "ci95": [
+        0.9506894290594754,
+        1.1605094922311345
+      ],
+      "family_ci": [
+        0.8902136090613874,
+        1.2207486449735838
+      ]
+    },
+    {
+      "comparison": "scarcity/1000:banach/SplineCV",
+      "equations": 18,
+      "ratio": 0.8972578572771556,
+      "ci95": [
+        0.8141473055505046,
+        0.9812053589456906
+      ],
+      "family_ci": [
+        0.7660287468294698,
+        1.027220212814807
+      ]
+    },
+    {
+      "comparison": "scarcity/1000:lp/SplineCV",
+      "equations": 18,
+      "ratio": 1.0217650959711784,
+      "ci95": [
+        0.8929922351168562,
+        1.1661693021987511
+      ],
+      "family_ci": [
+        0.8233811098273344,
+        1.2542899949275192
+      ]
+    },
+    {
+      "comparison": "fixed_p/0.0:learned/fixed2.5",
+      "equations": 18,
+      "ratio": 0.46713035376105694,
+      "ci95": [
+        0.3558432256561724,
+        0.6042898435843562
+      ],
+      "family_ci": [
+        0.3039369192632578,
+        0.6875851174304654
+      ]
+    },
+    {
+      "comparison": "fixed_p/0.3:learned/fixed2.5",
+      "equations": 18,
+      "ratio": 0.7312940641841084,
+      "ci95": [
+        0.6317987191459712,
+        0.8378828377259651
+      ],
+      "family_ci": [
+        0.5782105739445023,
+        0.8974193491169757
+      ]
+    },
+    {
+      "comparison": "branch:Banach/power_off",
+      "equations": 18,
+      "ratio": 0.48796000138160045,
+      "ci95": [
+        0.39855133776777535,
+        0.5920708475346917
+      ],
+      "family_ci": [
+        0.35417915826232094,
+        0.6556283762853189
+      ]
+    }
+  ],
+  "bootstrap": {
+    "draws": 100000,
+    "seed": 20260929,
+    "family_size": 24,
+    "unit": "equation after within-equation seed median"
+  },
+  "geometry": [
+    {
+      "model": "lp",
+      "edges": 4385,
+      "median": 2.2960128784179688,
+      "q05": 1.4448470592498779,
+      "q95": 4.438619804382324,
+      "fraction_below2": 0.2836944127708096
+    },
+    {
+      "model": "banach",
+      "edges": 4385,
+      "median": 2.350210189819336,
+      "q05": 1.6464509963989258,
+      "q95": 4.404915618896485,
+      "fraction_below2": 0.18654503990877994
+    }
+  ]
+}

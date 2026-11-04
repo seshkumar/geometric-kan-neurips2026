@@ -1,24 +1,322 @@
 {
-  "command": "python experiments/export_neurips_followup_tables.py",
+  "command": "python experiments/export_neurips_sample_sd.py",
   "inputs": [
     {
-      "path": "experiments/results/neurips_camera_ready/evidence.json",
-      "sha256": "a834c70926777609709d47dfc17ad0b55ab10fe8cc5b1870f2995f884a3e4ae4"
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_00/fits.jsonl",
+      "sha256": "6d7820bc947f0fee01b5fd52748e4af709d4bf94ef9170265569f5b2ca70a717",
+      "records": 1075,
+      "console_lines": 0
     },
     {
-      "path": "experiments/results/neurips_public_matched/summary.json",
-      "sha256": "17d2b1897b7d81a3bb6f958344662cbaa4058fc8ba8a29fd8373d8dc5bcf9d7b"
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_01/fits.jsonl",
+      "sha256": "dcd38948ba0487001165c64ddda9ff3fad4dbb888f9734884ef24e40d56aca12",
+      "records": 1075,
+      "console_lines": 0
     },
     {
-      "path": "experiments/results/neurips_followup/extrap15/extrap15_v1/summary.json",
-      "sha256": "010bcb0852c2f840141e011176daae2c933c82d24e20156fef145c65bc806f26"
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_02/fits.jsonl",
+      "sha256": "3335d50e9b2cdb9090d8b12febcdc29086171e613d1f816059903f396078747c",
+      "records": 1075,
+      "console_lines": 0
     },
     {
-      "path": "experiments/results/neurips_followup/tied_affine/tied_affine_v1/summary.json",
-      "sha256": "20a44b6cb8477e881b658043a689b5a61220519c83b82383a1ee040808453999"
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_03/fits.jsonl",
+      "sha256": "475167d6cce366a4f275f53f6b0fc625181feb637d8668ad51bfb25ca948d62a",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_04/fits.jsonl",
+      "sha256": "033962f5aecdc4febc79729734e1e6be0fa991793917ba007adc03588bbcf519",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_05/fits.jsonl",
+      "sha256": "61e145624b493aa10128f709a6d88fe3e844f51907f04a69b063289970bb7909",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_06/fits.jsonl",
+      "sha256": "39b6c99baf05fa07627aed3d217b26e26a637c1df1b8e0ef5931f5ae4ea8200f",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_07/fits.jsonl",
+      "sha256": "7086b13d9eaa323630cb47d674bea78d1846d17d8a80b46470ad31b9506237a8",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_08/fits.jsonl",
+      "sha256": "d8505716b019f45ded105efd827e77931a3b07eea7a4f8c775471c78f623c022",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_09/fits.jsonl",
+      "sha256": "098e18cdac739b94d09aeba293b62190d279e7bc1f316d1950b3aaea0dd02b10",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_10/fits.jsonl",
+      "sha256": "12875df3ea7c38ff011b4d04d0a08c62bac7e311976e4f578436d4651b6d32a9",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_11/fits.jsonl",
+      "sha256": "79aecfc9dba01aca2072a524269f255514a51fd7ba13ac7c2b3a26598a93b652",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_12/fits.jsonl",
+      "sha256": "37abac4f3e57d809ed34954536290f9322ed26bab8289c29bb340d7c48f3b7b6",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_13/fits.jsonl",
+      "sha256": "213704b16f754fe853348f5704b90a1b74673cb06323a74155c0b43ea461d0f0",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_14/fits.jsonl",
+      "sha256": "b0eccc36e02ebbf2f9db32d35203b557427e5a1a1ff52714021e3abffb14f2dd",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_15/fits.jsonl",
+      "sha256": "d3e5269f607a98963e7ad46c74d096cef6f109db6b6f0719f64ec67c8227edbc",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_16/fits.jsonl",
+      "sha256": "e99f0ffd7a14e220c974f3a3aa324c54caa8185a9e8073ef97abe90d6b58264e",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_17/fits.jsonl",
+      "sha256": "347b9734ec933d8faeea07a5277a3ecf81bcee17c692874c91344c13dc3391c1",
+      "records": 1075,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_18/fits.jsonl",
+      "sha256": "800ba2b131d41fcaaa6821305e6f16f481e7d56625a2dc67275eb8563c7c3bdf",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_19/fits.jsonl",
+      "sha256": "67829284fc17b83ce0f24a2f6abcba3ed5b5714e36faf109fd140cccfab4637b",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_20/fits.jsonl",
+      "sha256": "dbdaf39dcac217b8e79d4f22387fba8f459df5b0a0547f0764c7f666de520cbd",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_21/fits.jsonl",
+      "sha256": "2a1f36ce1627fa5f1bfa4defceb57e3dad32e491dd7481989e5370038fe53af9",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_22/fits.jsonl",
+      "sha256": "cbac80cfb843d8e7fc75be3862a2808b7e35f613084e0ebe8c472fdc27d879b4",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_23/fits.jsonl",
+      "sha256": "5eff2ef1e5daae81707d77b045acb881cfdcee0d2c714e2cc7304c31dd9bb308",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_24/fits.jsonl",
+      "sha256": "b08322bab4e82930d02f5cccd40452de6f3d31da6098ebb99d20724f1d7d8faa",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_25/fits.jsonl",
+      "sha256": "a200f5d9992cbe36471cb319bcc25287e953da32ef66d334c79f6f603fb34a32",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_26/fits.jsonl",
+      "sha256": "090aa16465798b3acd23ea7c7f875ff164dfdb699be0181a74f80084de7c9820",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_27/fits.jsonl",
+      "sha256": "8c87bd8b29848e19462c56e6506e4fb287b703804aa33a5465d72fc794a6e0fd",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_28/fits.jsonl",
+      "sha256": "10f1d3647bf1b9252bfc54cc9689779d186b66cfd7cd550dec20e6e94ac76483",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_29/fits.jsonl",
+      "sha256": "0f969ffeea4fe348328291686c3b131cfe874901278247b5783a1f33dd4e4752",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_30/fits.jsonl",
+      "sha256": "e701b0d88f6d60d593722e44f11db09e75b028445650812cb3665ea953186cc4",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_31/fits.jsonl",
+      "sha256": "fdfd6d6f7de7a69cdd4c177977b9b2ed6a5e1d5ee9ed8b22d6685a6b4ac7277a",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_32/fits.jsonl",
+      "sha256": "08404fa4e8aa00c72c9089353a0b810113c5cb9ff3bcaa6b889cffc696b48633",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_33/fits.jsonl",
+      "sha256": "9322abb8540f6fb150620a77b72f24bef3ef5144a019b2f29aba38bea69b0726",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_34/fits.jsonl",
+      "sha256": "5d564f7eaf1929d840670dd4c8c9bf7ebc51274aab3ce8a40fdc7014eef3ec63",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_35/fits.jsonl",
+      "sha256": "69605fb30efe504de5d035cb2bbc9028589fa5a076ad95be4207c64b2065cafe",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_36/fits.jsonl",
+      "sha256": "5d455e36331c46806564c4a2e2a19aa99f09e2edc65e473e7147c445020072a0",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_37/fits.jsonl",
+      "sha256": "50dee8b44ddc1a957ca55b3aaf0ddb61c5e6e43e3348b9d4ead0d63d02c8d2aa",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_38/fits.jsonl",
+      "sha256": "0a8dbdf97b8b3f2f78e8d6557038925db962c567c5ac07f1a4b03813d92d5719",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_39/fits.jsonl",
+      "sha256": "1d6a206a9a12534fefaee97578ae59afb74266882c6fba27a2957f978c9e5774",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_40/fits.jsonl",
+      "sha256": "3f0616c698fc25bc0c7e55c80b58d38ba46827ac824d7df03910c9e278388ddb",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_41/fits.jsonl",
+      "sha256": "7d5b6be54a7acde3249be605c6564ba71864c457960c2062c99a626e9d47ad82",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_42/fits.jsonl",
+      "sha256": "0123b44b0f0d88ddfb647dc7162183dffd1eea6c637dc44fcaeed0b0c95416eb",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_43/fits.jsonl",
+      "sha256": "f47472f5753c760ee19fe93a033c7c7b242741544bb3b2afd89afa5ab0e876ac",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_44/fits.jsonl",
+      "sha256": "0a2d731405c08d1317d683669b893f43cc5053aa255450620efdae7fdecbb1b4",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_45/fits.jsonl",
+      "sha256": "0fdbff2c6d1a7751a828b5e85b45e3dbb6a12ef1ec7dc0824533c11cfdcd77bd",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_46/fits.jsonl",
+      "sha256": "d29cf84ec49b21556705da83ee85490983859047a604b9c87ec3ec216a59bc26",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_47/fits.jsonl",
+      "sha256": "a35f4e3da3ef3a4586c73915320132c43c029e89bc1f1fd9702240820cda843f",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_48/fits.jsonl",
+      "sha256": "53b8d2e0c19b50a8e36573d99bfd3c803961d73dba84586b2974be3527f6829a",
+      "records": 680,
+      "console_lines": 0
+    },
+    {
+      "path": "experiments/results/neurips_sample_sd/symbolic/eq_49/fits.jsonl",
+      "sha256": "25dd6f3f8c9fa80ddc91586648cc09cbcd3b1089e7304f9e60d300136929b105",
+      "records": 680,
+      "console_lines": 0
     }
   ],
   "populations": {
+    "symbolic": {
+      "records": 41110,
+      "unique": 41110,
+      "expected": 41110,
+      "missing_count": 0,
+      "missing_examples": [],
+      "extra_count": 0,
+      "extra_examples": [],
+      "duplicate_keys": 0,
+      "conflicting_keys": 0,
+      "invalid_count": 0,
+      "invalid_examples": [],
+      "complete_and_valid": true
+    },
     "extrap15": {
       "records": 3750,
       "unique": 3750,
@@ -32,23 +330,8 @@
       "invalid_count": 0,
       "invalid_examples": [],
       "complete_and_valid": true
-    },
-    "tied_affine": {
-      "records": 3240,
-      "unique": 3240,
-      "expected": 3240,
-      "missing_count": 0,
-      "missing_examples": [],
-      "extra_count": 0,
-      "extra_examples": [],
-      "duplicate_keys": 0,
-      "conflicting_keys": 0,
-      "invalid_count": 0,
-      "invalid_examples": [],
-      "complete_and_valid": true
     }
   },
   "extrapolation_comparison_family": 26,
-  "tied_comparison_family_per_condition": 3,
-  "scope": "Unified 15-model, 50-equation extrapolation; separate four-arm, 18-equation tied-affine controls. No historical extrapolation rows pooled."
+  "tied_comparison_family_per_condition": 3
 }

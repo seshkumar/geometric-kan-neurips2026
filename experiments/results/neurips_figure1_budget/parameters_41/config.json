@@ -1,0 +1,28 @@
+{
+  "metric_ddof": 1,
+  "parameters": 41,
+  "n_train": 2000,
+  "n_eval": 4000,
+  "sigma": 0.03,
+  "data_seeds": [
+    1729
+  ],
+  "init_seed": 1729,
+  "edges": 10,
+  "restarts": 18,
+  "lbfgs_outer": 100,
+  "lbfgs_inner": 20,
+  "epsilon": 1e-08,
+  "evaluation": "fixed midpoint grid; clean targets",
+  "selection": "noisy-training MSE only; no clean-target selection",
+  "noise_stream": "default_rng(data_seed); step then staircase",
+  "comparison": "equal trainable parameter count; not equal computation",
+  "figure_curve_seed": 1729,
+  "figure_band": "pointwise minimum and maximum across noisy refits; not a confidence interval",
+  "scope": "two illustrative monotone targets; no universal or adversarial robustness claim",
+  "source_sha256": {
+    "src/neurips_figure1.py": "2f0f37430058cfa9bfe257750945f3629744694784c42e86a3f2bd8a1e18b372",
+    "src/reporting/neurips_figure1_study.py": "a610460ba7348575d04c06cee82ac06b1e79ca10e7c7b35b5b6ef76f0aca0b45",
+    "experiments/neurips_figure1_matched.py": "8c6e6b4a3858707954622a1b3aa0fa844c755a04bf0ef286e67b3e74422ec4a2"
+  }
+}

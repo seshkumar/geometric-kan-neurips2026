@@ -1,0 +1,113 @@
+"""One unchanged-protocol attempt for missing records; diagnose overflow separately.
+
+The original non-finite extrapolation result is never overwritten by a diagnostic.
+All outcomes and the original batch failure remain in the audit trail.
+"""
+from concurrent.futures import ProcessPoolExecutor, as_completed
+import contextlib
+import copy
+import hashlib
+import io
+import json
+import multiprocessing
+from pathlib import Path
+import platform
+
+import numpy as np
+import torch
+
+from src import neurips_sample_sd as study
+from src.result_integrity import read_records
+
+ROOT=Path(__file__).resolve().parents[1]
+OUT=ROOT/'experiments/results/neurips_sample_sd_repair'
+
+
+def save(path,value):
+    path.parent.mkdir(parents=True,exist_ok=True)
+    temporary=path.with_suffix('.tmp')
+    temporary.write_text(json.dumps(value,indent=2,allow_nan=False)+'\n')
+    temporary.replace(path)
+
+
+def attempt(task):
+    profile,index,model,n,sigma,seed,path,digest,stamp=task
+    name=f'{profile}_{index}_{model}_{n}_{sigma:g}_{seed}'
+    destination=OUT/(name+'.json')
+    if destination.exists():
+        return json.loads(destination.read_text())
+    diagnostic=io.StringIO()
+    try:
+        with contextlib.redirect_stderr(diagnostic):
+            row=study.fit(task)
+        result=dict(task=dict(profile=profile,index=index,model=model,n_train=n,sigma=sigma,seed=seed),
+                    status='finite' if row['nrmse'] is not None and np.isfinite(row['nrmse']) else 'nonfinite',record=row)
+    except Exception as error:
+        result=dict(task=dict(profile=profile,index=index,model=model,n_train=n,sigma=sigma,seed=seed),
+                    status='failed',error=repr(error),log_tail=diagnostic.getvalue().replace('\r','\n')[-4000:])
+    result.update(attempts=1,protocol_changed=False,environment=dict(python=platform.python_version(),
+        torch=torch.__version__,numpy=np.__version__,threads=1,cpu=torch.backends.cpu.get_cpu_capability()),
+        repair_source_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest())
+    save(destination,result)
+    return result
+
+
+def complete_missing(workers=7):
+    tree=ROOT/'experiments/results/neurips_sample_sd/symbolic'
+    manifest=json.loads((tree/'protocol.json').read_text())
+    rows,_=read_records(sorted(tree.glob('eq_*/fits.jsonl')))
+    found={(r['eq'],r['model'],r['n_train'],r['sigma'],r['seed']) for r in rows}
+    tasks=[]
+    for i,e in enumerate(study.plan('symbolic')['equations']):
+        for m,n,s in study.cases('symbolic',i):
+            for seed in study.SEEDS:
+                if (e,m,n,s,seed) not in found:
+                    path=tree/f'eq_{i:02d}'/f'input_n{n}_sigma{s:g}_seed{seed}.npz'
+                    tasks.append(('symbolic',i,m,n,s,seed,str(path),hashlib.sha256(path.read_bytes()).hexdigest(),manifest))
+    if any(t[2]!='core_spline_cv_g3' for t in tasks):
+        raise ValueError('Unexpected missing model; inspect before completing')
+    save(OUT/'plan.json',dict(command='python experiments/repair_neurips_sample_sd.py missing',
+        tasks=[dict(index=t[1],model=t[2],n_train=t[3],sigma=t[4],seed=t[5]) for t in tasks],
+        source_fingerprint=manifest['source_fingerprint'],policy='One attempt per missing configuration; preserve every outcome'))
+    results=[]
+    with ProcessPoolExecutor(max_workers=workers,mp_context=multiprocessing.get_context('spawn')) as pool:
+        for future in as_completed([pool.submit(attempt,t) for t in tasks]):
+            result=future.result();results.append(result)
+            print(result['task'],result['status'],flush=True)
+            if result['status']=='finite':
+                row=result['record'];i=result['task']['index'];path=tree/f'eq_{i:02d}'/'fits.jsonl'
+                with study.followup.lock(path.parent/'.writer.lock'):
+                    current,_=read_records([path])
+                    key=tuple(row[k] for k in study.FIELDS)
+                    if any(tuple(r[k] for k in study.FIELDS)==key for r in current):
+                        raise ValueError('Repair would overwrite an existing result')
+                    study.sr.write_shard(path,current+[row],study.FIELDS)
+    save(OUT/'completion.json',dict(results=results,protocol_changed=False,original_failure_preserved=True))
+    return results
+
+
+def diagnose_extrapolation():
+    OUT.mkdir(parents=True,exist_ok=True)
+    tree=ROOT/'experiments/results/neurips_followup/extrap15/extrap15_v1'
+    manifest=json.loads((tree/'protocol.json').read_text())
+    path=tree/'eq_27/input_n500_sigma0_seed0.npz'
+    original=study.followup.rb.evaluate
+    captured={}
+    def observe(model,x,y):
+        with torch.no_grad():
+            pred=model(x).reshape(-1)
+            captured['prediction_finite_float32']=bool(torch.isfinite(pred).all())
+            captured['squared_error_finite_float32']=bool(torch.isfinite((pred-y)**2).all())
+            full=copy.deepcopy(model).double()(x.double()).reshape(-1)
+            value=torch.sqrt(torch.mean((full-y.double())**2))/y.double().std()
+            captured['nrmse_float64_diagnostic']=float(value) if torch.isfinite(value) else None
+        torch.save(model.state_dict(),OUT/'extrapolation_diagnostic_state.pt')
+        return original(model,x,y)
+    study.followup.rb.evaluate=observe
+    try:
+        result=attempt(('extrapolation',27,'banach_c1',500,0.,0,str(path),hashlib.sha256(path.read_bytes()).hexdigest(),manifest))
+    finally:
+        study.followup.rb.evaluate=original
+    save(OUT/'extrapolation_diagnostic.json',dict(attempt=result,diagnostic=captured,
+        publication_result_replaced=False,qualification='Fresh identical-protocol diagnostic; original cluster checkpoint was not retained'))
+    return captured

@@ -3,29 +3,29 @@
 \begin{tabular}{llrrr}
 \toprule Condition & Comparison (first / second) & Ratio & 95\% interval & Adjusted interval \\ \midrule
 \multicolumn{5}{l}{\textbf{Clean fitting: all 50 equations}}\\*
-Clean & Banach / Spline G=3 & 1.358 & [1.107, 1.683] & [0.992, 1.909] \\
+Clean & Banach / Spline G=3 & 1.299 & [1.064, 1.602] & [0.956, 1.819] \\
 \multicolumn{5}{l}{\textbf{Label noise: 18-equation core, $n=500$}}\\*
-$\sigma=0$ & Banach / CV spline & 1.164 & [0.854, 1.578] & [0.716, 1.875] \\
-$\sigma=0$ & $\ell^p$ / CV spline & 2.379 & [1.745, 3.238] & [1.462, 3.823] \\
-$\sigma=0.1$ & Banach / CV spline & 0.863 & [0.772, 0.967] & [0.728, 1.034] \\
-$\sigma=0.1$ & $\ell^p$ / CV spline & 1.239 & [1.008, 1.518] & [0.897, 1.699] \\
-$\sigma=0.3$ & Banach / CV spline & 0.993 & [0.900, 1.102] & [0.855, 1.174] \\
-$\sigma=0.3$ & $\ell^p$ / CV spline & 1.036 & [0.933, 1.151] & [0.881, 1.221] \\
-$\sigma=0.5$ & Banach / CV spline & 1.071 & [0.982, 1.182] & [0.945, 1.256] \\
-$\sigma=0.5$ & $\ell^p$ / CV spline & 0.945 & [0.872, 1.028] & [0.838, 1.077] \\
-$\sigma=1$ & Banach / CV spline & 0.913 & [0.790, 1.055] & [0.731, 1.135] \\
-$\sigma=1$ & $\ell^p$ / CV spline & 0.764 & [0.664, 0.874] & [0.613, 0.936] \\
+$\sigma=0$ & Banach / CV spline & 1.241 & [0.906, 1.703] & [0.758, 2.049] \\
+$\sigma=0$ & $\ell^p$ / CV spline & 2.535 & [1.869, 3.476] & [1.579, 4.192] \\
+$\sigma=0.1$ & Banach / CV spline & 0.924 & [0.820, 1.037] & [0.767, 1.101] \\
+$\sigma=0.1$ & $\ell^p$ / CV spline & 1.325 & [1.048, 1.682] & [0.917, 1.923] \\
+$\sigma=0.3$ & Banach / CV spline & 1.010 & [0.917, 1.117] & [0.869, 1.184] \\
+$\sigma=0.3$ & $\ell^p$ / CV spline & 1.054 & [0.950, 1.159] & [0.895, 1.218] \\
+$\sigma=0.5$ & Banach / CV spline & 1.055 & [0.970, 1.163] & [0.935, 1.235] \\
+$\sigma=0.5$ & $\ell^p$ / CV spline & 0.932 & [0.854, 1.019] & [0.816, 1.072] \\
+$\sigma=1$ & Banach / CV spline & 0.915 & [0.813, 1.036] & [0.765, 1.110] \\
+$\sigma=1$ & $\ell^p$ / CV spline & 0.767 & [0.680, 0.859] & [0.633, 0.910] \\
 \multicolumn{5}{l}{\textbf{Sample scarcity: 18-equation core, $\sigma=0.3$}}\\*
-$n=50$ & Banach / CV spline & 0.911 & [0.806, 1.027] & [0.750, 1.094] \\
-$n=50$ & $\ell^p$ / CV spline & 0.849 & [0.751, 0.955] & [0.698, 1.016] \\
-$n=100$ & Banach / CV spline & 0.967 & [0.855, 1.083] & [0.798, 1.147] \\
-$n=100$ & $\ell^p$ / CV spline & 0.909 & [0.786, 1.037] & [0.717, 1.108] \\
-$n=200$ & Banach / CV spline & 0.983 & [0.909, 1.066] & [0.873, 1.113] \\
-$n=200$ & $\ell^p$ / CV spline & 0.908 & [0.841, 0.988] & [0.810, 1.041] \\
-$n=500$ & Banach / CV spline & 0.996 & [0.902, 1.106] & [0.856, 1.173] \\
-$n=500$ & $\ell^p$ / CV spline & 1.039 & [0.932, 1.155] & [0.873, 1.225] \\
-$n=1000$ & Banach / CV spline & 0.886 & [0.813, 0.961] & [0.772, 1.001] \\
-$n=1000$ & $\ell^p$ / CV spline & 1.009 & [0.893, 1.134] & [0.826, 1.207] \\
+$n=50$ & Banach / CV spline & 0.925 & [0.817, 1.040] & [0.758, 1.104] \\
+$n=50$ & $\ell^p$ / CV spline & 0.862 & [0.764, 0.975] & [0.715, 1.043] \\
+$n=100$ & Banach / CV spline & 0.977 & [0.866, 1.094] & [0.809, 1.160] \\
+$n=100$ & $\ell^p$ / CV spline & 0.918 & [0.798, 1.042] & [0.728, 1.108] \\
+$n=200$ & Banach / CV spline & 0.956 & [0.866, 1.055] & [0.820, 1.113] \\
+$n=200$ & $\ell^p$ / CV spline & 0.883 & [0.806, 0.972] & [0.770, 1.027] \\
+$n=500$ & Banach / CV spline & 1.010 & [0.917, 1.118] & [0.872, 1.182] \\
+$n=500$ & $\ell^p$ / CV spline & 1.054 & [0.951, 1.161] & [0.890, 1.221] \\
+$n=1000$ & Banach / CV spline & 0.897 & [0.814, 0.981] & [0.766, 1.027] \\
+$n=1000$ & $\ell^p$ / CV spline & 1.022 & [0.893, 1.166] & [0.823, 1.254] \\
 \multicolumn{5}{l}{\textbf{Exponent learning: 18-equation core, $n=500$}}\\*
 $\sigma=0$ & $\ell^p$: learned / fixed $p=2.5$ & 0.467 & [0.356, 0.604] & [0.304, 0.688] \\
 $\sigma=0.3$ & $\ell^p$: learned / fixed $p=2.5$ & 0.731 & [0.632, 0.838] & [0.578, 0.897] \\

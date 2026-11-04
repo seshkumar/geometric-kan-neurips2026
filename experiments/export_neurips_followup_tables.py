@@ -7,6 +7,10 @@ sys.path.insert(0, str(ROOT))
 from src.reporting.neurips_followup_tables import fragments
 
 def main():
+    if (ROOT / 'experiments/results/neurips_sample_sd/symbolic/summary.json').exists():
+        from src.reporting.neurips_sample_sd_results import export
+        print(export(ROOT))
+        return
     paths = [ROOT / 'experiments/results' / p for p in ('neurips_camera_ready/evidence.json', 'neurips_public_matched/summary.json', 'neurips_followup/extrap15/extrap15_v1/summary.json', 'neurips_followup/tied_affine/tied_affine_v1/summary.json')]
     geometry, matched, extrap, tied = [json.loads(p.read_text()) for p in paths]
     output = fragments(geometry['geometry'], matched, extrap, tied)

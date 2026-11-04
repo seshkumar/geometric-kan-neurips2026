@@ -11,7 +11,7 @@
     1.0000775721280457,
     1.0002573899050378
   ],
-  "train_noisy_nrmse": 0.14057324724369452,
+  "train_noisy_nrmse": 0.14053809953787105,
   "metrics": {
     "clean_grid_nrmse": 0.11321329901720929,
     "negative_variation": 0.13255156346581742,
@@ -186,5 +186,6 @@
     "n_trainable_parameters": 21
   },
   "input_sha256": "05e82c667febb04ca12517486c63a73962e8805a714ac01712b8ab69bdda4251",
-  "predictions_sha256": "f5cddc991f31d2eba48f7c472e565767ec9b2ea0cc3bb5bec8bba92485a6be54"
+  "predictions_sha256": "f5cddc991f31d2eba48f7c472e565767ec9b2ea0cc3bb5bec8bba92485a6be54",
+  "metric_ddof": 1
 }

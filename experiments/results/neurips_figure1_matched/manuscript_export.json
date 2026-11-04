@@ -1,10 +1,10 @@
 {
   "command": "python experiments/export_neurips_figure1_manuscript.py",
-  "summary_sha256": "c4260ef2a6fb4bc9cad4df415ff03766a21a01451f94ed25f379f8e3167bbcaf",
+  "summary_sha256": "95514cdfa4de790b1e20a973c627d18f0f0db4cdd89c588e2a674ca399a166ff",
   "artifacts": {
-    "figure1_matched.pdf": "56c950f8623349b994c954dfceb2ccf543dce01279111b50e1c2594399aa50e1",
-    "shape_step.tex": "9d72247917fb3e158c89608c9a72867a8c4e669218495d93229f48cb6f45dd42",
-    "shape_staircase.tex": "ccbed16abdd7ff67981c4eedf371bbdb6aace6e34d3b953e46f1174de9c96c89"
+    "figure1_matched.pdf": "594ac39041cd35ac581aa2a6aad7cd62638432b34c2f87efd622920440548d09",
+    "shape_step.tex": "926b85768df99ed4e6604d6f2a30b6aee4978073a1621ac5dd5b57b96e1afc85",
+    "shape_staircase.tex": "49afe46a341726f66a5eef079b2a54f232d19d01c85f608fa02e91092da6ca56"
   },
   "matched_parameters": 21,
   "figure_role": "motivation, not a superiority claim"

@@ -1,0 +1,42 @@
+{
+  "command": "python experiments/repair_neurips_sample_sd.py verify",
+  "base_commit": "50debfa2",
+  "inventories": {
+    "symbolic": {
+      "records": 41110,
+      "unique": 41110,
+      "expected": 41110,
+      "missing_count": 0,
+      "missing_examples": [],
+      "extra_count": 0,
+      "extra_examples": [],
+      "duplicate_keys": 0,
+      "conflicting_keys": 0,
+      "invalid_count": 0,
+      "invalid_examples": [],
+      "complete_and_valid": true
+    },
+    "extrapolation": {
+      "records": 3750,
+      "unique": 3750,
+      "expected": 3750,
+      "missing_count": 0,
+      "missing_examples": [],
+      "extra_count": 0,
+      "extra_examples": [],
+      "duplicate_keys": 0,
+      "conflicting_keys": 0,
+      "invalid_count": 0,
+      "invalid_examples": [],
+      "complete_and_valid": true
+    }
+  },
+  "missing_fits_completed": 7,
+  "invalid_records_replaced": 1,
+  "valid_existing_records_unchanged": true,
+  "original_failure_retained": true,
+  "fitting_source_unchanged": true,
+  "cluster_repair_needed": false,
+  "replay_nrmse": 3575311809570.015,
+  "repair_source_snapshot_sha256": "1aaffc132aad0c8dfc8c7e6af64dd7d116cb10b64ce429cd278eddddfd6ba95f"
+}

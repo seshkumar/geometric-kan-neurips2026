@@ -35,13 +35,15 @@ def shape_metrics(x, truth, pred):
         raise ValueError('Nonconstant target required')
     return dict(clean_grid_nrmse=float(np.sqrt(np.mean((pred - truth) ** 2)) / scale), negative_variation=float(np.maximum(-np.diff(pred), 0).sum()), range_overshoot=float(max(0.0, pred.max() - truth.max(), truth.min() - pred.min())))
 
-def prepare(out):
+def prepare(out, parameters=21, seeds=None):
     out = Path(out)
     if out.exists():
         raise FileExistsError(f'Fresh study directory required: {out}')
     out.mkdir(parents=True)
     sources = ['src/neurips_figure1.py', 'src/reporting/neurips_figure1_study.py', 'experiments/neurips_figure1_matched.py']
-    config = DEFAULT | {'source_sha256': {p: digest(ROOT / p) for p in sources}}
+    if parameters < 5 or (parameters - 1) % 4:
+        raise ValueError('Power-stack budget must equal four scalars per edge plus one offset')
+    config = DEFAULT | {'parameters': parameters, 'edges': (parameters - 1) // 4, 'data_seeds': DEFAULT['data_seeds'] if seeds is None else list(seeds), 'source_sha256': {p: digest(ROOT / p) for p in sources}}
     write_json(out / 'config.json', config)
     x = np.linspace(-1.0, 1.0, config['n_train'])
     xe = -1.0 + (np.arange(config['n_eval']) + 0.5) * 2 / config['n_eval']
@@ -124,7 +126,7 @@ def export(out):
                 case = out / f'{target}_{seed}'
                 path = case / f'{model}.json'
                 r = json.loads(path.read_text())
-                if r['n_trainable_parameters'] != 21:
+                if r['n_trainable_parameters'] != config['parameters']:
                     raise ValueError('Unmatched fit')
                 if digest(case / 'inputs.npz') != r['input_sha256'] or digest(case / f'{model}_predictions.npz') != r['predictions_sha256']:
                     raise ValueError('Changed retained input or prediction')
@@ -134,8 +136,8 @@ def export(out):
                 inputs.append(dict(path=str(path.relative_to(out)), sha256=digest(path)))
             metrics = {k: float(np.median([r['metrics'][k] for r in selected])) for k in selected[0]['metrics']}
             curves = np.asarray(curves)
-            summaries[target][model] = dict(parameters=21, train_noisy_nrmse=float(np.median([r['train_noisy_nrmse'] for r in selected])), **metrics, refit_variation_rms=float(np.sqrt(np.mean(np.var(curves, axis=0, ddof=1)))), training_time_s=float(sum((r['training_time_s'] for r in selected))))
-    summary = dict(protocol=config, metrics=summaries, inputs=inputs, counts_match=all((r['n_trainable_parameters'] == 21 for r in rows)), training_nrmse='against noisy training labels; ' + ('sample' if config.get('metric_ddof', 0) == 1 else 'population') + ' standard deviation', clean_nrmse='against clean midpoint-grid targets; sample standard deviation', shape_scope='negative variation and range overshoot concern these monotone targets only', robustness_scope='refit variation across independent label-noise draws with fixed initialisation stream')
+            summaries[target][model] = dict(parameters=config['parameters'], train_noisy_nrmse=float(np.median([r['train_noisy_nrmse'] for r in selected])), **metrics, refit_variation_rms=float(np.sqrt(np.mean(np.var(curves, axis=0, ddof=1)))) if len(curves) > 1 else None, training_time_s=float(sum((r['training_time_s'] for r in selected))))
+    summary = dict(protocol=config, metrics=summaries, inputs=inputs, counts_match=all((r['n_trainable_parameters'] == config['parameters'] for r in rows)), training_nrmse='against noisy training labels; ' + ('sample' if config.get('metric_ddof', 0) == 1 else 'population') + ' standard deviation', clean_nrmse='against clean midpoint-grid targets; sample standard deviation', shape_scope='negative variation and range overshoot concern these monotone targets only', robustness_scope='refit variation across independent label-noise draws with fixed initialisation stream')
     write_json(out / 'summary.json', summary)
     (out / 'records.jsonl').write_text(''.join((json.dumps(r, allow_nan=False) + '\n' for r in rows)))
     plot(out, summary)
@@ -169,7 +171,7 @@ def plot(out, summary):
             r = summary['metrics'][t][m]
             ax.text(0.03, 0.05, f"NRMSE {r['train_noisy_nrmse']:.3f}", transform=ax.transAxes, fontsize=6, bbox=dict(facecolor='white', alpha=0.85, edgecolor='none', pad=0.7))
             if i == 0:
-                ax.set_title(LABELS[m] + '\n21 parameters', fontsize=7)
+                ax.set_title(LABELS[m] + f"\n{summary['protocol']['parameters']} parameters", fontsize=7)
             if j == 0:
                 ax.set_ylabel('Step' if i == 0 else 'Staircase')
             if i == 1:

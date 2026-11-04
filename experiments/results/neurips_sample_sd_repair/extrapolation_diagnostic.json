@@ -1,0 +1,77 @@
+{
+  "attempt": {
+    "task": {
+      "profile": "extrapolation",
+      "index": 27,
+      "model": "banach_c1",
+      "n_train": 500,
+      "sigma": 0.0,
+      "seed": 0
+    },
+    "status": "finite",
+    "record": {
+      "study": "neurips_sample_sd_extrapolation",
+      "eq": "III.15.12",
+      "model": "banach_c1",
+      "seed": 0,
+      "n_train": 500,
+      "sigma": 0.0,
+      "n_test": 1000,
+      "n_features": 3,
+      "n_params": 128,
+      "nrmse": 3575311809570.015,
+      "validation_rmse": 0.38872063159942627,
+      "train_time_s": 14.295136199000126,
+      "inference_time_s": 0.01631715999997141,
+      "steps": 5000,
+      "executed_steps": 5000,
+      "diverged": false,
+      "target_sd_ddof": 1,
+      "metric_ddof": 1,
+      "input_file": "input_n500_sigma0_seed0.npz",
+      "input_sha256": "db1f5db7a691ea50e784e478f8bc440f6d25f67b941989c900a66267f12af840",
+      "validation_only_selection": true,
+      "duality_map": "c1",
+      "code_revision": "b1370e2464464c7032b8d83d323245333440b489",
+      "source_fingerprint": "91abf254e7f7b062132add2def8e9aae4fb4d3c2b8ed1d6814c45d317b95fdbe",
+      "p_values": [
+        4.787866115570068,
+        2.1704370975494385,
+        3.9238479137420654,
+        2.094766616821289,
+        2.473175525665283,
+        3.555981159210205,
+        2.4253287315368652,
+        2.780618190765381,
+        2.640047311782837,
+        1.3368602991104126,
+        2.569913148880005,
+        2.476660966873169,
+        24.72503662109375,
+        2.3394546508789062,
+        2.445122718811035,
+        5.53601598739624
+      ],
+      "profile": "extrapolation",
+      "reference_id": "extrapolation/27/banach_c1/500/0/0"
+    },
+    "attempts": 1,
+    "protocol_changed": false,
+    "environment": {
+      "python": "3.11.15",
+      "torch": "2.11.0+cu130",
+      "numpy": "2.4.4",
+      "threads": 1,
+      "cpu": "AVX2"
+    },
+    "repair_source_sha256": "1aaffc132aad0c8dfc8c7e6af64dd7d116cb10b64ce429cd278eddddfd6ba95f"
+  },
+  "diagnostic": {
+    "prediction_finite_float32": true,
+    "squared_error_finite_float32": true,
+    "nrmse_float64_diagnostic": 3575309936566.866
+  },
+  "publication_result_replaced": true,
+  "qualification": "Fresh identical-protocol diagnostic; original cluster checkpoint was not retained",
+  "replacement_audit": "extrapolation_replacement.json"
+}

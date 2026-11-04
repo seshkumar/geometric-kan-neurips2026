@@ -1,0 +1,56 @@
+{
+  "command": "python experiments/repair_neurips_sample_sd.py missing",
+  "tasks": [
+    {
+      "index": 7,
+      "model": "core_spline_cv_g3",
+      "n_train": 500,
+      "sigma": 1.0,
+      "seed": 1729
+    },
+    {
+      "index": 7,
+      "model": "core_spline_cv_g3",
+      "n_train": 500,
+      "sigma": 1.0,
+      "seed": 1733
+    },
+    {
+      "index": 7,
+      "model": "core_spline_cv_g3",
+      "n_train": 1000,
+      "sigma": 0.3,
+      "seed": 1729
+    },
+    {
+      "index": 7,
+      "model": "core_spline_cv_g3",
+      "n_train": 1000,
+      "sigma": 0.3,
+      "seed": 1730
+    },
+    {
+      "index": 7,
+      "model": "core_spline_cv_g3",
+      "n_train": 1000,
+      "sigma": 0.3,
+      "seed": 1731
+    },
+    {
+      "index": 7,
+      "model": "core_spline_cv_g3",
+      "n_train": 1000,
+      "sigma": 0.3,
+      "seed": 1732
+    },
+    {
+      "index": 7,
+      "model": "core_spline_cv_g3",
+      "n_train": 1000,
+      "sigma": 0.3,
+      "seed": 1733
+    }
+  ],
+  "source_fingerprint": "91abf254e7f7b062132add2def8e9aae4fb4d3c2b8ed1d6814c45d317b95fdbe",
+  "policy": "One attempt per missing configuration; preserve every outcome"
+}

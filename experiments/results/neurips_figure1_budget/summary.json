@@ -1,0 +1,516 @@
+{
+  "command": "python experiments/neurips_figure1_budget.py run",
+  "budgets": [
+    13,
+    21,
+    41,
+    125
+  ],
+  "seeds": [
+    1729
+  ],
+  "selection": "Existing noisy-training MSE restart selection; clean targets never select fits",
+  "metric": "Noisy-training NRMSE with sample SD",
+  "equal_compute": false,
+  "reused_budget_21": true,
+  "rows": [
+    {
+      "target": "step",
+      "model": "spline",
+      "parameters": 13,
+      "nrmse": 0.22879322150645423
+    },
+    {
+      "target": "step",
+      "model": "cheby",
+      "parameters": 13,
+      "nrmse": 0.23331123207717042
+    },
+    {
+      "target": "step",
+      "model": "rbf",
+      "parameters": 13,
+      "nrmse": 0.20829262662048892
+    },
+    {
+      "target": "step",
+      "model": "haar",
+      "parameters": 13,
+      "nrmse": 0.06360300070167675
+    },
+    {
+      "target": "step",
+      "model": "fourier",
+      "parameters": 13,
+      "nrmse": 0.26692548620257206
+    },
+    {
+      "target": "step",
+      "model": "lp",
+      "parameters": 13,
+      "nrmse": 0.0594378631202819
+    },
+    {
+      "target": "staircase",
+      "model": "spline",
+      "parameters": 13,
+      "nrmse": 0.18451933143848054
+    },
+    {
+      "target": "staircase",
+      "model": "cheby",
+      "parameters": 13,
+      "nrmse": 0.19120424449478698
+    },
+    {
+      "target": "staircase",
+      "model": "rbf",
+      "parameters": 13,
+      "nrmse": 0.1411034016930949
+    },
+    {
+      "target": "staircase",
+      "model": "haar",
+      "parameters": 13,
+      "nrmse": 0.20496278513521107
+    },
+    {
+      "target": "staircase",
+      "model": "fourier",
+      "parameters": 13,
+      "nrmse": 0.29815204550765423
+    },
+    {
+      "target": "staircase",
+      "model": "lp",
+      "parameters": 13,
+      "nrmse": 0.17158208450398757
+    },
+    {
+      "target": "step",
+      "model": "spline",
+      "parameters": 21,
+      "nrmse": 0.17316606678297933
+    },
+    {
+      "target": "step",
+      "model": "cheby",
+      "parameters": 21,
+      "nrmse": 0.1845380525066987
+    },
+    {
+      "target": "step",
+      "model": "rbf",
+      "parameters": 21,
+      "nrmse": 0.16329365776817284
+    },
+    {
+      "target": "step",
+      "model": "haar",
+      "parameters": 21,
+      "nrmse": 0.06343392458500433
+    },
+    {
+      "target": "step",
+      "model": "fourier",
+      "parameters": 21,
+      "nrmse": 0.21068208242159434
+    },
+    {
+      "target": "step",
+      "model": "lp",
+      "parameters": 21,
+      "nrmse": 0.059362704418700715
+    },
+    {
+      "target": "staircase",
+      "model": "spline",
+      "parameters": 21,
+      "nrmse": 0.13340258254575668
+    },
+    {
+      "target": "staircase",
+      "model": "cheby",
+      "parameters": 21,
+      "nrmse": 0.13853554607774948
+    },
+    {
+      "target": "staircase",
+      "model": "rbf",
+      "parameters": 21,
+      "nrmse": 0.13948186402310622
+    },
+    {
+      "target": "staircase",
+      "model": "haar",
+      "parameters": 21,
+      "nrmse": 0.17481347780909187
+    },
+    {
+      "target": "staircase",
+      "model": "fourier",
+      "parameters": 21,
+      "nrmse": 0.24041869042109656
+    },
+    {
+      "target": "staircase",
+      "model": "lp",
+      "parameters": 21,
+      "nrmse": 0.1157718527366997
+    },
+    {
+      "target": "step",
+      "model": "spline",
+      "parameters": 41,
+      "nrmse": 0.12622186901177615
+    },
+    {
+      "target": "step",
+      "model": "cheby",
+      "parameters": 41,
+      "nrmse": 0.13646329584985598
+    },
+    {
+      "target": "step",
+      "model": "rbf",
+      "parameters": 41,
+      "nrmse": 0.12262185685653805
+    },
+    {
+      "target": "step",
+      "model": "haar",
+      "parameters": 41,
+      "nrmse": 0.06319110979852408
+    },
+    {
+      "target": "step",
+      "model": "fourier",
+      "parameters": 41,
+      "nrmse": 0.1560104897976684
+    },
+    {
+      "target": "step",
+      "model": "lp",
+      "parameters": 41,
+      "nrmse": 0.05910306797678935
+    },
+    {
+      "target": "staircase",
+      "model": "spline",
+      "parameters": 41,
+      "nrmse": 0.10822495018049794
+    },
+    {
+      "target": "staircase",
+      "model": "cheby",
+      "parameters": 41,
+      "nrmse": 0.11791367493657798
+    },
+    {
+      "target": "staircase",
+      "model": "rbf",
+      "parameters": 41,
+      "nrmse": 0.11243723649021076
+    },
+    {
+      "target": "staircase",
+      "model": "haar",
+      "parameters": 41,
+      "nrmse": 0.13213429640875793
+    },
+    {
+      "target": "staircase",
+      "model": "fourier",
+      "parameters": 41,
+      "nrmse": 0.18008608204515514
+    },
+    {
+      "target": "staircase",
+      "model": "lp",
+      "parameters": 41,
+      "nrmse": 0.08432793396321568
+    },
+    {
+      "target": "step",
+      "model": "spline",
+      "parameters": 125,
+      "nrmse": 0.08684477269209934
+    },
+    {
+      "target": "step",
+      "model": "cheby",
+      "parameters": 125,
+      "nrmse": 0.0920577269733954
+    },
+    {
+      "target": "step",
+      "model": "rbf",
+      "parameters": 125,
+      "nrmse": 0.08589654486840459
+    },
+    {
+      "target": "step",
+      "model": "haar",
+      "parameters": 125,
+      "nrmse": 0.06210787210773517
+    },
+    {
+      "target": "step",
+      "model": "fourier",
+      "parameters": 125,
+      "nrmse": 0.10334393730883067
+    },
+    {
+      "target": "step",
+      "model": "lp",
+      "parameters": 125,
+      "nrmse": 0.05863415759506943
+    },
+    {
+      "target": "staircase",
+      "model": "spline",
+      "parameters": 125,
+      "nrmse": 0.09036767143242479
+    },
+    {
+      "target": "staircase",
+      "model": "cheby",
+      "parameters": 125,
+      "nrmse": 0.09345772323306019
+    },
+    {
+      "target": "staircase",
+      "model": "rbf",
+      "parameters": 125,
+      "nrmse": 0.0898929590920499
+    },
+    {
+      "target": "staircase",
+      "model": "haar",
+      "parameters": 125,
+      "nrmse": 0.10257453391647178
+    },
+    {
+      "target": "staircase",
+      "model": "fourier",
+      "parameters": 125,
+      "nrmse": 0.12396327191837825
+    },
+    {
+      "target": "staircase",
+      "model": "lp",
+      "parameters": 125,
+      "nrmse": 0.09958733815976449
+    }
+  ],
+  "inputs": [
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_13/config.json",
+      "sha256": "ef06031e6c34af8940860c15e83e6b43782aa51f3b63a76815245717f9cfde9c"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_13/step_1729/spline.json",
+      "sha256": "31ab6e79bd6a0e9ba7b3b0ff1f541560926a733abc0b3dad4caa6049a0b5b471"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_13/step_1729/cheby.json",
+      "sha256": "ecf10a61e33108da6612e214481363be2d2733b84bc743459ad6aa634b34505a"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_13/step_1729/rbf.json",
+      "sha256": "8cf7477d21484754df11c6dfbef4b6e4f3bdb4ca8d71f1dcaef9f3478d13d3bc"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_13/step_1729/haar.json",
+      "sha256": "6503d3d4a3d8e6c6b980e7e22278da13a8ac50a1101afd7c5fe2b1cbe5c4e565"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_13/step_1729/fourier.json",
+      "sha256": "ec3f3bfb06e566f734b0a8caa7ca4cbf84ece655ac4ba62a22cdbe6eb7ce40ba"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_13/step_1729/lp.json",
+      "sha256": "5970ffdfe3fcac5a43dd23ce6b92bf37b97aef9ba4cf729f1f9b30a99aa5d377"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_13/staircase_1729/spline.json",
+      "sha256": "da46f75af80cff98a764e8cdbf69253ab6303abed3bd2d25de8c62d7d12c24f7"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_13/staircase_1729/cheby.json",
+      "sha256": "244005579bba8684a7543e6e3bdea369e8f595fc02944378faffb0fb888e1316"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_13/staircase_1729/rbf.json",
+      "sha256": "c8041653969fec61f459c0a942ab6fb819def686bd16717374593d0b9779b942"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_13/staircase_1729/haar.json",
+      "sha256": "136ab97b27b4571534b42100c3ef7c12749ca7f56ef02c751756fc1bcd544316"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_13/staircase_1729/fourier.json",
+      "sha256": "a9e5a38ffd7587609e4f4cc5e5852fc8b9513de212d897d1cf12d00db0adc466"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_13/staircase_1729/lp.json",
+      "sha256": "b5641b0f3f2ed483cad78c037036bf719f3e4f6ce6fb1da59386981695f0bba9"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_21/config.json",
+      "sha256": "05eeedc666950e3bcc6768416aa34ef4b53556302ae4029cf43ff05c6783d6a3"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_21/step_1729/spline.json",
+      "sha256": "212045986a74e4350f50cd23c32c16cd2cdb9197d28f15e50a4af71bcc5b9fe4"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_21/step_1729/cheby.json",
+      "sha256": "36e824f2f3e6a4614cda87e90068b5cb00b396c758a364d0ad5accca96feb5da"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_21/step_1729/rbf.json",
+      "sha256": "4ac53c9c2338213c4ca329fc8cfe22b15fe5834f506038875c5848f863e8bf16"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_21/step_1729/haar.json",
+      "sha256": "15803b3b1dfdcc4e0af9ad483c5b88d1a05f9886caa16e54eed5a7b3631ed148"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_21/step_1729/fourier.json",
+      "sha256": "b1f6be121c15a54c7f8eae9e1dc0d08bb70310c7db13d739f56b02d0f49d73db"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_21/step_1729/lp.json",
+      "sha256": "6348e610ffcd915c693b21e308b9501b008d95aca9afeaa236ea947b977bb36d"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_21/staircase_1729/spline.json",
+      "sha256": "69f1a27aeb34266960007f4339c0d6b2e179f6420d846514c72805ceaaffb2cd"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_21/staircase_1729/cheby.json",
+      "sha256": "7896253c08b50d27fec1a8e1645cbc86f3bd5e89687673c3ca307bbb568c47ba"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_21/staircase_1729/rbf.json",
+      "sha256": "4fb34bfef5087d13bea022f057b24d3da1d34b185d25d2b18d2095b9b54c662a"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_21/staircase_1729/haar.json",
+      "sha256": "6f0b58254986035f72d5c4f017659be0e327f2a74327c73cc25d88b11ad3e693"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_21/staircase_1729/fourier.json",
+      "sha256": "34f4526ae4da8d1855af7500a9b3bd1f4bdffea781167ce3156184dd2977e152"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_21/staircase_1729/lp.json",
+      "sha256": "8c61d6c2e286242f1fb181d05bbfbcaea3bfa279eb51126c9469ad3e6f42edef"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_41/config.json",
+      "sha256": "de5ce9e6195dbc678f15f7dad094a7d9f6e807d9b5bc1387cc46b41e272a2302"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_41/step_1729/spline.json",
+      "sha256": "ce01b91ec1e64632593dc637768784d07da1b30a8ecb7db73af6b5b913fcd837"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_41/step_1729/cheby.json",
+      "sha256": "76052246260bb605bf1ab5dbf9801be7a95e327f010118a580d8c53621e276ce"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_41/step_1729/rbf.json",
+      "sha256": "680505957751e82ed4b5b12b0f3329a06397373f6004bf42aca28c99fb34fecd"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_41/step_1729/haar.json",
+      "sha256": "dfaeda20b2d7d5b74fd96766cb5d698d8047ceb962eb0ebfe5ebda5e1a595033"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_41/step_1729/fourier.json",
+      "sha256": "10a8a3b41c8ed7b264ca47ad40e512fd3b63bbd29b16b6047ee9f8975ceac7bb"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_41/step_1729/lp.json",
+      "sha256": "f671c2791dd7fbe353029e375c0e75a7bfb62994f5deffec2645e286007c864b"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_41/staircase_1729/spline.json",
+      "sha256": "4691351135023fc8e51376abf4c28531a0ddb59a5d8bfdb6e4dda4db9bc415ee"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_41/staircase_1729/cheby.json",
+      "sha256": "c6f5164ac310cbb2308898f937cdcf1ecb56a4f95b6197b53f19ec1ab317dc36"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_41/staircase_1729/rbf.json",
+      "sha256": "7aa687a0c6ca4a5d7d86e9130a69db2a1d183302cd42b0ae250468902c3e4df8"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_41/staircase_1729/haar.json",
+      "sha256": "5ecd75810f7735948133d61d9d39cb85b1b444ad984dd9a68e832ca4384393c7"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_41/staircase_1729/fourier.json",
+      "sha256": "2e85dfaa815aade624afb4cf4158807336ea632b75f213e55e065abd66d4fd0f"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_41/staircase_1729/lp.json",
+      "sha256": "34ee06f37ae35ac1ba7af12ec632628f35047e1a05c0d7ef0a2710cfc1c042c3"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_125/config.json",
+      "sha256": "24665ac4835df8d4d175109c4e0d66c792605aac5b4aee6a15b0056de2f02062"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_125/step_1729/spline.json",
+      "sha256": "8ee698e033a19270cb4c0332cb9ce548723d68e4b0e3ce4b09a03b3ac69dba11"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_125/step_1729/cheby.json",
+      "sha256": "f1e06b08741b1c190adbc755860a70dfbf4fd15993135efb747246d94dcfe4fe"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_125/step_1729/rbf.json",
+      "sha256": "44efe7d45a5b5b522baa45124c02593ca3589cdfbf7fb09cac5d4c9f5c161e58"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_125/step_1729/haar.json",
+      "sha256": "a5135598586a8626dfc2ed24812c28d148da9ecc4b18e0e6091459a77edc2487"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_125/step_1729/fourier.json",
+      "sha256": "0fe65bf6d531cf22d7a64964b86892698508c5446f7466a92fd54d2945b5fb02"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_125/step_1729/lp.json",
+      "sha256": "490f2c3ee99bbf8bddcb6e47def17b3732c233ccf3a3d4b6b8dd9c3a4ba74e86"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_125/staircase_1729/spline.json",
+      "sha256": "fcf5f7bb3154e3e5aa5f05974e194c5dc431fa04df1803f21327afac9676516d"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_125/staircase_1729/cheby.json",
+      "sha256": "9fc7a488500f2a0a7a6637fdd94ac181896f69dc069e237bc4ca84addfc8e0e8"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_125/staircase_1729/rbf.json",
+      "sha256": "e8a6bb786bbd335276fe0d0ff7e31cc8f88d141d2bd3d2faecd86640191fb404"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_125/staircase_1729/haar.json",
+      "sha256": "ea4b99480497220e128cfd701f9e35a35eef3aa1973ba9dc35a175d616841c72"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_125/staircase_1729/fourier.json",
+      "sha256": "49c73d4e2a9a1ff0e4be67b1fa0b417262f53598f03a66a518cf3f4efaa5aab5"
+    },
+    {
+      "path": "experiments/results/neurips_figure1_budget/parameters_125/staircase_1729/lp.json",
+      "sha256": "0cdf1ffbecaab59d6fb916c40842f50687046a9dd2bf981ce34869f20de5897c"
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "identical": true,
+  "median": 0.11323814383259198,
+  "fits": [
+    {
+      "eq": "I.12.1",
+      "seed": 1729,
+      "reference_id": "symbolic/0/banach_c1/500/0.3/1729",
+      "nrmse": 0.0646969124173354
+    },
+    {
+      "eq": "I.12.1",
+      "seed": 1730,
+      "reference_id": "symbolic/0/banach_c1/500/0.3/1730",
+      "nrmse": 0.05381428296621222
+    },
+    {
+      "eq": "I.12.1",
+      "seed": 1731,
+      "reference_id": "symbolic/0/banach_c1/500/0.3/1731",
+      "nrmse": 0.04810141658578411
+    },
+    {
+      "eq": "I.12.1",
+      "seed": 1732,
+      "reference_id": "symbolic/0/banach_c1/500/0.3/1732",
+      "nrmse": 0.07625411016452106
+    },
+    {
+      "eq": "I.12.1",
+      "seed": 1733,
+      "reference_id": "symbolic/0/banach_c1/500/0.3/1733",
+      "nrmse": 0.05235435025953162
+    },
+    {
+      "eq": "I.14.4",
+      "seed": 1729,
+      "reference_id": "symbolic/1/banach_c1/500/0.3/1729",
+      "nrmse": 0.05010294716827626
+    },
+    {
+      "eq": "I.14.4",
+      "seed": 1730,
+      "reference_id": "symbolic/1/banach_c1/500/0.3/1730",
+      "nrmse": 0.05313854578443247
+    },
+    {
+      "eq": "I.14.4",
+      "seed": 1731,
+      "reference_id": "symbolic/1/banach_c1/500/0.3/1731",
+      "nrmse": 0.04152406311896309
+    },
+    {
+      "eq": "I.14.4",
+      "seed": 1732,
+      "reference_id": "symbolic/1/banach_c1/500/0.3/1732",
+      "nrmse": 0.06860655864142817
+    },
+    {
+      "eq": "I.14.4",
+      "seed": 1733,
+      "reference_id": "symbolic/1/banach_c1/500/0.3/1733",
+      "nrmse": 0.05990080115079106
+    },
+    {
+      "eq": "I.25.13",
+      "seed": 1729,
+      "reference_id": "symbolic/2/banach_c1/500/0.3/1729",
+      "nrmse": 0.07850547613902538
+    },
+    {
+      "eq": "I.25.13",
+      "seed": 1730,
+      "reference_id": "symbolic/2/banach_c1/500/0.3/1730",
+      "nrmse": 0.07833298734350277
+    },
+    {
+      "eq": "I.25.13",
+      "seed": 1731,
+      "reference_id": "symbolic/2/banach_c1/500/0.3/1731",
+      "nrmse": 0.07906836256432728
+    },
+    {
+      "eq": "I.25.13",
+      "seed": 1732,
+      "reference_id": "symbolic/2/banach_c1/500/0.3/1732",
+      "nrmse": 0.05256704180089307
+    },
+    {
+      "eq": "I.25.13",
+      "seed": 1733,
+      "reference_id": "symbolic/2/banach_c1/500/0.3/1733",
+      "nrmse": 0.050956766793501765
+    },
+    {
+      "eq": "I.34.14",
+      "seed": 1729,
+      "reference_id": "symbolic/3/banach_c1/500/0.3/1729",
+      "nrmse": 0.09252953728605354
+    },
+    {
+      "eq": "I.34.14",
+      "seed": 1730,
+      "reference_id": "symbolic/3/banach_c1/500/0.3/1730",
+      "nrmse": 0.10044214176173932
+    },
+    {
+      "eq": "I.34.14",
+      "seed": 1731,
+      "reference_id": "symbolic/3/banach_c1/500/0.3/1731",
+      "nrmse": 0.08298739228869446
+    },
+    {
+      "eq": "I.34.14",
+      "seed": 1732,
+      "reference_id": "symbolic/3/banach_c1/500/0.3/1732",
+      "nrmse": 0.0992617440225475
+    },
+    {
+      "eq": "I.34.14",
+      "seed": 1733,
+      "reference_id": "symbolic/3/banach_c1/500/0.3/1733",
+      "nrmse": 0.05443443167711264
+    },
+    {
+      "eq": "I.14.3",
+      "seed": 1729,
+      "reference_id": "symbolic/4/banach_c1/500/0.3/1729",
+      "nrmse": 0.1195884990928572
+    },
+    {
+      "eq": "I.14.3",
+      "seed": 1730,
+      "reference_id": "symbolic/4/banach_c1/500/0.3/1730",
+      "nrmse": 0.11114932597524034
+    },
+    {
+      "eq": "I.14.3",
+      "seed": 1731,
+      "reference_id": "symbolic/4/banach_c1/500/0.3/1731",
+      "nrmse": 0.08376050477652494
+    },
+    {
+      "eq": "I.14.3",
+      "seed": 1732,
+      "reference_id": "symbolic/4/banach_c1/500/0.3/1732",
+      "nrmse": 0.11315483678742998
+    },
+    {
+      "eq": "I.14.3",
+      "seed": 1733,
+      "reference_id": "symbolic/4/banach_c1/500/0.3/1733",
+      "nrmse": 0.09932296881997069
+    },
+    {
+      "eq": "I.18.12",
+      "seed": 1729,
+      "reference_id": "symbolic/5/banach_c1/500/0.3/1729",
+      "nrmse": 0.14325562943268574
+    },
+    {
+      "eq": "I.18.12",
+      "seed": 1730,
+      "reference_id": "symbolic/5/banach_c1/500/0.3/1730",
+      "nrmse": 0.14842110499421213
+    },
+    {
+      "eq": "I.18.12",
+      "seed": 1731,
+      "reference_id": "symbolic/5/banach_c1/500/0.3/1731",
+      "nrmse": 0.1585788905160772
+    },
+    {
+      "eq": "I.18.12",
+      "seed": 1732,
+      "reference_id": "symbolic/5/banach_c1/500/0.3/1732",
+      "nrmse": 0.1442187353645373
+    },
+    {
+      "eq": "I.18.12",
+      "seed": 1733,
+      "reference_id": "symbolic/5/banach_c1/500/0.3/1733",
+      "nrmse": 0.1158403795718586
+    },
+    {
+      "eq": "I.34.10",
+      "seed": 1729,
+      "reference_id": "symbolic/6/banach_c1/500/0.3/1729",
+      "nrmse": 0.08946702151131748
+    },
+    {
+      "eq": "I.34.10",
+      "seed": 1730,
+      "reference_id": "symbolic/6/banach_c1/500/0.3/1730",
+      "nrmse": 0.1032589972092891
+    },
+    {
+      "eq": "I.34.10",
+      "seed": 1731,
+      "reference_id": "symbolic/6/banach_c1/500/0.3/1731",
+      "nrmse": 0.09390968369881109
+    },
+    {
+      "eq": "I.34.10",
+      "seed": 1732,
+      "reference_id": "symbolic/6/banach_c1/500/0.3/1732",
+      "nrmse": 0.10818414385161668
+    },
+    {
+      "eq": "I.34.10",
+      "seed": 1733,
+      "reference_id": "symbolic/6/banach_c1/500/0.3/1733",
+      "nrmse": 0.09842322558367222
+    },
+    {
+      "eq": "I.47.23",
+      "seed": 1729,
+      "reference_id": "symbolic/7/banach_c1/500/0.3/1729",
+      "nrmse": 0.08115297098742208
+    },
+    {
+      "eq": "I.47.23",
+      "seed": 1730,
+      "reference_id": "symbolic/7/banach_c1/500/0.3/1730",
+      "nrmse": 0.0973218958531823
+    },
+    {
+      "eq": "I.47.23",
+      "seed": 1731,
+      "reference_id": "symbolic/7/banach_c1/500/0.3/1731",
+      "nrmse": 0.08465351798272673
+    },
+    {
+      "eq": "I.47.23",
+      "seed": 1732,
+      "reference_id": "symbolic/7/banach_c1/500/0.3/1732",
+      "nrmse": 0.18085018816054346
+    },
+    {
+      "eq": "I.47.23",
+      "seed": 1733,
+      "reference_id": "symbolic/7/banach_c1/500/0.3/1733",
+      "nrmse": 0.12074128781179737
+    },
+    {
+      "eq": "III.17.37",
+      "seed": 1729,
+      "reference_id": "symbolic/8/banach_c1/500/0.3/1729",
+      "nrmse": 0.13145294744027478
+    },
+    {
+      "eq": "III.17.37",
+      "seed": 1730,
+      "reference_id": "symbolic/8/banach_c1/500/0.3/1730",
+      "nrmse": 0.1314619238899531
+    },
+    {
+      "eq": "III.17.37",
+      "seed": 1731,
+      "reference_id": "symbolic/8/banach_c1/500/0.3/1731",
+      "nrmse": 0.14081607232003854
+    },
+    {
+      "eq": "III.17.37",
+      "seed": 1732,
+      "reference_id": "symbolic/8/banach_c1/500/0.3/1732",
+      "nrmse": 0.15864296972732608
+    },
+    {
+      "eq": "III.17.37",
+      "seed": 1733,
+      "reference_id": "symbolic/8/banach_c1/500/0.3/1733",
+      "nrmse": 0.11702285524707706
+    },
+    {
+      "eq": "I.8.14",
+      "seed": 1729,
+      "reference_id": "symbolic/9/banach_c1/500/0.3/1729",
+      "nrmse": 0.18641855328749102
+    },
+    {
+      "eq": "I.8.14",
+      "seed": 1730,
+      "reference_id": "symbolic/9/banach_c1/500/0.3/1730",
+      "nrmse": 0.22173032547153387
+    },
+    {
+      "eq": "I.8.14",
+      "seed": 1731,
+      "reference_id": "symbolic/9/banach_c1/500/0.3/1731",
+      "nrmse": 0.17034537581098655
+    },
+    {
+      "eq": "I.8.14",
+      "seed": 1732,
+      "reference_id": "symbolic/9/banach_c1/500/0.3/1732",
+      "nrmse": 0.2721436287840157
+    },
+    {
+      "eq": "I.8.14",
+      "seed": 1733,
+      "reference_id": "symbolic/9/banach_c1/500/0.3/1733",
+      "nrmse": 0.2496873592983761
+    },
+    {
+      "eq": "I.13.4",
+      "seed": 1729,
+      "reference_id": "symbolic/10/banach_c1/500/0.3/1729",
+      "nrmse": 0.14381711107024725
+    },
+    {
+      "eq": "I.13.4",
+      "seed": 1730,
+      "reference_id": "symbolic/10/banach_c1/500/0.3/1730",
+      "nrmse": 0.10492275734383343
+    },
+    {
+      "eq": "I.13.4",
+      "seed": 1731,
+      "reference_id": "symbolic/10/banach_c1/500/0.3/1731",
+      "nrmse": 0.08809478752868354
+    },
+    {
+      "eq": "I.13.4",
+      "seed": 1732,
+      "reference_id": "symbolic/10/banach_c1/500/0.3/1732",
+      "nrmse": 0.11802369718948119
+    },
+    {
+      "eq": "I.13.4",
+      "seed": 1733,
+      "reference_id": "symbolic/10/banach_c1/500/0.3/1733",
+      "nrmse": 0.10518731941663995
+    },
+    {
+      "eq": "I.29.16",
+      "seed": 1729,
+      "reference_id": "symbolic/11/banach_c1/500/0.3/1729",
+      "nrmse": 0.38633861872509767
+    },
+    {
+      "eq": "I.29.16",
+      "seed": 1730,
+      "reference_id": "symbolic/11/banach_c1/500/0.3/1730",
+      "nrmse": 0.24686657850012336
+    },
+    {
+      "eq": "I.29.16",
+      "seed": 1731,
+      "reference_id": "symbolic/11/banach_c1/500/0.3/1731",
+      "nrmse": 0.27101435008164104
+    },
+    {
+      "eq": "I.29.16",
+      "seed": 1732,
+      "reference_id": "symbolic/11/banach_c1/500/0.3/1732",
+      "nrmse": 0.3595252533999722
+    },
+    {
+      "eq": "I.29.16",
+      "seed": 1733,
+      "reference_id": "symbolic/11/banach_c1/500/0.3/1733",
+      "nrmse": 0.18490673735188023
+    },
+    {
+      "eq": "III.4.32",
+      "seed": 1729,
+      "reference_id": "symbolic/12/banach_c1/500/0.3/1729",
+      "nrmse": 0.13520765480953503
+    },
+    {
+      "eq": "III.4.32",
+      "seed": 1730,
+      "reference_id": "symbolic/12/banach_c1/500/0.3/1730",
+      "nrmse": 0.10637868261081618
+    },
+    {
+      "eq": "III.4.32",
+      "seed": 1731,
+      "reference_id": "symbolic/12/banach_c1/500/0.3/1731",
+      "nrmse": 0.10455119350613025
+    },
+    {
+      "eq": "III.4.32",
+      "seed": 1732,
+      "reference_id": "symbolic/12/banach_c1/500/0.3/1732",
+      "nrmse": 0.1278094132607247
+    },
+    {
+      "eq": "III.4.32",
+      "seed": 1733,
+      "reference_id": "symbolic/12/banach_c1/500/0.3/1733",
+      "nrmse": 0.10774991632300526
+    },
+    {
+      "eq": "I.12.11",
+      "seed": 1729,
+      "reference_id": "symbolic/13/banach_c1/500/0.3/1729",
+      "nrmse": 0.1414416519747366
+    },
+    {
+      "eq": "I.12.11",
+      "seed": 1730,
+      "reference_id": "symbolic/13/banach_c1/500/0.3/1730",
+      "nrmse": 0.13923705700726038
+    },
+    {
+      "eq": "I.12.11",
+      "seed": 1731,
+      "reference_id": "symbolic/13/banach_c1/500/0.3/1731",
+      "nrmse": 0.11257069774772915
+    },
+    {
+      "eq": "I.12.11",
+      "seed": 1732,
+      "reference_id": "symbolic/13/banach_c1/500/0.3/1732",
+      "nrmse": 0.14855034844015083
+    },
+    {
+      "eq": "I.12.11",
+      "seed": 1733,
+      "reference_id": "symbolic/13/banach_c1/500/0.3/1733",
+      "nrmse": 0.12872706684787058
+    },
+    {
+      "eq": "I.44.4",
+      "seed": 1729,
+      "reference_id": "symbolic/14/banach_c1/500/0.3/1729",
+      "nrmse": 0.18724487543230595
+    },
+    {
+      "eq": "I.44.4",
+      "seed": 1730,
+      "reference_id": "symbolic/14/banach_c1/500/0.3/1730",
+      "nrmse": 0.15961811233597217
+    },
+    {
+      "eq": "I.44.4",
+      "seed": 1731,
+      "reference_id": "symbolic/14/banach_c1/500/0.3/1731",
+      "nrmse": 0.15927831833152517
+    },
+    {
+      "eq": "I.44.4",
+      "seed": 1732,
+      "reference_id": "symbolic/14/banach_c1/500/0.3/1732",
+      "nrmse": 0.13279482121174832
+    },
+    {
+      "eq": "I.44.4",
+      "seed": 1733,
+      "reference_id": "symbolic/14/banach_c1/500/0.3/1733",
+      "nrmse": 0.22586232569691028
+    },
+    {
+      "eq": "II.35.21",
+      "seed": 1729,
+      "reference_id": "symbolic/15/banach_c1/500/0.3/1729",
+      "nrmse": 0.1624205928153678
+    },
+    {
+      "eq": "II.35.21",
+      "seed": 1730,
+      "reference_id": "symbolic/15/banach_c1/500/0.3/1730",
+      "nrmse": 0.17943864174208043
+    },
+    {
+      "eq": "II.35.21",
+      "seed": 1731,
+      "reference_id": "symbolic/15/banach_c1/500/0.3/1731",
+      "nrmse": 0.14227812005444326
+    },
+    {
+      "eq": "II.35.21",
+      "seed": 1732,
+      "reference_id": "symbolic/15/banach_c1/500/0.3/1732",
+      "nrmse": 0.22098551998841
+    },
+    {
+      "eq": "II.35.21",
+      "seed": 1733,
+      "reference_id": "symbolic/15/banach_c1/500/0.3/1733",
+      "nrmse": 0.14061494135354816
+    },
+    {
+      "eq": "III.14.14",
+      "seed": 1729,
+      "reference_id": "symbolic/16/banach_c1/500/0.3/1729",
+      "nrmse": 0.17355553801229703
+    },
+    {
+      "eq": "III.14.14",
+      "seed": 1730,
+      "reference_id": "symbolic/16/banach_c1/500/0.3/1730",
+      "nrmse": 0.11532696168994361
+    },
+    {
+      "eq": "III.14.14",
+      "seed": 1731,
+      "reference_id": "symbolic/16/banach_c1/500/0.3/1731",
+      "nrmse": 0.08481396192775921
+    },
+    {
+      "eq": "III.14.14",
+      "seed": 1732,
+      "reference_id": "symbolic/16/banach_c1/500/0.3/1732",
+      "nrmse": 0.11168343192575063
+    },
+    {
+      "eq": "III.14.14",
+      "seed": 1733,
+      "reference_id": "symbolic/16/banach_c1/500/0.3/1733",
+      "nrmse": 0.15481385800019404
+    },
+    {
+      "eq": "I.40.1",
+      "seed": 1729,
+      "reference_id": "symbolic/17/banach_c1/500/0.3/1729",
+      "nrmse": 0.1215317083832769
+    },
+    {
+      "eq": "I.40.1",
+      "seed": 1730,
+      "reference_id": "symbolic/17/banach_c1/500/0.3/1730",
+      "nrmse": 0.21483663418804172
+    },
+    {
+      "eq": "I.40.1",
+      "seed": 1731,
+      "reference_id": "symbolic/17/banach_c1/500/0.3/1731",
+      "nrmse": 0.14733463180655498
+    },
+    {
+      "eq": "I.40.1",
+      "seed": 1732,
+      "reference_id": "symbolic/17/banach_c1/500/0.3/1732",
+      "nrmse": 0.23014298382315282
+    },
+    {
+      "eq": "I.40.1",
+      "seed": 1733,
+      "reference_id": "symbolic/17/banach_c1/500/0.3/1733",
+      "nrmse": 0.23112928499202834
+    }
+  ]
+}

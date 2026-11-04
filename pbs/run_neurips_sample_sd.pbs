@@ -1,0 +1,44 @@
+#!/bin/bash
+#PBS -N nips-sample-sd
+#PBS -l select=1:ncpus=32:mem=64gb
+#PBS -l walltime=72:00:00
+#PBS -J 0-49
+#PBS -o logs/
+#PBS -e logs/
+
+# Submit from BanachKAN after pulling master and committing previous results:
+# qsub -N nips-sd-main pbs/run_neurips_sample_sd.pbs
+# qsub -N nips-sd-extra -v SAMPLE_SD_PROFILE=extrapolation pbs/run_neurips_sample_sd.pbs
+# Optional pilot: add -J 0; remaining equations: add -J 1-49.
+# Symbolic: main 15-model study plus core exponent/branch/pykan/affine controls.
+# A repeated Banach reference is fitted ONCE, not independently per table.
+# Extrapolation replaces the current extrap15_v1 records explicitly.
+# Same source resumes; changed source/protocol explicitly replaces canonical fits.
+# Old summaries are invalidated; incomplete/mixed populations cannot be reported.
+# CPU only. No GPU locks, nested scheduler launchers or input downloads.
+# PBS_ARRAY_INDEX=0 bash pbs/run_neurips_sample_sd.pbs --dry-run
+set -euo pipefail
+cd "${PBS_O_WORKDIR:-$HOME/BanachKAN}"
+MODE=${1:-run}
+[[ "$MODE" == run || "$MODE" == --dry-run ]] || exit 2
+INDEX=${PBS_ARRAY_INDEX:-}
+[[ "$INDEX" =~ ^[0-9]+$ ]] && ((10#$INDEX < 50)) || exit 2
+PROFILE=${SAMPLE_SD_PROFILE:-symbolic}
+case "$PROFILE" in
+  symbolic) OUT=experiments/results/neurips_sample_sd/symbolic ;;
+  extrapolation) OUT=experiments/results/neurips_followup/extrap15/extrap15_v1 ;;
+  *) echo 'SAMPLE_SD_PROFILE must be symbolic or extrapolation'; exit 2 ;;
+esac
+WORKERS=${SAMPLE_SD_WORKERS:-${PBS_NCPUS:-32}}
+[[ "$WORKERS" =~ ^[0-9]+$ ]] && ((WORKERS > 0)) || exit 2
+COMMAND=(python -u experiments/neurips_sample_sd.py run --profile "$PROFILE"
+  --case-index "$INDEX" --out "$OUT" --workers "$WORKERS" --replace-existing)
+if [[ "$MODE" == --dry-run ]]; then printf '%q ' "${COMMAND[@]}"; printf '\n'; exit 0; fi
+CONDA_TOOL=${KAN_CONDA_EXE:-$HOME/miniforge3/bin/conda}
+if [[ ! -x "$CONDA_TOOL" && -z "${KAN_CONDA_EXE:-}" ]]; then CONDA_TOOL=$HOME/miniconda3/bin/conda; fi
+[[ -x "$CONDA_TOOL" ]] || { echo 'Set KAN_CONDA_EXE'; exit 2; }
+eval "$("$CONDA_TOOL" shell.bash hook)"
+conda activate "${SAMPLE_SD_ENV:-banach_kan}"
+export OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1
+echo "sample-SD | profile=$PROFILE case=$INDEX | source=$(git rev-parse HEAD) | $(date -Is)"
+"${COMMAND[@]}"

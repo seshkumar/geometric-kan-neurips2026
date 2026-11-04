@@ -77,20 +77,20 @@
         "train_kwargs",
         "train_one"
       ],
-      "source_sha256": "d7a95acc95b468ec24718663c285eba69a00cf48aceec46aa649f1fdee99eb02"
+      "source_sha256": "8afee2316b2eadca201b168fb6a81047dbd68b8c31ce218706a3940c4f365808"
     },
     "src/extrapolation.py": {
       "definitions": [
         "gen_extrap"
       ],
-      "source_sha256": "addfe3c2b2ff10215da4c1db062c53d0484da9e86e15bb1937b716175c38b0ed"
+      "source_sha256": "9e69e19ac5a258c987ff0a14f7a30b934a6199436ace13478b68f1b07fceacb6"
     },
     "src/pmlb_data.py": {
       "definitions": [
         "DATASETS",
         "load_pmlb_dataset"
       ],
-      "source_sha256": "360c8c6998a44bb3a9886fdbc2eaed2d185cae3ce628cb304feb128ac2ba1f51"
+      "source_sha256": "87473b87c0305432299441236660b135e7cab9e5f8f1feaea40edcdd2319a3d2"
     },
     "src/fit_records.py": {
       "definitions": [
@@ -140,7 +140,7 @@
     ".gitignore": "72233d77db6c5d4fd5033ef0846494e101a3c36257464e1e822055e5a956a65b",
     "CITATION.cff": "e6af02f6f0cfaa1518cf8cfb1df1d55e12e4620091120a10a4e0880f38b250cb",
     "LICENSE": "0d934798b6645349d8137508beb206fcfa14e2a677b7e4bbfb916978c9125a43",
-    "README.md": "f473d84f22a8a77eba5df52ed87e3525b2351def07a1925c6b173598673ee343",
+    "README.md": "85c43254a28aa9a97a0b8f3019ac4be8abd0dbe62ada9b7054aeb2e088358f74",
     "THIRD_PARTY_NOTICES.md": "02fc6471fa8025e3b584ee717dd4273503eb927bf1e8ef1b9fce946808dfe17a",
     "experiments/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "experiments/aggregate_neurips_public.py": "d58430fae48e081b60cdb00108d5b2837bef5c72fe8aa7c35570452d302ac061",
@@ -150,10 +150,11 @@
     "experiments/export_neurips_followup_tables.py": "72a68e1ceaf8288e374fe6b6419a4755e00a103c1e86adf9bf45aa42ebb2f3a0",
     "experiments/export_neurips_pmlb_tables.py": "d2f71927b79cc74812930037a7ad27ebf64c83d9bdd3b8afe3363dc77f5ca5c8",
     "experiments/feynman_dispatch.py": "ddcf616061c0871b43208b847d212d9faf75ad4bc9b5a933ea5fe16b7277933d",
-    "experiments/feynman_runner.py": "da93cdf130305541c4c7f5ac79441c93fecc37c61b6d88ebd919411715b9f575",
+    "experiments/feynman_runner.py": "3d7dfaa44d58b527575c27d0222839826275e0455f5c81bdc07f69f59c770c41",
     "experiments/neurips_figure1_matched.py": "bdbda672a6569b4755720d302bd4bbf974d842010b072ff51346ae6b5d8e09d7",
     "experiments/neurips_followup.py": "c7567f545862be05ff20d6403faec7572e09962ae81549aec1e19f32a7d28296",
-    "experiments/neurips_pmlb15.py": "9bd0a183afc9a97c3b0cb2602bfdbeae62b1998d9adf8b601c5966f4e22f713c",
+    "experiments/neurips_pmlb15.py": "1c87428a0a3c5df2da752ffb764e57c899572020e863b9d5f47556249653abf1",
+    "experiments/neurips_sample_sd.py": "3f6b9b77ab8a6070251bfa297bdec6cefc5d8717fd60e947bb40a80773fff1d3",
     "experiments/results/feynman/results_ablation_p_eq00.jsonl": "28a4e482d2c67573b2e3a095b59e4fdb65eea60f049adc898cb9f96d2ac8f83e",
     "experiments/results/feynman/results_ablation_p_eq01.jsonl": "bcc921998a9ee81d6a60b8ea0613f889cc8b7261bc3c2b7524280d13667d357c",
     "experiments/results/feynman/results_ablation_p_eq02.jsonl": "6115c22f150ad27b3db74ce46efe8f6fbed8e6e606b721078c417a00eae7485e",
@@ -2601,31 +2602,37 @@
     "experiments/results/neurips_public_inputs/extrapolation.jsonl": "041098995ed96685d537add480d81cb3fbc0bae7c5c75d7d4a81206a667a7f2b",
     "experiments/results/neurips_public_inputs/noisy.jsonl": "26d6746d942ec2dd1f0594c2a9352471e2f8fc15eba2549c85bdf2c8cdf337a8",
     "experiments/results/neurips_public_inputs/small_sample.jsonl": "6592a1cdefc35a7c6e2d75894be2141700df1797029bec94bbe4406b131d8bd2",
+    "pbs/run_neurips_sample_sd.pbs": "a1da7e8962ddf14c9b150cf1ef4e0d05c107b2cc72db8e14bdfccf2166ee6d01",
+    "pbs/run_neurips_sample_sd_pmlb.pbs": "78a6f252336939806a410a264554f92f4081ae5b6564d582484bc0d3885b3a63",
     "reproduce.py": "9ce77d134d66da0b400c6f38fdade3ff4f1f577a14151b258d36b58806deec17",
     "requirements.txt": "e2b80dd746ddbe345a85ceaa3b881f79e55c609be23aa2dd7aa98b7f19cfe608",
     "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "src/edge_models.py": "7e73a5ac6b75ed7d3604f0d227d5bc4725743c4cc5bc3f9153a5aa62afc367cd",
-    "src/extrapolation.py": "3a6ef19a085595e8020232565f8ad479d222ee8f4808518b941079c0845fe397",
+    "src/extrapolation.py": "2559c387dc7a8fb0af9184bba6c053ec95fcb6b715c15fd737c0580f0b8499e5",
     "src/fit_records.py": "8fc85a30803b3d9abef55fe740404c93b44f3e83d7f36d0855806fa7ba6110d7",
     "src/kan_layer.py": "3fa0c4e6443a7becd8c1f695a7b899607a47c137d917fef497ac71e7251ccd49",
-    "src/matched_models.py": "15a526acbd2bf7fc960e1fd6d274383eecd291b3ee386b7cf9bda31bed0abcb6",
+    "src/matched_models.py": "34f71b6b5b481caed6abb9f9209f45fd85d8ed9804a49d6d98a11bca8dd0c267",
     "src/neurips_figure1.py": "31efc870aa84cc9a86d9ea56b8c0afcf402a8236339444bb156e5cf46ce604ab",
-    "src/neurips_followup.py": "795cd7bce89a30997f6937d906a0ea3db5a181429c658512077ea8075871e9e6",
-    "src/neurips_pmlb.py": "380cee25fa14a310572c0ee8d0f30d3f9e93f6b44f5c7606679085313c4062bc",
-    "src/pmlb_data.py": "1d73959b0a64b398441b97f441b6866cdaa8b9acb7a408a9c4d09fc6fa554a04",
+    "src/neurips_followup.py": "c32483ce26516f0c84b1dd95336437b4bfbb39f7ad0a660a641830fa6e9e3234",
+    "src/neurips_normalization.py": "b9358d09290b831df455ecebad365dee642a43150cac1d3449c75e3c8776d2f8",
+    "src/neurips_pmlb.py": "4f6fb16cdfd7b17dd423f9bde6993e40575c949c8fbce37328bdfce62955fadb",
+    "src/neurips_rerun.py": "c920fdd0903f5ef046bb2ce18b5dbd6486d7b54640d7fe0f1a14ccc93896a1fb",
+    "src/neurips_sample_sd.py": "eb922a70f53c45872c7be9eac2996f75a149d97b07b1c6e18e56e4fd282e4639",
+    "src/pmlb_data.py": "cc668c49c40f669096dd8742960a3ce6c6d497d3b1bd6dce98750db7b61f14a2",
     "src/reporting/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "src/reporting/neurips_camera_ready.py": "b0a867ff5f11c865f7bbaf1e43bd1152bc6f57451109e2a77f0ef8d079124e87",
     "src/reporting/neurips_figure1_manuscript.py": "bce2d61db4da34bc232297cf95297d15b1a793b373d50924716457c0ddf8cf57",
-    "src/reporting/neurips_figure1_study.py": "c167a8bf75d2845343e085c4469ceed0c61b6044ea221cd7ffe1cb6356b66646",
+    "src/reporting/neurips_figure1_study.py": "7bef55ae1c710e28d54ef376a11dfecc9786c3727011451ad3d481ad7fef2ae4",
     "src/reporting/neurips_followup_tables.py": "8060927dac73483e0666e83df01f4906b88db4de0976677735b314618ba8f55f",
     "src/reporting/neurips_pmlb_tables.py": "88e92b53f3ebb78352764b4584f680a32a86d5481b26191ca30472bf8f6e07c0",
-    "src/reporting/neurips_public_driver.py": "db042db772e9e961714025b61377ab024be8157696b9ce12bcdbf2bad893cae8",
+    "src/reporting/neurips_public_driver.py": "ee8e42e0daa41d8d618523c8ffbfcea5c2d059ae5e3f390757d2be1ca77191a6",
     "src/reporting/neurips_public_formatting.py": "0d3d663fd1d48cdd5d06a5b9dc6220865cda770572b1f7e0e97f4e81fb7f8669",
     "src/reporting/neurips_public_matched.py": "a1a58d0f61d3a64a7e4f840316a9983c25e377a3a0f81c5ce4af2751d4c69d7c",
     "src/reporting/neurips_public_parameters.py": "c6d3811dedb2ba295b916eb720fc5575a0489ae4e7fb4ff6df4864acbe527029",
     "src/result_integrity.py": "483a559c1186261db81d2b4a475eb4572fe3d0307eb65a13124e1004c501597b",
     "src/training.py": "850a584b0512d32c2bf4490caf95ed323eb59a9bc7d98f6b6b8040dc65e25f5d",
     "tests/test_neurips_public_matched.py": "eb466cf4104cc6b67431e27946c063581386fd094e41fbc996db5b5e3560cfb4",
+    "tests/test_neurips_sample_sd.py": "cea1351eee594ddc88b53258795d3ab92d1adc3f052999140c091a22b1804edb",
     "third_party_licenses/PyYAML/licenses/LICENSE": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
     "third_party_licenses/matplotlib/LICENSE": "dbb9ad7495a83b0f2f48c94b06e23020587d82f8d1492dcb717fb1ebc2f86c18",
     "third_party_licenses/numpy/licenses/LICENSE.txt": "4860083caa0de2ac3292ca98bd074bd8f45d8b32624e37b1e70a240bff61e488",

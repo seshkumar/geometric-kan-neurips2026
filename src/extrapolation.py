@@ -1,6 +1,7 @@
 import numpy as np, torch
+from src.neurips_normalization import normalize_targets
 
-def gen_extrap(eq, seed, n_train=500, n_test=1000, inner=0.6, reach=0.3):
+def gen_extrap(eq, seed, n_train=500, n_test=1000, inner=0.6, reach=0.3, sd_ddof=1):
     name, _, nv, _, formula, var_ranges = eq
     rng = np.random.default_rng(seed)
 
@@ -19,5 +20,10 @@ def gen_extrap(eq, seed, n_train=500, n_test=1000, inner=0.6, reach=0.3):
     yte = formula(Xte).astype(np.float32)
     ok = np.isfinite(yte) & (np.abs(yte) < 1000000.0)
     Xte, yte = (Xte[ok][:n_test], yte[ok][:n_test])
+    if sd_ddof == 1:
+        yn, yen, _, _ = normalize_targets(torch.tensor(ytr), torch.tensor(yte))
+        return (torch.tensor(Xtr), yn, torch.tensor(Xte), yen)
+    if sd_ddof != 0:
+        raise ValueError('SD correction must be zero or one')
     mu, sd = (ytr.mean(), ytr.std() or 1.0)
     return (torch.tensor(Xtr), torch.tensor((ytr - mu) / sd), torch.tensor(Xte), torch.tensor((yte - mu) / sd))

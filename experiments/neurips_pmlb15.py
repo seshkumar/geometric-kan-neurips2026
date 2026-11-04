@@ -12,12 +12,13 @@ if __name__ == '__main__':
     parser.add_argument('--out', type=Path, default=ROOT / 'experiments/results/neurips_pmlb15/pmlb15_v1')
     parser.add_argument('--cache', type=Path, default=ROOT / 'experiments/results/pmlb_cache')
     parser.add_argument('--workers', type=int, default=16)
+    parser.add_argument('--replace-existing', action='store_true')
     args = parser.parse_args()
     if args.command == 'plan':
         print(json.dumps(protocol(), indent=2))
     elif args.command == 'run':
         if args.dataset_idx is None or args.workers < 1:
             parser.error('run requires --dataset-idx and positive workers')
-        run(args.dataset_idx, args.out, args.cache, args.workers)
+        run(args.dataset_idx, args.out, args.cache, args.workers, args.replace_existing)
     else:
         print(json.dumps(summarize(args.out), indent=2))

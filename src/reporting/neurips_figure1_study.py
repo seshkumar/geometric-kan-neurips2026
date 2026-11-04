@@ -7,12 +7,13 @@ from pathlib import Path
 import time
 import numpy as np
 from src import neurips_figure1 as fitting
+from src.neurips_normalization import standard_deviation
 ROOT = Path(__file__).resolve().parents[2]
 MODELS = ('spline', 'cheby', 'rbf', 'haar', 'fourier', 'lp')
 LABELS = {'spline': 'B-spline', 'cheby': 'Chebyshev', 'rbf': 'Gaussian RBF', 'haar': 'Wavelet (Haar)', 'fourier': 'Fourier', 'lp': '$\\ell^p$-KAN'}
 BASES = dict(zip(MODELS[:-1], (fitting.bspline_basis, fitting.chebyshev_basis, fitting.rbf_basis, fitting.haar_basis, fitting.fourier_basis)))
 TARGETS = {'step': fitting.heaviside_step, 'staircase': fitting.five_level_step}
-DEFAULT = dict(parameters=21, n_train=2000, n_eval=4000, sigma=0.03, data_seeds=list(range(1729, 1734)), init_seed=1729, edges=5, restarts=18, lbfgs_outer=100, lbfgs_inner=20, epsilon=1e-08, evaluation='fixed midpoint grid; clean targets', selection='noisy-training MSE only; no clean-target selection', noise_stream='default_rng(data_seed); step then staircase', comparison='equal trainable parameter count; not equal computation', figure_curve_seed=1729, figure_band='pointwise minimum and maximum across noisy refits; not a confidence interval', scope='two illustrative monotone targets; no universal or adversarial robustness claim')
+DEFAULT = dict(metric_ddof=1, parameters=21, n_train=2000, n_eval=4000, sigma=0.03, data_seeds=list(range(1729, 1734)), init_seed=1729, edges=5, restarts=18, lbfgs_outer=100, lbfgs_inner=20, epsilon=1e-08, evaluation='fixed midpoint grid; clean targets', selection='noisy-training MSE only; no clean-target selection', noise_stream='default_rng(data_seed); step then staircase', comparison='equal trainable parameter count; not equal computation', figure_curve_seed=1729, figure_band='pointwise minimum and maximum across noisy refits; not a confidence interval', scope='two illustrative monotone targets; no universal or adversarial robustness claim')
 
 def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
@@ -95,7 +96,7 @@ def fit_case(task):
         if not np.isfinite(pred).all():
             raise ValueError('Nonfinite fit: ' + model)
         np.savez_compressed(case / f'{model}_predictions.npz', train=pred, evaluation=grid)
-        record = dict(target=target, seed=seed, model=model, n_trainable_parameters=int(count), training_time_s=fit_time, learned_p=p, train_noisy_nrmse=float(np.sqrt(np.mean((pred - y) ** 2)) / np.std(y, ddof=0)), metrics=shape_metrics(xe, truth, grid), state=state, input_sha256=digest(case / 'inputs.npz'), predictions_sha256=digest(case / f'{model}_predictions.npz'))
+        record = dict(target=target, seed=seed, model=model, n_trainable_parameters=int(count), training_time_s=fit_time, learned_p=p, metric_ddof=config.get('metric_ddof', 0), train_noisy_nrmse=float(np.sqrt(np.mean((pred - y) ** 2)) / standard_deviation(y, ddof=config.get('metric_ddof', 0))), metrics=shape_metrics(xe, truth, grid), state=state, input_sha256=digest(case / 'inputs.npz'), predictions_sha256=digest(case / f'{model}_predictions.npz'))
         write_json(case / f'{model}.json', record)
         print(json.dumps({k: record[k] for k in ('target', 'seed', 'model', 'n_trainable_parameters', 'train_noisy_nrmse', 'training_time_s')}), flush=True)
     return dict(target=target, seed=seed, complete=True)
@@ -134,7 +135,7 @@ def export(out):
             metrics = {k: float(np.median([r['metrics'][k] for r in selected])) for k in selected[0]['metrics']}
             curves = np.asarray(curves)
             summaries[target][model] = dict(parameters=21, train_noisy_nrmse=float(np.median([r['train_noisy_nrmse'] for r in selected])), **metrics, refit_variation_rms=float(np.sqrt(np.mean(np.var(curves, axis=0, ddof=1)))), training_time_s=float(sum((r['training_time_s'] for r in selected))))
-    summary = dict(protocol=config, metrics=summaries, inputs=inputs, counts_match=all((r['n_trainable_parameters'] == 21 for r in rows)), training_nrmse='against noisy training labels; population standard deviation', clean_nrmse='against clean midpoint-grid targets; sample standard deviation', shape_scope='negative variation and range overshoot concern these monotone targets only', robustness_scope='refit variation across independent label-noise draws with fixed initialisation stream')
+    summary = dict(protocol=config, metrics=summaries, inputs=inputs, counts_match=all((r['n_trainable_parameters'] == 21 for r in rows)), training_nrmse='against noisy training labels; ' + ('sample' if config.get('metric_ddof', 0) == 1 else 'population') + ' standard deviation', clean_nrmse='against clean midpoint-grid targets; sample standard deviation', shape_scope='negative variation and range overshoot concern these monotone targets only', robustness_scope='refit variation across independent label-noise draws with fixed initialisation stream')
     write_json(out / 'summary.json', summary)
     (out / 'records.jsonl').write_text(''.join((json.dumps(r, allow_nan=False) + '\n' for r in rows)))
     plot(out, summary)

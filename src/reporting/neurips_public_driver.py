@@ -27,7 +27,13 @@ def tables():
     subprocess.run([sys.executable, str(ROOT / 'experiments/neurips_pmlb15.py'), 'summarize', '--out', str(ROOT / 'experiments/results/neurips_pmlb15/pmlb15_pbs_v1')], cwd=ROOT, check=True)
     subprocess.run([sys.executable, str(ROOT / 'experiments/export_neurips_pmlb_tables.py')], cwd=ROOT, check=True)
     for study, run in [('extrap15', 'extrap15_v1'), ('tied_affine', 'tied_affine_v1')]:
-        subprocess.run([sys.executable, str(ROOT / 'experiments/neurips_followup.py'), 'summarize', '--study', study, '--out', str(ROOT / 'experiments/results/neurips_followup' / study / run)], cwd=ROOT, check=True, stdout=subprocess.DEVNULL)
+        result_dir = ROOT / 'experiments/results/neurips_followup' / study / run
+        declared = json.loads((result_dir / 'protocol.json').read_text())['protocol']
+        if declared.get('profile') == 'extrapolation':
+            command = [sys.executable, str(ROOT / 'experiments/neurips_sample_sd.py'), 'summarize', '--profile', 'extrapolation', '--out', str(result_dir)]
+        else:
+            command = [sys.executable, str(ROOT / 'experiments/neurips_followup.py'), 'summarize', '--study', study, '--out', str(result_dir)]
+        subprocess.run(command, cwd=ROOT, check=True, stdout=subprocess.DEVNULL)
     subprocess.run([sys.executable, str(ROOT / 'experiments/export_neurips_followup_tables.py')], cwd=ROOT, check=True)
     parameter_table()
     checks = {}
@@ -95,6 +101,7 @@ def run_fit(args):
             start = time.perf_counter()
             rb.train_one(model, x, y, xt, yt, steps=5000, lr=0.01, **rb.train_kwargs(args.model))
             record = {'eq': eq[0], 'model': args.model, 'seed': args.seed, 'nrmse': rb.evaluate(model, xt, yt), 'n_params': sum((p.numel() for p in model.parameters())), 'train_time_s': time.perf_counter() - start}
+    record.update(target_sd_ddof=1, metric_ddof=1)
     if not math.isfinite(record['nrmse']):
         raise ValueError('Nonfinite fit result')
     with output.open('x') as stream:

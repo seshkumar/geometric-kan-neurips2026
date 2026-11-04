@@ -23,7 +23,7 @@ STEPS = 5000
 TIED_MODELS = ['independent_c1', 'tied_c1_matched', 'tied_c1', 'tied_c1_p2_init']
 FIELDS = ('eq', 'model', 'seed', 'n_train', 'sigma')
 
-def specification(study):
+def specification(study, sd_ddof=1):
     if study not in ('extrap15', 'tied_affine'):
         raise ValueError('Unknown study')
     extrap = study == 'extrap15'
@@ -31,7 +31,12 @@ def specification(study):
     conditions = [(500, 0.0)] if extrap else [(500, s) for s in (0.0, 0.1, 0.3, 0.5, 1.0)] + [(n, 0.3) for n in (50, 100, 200, 1000)]
     models = ROSTER if extrap else TIED_MODELS
     seeds = list(range(5)) if extrap else list(range(1729, 1734))
-    return dict(study=study, equations=[e[0] for e in equations], models=models, seeds=seeds, conditions=[dict(n_train=n, sigma=s) for n, s in conditions], expected_fits=len(equations) * len(models) * len(seeds) * len(conditions), steps=STEPS, learning_rate=0.01, n_test=1000, validation_fraction=0.2, validation_seed=0, checkpoint_every=500, schedule='cosine', gradient_clip=10.0, selection='Training-only validation; test inputs and labels are never passed to the trainer', metric='Existing evaluate: RMSE / (sample std of standardized test targets + 1e-12), ddof=1', data_generator='extrapolation.gen_extrap(inner=.6,reach=.3)' if extrap else 'run_baselines.generate_data', seed_policy='Preserve the earlier extrapolation seeds' if extrap else 'Preserve the core-control seeds', architecture='Existing Table-2 builders and dimension-dependent widths; C1 proposed responses, epsilon=1e-8', tied_controls=None if extrap else dict(independent_c1=dict(affines='independent', p_init=2.5, power_gain_init=0.5), tied_c1_matched=dict(affines='shared', p_init=2.5, power_gain_init=0.5), tied_c1=dict(affines='shared', p_init=2.5, power_gain_init=0.1), tied_c1_p2_init=dict(affines='shared', p_init=2.0, power_gain_init=0.1)), tied_interpretation='Signed gains are unconstrained; tying affines alone is not a convex-duality guarantee', comparison_family='Two proposed power models versus the other 13 models: 26 actual comparisons, no reserved slots' if extrap else 'Matched tied/independent comparisons per declared condition; other initializations are separate controls', historical_results_reused=False, performance_evidence=False)
+    result = dict(study=study, equations=[e[0] for e in equations], models=models, seeds=seeds, conditions=[dict(n_train=n, sigma=s) for n, s in conditions], expected_fits=len(equations) * len(models) * len(seeds) * len(conditions), steps=STEPS, learning_rate=0.01, n_test=1000, validation_fraction=0.2, validation_seed=0, checkpoint_every=500, schedule='cosine', gradient_clip=10.0, selection='Training-only validation; test inputs and labels are never passed to the trainer', metric='Existing evaluate: RMSE / (sample std of standardized test targets + 1e-12), ddof=1', data_generator='extrapolation.gen_extrap(inner=.6,reach=.3)' if extrap else 'run_baselines.generate_data', seed_policy='Preserve the earlier extrapolation seeds' if extrap else 'Preserve the core-control seeds', architecture='Existing Table-2 builders and dimension-dependent widths; C1 proposed responses, epsilon=1e-8', tied_controls=None if extrap else dict(independent_c1=dict(affines='independent', p_init=2.5, power_gain_init=0.5), tied_c1_matched=dict(affines='shared', p_init=2.5, power_gain_init=0.5), tied_c1=dict(affines='shared', p_init=2.5, power_gain_init=0.1), tied_c1_p2_init=dict(affines='shared', p_init=2.0, power_gain_init=0.1)), tied_interpretation='Signed gains are unconstrained; tying affines alone is not a convex-duality guarantee', comparison_family='Two proposed power models versus the other 13 models: 26 actual comparisons, no reserved slots' if extrap else 'Matched tied/independent comparisons per declared condition; other initializations are separate controls', historical_results_reused=False, performance_evidence=False)
+    if sd_ddof == 1:
+        result.update(target_sd_ddof=1, metric_ddof=1, normalization='Canonical core generator and training-only sample SD')
+    elif sd_ddof != 0:
+        raise ValueError('SD correction must be zero or one')
+    return result
 
 @contextmanager
 def lock(path, nonblocking=True):
@@ -45,7 +50,7 @@ def lock(path, nonblocking=True):
             fcntl.flock(stream, fcntl.LOCK_UN)
 
 def source_identity():
-    paths = [Path(__file__), ROOT / 'experiments/neurips_followup.py', ROOT / 'src/matched_models.py', ROOT / 'src/extrapolation.py', ROOT / 'src/fit_records.py', ROOT / 'src/kan_layer.py', ROOT / 'src/edge_models.py', ROOT / 'src/training.py', ROOT / 'src/result_integrity.py', ROOT / 'src/reporting/neurips_public_formatting.py', ROOT / 'src/reporting/neurips_camera_ready.py']
+    paths = [Path(__file__), ROOT / 'experiments/neurips_followup.py', ROOT / 'src/matched_models.py', ROOT / 'src/extrapolation.py', ROOT / 'src/fit_records.py', ROOT / 'src/kan_layer.py', ROOT / 'src/edge_models.py', ROOT / 'src/training.py', ROOT / 'src/result_integrity.py', ROOT / 'src/reporting/neurips_public_formatting.py', ROOT / 'src/reporting/neurips_camera_ready.py', ROOT / 'src/neurips_normalization.py', ROOT / 'experiments/feynman_runner.py']
     return dict(code_revision='public-release', source_fingerprint=sr.source_stamp(paths), source_files={str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in paths})
 
 def build(study, name, dimension):
@@ -57,17 +62,17 @@ def build(study, name, dimension):
         raise ValueError('Unknown control')
     return rb.KANetwork(rb.kan_widths(dimension), rb.BanachTiedKANLayer, c1=True, p_init=2.0 if name == 'tied_c1_p2_init' else 2.5, a2_init=0.5 if name == 'tied_c1_matched' else 0.1)
 
-def tensors(study, index, n, sigma, seed):
+def tensors(study, index, n, sigma, seed, sd_ddof=1):
     eq = rb.select_equations('50')[index]
-    values = gen_extrap(eq, seed, n_train=n, n_test=1000) if study == 'extrap15' else rb.generate_data(eq, n, sigma, seed)[:4]
+    values = gen_extrap(eq, seed, n_train=n, n_test=1000, sd_ddof=sd_ddof) if study == 'extrap15' else rb.generate_data(eq, n, sigma, seed, sd_ddof=sd_ddof)[:4]
     if len(values[0]) != n or len(values[2]) != 1000 or any((not torch.isfinite(v).all() for v in values)):
         raise ValueError('Generator returned insufficient or nonfinite inputs; protocol not silently changed')
     return values
 
-def prepare_input(directory, study, index, n, sigma, seed):
+def prepare_input(directory, study, index, n, sigma, seed, sd_ddof=1):
     path = directory / f'input_n{n}_sigma{sigma:g}_seed{seed}.npz'
     keys = ('train_x', 'train_y', 'test_x', 'test_y')
-    expected = dict(zip(keys, [v.numpy() for v in tensors(study, index, n, sigma, seed)]))
+    expected = dict(zip(keys, [v.numpy() for v in tensors(study, index, n, sigma, seed, sd_ddof)]))
     if path.exists():
         with np.load(path, allow_pickle=False) as data:
             if set(data.files) != set(keys) or any((not np.array_equal(data[k], expected[k]) for k in keys)):
@@ -80,7 +85,8 @@ def prepare_input(directory, study, index, n, sigma, seed):
     return (path, hashlib.sha256(path.read_bytes()).hexdigest())
 
 def fit_one(task):
-    study, index, name, n, sigma, seed, path, digest, stamp = task
+    study, index, name, n, sigma, seed, path, digest, stamp, *policy = task
+    sd_ddof = policy[0] if policy else 1
     torch.set_num_threads(1)
     dependencies = [ROOT / p for p in stamp['source_files']]
     if sr.source_stamp(dependencies) != stamp['source_fingerprint']:
@@ -104,7 +110,9 @@ def fit_one(task):
     bad = executed != STEPS or not (math.isfinite(value) and math.isfinite(validation_rmse))
     if sr.source_stamp(dependencies) != stamp['source_fingerprint']:
         raise ValueError('Source changed during fitting')
-    return dict(study=study, eq=rb.select_equations('50')[index][0], model=name, seed=seed, n_train=n, sigma=sigma, n_test=len(xt), n_features=x.shape[1], n_params=sum((p.numel() for p in model.parameters())), nrmse=value if math.isfinite(value) else None, validation_rmse=validation_rmse if math.isfinite(validation_rmse) else None, train_time_s=training_time, inference_time_s=inference_time, steps=STEPS, executed_steps=executed, diverged=bad, input_file=Path(path).name, input_sha256=digest, validation_only_selection=True, duality_map='c1' if study == 'tied_affine' or name in ('banach_c1', 'lp_c1') else 'comparator', code_revision=stamp['code_revision'], source_fingerprint=stamp['source_fingerprint'])
+    result = dict(study=study, eq=rb.select_equations('50')[index][0], model=name, seed=seed, n_train=n, sigma=sigma, n_test=len(xt), n_features=x.shape[1], n_params=sum((p.numel() for p in model.parameters())), nrmse=value if math.isfinite(value) else None, validation_rmse=validation_rmse if math.isfinite(validation_rmse) else None, train_time_s=training_time, inference_time_s=inference_time, steps=STEPS, executed_steps=executed, diverged=bad, target_sd_ddof=sd_ddof, metric_ddof=1, input_file=Path(path).name, input_sha256=digest, validation_only_selection=True, duality_map='c1' if study == 'tied_affine' or name in ('banach_c1', 'lp_c1') else 'comparator', code_revision=stamp['code_revision'], source_fingerprint=stamp['source_fingerprint'])
+    result['p_values'] = [float(v) for layer in model.modules() if hasattr(layer, '_log_p_minus1') for v in layer.p.detach().reshape(-1)]
+    return result
 
 def expected(config, equations=None):
     return [dict(eq=e, model=m, seed=s, **c) for e in equations or config['equations'] for m in config['models'] for s in config['seeds'] for c in config['conditions']]
@@ -118,6 +126,8 @@ def validate(rows, config, stamp, input_dir, eqs=None, complete=False):
             raise ValueError('Incompatible fit preserved; use a fresh run ID')
         if (config['study'] == 'tied_affine' or r['model'] in ('banach_c1', 'lp_c1')) and r.get('duality_map') != 'c1':
             raise ValueError('Missing C1 response identity')
+        if config.get('target_sd_ddof') == 1 and (r.get('target_sd_ddof') != 1 or r.get('metric_ddof') != 1):
+            raise ValueError('Mixed normalization conventions')
         eqindex = config['equations'].index(r['eq'])
         path = input_dir / f'eq_{eqindex:02d}' / r['input_file']
         if hashlib.sha256(path.read_bytes()).hexdigest() != r['input_sha256']:
@@ -181,8 +191,8 @@ def run(study, index, out, workers):
 
 def summarize(study, out):
     out = Path(out).resolve()
-    config = specification(study)
     manifest = json.loads((out / 'protocol.json').read_text())
+    config = specification(study, manifest['protocol'].get('target_sd_ddof', 0))
     if manifest['protocol'] != config:
         raise ValueError('Protocol mismatch')
     rows, inputs = read_records(sorted(out.glob('eq_*/fits.jsonl')))

@@ -19,12 +19,19 @@ from src.reporting.neurips_camera_ready import describe
 from src.reporting.neurips_public_formatting import ROSTER
 from src.result_integrity import read_records, grid_inventory, relative_input_records
 from src.training import carve_validation_split
+from src.neurips_normalization import standard_deviation
+from src.neurips_rerun import declare
 ROOT = Path(__file__).resolve().parents[1]
 SEEDS = list(range(1729, 1734))
 STEPS = 5000
 
-def protocol():
-    return dict(study='neurips_pmlb15', datasets=pb.DATASETS, models=ROSTER, seeds=SEEDS, expected_fits=len(pb.DATASETS) * len(ROSTER) * len(SEEDS), data='Original PMLB loader: seeded 80/20 split, training-pool feature and target standardization', models_and_training='Table 2 builders and trainer; cubic G=3 Adam spline, not original pykan L-BFGS', architecture='KAN [d,K,1]: K=5 for d<=2, K=4 for d=3,4, otherwise K=3; MLP [d,50,1] for d<=3, otherwise [d,50,50,1]', steps=STEPS, learning_rate=0.01, validation_fraction=0.2, validation_seed=0, checkpoint_every=500, schedule='cosine', gradient_clip=10.0, metric='Original PMLB NRMSE: original-scale test RMSE / population std of original test targets; ddof=0; zero-denominator policy=1', selection='Training-derived validation only; test labels evaluated after fitting', historical_results='Original experiments/results/pmlb predates leakage fix b5ad5ab9; not reused', accuracy_evidence=False)
+def protocol(sd_ddof=1):
+    result = dict(study='neurips_pmlb15', datasets=pb.DATASETS, models=ROSTER, seeds=SEEDS, expected_fits=len(pb.DATASETS) * len(ROSTER) * len(SEEDS), data='Original PMLB loader: seeded 80/20 split, training-pool feature and target standardization', models_and_training='Table 2 builders and trainer; cubic G=3 Adam spline, not original pykan L-BFGS', architecture='KAN [d,K,1]: K=5 for d<=2, K=4 for d=3,4, otherwise K=3; MLP [d,50,1] for d<=3, otherwise [d,50,50,1]', steps=STEPS, learning_rate=0.01, validation_fraction=0.2, validation_seed=0, checkpoint_every=500, schedule='cosine', gradient_clip=10.0, metric='Original PMLB NRMSE: original-scale test RMSE / population std of original test targets; ddof=0; zero-denominator policy=1', selection='Training-derived validation only; test labels evaluated after fitting', historical_results='Original experiments/results/pmlb predates leakage fix b5ad5ab9; not reused', accuracy_evidence=False)
+    if sd_ddof == 1:
+        result.update(target_sd_ddof=1, feature_sd_ddof=1, metric_ddof=1, metric='Original-scale test RMSE / sample SD of test targets; ddof=1; zero-denominator policy=1')
+    elif sd_ddof != 0:
+        raise ValueError('SD correction must be zero or one')
+    return result
 
 @contextmanager
 def file_lock(path, nonblocking=False):
@@ -45,7 +52,7 @@ def prepare_data(dataset, cache):
     path = cache / dataset / (dataset + '.tsv.gz')
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
-def load_data(dataset, seed, cache):
+def load_data(dataset, seed, cache, sd_ddof=1):
     import pmlb
     original = pmlb.fetch_data
 
@@ -53,19 +60,20 @@ def load_data(dataset, seed, cache):
         kwargs['local_cache_dir'] = str(Path(cache).resolve())
         return original(name, *args, **kwargs)
     with patch.object(pmlb, 'fetch_data', cached):
-        return pb.load_pmlb_dataset(dataset, seed)
+        return pb.load_pmlb_dataset(dataset, seed, sd_ddof=sd_ddof)
 
 def source_identity():
-    paths = [Path(__file__), ROOT / 'experiments/neurips_pmlb15.py', ROOT / 'src/pmlb_data.py', ROOT / 'src/matched_models.py', ROOT / 'src/fit_records.py', ROOT / 'src/kan_layer.py', ROOT / 'src/training.py', ROOT / 'src/reporting/neurips_public_formatting.py']
+    paths = [Path(__file__), ROOT / 'experiments/neurips_pmlb15.py', ROOT / 'src/pmlb_data.py', ROOT / 'src/matched_models.py', ROOT / 'src/fit_records.py', ROOT / 'src/kan_layer.py', ROOT / 'src/training.py', ROOT / 'src/reporting/neurips_public_formatting.py', ROOT / 'src/neurips_normalization.py', ROOT / 'src/neurips_rerun.py']
     return dict(code_revision='public-release', source_fingerprint=sr.source_stamp(paths))
 
 def fit_one(task):
-    dataset, model_name, seed, cache, data_hash, stamp = task
+    dataset, model_name, seed, cache, data_hash, stamp, *policy = task
+    sd_ddof = policy[0] if policy else 1
     if model_name not in ROSTER:
         raise ValueError('Model outside the declared 15-model roster')
     torch.set_num_threads(1)
     np.random.seed(seed)
-    x, y, xt, yt, _, target_scale, original_test = load_data(dataset, seed, cache)
+    x, y, xt, yt, _, target_scale, original_test = load_data(dataset, seed, cache, sd_ddof=sd_ddof)
     torch.manual_seed(seed)
     model = rb.MODEL_BUILDERS[model_name](x.shape[1])
     start = time.perf_counter()
@@ -81,29 +89,20 @@ def fit_one(task):
         prediction = model(xt).reshape(-1)
         rmse_normalized = float(torch.sqrt(torch.mean((prediction - yt.reshape(-1)) ** 2)))
     inference = time.perf_counter() - inference_start
-    denominator = float(np.std(original_test))
+    denominator = float(standard_deviation(original_test, ddof=sd_ddof))
     if denominator < 1e-08:
         denominator = 1.0
     error = rmse_normalized * float(target_scale) / denominator
     bad = executed != STEPS or not (math.isfinite(error) and math.isfinite(val_rmse))
-    return dict(dataset=dataset, model=model_name, seed=seed, n_features=int(x.shape[1]), n_train=len(x), n_test=len(xt), n_params=sum((p.numel() for p in model.parameters())), nrmse=error if math.isfinite(error) else None, train_time_s=elapsed, val_rmse=val_rmse if math.isfinite(val_rmse) else None, inference_time_s=inference, steps=STEPS, executed_steps=executed, diverged=bad, data_sha256=data_hash, metric_ddof=0, validation_only_selection=True, duality_map='c1' if model_name in ('banach_c1', 'lp_c1') else 'comparator', **stamp)
+    return dict(dataset=dataset, model=model_name, seed=seed, n_features=int(x.shape[1]), n_train=len(x), n_test=len(xt), n_params=sum((p.numel() for p in model.parameters())), nrmse=error if math.isfinite(error) else None, train_time_s=elapsed, val_rmse=val_rmse if math.isfinite(val_rmse) else None, inference_time_s=inference, steps=STEPS, executed_steps=executed, diverged=bad, data_sha256=data_hash, metric_ddof=sd_ddof, target_sd_ddof=sd_ddof, feature_sd_ddof=sd_ddof, validation_only_selection=True, duality_map='c1' if model_name in ('banach_c1', 'lp_c1') else 'comparator', **stamp)
 
-def run(dataset_index, output, cache, workers):
+def run(dataset_index, output, cache, workers, replace_existing=False):
     dataset = pb.DATASETS[dataset_index]
     output, cache = (Path(output).resolve(), Path(cache).resolve())
     stamp = source_identity()
     manifest = protocol() | stamp | dict(environment=dict(python=platform.python_version(), torch=torch.__version__, numpy=np.__version__, pmlb=version('pmlb')))
     with file_lock(output / '.manifest.lock'):
-        path = output / 'protocol.json'
-        if path.exists():
-            old = json.loads(path.read_text())
-            for key in (*protocol(), 'source_fingerprint', 'environment'):
-                if old[key] != manifest[key]:
-                    raise ValueError('Existing run has different source/protocol/environment; use a new run ID')
-        else:
-            if any((p.name != '.manifest.lock' for p in output.iterdir())):
-                raise ValueError('Existing output preserved; an empty run root or matching protocol manifest is required')
-            sr.write_shard(path, [manifest], ('study',))
+        declare(output, manifest, replace_existing)
     data_hash = prepare_data(dataset, cache)
     directory = output / dataset
     with file_lock(directory / '.writer.lock', nonblocking=True):
@@ -115,7 +114,10 @@ def run(dataset_index, output, cache, workers):
                     rows, _ = read_records([path])
                     expected = [dict(dataset=dataset, model=model, seed=seed)]
                     check = grid_inventory(rows, ('dataset', 'model', 'seed'), expected)
-                    if not check['complete_and_valid'] or len(rows) != 1 or any((rows[0].get(k) != v for k, v in dict(dataset=dataset, model=model, seed=seed, data_sha256=data_hash, source_fingerprint=stamp['source_fingerprint'], steps=STEPS, executed_steps=STEPS, diverged=False, metric_ddof=0, validation_only_selection=True).items())):
+                    if replace_existing and (len(rows) != 1 or rows[0].get('source_fingerprint') != stamp['source_fingerprint'] or rows[0].get('metric_ddof') != 1):
+                        pending.append((dataset, model, seed, str(cache), data_hash, stamp))
+                        continue
+                    if not check['complete_and_valid'] or len(rows) != 1 or any((rows[0].get(k) != v for k, v in dict(dataset=dataset, model=model, seed=seed, data_sha256=data_hash, source_fingerprint=stamp['source_fingerprint'], steps=STEPS, executed_steps=STEPS, diverged=False, metric_ddof=1, validation_only_selection=True).items())):
                         raise ValueError(f'Existing output preserved but not reusable: {path}')
                     continue
                 pending.append((dataset, model, seed, str(cache), data_hash, stamp))
@@ -152,10 +154,10 @@ def summarize(output):
     manifest = json.loads(manifest_path.read_text())
     if not isinstance(manifest.get('source_fingerprint'), str) or len(manifest['source_fingerprint']) != 64:
         raise ValueError('Valid runtime source fingerprint required')
-    if any((r.get('source_fingerprint') != manifest.get('source_fingerprint') or r.get('metric_ddof') != 0 or r.get('validation_only_selection') is not True or (r['model'] in ('banach_c1', 'lp_c1') and r.get('duality_map') != 'c1') for r in rows)):
+    if any((r.get('source_fingerprint') != manifest.get('source_fingerprint') or r.get('metric_ddof') != manifest.get('metric_ddof', 0) or r.get('validation_only_selection') is not True or (r['model'] in ('banach_c1', 'lp_c1') and r.get('duality_map') != 'c1') for r in rows)):
         raise ValueError('Incompatible source, metric, selection or response-map metadata')
     matrix = np.array([[np.median([r['nrmse'] for r in rows if r['dataset'] == d and r['model'] == m]) for m in ROSTER] for d in pb.DATASETS])
-    summary = dict(protocol=protocol() | {'accuracy_evidence': True}, inputs=relative_input_records(inputs, ROOT), inventory=check, datasets=pb.DATASETS, models=ROSTER, values=matrix.tolist(), scorecard=describe(matrix))
+    summary = dict(protocol=protocol(manifest.get('metric_ddof', 0)) | {'accuracy_evidence': True}, inputs=relative_input_records(inputs, ROOT), inventory=check, datasets=pb.DATASETS, models=ROSTER, values=matrix.tolist(), scorecard=describe(matrix))
     sr.write_shard(output / 'summary.json', [summary], ('datasets',))
     headers = ['B', 'L', 'T', 'P', 'A', 'M', 'Q', 'S', '$S_L$', 'C', 'R', 'F', 'W', 'J', 'N']
     lines = ['{\\scriptsize\\setlength{\\tabcolsep}{1pt}', '\\begin{tabular}{l' + 'r' * len(ROSTER) + '}', '\\toprule', 'Dataset & ' + ' & '.join(headers) + ' \\\\', '\\midrule']

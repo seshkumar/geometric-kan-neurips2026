@@ -4,6 +4,25 @@ Code and retained experiment outputs for *Geometry-Constrained Kolmogorov–Arno
 
 The repository is self-contained: its drivers, model library, equation generators and retained outputs support the camera-ready symbolic-regression and PMLB tables and motivation figure. CPU execution is sufficient. Regeneration uses retained outputs; fresh PMLB training downloads missing inputs through the official PMLB loader. New training is separate from regeneration of tables using the supplied outputs.
 
+## Sample-standard-deviation protocol
+
+Fresh experiments now use sample standard deviation (SD, correction one) for target normalization and normalized root mean squared error. PMLB feature scaling also uses sample SD. In-domain symbolic studies share the original core generator and target-normalization routine, so overlapping configurations receive identical inputs and labels. Existing model families, seeds, splits, optimizers and fitting budgets are retained.
+
+The bundled numerical tables still describe their recorded populations while the replacement runs are pending. `reproduce.py tables` regenerates those retained artifacts; it does not relabel them as new sample-SD results. New fits must not be compared with them as numerically identical reruns. There is no claim that this convention is empirically superior or that it will recover an earlier benchmark median.
+
+The unified symbolic rerun fits repeated configurations once. Its learned Banach row supplies both the exponent-control and affine-control references. Fresh outputs use one canonical tree; explicit replacement records the previous manifest and invalidates stale summaries. Incomplete or mixed-convention populations are rejected.
+
+On a PBS cluster, submit from the repository root after preserving previous results in Git:
+
+```bash
+mkdir -p logs
+qsub -N nips-sd-main pbs/run_neurips_sample_sd.pbs
+qsub -N nips-sd-extra -v SAMPLE_SD_PROFILE=extrapolation pbs/run_neurips_sample_sd.pbs
+qsub -N nips-sd-pmlb pbs/run_neurips_sample_sd_pmlb.pbs
+```
+
+These jobs do not submit other jobs. Extrapolation and PMLB replace their existing canonical result trees; the symbolic study uses `experiments/results/neurips_sample_sd/symbolic/` as its single replacement population. It supplies all main, exponent, branch, spline and affine comparisons, rather than fitting separate reference rows for each table. The publication update must use this complete population and overwrite the existing table artifacts after validation.
+
 ## Publication reference
 
 K S Sesh Kumar. **Geometry-Constrained Kolmogorov–Arnold Networks: Learning Edge Geometry via Banach Duality.** *Advances in Neural Information Processing Systems (NeurIPS)*, 2026. Accepted as a poster. Preprint: [arXiv:2608.25807](https://arxiv.org/abs/2608.25807). DOI: [10.48550/arXiv.2608.25807](https://doi.org/10.48550/arXiv.2608.25807).
@@ -37,6 +56,8 @@ Final proceedings pagination is not supplied. The arXiv link identifies the work
 | `experiments/neurips_followup.py` | Unified 15-model extrapolation and four-arm tied-affine runs and validation |
 | `experiments/export_neurips_followup_tables.py` | Current extrapolation and affine-control tables, including updated paired intervals |
 | `experiments/neurips_figure1_matched.py` | Exactly matched noisy step/staircase motivation study |
+| `src/neurips_normalization.py` | Shared sample-SD normalization |
+| `experiments/neurips_sample_sd.py` | Deduplicated canonical rerun and validation |
 | `src/` | Reusable model, selection, integrity and reporting functions |
 | `experiments/results/` | Retained inputs and generated reporting artifacts |
 | `release_manifest.json` | File inventory and integrity checks |

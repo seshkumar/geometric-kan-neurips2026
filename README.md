@@ -33,7 +33,9 @@ Final proceedings pagination is not supplied. The arXiv link identifies the work
 | `experiments/feynman_dispatch.py` | Declared per-equation configuration grids |
 | `src/matched_models.py` | Matched models, generator and validation-selected training |
 | `experiments/export_neurips_camera_ready.py` | Core tables, ablations, exponent summaries and paired intervals |
-| `experiments/aggregate_neurips_public.py` | Matched ranks, paired comparisons, extrapolation and figure |
+| `experiments/aggregate_neurips_public.py` | In-domain matched ranks, paired comparisons and figure |
+| `experiments/neurips_followup.py` | Unified 15-model extrapolation and four-arm tied-affine runs and validation |
+| `experiments/export_neurips_followup_tables.py` | Current extrapolation and affine-control tables, including updated paired intervals |
 | `experiments/neurips_figure1_matched.py` | Exactly matched noisy step/staircase motivation study |
 | `src/` | Reusable model, selection, integrity and reporting functions |
 | `experiments/results/` | Retained inputs and generated reporting artifacts |
@@ -183,3 +185,27 @@ Missing inputs download into the shared PMLB cache. The original PMLB split and 
 ## Current extrapolation coverage
 
 The current extrapolation table covers seven of the 15 model families. Six contrasts among the supplied model variants are evaluated with a conservative eight-comparison adjustment. Two correction slots originate from comparisons outside this release roster; they contribute no reported estimates. The retained allocation preserves the existing interval values. This is distinct from the full 15-model in-domain comparison.
+
+## Additive epsilon comparator label
+
+The model key `pow` is displayed as ℓp (additive ε) in the paper and tables. It learns a positive exponent through softplus coordinates and uses the additive-epsilon response. The proposed C1 response uses exponential exponent coordinates. Legacy additive-map controls used for the separate extrapolation map comparison retain their original exponential coordinates; these are distinguished in the paper. This is a display-name clarification and does not alter fitted models or scores.
+
+## Unified extrapolation and affine-sharing controls
+
+The active extrapolation table uses the complete 15-model population. The tied-affine comparison is a separate four-arm core study. Signed gains remain unconstrained; tying the affines alone does not guarantee a convex potential. Every arm learns the exponent, including the arm initialised at exponent two.
+
+`python reproduce.py tables` validates both populations, checks retained input hashes and regenerates the current tables. To regenerate just these studies without training:
+
+```bash
+python experiments/neurips_followup.py summarize --study extrap15 --out experiments/results/neurips_followup/extrap15/extrap15_v1
+python experiments/neurips_followup.py summarize --study tied_affine --out experiments/results/neurips_followup/tied_affine/tied_affine_v1
+python experiments/export_neurips_followup_tables.py
+```
+
+For a fresh declared per-equation run, use a new output tree:
+
+```bash
+python experiments/neurips_followup.py run --study tied_affine --case-index 0 --out fresh_runs/tied_affine --workers 4
+```
+
+The same driver accepts `--study extrap15`. Existing bundled result trees are not fresh-run destinations. The extrapolation bootstrap family has 26 actual contrasts; the affine controls use three contrasts separately within each condition. These analyses do not establish uniform superiority across tasks or noise levels.

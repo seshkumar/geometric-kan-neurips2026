@@ -21,15 +21,16 @@
     "tab_matched_ranks.tex": true,
     "tab_matched_nrmse.tex": true,
     "tab_matched_per_equation.tex": true,
-    "tab_geometry_extrapolation.tex": true,
-    "tab_matched_paired.tex": true,
-    "tab_extrap_neurips.tex": true,
     "matched_curves.pdf": true,
     "figure1_matched.pdf": true,
     "shape_step.tex": true,
     "shape_staircase.tex": true,
     "pmlb_main.tex": true,
     "pmlb_full.tex": true,
-    "pmlb_datasets.tex": true
+    "pmlb_datasets.tex": true,
+    "followup_geometry_extrapolation.tex": true,
+    "followup_extrapolation.tex": true,
+    "followup_matched_paired.tex": true,
+    "followup_tied_full.tex": true
   }
 }

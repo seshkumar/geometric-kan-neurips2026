@@ -7,7 +7,7 @@ from src.reporting.neurips_public_formatting import ROSTER
 from src.result_integrity import read_records, relative_input_records
 DATASET_LABELS = [('Geyser', 'geophysics'), ('Environment', 'environmental'), ('ESL', 'ordinal'), ('ERA', 'ordinal'), ('Cloud', 'meteorology'), ('Machine CPU', 'computing'), ('Sleuth case 2002', 'biology'), ('CPU', 'computing'), ('PM10', 'pollution'), ('NO$_2$', 'pollution'), ('LA data', 'epidemiology'), ('SWD', 'ordinal')]
 MAIN_MODELS = ['spline', 'tanh', 'banach_c1', 'lp_c1', 'mlp']
-HEADERS = {'spline': 'Spline', 'tanh': 'Tanh', 'banach_c1': 'Banach', 'lp_c1': '$\\ell^p$', 'mlp': 'MLP', 'pow': '\\shortstack{Learned\\\\power}', 'adaslope': '\\shortstack{Adaptive\\\\slope}', 'mixture': 'Mixture', 'rational': "Rational/Pad\\'e", 'spline_lip': '\\shortstack{Spline\\\\Lipschitz-reg.}', 'cheby': 'Chebyshev', 'rbf': 'RBF', 'fourier': 'Fourier', 'wavelet': 'Wavelet', 'jacobi': 'Jacobi'}
+HEADERS = {'spline': 'Spline', 'tanh': 'Tanh', 'banach_c1': 'Banach', 'lp_c1': '$\\ell^p$', 'mlp': 'MLP', 'pow': '\\shortstack{$\\ell^p$\\\\(additive $\\varepsilon$)}', 'adaslope': '\\shortstack{Adaptive\\\\slope}', 'mixture': 'Mixture', 'rational': "Rational/Pad\\'e", 'spline_lip': '\\shortstack{Spline\\\\Lipschitz-reg.}', 'cheby': 'Chebyshev', 'rbf': 'RBF', 'fourier': 'Fourier', 'wavelet': 'Wavelet', 'jacobi': 'Jacobi'}
 
 def export(root, run):
     root, run = (Path(root), Path(run))

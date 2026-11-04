@@ -1,0 +1,30 @@
+\begin{minipage}[t]{.56\linewidth}\vspace{0pt}\centering
+\begin{tabular}{lrr}
+\toprule
+Metric & $\ell^p$ & Banach \\
+\midrule
+Median $p$ & 2.296 & 2.350 \\
+5th percentile & 1.445 & 1.646 \\
+95th percentile & 4.439 & 4.405 \\
+Fraction $p<2$ & 0.284 & 0.187 \\
+\bottomrule\end{tabular}\par\smallskip (a)\end{minipage}\hfill
+\begin{minipage}[t]{.38\linewidth}\vspace{0pt}\centering
+\begin{tabular}{lr}
+\toprule
+Model & Extrap. NRMSE \\
+\midrule
+Banach & \textbf{0.407} \\
+$\ell^p$ & 0.675 \\
+$\tanh$ & 1.053 \\
+Spline (Adam) & 0.581 \\
+\bottomrule\end{tabular}\par\smallskip (b)\end{minipage}\par\medskip
+\begin{tabular}{lrrr}
+\toprule
+Affine variant & $\sigma=0$ & $\sigma=0.3$ & $\sigma=1$ \\
+\midrule
+Independent & \textbf{0.031} & 0.122 & 0.323 \\
+Tied, matched gain & 0.037 & 0.121 & 0.327 \\
+Tied & 0.037 & \textbf{0.111} & 0.318 \\
+Tied, $p_0=2$ & 0.051 & 0.119 & \textbf{0.287} \\
+\bottomrule\end{tabular}
+\par\smallskip (c)

@@ -89,7 +89,7 @@ def matched_error_table(summary):
     ranks = [summary['cells']['clean'][model]['rank'] for model in models]
     wins = [summary['cells']['clean'][model]['wins'] for model in models]
     lines = ['\\begin{tabular}{lrrrrrrrrrrr}', '\\toprule', '& \\multicolumn{3}{c}{Clean} & \\multicolumn{4}{c}{Label noise $\\sigma$ ($n=500$)} & \\multicolumn{4}{c}{Clean training size $n$} \\\\', '\\cmidrule(lr){2-4}\\cmidrule(lr){5-8}\\cmidrule(lr){9-12}', 'Model & NRMSE & Wins & Rank & 0.1 & 0.3 & 0.5 & 1.0 & 50 & 100 & 200 & 1000 \\\\', '\\midrule']
-    labels = dict(LABEL, spline_lip='Spline (Adam, Lip.-reg.)', pow='Learned power', adaslope='Adaptive-slope Tanh', mixture='Activation mixture', rational="Rational/Pad\\'e")
+    labels = dict(LABEL, spline_lip='Spline (Adam, Lip.-reg.)', adaslope='Adaptive-slope Tanh', mixture='Activation mixture', rational="Rational/Pad\\'e")
     for index, model in enumerate(models):
         cells = []
         for column, value in enumerate(values[index]):
@@ -121,7 +121,7 @@ def matched_per_equation_table(matrix, equations):
     if values.shape != (50, 15) or len(equations) != 50 or (not np.isfinite(values).all()):
         raise ValueError('Expected all 50 targets and 15 model columns')
     headers = ['B', 'L', 'T', 'P', 'A', 'M', 'Q', 'S', '$S_L$', 'C', 'R', 'F', 'W', 'J', 'N']
-    lines = ['{\\scriptsize\\setlength{\\tabcolsep}{2pt}', '\\begin{longtable}{l' + 'r' * 15 + '}', '\\caption{Clean test NRMSE by equation: median across five runs, for the same 15 models as Table~\\ref{tab:matched}. Bold marks the lowest unrounded value within each row.}\\label{tab:per_equation}\\\\', '\\toprule Target & ' + ' & '.join(headers) + ' \\\\ \\midrule\\endfirsthead', '\\toprule Target & ' + ' & '.join(headers) + ' \\\\ \\midrule\\endhead', '\\bottomrule\\endfoot']
+    lines = ['\\begin{table}[!htbp]\\centering\\scriptsize\\setlength{\\tabcolsep}{2pt}', '\\caption{Clean test NRMSE by equation: median across five runs, for the same 15 models as Table~\\ref{tab:matched}. Bold marks the lowest unrounded value within each row.}\\label{tab:per_equation}', '\\begin{tabular}{l' + 'r' * 15 + '}', '\\toprule Target & ' + ' & '.join(headers) + ' \\\\ \\midrule']
     for equation, row in zip(equations, values):
         cells = []
         for value in row:
@@ -137,7 +137,7 @@ def matched_per_equation_table(matrix, equations):
             text = format(value, spec)
             cells.append('\\textbf{' + text + '}' if value == best else text)
         lines.append(label + ' & ' + ' & '.join(cells) + ' \\\\')
-    return '\n'.join(lines + ['\\end{longtable}', '}'])
+    return '\n'.join(lines + ['\\bottomrule\\end{tabular}', '\\end{table}'])
 
 def geometry_extrapolation_table(geometry, extrapolation):
     by_model = {row['model']: row for row in geometry}

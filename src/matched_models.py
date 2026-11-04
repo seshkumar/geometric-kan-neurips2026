@@ -356,6 +356,33 @@ class BanachC1KANLayer(nn.Module):
         p = self.p.unsqueeze(0)
         jp = z * (z * z + self.eps ** 2) ** ((p - 2.0) / 2.0)
         return (tanh_part + self.a2 * jp + self.d).sum(dim=2)
+
+class BanachTiedKANLayer(nn.Module):
+
+    def __init__(self, in_dim, out_dim, p_init=2.5, eps=1e-08, c1=True, a2_init=0.1):
+        super().__init__()
+        self.in_dim, self.out_dim, self.eps, self.c1 = (in_dim, out_dim, eps, c1)
+        shape = (out_dim, in_dim)
+        self.a1 = nn.Parameter(torch.empty(shape).uniform_(-0.5, 0.5))
+        self.a2 = nn.Parameter(torch.empty(shape).uniform_(-a2_init, a2_init))
+        self.w = nn.Parameter(torch.empty(shape).uniform_(-1.0, 1.0))
+        self.b = nn.Parameter(torch.zeros(shape))
+        self.d = nn.Parameter(torch.zeros(shape))
+        self._log_p_minus1 = nn.Parameter(torch.full(shape, math.log(p_init - 1.0)))
+
+    @property
+    def p(self):
+        return 1.0 + torch.exp(self._log_p_minus1)
+
+    def forward(self, x):
+        x = x.unsqueeze(1)
+        z = self.w * x + self.b
+        p = self.p.unsqueeze(0)
+        if self.c1:
+            jp = z * (z * z + self.eps ** 2) ** ((p - 2.0) / 2.0)
+        else:
+            jp = torch.sign(z) * (torch.abs(z) + self.eps) ** (p - 1.0)
+        return (self.a1 * torch.tanh(z) + self.a2 * jp + self.d).sum(dim=2)
 MODEL_BUILDERS = {'spline': lambda d: KANetwork(kan_widths(d), SplineKANLayer), 'spline_lip': lambda d: KANetwork(kan_widths(d), SplineKANLayer), 'lp_c1': lambda d: KANetwork(kan_widths(d), LpC1KANLayer), 'banach_c1': lambda d: KANetwork(kan_widths(d), BanachC1KANLayer), 'cheby': lambda d: KANetwork(kan_widths(d), ChebyKANLayer), 'tanh': lambda d: KANetwork(kan_widths(d), TanhKANLayer), 'lp': lambda d: KANetwork(kan_widths(d), LpKANLayer), 'banach': lambda d: KANetwork(kan_widths(d), BanachKANLayer), 'mlp': lambda d: MLP(mlp_widths(d)), 'pow': lambda d: KANetwork(kan_widths(d), PowKANLayer), 'adaslope': lambda d: KANetwork(kan_widths(d), AdaSlopeKANLayer), 'mixture': lambda d: KANetwork(kan_widths(d), MixtureKANLayer), 'rational': lambda d: KANetwork(kan_widths(d), RationalKANLayer), 'rbf': lambda d: KANetwork(kan_widths(d), RBFKANLayer), 'fourier': lambda d: KANetwork(kan_widths(d), FourierKANLayer), 'wavelet': lambda d: KANetwork(kan_widths(d), WaveletKANLayer), 'jacobi': lambda d: KANetwork(kan_widths(d), JacobiKANLayer)}
 
 def generate_data(eq, n_train: int, sigma: float, seed: int, n_test: int=1000):

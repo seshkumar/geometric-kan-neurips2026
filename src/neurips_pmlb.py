@@ -57,7 +57,7 @@ def load_data(dataset, seed, cache):
 
 def source_identity():
     paths = [Path(__file__), ROOT / 'experiments/neurips_pmlb15.py', ROOT / 'src/pmlb_data.py', ROOT / 'src/matched_models.py', ROOT / 'src/fit_records.py', ROOT / 'src/kan_layer.py', ROOT / 'src/training.py', ROOT / 'src/reporting/neurips_public_formatting.py']
-    return dict(code_revision=subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(), source_fingerprint=sr.source_stamp(paths))
+    return dict(code_revision='public-release', source_fingerprint=sr.source_stamp(paths))
 
 def fit_one(task):
     dataset, model_name, seed, cache, data_hash, stamp = task

@@ -136,7 +136,7 @@
     ".gitignore": "72233d77db6c5d4fd5033ef0846494e101a3c36257464e1e822055e5a956a65b",
     "CITATION.cff": "e6af02f6f0cfaa1518cf8cfb1df1d55e12e4620091120a10a4e0880f38b250cb",
     "LICENSE": "0d934798b6645349d8137508beb206fcfa14e2a677b7e4bbfb916978c9125a43",
-    "README.md": "a24e0665cb5a5ace20392260e9494d41773486bee9053901c08c528e17a5ab3a",
+    "README.md": "8320e1889909e49e8194fd8a60c36c21fc31e83bc56fd7060db596032306f323",
     "THIRD_PARTY_NOTICES.md": "357ab2c6feeffb4828ab3686f72b99ac0ac0c288a8e98ed46343ae4821f9b889",
     "experiments/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "experiments/aggregate_neurips_public.py": "e834dcb4f6f98ba142527bddbef65189c9b9c65f02947ce5e2c236783e8ad310",
@@ -4279,11 +4279,11 @@
     "reproduce.py": "9ce77d134d66da0b400c6f38fdade3ff4f1f577a14151b258d36b58806deec17",
     "requirements.txt": "e2b80dd746ddbe345a85ceaa3b881f79e55c609be23aa2dd7aa98b7f19cfe608",
     "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "src/edge_models.py": "7e73a5ac6b75ed7d3604f0d227d5bc4725743c4cc5bc3f9153a5aa62afc367cd",
+    "src/edge_models.py": "3d97d273b2216524c69d9447e3766ad6592997150e2c98b6b583873a5c4c907d",
     "src/extrapolation.py": "2559c387dc7a8fb0af9184bba6c053ec95fcb6b715c15fd737c0580f0b8499e5",
     "src/fit_records.py": "8fc85a30803b3d9abef55fe740404c93b44f3e83d7f36d0855806fa7ba6110d7",
     "src/kan_layer.py": "3fa0c4e6443a7becd8c1f695a7b899607a47c137d917fef497ac71e7251ccd49",
-    "src/matched_models.py": "34f71b6b5b481caed6abb9f9209f45fd85d8ed9804a49d6d98a11bca8dd0c267",
+    "src/matched_models.py": "d891d72b343269e2f97a4568c2dab2aa68579c3cbc5fc5ba131231f755c34b43",
     "src/neurips_figure1.py": "31efc870aa84cc9a86d9ea56b8c0afcf402a8236339444bb156e5cf46ce604ab",
     "src/neurips_followup.py": "c32483ce26516f0c84b1dd95336437b4bfbb39f7ad0a660a641830fa6e9e3234",
     "src/neurips_normalization.py": "b9358d09290b831df455ecebad365dee642a43150cac1d3449c75e3c8776d2f8",
@@ -4298,7 +4298,7 @@
     "src/reporting/neurips_figure1_study.py": "db553ec635491b94226f39f05df55ecbdfa0b5dc8bbac175d9cfcc4f9c3b274e",
     "src/reporting/neurips_followup_tables.py": "8060927dac73483e0666e83df01f4906b88db4de0976677735b314618ba8f55f",
     "src/reporting/neurips_pmlb_tables.py": "88e92b53f3ebb78352764b4584f680a32a86d5481b26191ca30472bf8f6e07c0",
-    "src/reporting/neurips_public_driver.py": "77d5e5017dde0173e3f85b13a5e20f1b9854f3b3b0f26e1e9cd3457cdc5fe5a8",
+    "src/reporting/neurips_public_driver.py": "b87fe52bc58627ee3cf3d780e63a8013b112fb8ecc5c38df475561dba946841e",
     "src/reporting/neurips_public_formatting.py": "0d3d663fd1d48cdd5d06a5b9dc6220865cda770572b1f7e0e97f4e81fb7f8669",
     "src/reporting/neurips_public_matched.py": "a1a58d0f61d3a64a7e4f840316a9983c25e377a3a0f81c5ce4af2751d4c69d7c",
     "src/reporting/neurips_public_parameters.py": "c6d3811dedb2ba295b916eb720fc5575a0489ae4e7fb4ff6df4864acbe527029",
@@ -4335,6 +4335,20 @@
     "third_party_licenses/sympy/licenses/LICENSE": "07a5e9819f727b4986ad2829c7a29a6320d42575f720eb24d71b7fef573a0286",
     "third_party_licenses/torch/licenses/LICENSE": "a0d7abc10248a062a2f309bf12981524973f2a61aadccf4c5099d96d8c388cf4",
     "third_party_licenses/torch/licenses/NOTICE": "c2cc7bf0caec7652c2b460a8a470bea1677f241e4ab8e431df34cf17f5a9fec0",
-    "third_party_licenses/tqdm/licenses/LICENCE": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de"
+    "third_party_licenses/tqdm/licenses/LICENCE": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de",
+    "release_status.json": "33a9f37e92814a99c4dff9f1c4378fab81a2ce8cbb901b8926971148298b9f48"
+  },
+  "pending_initialization_correction": {
+    "status": "rational_repair_pending",
+    "source": "experiments/rebuttal/run_baselines.py",
+    "source_sha256": "0a11065e55c2256c175166825467d46a3cebd0fa49448f445efb4501a845ac73",
+    "changed_files": [
+      "src/edge_models.py",
+      "src/matched_models.py",
+      "README.md",
+      "src/reporting/neurips_public_driver.py",
+      "release_status.json"
+    ],
+    "retained_fit_outputs_changed": false
   }
 }

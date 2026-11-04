@@ -62,7 +62,7 @@ class MixtureKANLayer(nn.Module):
 
 class RationalKANLayer(nn.Module):
 
-    def __init__(self, in_dim: int, out_dim: int):
+    def __init__(self, in_dim: int, out_dim: int, *, denominator_init: float=0.01):
         super().__init__()
         self.in_dim, self.out_dim = (in_dim, out_dim)
         shape = (out_dim, in_dim)
@@ -72,6 +72,8 @@ class RationalKANLayer(nn.Module):
         c[:, :, 1] = 1.0
         self.c = nn.Parameter(c)
         self.e = nn.Parameter(torch.zeros(out_dim, in_dim, 2))
+        with torch.no_grad():
+            self.e[..., 0].fill_(denominator_init)
 
     def forward(self, x):
         x = x.unsqueeze(1)

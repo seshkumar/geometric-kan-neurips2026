@@ -1,5 +1,9 @@
 # Reproducibility kit — Geometry-Constrained Kolmogorov–Arnold Networks
 
+## Rational comparator correction — results pending
+
+The safe-rational denominator initialization is corrected in the code. Bundled rational scores and roster-dependent ranks/wins predate this correction and are superseded pending targeted reruns. Other models’ retained scores are unchanged. Table regeneration is blocked until replacement evidence is installed.
+
 Code and retained experiment outputs for *Geometry-Constrained Kolmogorov–Arnold Networks: Learning Edge Geometry via Banach Duality*.
 
 The repository is self-contained: its drivers, model library, equation generators and retained outputs support the camera-ready symbolic-regression and PMLB tables and motivation figure. CPU execution is sufficient. Regeneration uses retained outputs; fresh PMLB training downloads missing inputs through the official PMLB loader. New training is separate from regeneration of tables using the supplied outputs.

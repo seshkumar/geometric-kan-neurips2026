@@ -19,8 +19,6 @@ def verify(root=ROOT):
     return {'verified_files': len(manifest['sha256'])}
 
 def tables():
-    if (ROOT/'release_status.json').exists():
-        raise ValueError('Corrected rational results pending; bundled tables are superseded')
     verify()
     canonical = (ROOT / 'experiments/results/neurips_sample_sd/symbolic/summary.json').exists()
     if canonical:

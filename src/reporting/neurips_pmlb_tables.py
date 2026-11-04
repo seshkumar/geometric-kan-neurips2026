@@ -11,6 +11,8 @@ HEADERS = {'spline': 'Spline', 'tanh': 'Tanh', 'banach_c1': 'Banach', 'lp_c1': '
 
 def export(root, run):
     root, run = (Path(root), Path(run))
+    from src.neurips_model_sources import require_completed_repair
+    require_completed_repair(root)
     summary = json.loads((run / 'summary.json').read_text())
     if summary['models'] != ROSTER or not summary['inventory']['complete_and_valid']:
         raise ValueError('Validated complete 15-model summary required')

@@ -273,31 +273,31 @@
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1027_ESL/rational_1729.jsonl",
-      "sha256": "48e13c2371dffefc8ad1df44bdf5c9d25398b2051de31469e749441a8030b7d3",
+      "sha256": "18fd8e16af658e5e451116589dd1fd516911b1f3cd15ae2e99c1acabd9076850",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1027_ESL/rational_1730.jsonl",
-      "sha256": "8ebb700a10dd53d44bfa56defb190f3e5ce0d0cdf04a900cfff9b8eca2d820ad",
+      "sha256": "ca41ff98d5d8a4a129dd7bd8e338ea8f848f1e9086b993eb5790ba393b06b80c",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1027_ESL/rational_1731.jsonl",
-      "sha256": "f728c162965e46ad55dd8bf627cd94201f721453e8b07e0e07181de5ecb4aca7",
+      "sha256": "d7a440744d8d1e499167e2de58a5facd8c5a5146c4f6484f786150639db69a6b",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1027_ESL/rational_1732.jsonl",
-      "sha256": "698130f125d506fe8bc1498548839f0fedd6d29bae46707fed793e2f09848b7d",
+      "sha256": "7598acaa4f0ecdee9295e28fa1e6a53a80b3cecb429cbf844cddb656fa20f05e",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1027_ESL/rational_1733.jsonl",
-      "sha256": "994f035ae42db254111276d16318bf172cae892af443c5eb9bba23ab12c0a445",
+      "sha256": "adc5beb25a3e5321b75d9a249c1f1fa8870fc594eee44b23737403305a359824",
       "records": 1,
       "console_lines": 0
     },
@@ -723,31 +723,31 @@
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1028_SWD/rational_1729.jsonl",
-      "sha256": "6a1353c572d53a033e2146a60ca2abf9b968614474d556b15a9266407f38ec91",
+      "sha256": "bd2c0ee69c07b7ace845388306797f8a30ceb493a802a79deac1ea49f81ecbb9",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1028_SWD/rational_1730.jsonl",
-      "sha256": "a1c1c99d24f7b85501e71684f6cb6301b44e3ddfdb0b8f6e814d1cbf12eca813",
+      "sha256": "35327fc1fcf37bd0506ff001643164a8c49810dd49bddd6c8ec2ac647cdf168c",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1028_SWD/rational_1731.jsonl",
-      "sha256": "54532dfe741c396507f4cfb7a447c84aab313068913cc9f465e0409f34caa084",
+      "sha256": "42dd867a47d53fd84be21ac31f8a44d832b3042cd180c1406a07e759db0927d3",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1028_SWD/rational_1732.jsonl",
-      "sha256": "fabf5ee1c808800228d0e7444e58b50bbd65d95285ac7609f8b57b96ba39198f",
+      "sha256": "84ccee92d43a74dc00f28219c651a1bd52359c0dee6507ff34d1fc8947a314ce",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1028_SWD/rational_1733.jsonl",
-      "sha256": "b356236f035ce3508ae884226a1e9ce6e875b91987b4858b3c8f35932eacdd31",
+      "sha256": "3f532926c0ac245c4b889853b5ef949fabad4ac147ad095caa6b6c78dadfbdf5",
       "records": 1,
       "console_lines": 0
     },
@@ -1173,31 +1173,31 @@
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1030_ERA/rational_1729.jsonl",
-      "sha256": "9af0fec018d9a7f067b96295f3657912f463b1ddc84b2e690fd3032c918e0d9b",
+      "sha256": "1815a7708a05d8ee0e482caf42f884da2c6899b196f92e56ba81ef76eca762c1",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1030_ERA/rational_1730.jsonl",
-      "sha256": "9f21e63b2a185b4e3ca42985c781814af20ef04655d6be8f61067baf6457920d",
+      "sha256": "e401f65bc81ade5903739ff8eb4dfacf74722d4a8693c42a3bfb5f75f9cc520d",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1030_ERA/rational_1731.jsonl",
-      "sha256": "5c6c5bfcc1e1575fafd2d45adfd6d606bae3864aebc2d41204368894ad80130c",
+      "sha256": "829f91fa0f14bda1e38f0a7e301759572c822f8534ff10c89e5d345c3fe75d53",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1030_ERA/rational_1732.jsonl",
-      "sha256": "aa33afdfa5cbd2cdea1539e9a4dd7d73a238aabdc09a28300362ab9993a01747",
+      "sha256": "be7dd26a2efdae21cee745439d22f8139f0597820eb59511f89b6408a3688ce2",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/1030_ERA/rational_1733.jsonl",
-      "sha256": "fc265ad057307bfcf4205b8b950eb2d4cb1bd98964a3e6478b1a0ce6ab611a60",
+      "sha256": "6faf1070a7825e2d25f62653ac7cad99395bff397db68b4f6ddb7f84cda2df00",
       "records": 1,
       "console_lines": 0
     },
@@ -1623,31 +1623,31 @@
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/210_cloud/rational_1729.jsonl",
-      "sha256": "8ba5cecb2273b373f0282e1bcca3fe222b15f893a65b921f90268748ede3125a",
+      "sha256": "203409a7f54c87f19c9fa3aa9cc0616df1a2119dbe9536afd1d8c83dccf7df52",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/210_cloud/rational_1730.jsonl",
-      "sha256": "a5eb03493633a5b8fb2c0a794b799c8953d4b86954e5692e4c70d41584e87f47",
+      "sha256": "c032e5e148214208ac55c86fd6841650f7a07cf6d66ebe284c8dca2fd5daaf6e",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/210_cloud/rational_1731.jsonl",
-      "sha256": "73aca0ce410370bf916fe12c3226b0c79c408fa781e90c06ea43a15127792d9e",
+      "sha256": "0a81f6607311601f8bc9bbd85967d22214f9bbfce56840bbc8273da43e2ba82e",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/210_cloud/rational_1732.jsonl",
-      "sha256": "8a9a474fb6b5c236a1a099d1a362a40a9e2bd41c62d715914a70666038737c01",
+      "sha256": "8b1588d4a47fd14cd4aff08e3f27d51140a22c81864e3eaf9356d204a142271d",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/210_cloud/rational_1733.jsonl",
-      "sha256": "2e1851ee0d0e0f21b5fd339cb279ab11e6eefb3ca8fb7fbc4571f60de096bf91",
+      "sha256": "6a412f0dda774f40cec5c6735b2856fdde5bb5c837a8394777de816e1e949ecc",
       "records": 1,
       "console_lines": 0
     },
@@ -2073,31 +2073,31 @@
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/230_machine_cpu/rational_1729.jsonl",
-      "sha256": "29a543d6fd2748e7bd973adc2cef627c0c393a0553441cc7b98e44dd21100ea5",
+      "sha256": "4bf866cd2798456e5558df42f7fc0743d4a35d296329d86f4fcaf9c9730c031f",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/230_machine_cpu/rational_1730.jsonl",
-      "sha256": "d963969dd31d200237f3e24e08dd4dfbad311d9074d34ecb804d17a265efce4f",
+      "sha256": "b4ce4c41ed79232f517bd7c498c811c94bde6eafc82c4648c0c976db9668e6ed",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/230_machine_cpu/rational_1731.jsonl",
-      "sha256": "8e4b99def03eaadefebee85d613e992280d9d5f39592c9a2940bab1e13810259",
+      "sha256": "1f99a68d3f15d88f2323db3ce7e0c9e0ab2a920aaad0d910ab410ab28d9cd3a1",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/230_machine_cpu/rational_1732.jsonl",
-      "sha256": "19c3ef0fa38d5cddf01d3f26e4a364f509b4ea7046efe3b2addbd9558967d375",
+      "sha256": "56880aed58c63b8944d2e6c851dad6e308ed37e8130c61967eaea88d8f87ba84",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/230_machine_cpu/rational_1733.jsonl",
-      "sha256": "6d585679f5e2c84569f70c70c853205447dd58bbec50099917191d6c98569098",
+      "sha256": "43d0feb910cddb37272a00b463fbbfc488112ab695e5dab3e47f8e30340b0848",
       "records": 1,
       "console_lines": 0
     },
@@ -2523,31 +2523,31 @@
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/522_pm10/rational_1729.jsonl",
-      "sha256": "23266856e0780c1b0dc4398144e84801ccc1851233a9dd338458d160d1dffdfe",
+      "sha256": "54917d650efd42d2b680334af73ccc8783ac67af611ac3d08cdd0d4324860711",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/522_pm10/rational_1730.jsonl",
-      "sha256": "aebc3f208887ddf8abe49bc4c851469716e8900cd8267d5e43e88d76121c2e0e",
+      "sha256": "9dc8e58b7a150c31b5a8eff5eb357ec0979e7cd0fb717db02ffce49e2978f6e1",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/522_pm10/rational_1731.jsonl",
-      "sha256": "2c37c42090ec5e5c443faf332c3f830a420f595c2be3b50e69e9b09fc21b83d7",
+      "sha256": "b623c57bc9e725513ed0a158e7ea60f07823ceba1e517c8b1acac758978217bf",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/522_pm10/rational_1732.jsonl",
-      "sha256": "dd8694a86a690a392e09e0778081380d85b0b82f79b8de467f2ee4fa52af7b52",
+      "sha256": "a672323f1be93296bd61f0ec8a06e2810cd90ec7ef724a3305058c209edaec37",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/522_pm10/rational_1733.jsonl",
-      "sha256": "6f9f33df02919a2da80fbc90deaa412fd64fd2936146cf627c0f8e6d055d1180",
+      "sha256": "3ed0fd80248c71c21cb81eb7778e683e9de3fa7269e01547a697626dc8f65179",
       "records": 1,
       "console_lines": 0
     },
@@ -2973,31 +2973,31 @@
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/547_no2/rational_1729.jsonl",
-      "sha256": "b82c298abe9e977179d2fd1dd40cfbc7a406cec4296712c4cbd1e8aea269a07e",
+      "sha256": "918c97840d476fd8387cff49ae0b8ba6e973c9f1dd0f9ef12998f041b0c70bc3",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/547_no2/rational_1730.jsonl",
-      "sha256": "c38015599c0711bb64ffc5cf1a9136949091ad4d101aadc05aef3e37d4a002cf",
+      "sha256": "b0ab2d68c9abf45fd657d59ef64f3e5ca85e75fbf51eec06ed22d259e56f78f2",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/547_no2/rational_1731.jsonl",
-      "sha256": "02a5abaa7d574b9a890d1e2fc106b6c43962afe883e3e77fa51c3898e8b98e29",
+      "sha256": "15f8746ac4aaf6e5cfd385277d70f4b19881ea698fb56466df75e679d64c00d7",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/547_no2/rational_1732.jsonl",
-      "sha256": "269428bcf352b91a57be9a688e61f14cb7384e473e2b04d60bafc4d3ddda8ea3",
+      "sha256": "2946d8ba579447e799032563151deeb4688e94ef17b4d8e59fef4cec312b6b56",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/547_no2/rational_1733.jsonl",
-      "sha256": "eb55e7daa84eeca1f97c8d5c8013d30dce8db40b34616285ed2dd5568b92381d",
+      "sha256": "8aaf52bb221ae9b6226bbf888ee8a964ac145a6648b52ba4f6ab4c3cb604e865",
       "records": 1,
       "console_lines": 0
     },
@@ -3423,31 +3423,31 @@
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/561_cpu/rational_1729.jsonl",
-      "sha256": "c5727df845fe395ae7ee8d5203cc5334ab2c203cc782594e7da23f7acc70faee",
+      "sha256": "06c88f76019f1ca303574ded5d0a56bcc95f88f4ff72e2ea980d3c93aa230d9a",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/561_cpu/rational_1730.jsonl",
-      "sha256": "fb8d1d7e40cc644e83e7560686a90cafaa5ff92e728a3e8906495526f0b42bad",
+      "sha256": "ee32bddc9e6a3c151fc8a9dc3991fc9382c984291e423aa94d48579bc03f3f41",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/561_cpu/rational_1731.jsonl",
-      "sha256": "44c59ea8619b0e1a3074ac1e927eb10e282d8a7c3462a884e3e6f5c743274c0a",
+      "sha256": "7b053c0b9b05a9faabf3bdf329ba7716dab36bb5208f09b51892aefcbdd4e1f4",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/561_cpu/rational_1732.jsonl",
-      "sha256": "8fdda5ec5c9eb726525bb204bc7fca4ac4a6a5203691efbbb7597f7382dd9a6a",
+      "sha256": "b12ffe517326602a141d5b959734e929c033401c71466db62a41a54d7a2d8c21",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/561_cpu/rational_1733.jsonl",
-      "sha256": "c691777afc7d7322651b80d1c40469c755abaa3df86a8608bca6288b473ae738",
+      "sha256": "23a572583e691f9f667f1c3a1815b7cd793ada10bfd2ebc3ea2b16a1710f6f5b",
       "records": 1,
       "console_lines": 0
     },
@@ -3873,31 +3873,31 @@
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/665_sleuth_case2002/rational_1729.jsonl",
-      "sha256": "0f8db04b46855decfd502ffadb6f644a0e3336f7a719b7632d89f87219137bd9",
+      "sha256": "acc3c0c3d516e948440a4a4704646a4de353d61efd33fd764a34be79617e9a71",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/665_sleuth_case2002/rational_1730.jsonl",
-      "sha256": "c73b4bc828c7944a462395460964dba615090a93c013c63e6e6941eb2044fd14",
+      "sha256": "7de9e97aed937cc5dc1c4fa4b3bc7f337307f68b3172cf152d51d3430a062909",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/665_sleuth_case2002/rational_1731.jsonl",
-      "sha256": "5fe6b99e24810e77f2eb4c9c22977b0643b0eaa36bf11866a517303f1dd32b18",
+      "sha256": "dfc05d70ec0903d74448c70de78db97f8bbbad92beaefec4f460945f6987be13",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/665_sleuth_case2002/rational_1732.jsonl",
-      "sha256": "9213696c2c3d9aa3d729fd72c0b2e38bbac0252ab571a5d328379343c6f02498",
+      "sha256": "68161e82b642ab9638a581375f0cf8dddd969f49b0be14b542a239747059f975",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/665_sleuth_case2002/rational_1733.jsonl",
-      "sha256": "243f42eed2d5e3aad3278a7248eaa393eb7425da722e7ef30bc05af866d54956",
+      "sha256": "69f826c1e4bdf54297ed35f005b25d03466e607ede1f916363c3e20bcf166e78",
       "records": 1,
       "console_lines": 0
     },
@@ -4323,31 +4323,31 @@
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/666_rmftsa_ladata/rational_1729.jsonl",
-      "sha256": "84b80497e1998a2bfcd6f56060df3bce8f8d6156151617209b26f33a5946b91b",
+      "sha256": "bab7a9e4469d76447f5a9d6f899765018aac8152d3fac9df4b52f20c151acf5a",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/666_rmftsa_ladata/rational_1730.jsonl",
-      "sha256": "65bf94b2562282d9e8d81ae5587987512c145de91a7f60e83e1fa73e2112ea37",
+      "sha256": "41ad663dbdb07d24b8004ea918f4610856599c503002cc6da22548f4a8709616",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/666_rmftsa_ladata/rational_1731.jsonl",
-      "sha256": "f3b01951646a21b605079e607a437765258e111e591e2a2ef32bb94ec586579e",
+      "sha256": "0b4e7f86a55d3f20c00cf77196bafae4f124e8e2b5a75d27e64db48c6db4720d",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/666_rmftsa_ladata/rational_1732.jsonl",
-      "sha256": "00fe0242c7eedcc9baad7052c68eb79521dd8c75cedefdd4d5c036d4658601f4",
+      "sha256": "50228d4a8006ffe49c69757f89cdcf15ef26c969c5a61f323177748e65944768",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/666_rmftsa_ladata/rational_1733.jsonl",
-      "sha256": "af6fbe4ff996b06584e1008795771541a0f333e4c8494252a329992177aba850",
+      "sha256": "f235d66a9654379d9adf5b820df0846f53b81f10d40312a17b67c352e2b69960",
       "records": 1,
       "console_lines": 0
     },
@@ -4773,31 +4773,31 @@
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/678_visualizing_environmental/rational_1729.jsonl",
-      "sha256": "ae40327d727546a418be14a5eae3ef7fe74896508feabe59735d43c8b796282a",
+      "sha256": "99279d5cfc11ebc981246347067d08cd869e2aae2bdf7dde36144a462b909ea3",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/678_visualizing_environmental/rational_1730.jsonl",
-      "sha256": "9ad7c29ce409eee18ad23deba5d235803c6d06728556fa2eea2c6ae2568abe43",
+      "sha256": "321d8c228c9c06f970a47eed7b3b8e3dfb674676d96e7f574e1884139c62320c",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/678_visualizing_environmental/rational_1731.jsonl",
-      "sha256": "2e2f4403f7e30f9f3d9b7130187fb981b843d354c902bab6a49c85f4581d1248",
+      "sha256": "683fbf8f7db2997a2d2f894ee8578a8a697241ceeb4f2263b08f658a026a6f6d",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/678_visualizing_environmental/rational_1732.jsonl",
-      "sha256": "89c294115623829034a806b47d678a46e0378660e7b6633f101ecce1743732d2",
+      "sha256": "a19dada745a815d446f300bce48cecd9dec55cf8143d28cd7d648095cf7489d9",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/678_visualizing_environmental/rational_1733.jsonl",
-      "sha256": "8a69c192423cdc7c3ef62c541db9e525d5257d93b9e5ed187a7a76d3dbce40e6",
+      "sha256": "d90c0c940d93019fb45bc54c247290c7f376033e97cbd92d611a91da49eb75ab",
       "records": 1,
       "console_lines": 0
     },
@@ -5223,31 +5223,31 @@
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/712_chscase_geyser1/rational_1729.jsonl",
-      "sha256": "d267ec2a74ed9878a451422f8052ac4e9a38bd4a756fdde601b1a85a68a77eb1",
+      "sha256": "f21a711df2dcb965c1573abd3d2dcd6140d8accb30ac95baa7a1e77cf18be1f0",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/712_chscase_geyser1/rational_1730.jsonl",
-      "sha256": "e5b21d046626e5cc62ec7e7c8448a88432eb1c8113b08c81d0b43542453b6cb4",
+      "sha256": "6f675aafded112e3c3e3d8496ac4430529d181328cb29727ce5fbda4419a1c84",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/712_chscase_geyser1/rational_1731.jsonl",
-      "sha256": "bca5abacd8a1761d0f196b9b52ba63e2107e6f82e5d732170f74e23b038ba3a2",
+      "sha256": "e2b930665a66adf01abbe8ec685fdb154e8180e7d9e7404f35ed8d85fc7c0d9e",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/712_chscase_geyser1/rational_1732.jsonl",
-      "sha256": "825647f2d76b08a8f354dfeced1585bc92a349e86169bce6d2816a23c371e9bb",
+      "sha256": "663c9de7ba9463bcb98c8e68a6785f2581d233972461e9d70cd9e46232bd2cf0",
       "records": 1,
       "console_lines": 0
     },
     {
       "path": "experiments/results/neurips_pmlb15/pmlb15_pbs_v1/712_chscase_geyser1/rational_1733.jsonl",
-      "sha256": "13e9e13a2dfb4b7a4ba539721d337032f082e8101d54c87d711850a898305d6b",
+      "sha256": "31016da7a6eac1f9e1fbdcc891b9b04204913361d0c74e7b7daf62937bcd594b",
       "records": 1,
       "console_lines": 0
     },
@@ -5544,7 +5544,7 @@
       0.6814154482877741,
       0.6734331731963612,
       0.7818780605471783,
-      0.815007162488983,
+      0.7529200281705679,
       0.8254315496262388,
       0.7193640991418538,
       0.8217495741762095,
@@ -5555,21 +5555,21 @@
       0.8087894325463302
     ],
     "rank": [
-      8.25,
+      8.416666666666666,
+      6.916666666666667,
+      3.1666666666666665,
+      4.916666666666667,
+      4.166666666666667,
+      6.833333333333333,
       6.666666666666667,
-      3.0833333333333335,
-      4.75,
-      3.9166666666666665,
-      6.583333333333333,
-      9.25,
-      12.0,
-      6.666666666666667,
-      8.833333333333334,
-      7.0,
-      10.416666666666666,
-      12.416666666666666,
-      10.833333333333334,
-      9.333333333333334
+      12.25,
+      6.916666666666667,
+      9.0,
+      7.083333333333333,
+      10.5,
+      12.583333333333334,
+      11.166666666666666,
+      9.416666666666666
     ],
     "wins": [
       1.0,
@@ -5713,6 +5713,45 @@
       "torch": "2.11.0+cu130",
       "numpy": "2.4.4",
       "pmlb": "1.0.1.post3"
+    },
+    "model_replacements": {
+      "rational": {
+        "code_revision": "d8f54f2179664e8fb17dd94e770c3dd47206eb5f",
+        "source_fingerprint": "e23f4fdfdd7ab2b989de4606e74cf5d5b63f44bf3363c509f78e22712a4084c3",
+        "source_files": {
+          "src/neurips_followup.py": "005172c29b78dcf23cf6559047a27d9b4d497a194d24e4cb7da9ca5b993cd08e",
+          "experiments/neurips_followup.py": "f3883ed1dde10b7a2d5552753147da66918945ee8a37ed49f4ca8e59bc4aac80",
+          "experiments/rebuttal/run_baselines.py": "0a11065e55c2256c175166825467d46a3cebd0fa49448f445efb4501a845ac73",
+          "experiments/rebuttal/extrapolation.py": "9e69e19ac5a258c987ff0a14f7a30b934a6199436ace13478b68f1b07fceacb6",
+          "experiments/rebuttal/sweep_runner.py": "48b5adb59d53e39c0283cff840a874321600b06f2f9fc2bd28d3eb006ee0a054",
+          "src/kan_layer.py": "16a7131521b7edabf72d087c0a1d5aed5e3effdbbf3089cec4cf884863e69c06",
+          "src/neurips_rebuttal_models.py": "ee9c9c4b4aaa41200790c7ec2a0478ebd79338b46f77b671e6e365956d91b7bd",
+          "src/training.py": "719634f07e01394d86244a5b5a398766d630eee6d0ddc9b86069b8f9c4428cc9",
+          "src/result_integrity.py": "6b5a10a6e5ccbe546aa7051bb146fe55f314b5b8672575d136c8da095a26a5db",
+          "src/reporting/neurips_public_formatting.py": "e954ab8589f1b3477c4549c9f72b7df3a3a0b6ccc14c252b203b4ea420a5d888",
+          "src/reporting/neurips_camera_ready.py": "8becd708f0136153aee967032bdb03110b51160e413f56188f1eef0cd0bc727b",
+          "src/neurips_normalization.py": "b9358d09290b831df455ecebad365dee642a43150cac1d3449c75e3c8776d2f8",
+          "experiments/feynman_runner.py": "4f3d5e25028ed99e200c7a40de17e1cd62e91a515ac835898355951965b4b831",
+          "src/neurips_sample_sd.py": "46af9a4865700d4dda04e3327a5e8c952f38e660c2742935cb8488e7f9f34915",
+          "src/neurips_rerun.py": "c920fdd0903f5ef046bb2ce18b5dbd6486d7b54640d7fe0f1a14ccc93896a1fb",
+          "experiments/neurips_sample_sd.py": "968001e31fa9a1449b7438d9b40d3b10eb9dffb747b2febaf673c281e41a2512",
+          "src/neurips_pmlb.py": "1ffa320a8a4d5728f3ceecf6b3a9e7c4e93cc4ca8eb2b52917b939aa7cfdaa59",
+          "experiments/neurips_pmlb15.py": "f75535b67e283856bdcbe8f06a5c5c9498150d8ed87a65303a0695a281a54be2",
+          "experiments/pmlb_benchmark.py": "87473b87c0305432299441236660b135e7cab9e5f8f1feaea40edcdd2319a3d2",
+          "src/neurips_model_sources.py": "6db2cf22b4574e0d109ebfdafb0776b9ec0e6297a877f844e05999b2b364bc48",
+          "src/neurips_rational_repair.py": "79d7244e55ee3572512f10a827bdd8f0aa1477b72171fe1cc0557dcb4c30ac58",
+          "experiments/repair_neurips_rational.py": "cfd20bcbd79b3d02718396d81e5c7c4923722d76710ca1f56c1b5041b95f4182"
+        },
+        "specification": {
+          "numerator_degree": 3,
+          "denominator_degree": 2,
+          "denominator_linear_init": 0.01,
+          "denominator_quadratic_init": 0.0,
+          "steps": 5000,
+          "selection": "unchanged training-only validation"
+        },
+        "repair": "neurips_rational_repair"
+      }
     }
   }
 }

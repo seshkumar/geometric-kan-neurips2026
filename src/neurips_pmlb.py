@@ -21,6 +21,7 @@ from src.result_integrity import read_records, grid_inventory, relative_input_re
 from src.training import carve_validation_split
 from src.neurips_normalization import standard_deviation
 from src.neurips_rerun import declare
+from src.neurips_model_sources import expected_source
 ROOT = Path(__file__).resolve().parents[1]
 SEEDS = list(range(1729, 1734))
 STEPS = 5000
@@ -146,18 +147,17 @@ def summarize(output):
     check = grid_inventory(rows, ('dataset', 'model', 'seed'), expected)
     if not check['complete_and_valid'] or any((r.get('diverged') or r.get('executed_steps') != STEPS for r in rows)):
         raise ValueError('Complete valid 12-dataset, 15-model, five-seed population required before reporting')
-    if len({r.get('source_fingerprint') for r in rows}) != 1:
-        raise ValueError('Mixed source populations')
     manifest_path = output / 'protocol.json'
     if not manifest_path.exists():
         raise ValueError('Runtime protocol manifest required')
     manifest = json.loads(manifest_path.read_text())
     if not isinstance(manifest.get('source_fingerprint'), str) or len(manifest['source_fingerprint']) != 64:
         raise ValueError('Valid runtime source fingerprint required')
-    if any((r.get('source_fingerprint') != manifest.get('source_fingerprint') or r.get('metric_ddof') != manifest.get('metric_ddof', 0) or r.get('validation_only_selection') is not True or (r['model'] in ('banach_c1', 'lp_c1') and r.get('duality_map') != 'c1') for r in rows)):
+    if any((r.get('source_fingerprint') != expected_source(r, manifest) or r.get('metric_ddof') != manifest.get('metric_ddof', 0) or r.get('validation_only_selection') is not True or (r['model'] in ('banach_c1', 'lp_c1') and r.get('duality_map') != 'c1') for r in rows)):
         raise ValueError('Incompatible source, metric, selection or response-map metadata')
     matrix = np.array([[np.median([r['nrmse'] for r in rows if r['dataset'] == d and r['model'] == m]) for m in ROSTER] for d in pb.DATASETS])
     summary = dict(protocol=protocol(manifest.get('metric_ddof', 0)) | {'accuracy_evidence': True}, inputs=relative_input_records(inputs, ROOT), inventory=check, datasets=pb.DATASETS, models=ROSTER, values=matrix.tolist(), scorecard=describe(matrix))
+    summary['model_replacements'] = manifest.get('model_replacements', {})
     sr.write_shard(output / 'summary.json', [summary], ('datasets',))
     headers = ['B', 'L', 'T', 'P', 'A', 'M', 'Q', 'S', '$S_L$', 'C', 'R', 'F', 'W', 'J', 'N']
     lines = ['{\\scriptsize\\setlength{\\tabcolsep}{1pt}', '\\begin{tabular}{l' + 'r' * len(ROSTER) + '}', '\\toprule', 'Dataset & ' + ' & '.join(headers) + ' \\\\', '\\midrule']

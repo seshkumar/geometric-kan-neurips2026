@@ -17,6 +17,7 @@ from src.edge_models import LpC1KANLayer, BanachC1KANLayer
 from src.reporting.neurips_public_formatting import ROSTER
 from src.reporting.neurips_camera_ready import describe, paired_ratios
 from src.result_integrity import grid_inventory, read_records, relative_input_records
+from src.neurips_model_sources import expected_source
 ROOT = Path(__file__).resolve().parents[1]
 SEEDS = list(range(1729, 1734))
 FIELDS = ('eq', 'model', 'seed', 'n_train', 'sigma')
@@ -86,7 +87,7 @@ def validate(rows, profile, indices, out, stamp, complete):
     if any((check[k] for k in ('extra_count', 'duplicate_keys', 'invalid_count'))) or (complete and check['missing_count']):
         raise ValueError('Incomplete or invalid sample-SD population: ' + str(check))
     for r in rows:
-        if r.get('source_fingerprint') != stamp['source_fingerprint'] or r.get('target_sd_ddof') != 1 or r.get('metric_ddof') != 1 or (r.get('profile') != profile):
+        if r.get('source_fingerprint') != expected_source(r, stamp) or r.get('target_sd_ddof') != 1 or r.get('metric_ddof') != 1 or (r.get('profile') != profile):
             raise ValueError('Mixed protocol/source/SD conventions')
         i = core.EQUATION_IDS.index(r['eq'])
         p = out / f'eq_{i:02d}' / r['input_file']
@@ -144,6 +145,7 @@ def summarize(profile, out):
     rows, inputs = read_records(sorted(out.glob('eq_*/fits.jsonl')))
     check = validate(rows, profile, range(50), out, stamp, True)
     result = dict(protocol=plan(profile) | {'performance_evidence': True}, inventory=check, inputs=relative_input_records(inputs, ROOT), reference_policy=plan(profile)['reference_policy'])
+    result['model_replacements'] = stamp.get('model_replacements', {})
     if profile == 'extrapolation':
         matrix = np.asarray([[np.median([r['nrmse'] for r in rows if r['eq'] == e and r['model'] == m]) for m in ROSTER] for e in core.EQUATION_IDS])
         comparisons = [(f'{a}/{b}', matrix[:, ROSTER.index(a)], matrix[:, ROSTER.index(b)]) for a in ('banach_c1', 'lp_c1') for b in ROSTER if b not in ('banach_c1', 'lp_c1')]

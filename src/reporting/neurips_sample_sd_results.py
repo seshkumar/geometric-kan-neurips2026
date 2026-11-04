@@ -6,6 +6,7 @@ from src.result_integrity import read_records, relative_input_records
 from src.reporting.neurips_camera_ready import describe, paired_ratios, summary_cells, matched_error_table, matched_per_equation_table, core_spline_comparison_table, auxiliary_paired_table
 from src.reporting.neurips_public_formatting import ROSTER, LABEL, PAIR_TARGETS, curves
 from src.reporting.neurips_followup_tables import fragments
+from src.neurips_model_sources import expected_source, require_completed_repair
 SYMBOLIC = 'experiments/results/neurips_sample_sd/symbolic'
 EXTRAP = 'experiments/results/neurips_followup/extrap15/extrap15_v1'
 MAIN_CELLS = [('clean', 500, 0.0)] + [(f'sigma={s}', 500, s) for s in (0.1, 0.3, 0.5, 1.0)] + [(f'n={n}', n, 0.0) for n in (50, 100, 200, 1000)]
@@ -16,6 +17,7 @@ CORE_LABEL.update({f'lp_fixed_{p:.1f}': f'$\\ell^p$, fixed $p={p:g}$' for p in (
 
 def load(root):
     root = Path(root)
+    require_completed_repair(root)
     summary = json.loads((root / SYMBOLIC / 'summary.json').read_text())
     extrap = json.loads((root / EXTRAP / 'summary.json').read_text())
     for value in (summary, extrap):
@@ -213,7 +215,7 @@ def audit(root):
         check = grid_inventory(rows, FIELDS, expected, metrics=('nrmse', 'train_time_s'))
         input_hashes = {}
         for r in rows:
-            if r.get('source_fingerprint') != manifest['source_fingerprint'] or r.get('target_sd_ddof') != 1 or r.get('metric_ddof') != 1:
+            if r.get('source_fingerprint') != expected_source(r, manifest) or r.get('target_sd_ddof') != 1 or r.get('metric_ddof') != 1:
                 raise ValueError('Mixed source or SD metadata')
             i = equations.index(r['eq'])
             path = out / f'eq_{i:02d}' / r['input_file']

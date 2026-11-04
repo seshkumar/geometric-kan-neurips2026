@@ -96,8 +96,8 @@ The first command checks the release inventory. The second reads the supplied pe
 | Clean core and full-benchmark comparison | `experiments/export_neurips_camera_ready.py` | `experiments/results/neurips_camera_ready/` |
 | Noise and noisy scarcity | Same exporter | Same tree: `noise.tex`, `scarcity.tex` and paired intervals |
 | Fixed-exponent and branch controls | Same exporter | Same tree: ablation and branch tables |
-| Learned-exponent distributions | Same exporter | Same tree: `geometry.tex` |
-| Per-equation clean fitting | Same exporter | Same tree: `per_equation.tex` |
+| Learned-exponent distributions | Same exporter | `experiments/results/neurips_sample_sd_results/core.json` and `neurips_followup_tables/geometry_extrapolation.tex` |
+| Per-equation clean fitting | Same exporter | `experiments/results/neurips_public_matched/tab_matched_per_equation.tex` |
 | Matched activations and fixed bases | `experiments/aggregate_neurips_public.py` | Public matched-summary output tree printed by the driver |
 | Matched figure and extrapolation | Same public matched aggregator | Same tree: tables, numerical summary and `matched_curves.pdf` |
 | Figure 1 and shape diagnostics | `experiments/neurips_figure1_matched.py export`; `experiments/export_neurips_figure1_manuscript.py` | `experiments/results/neurips_figure1_matched/` |
@@ -203,24 +203,20 @@ python experiments/neurips_pmlb15.py run --dataset-idx 0 --out experiments/resul
 
 Missing inputs download into the shared PMLB cache. The original PMLB split and population-standard-deviation error convention are retained. Checkpoints use training-derived validation labels; held-out test labels do not select fits. Summarization requires the complete population. Generated main-text wins and ranks use the five displayed models; appendix panels use all 15 models together. Full dataset identifiers and the retained protocol accompany the tables. Upstream datasets retain their own terms; raw dataset files are not redistributed in this kit.
 
-## Current extrapolation coverage
-
-The current extrapolation table covers seven of the 15 model families. Six contrasts among the supplied model variants are evaluated with a conservative eight-comparison adjustment. Two correction slots originate from comparisons outside this release roster; they contribute no reported estimates. The retained allocation preserves the existing interval values. This is distinct from the full 15-model in-domain comparison.
-
 ## Additive epsilon comparator label
 
 The model key `pow` is displayed as ℓp (additive ε) in the paper and tables. It learns a positive exponent through softplus coordinates and uses the additive-epsilon response. The proposed C1 response uses exponential exponent coordinates. Legacy additive-map controls used for the separate extrapolation map comparison retain their original exponential coordinates; these are distinguished in the paper. This is a display-name clarification and does not alter fitted models or scores.
 
 ## Unified extrapolation and affine-sharing controls
 
-The active extrapolation table uses the complete 15-model population. The tied-affine comparison is a separate four-arm core study. Signed gains remain unconstrained; tying the affines alone does not guarantee a convex potential. Every arm learns the exponent, including the arm initialised at exponent two.
+The active extrapolation table uses the complete 15-model population. The tied-affine comparison has four arms on the core subset; its independent Banach reference is the same canonical fit used by the exponent controls. Signed gains remain unconstrained; tying the affines alone does not guarantee a convex potential. Every arm learns the exponent, including the arm initialised at exponent two.
 
 `python reproduce.py tables` validates both populations, checks retained input hashes and regenerates the current tables. To regenerate just these studies without training:
 
 ```bash
-python experiments/neurips_followup.py summarize --study extrap15 --out experiments/results/neurips_followup/extrap15/extrap15_v1
-python experiments/neurips_followup.py summarize --study tied_affine --out experiments/results/neurips_followup/tied_affine/tied_affine_v1
-python experiments/export_neurips_followup_tables.py
+python experiments/neurips_sample_sd.py summarize --profile symbolic --out experiments/results/neurips_sample_sd/symbolic
+python experiments/neurips_sample_sd.py summarize --profile extrapolation --out experiments/results/neurips_followup/extrap15/extrap15_v1
+python experiments/export_neurips_sample_sd.py
 ```
 
 For a fresh declared per-equation run, use a new output tree:

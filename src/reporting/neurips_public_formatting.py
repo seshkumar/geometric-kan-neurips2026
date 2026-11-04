@@ -1,6 +1,6 @@
 C1 = ['banach_c1', 'lp_c1']
 ROSTER = C1 + ['tanh', 'pow', 'adaslope', 'mixture', 'rational', 'spline', 'spline_lip', 'cheby', 'rbf', 'fourier', 'wavelet', 'jacobi', 'mlp']
-LABEL = {'banach_c1': 'Banach', 'lp_c1': '$\\ell^p$', 'tanh': '$\\tanh$', 'pow': 'generic learned power', 'adaslope': 'adaptive-slope tanh', 'mixture': 'activation mixture', 'rational': 'rational', 'spline': 'spline (Adam)', 'spline_lip': 'spline (Adam, Lipschitz-reg.)', 'cheby': 'Chebyshev', 'rbf': 'RBF', 'fourier': 'Fourier', 'wavelet': 'wavelet', 'jacobi': 'Jacobi', 'mlp': 'MLP', 'banach': 'Banach (additive-$\\epsilon$)', 'lp': '$\\ell^p$ (additive-$\\epsilon$)'}
+LABEL = {'banach_c1': 'Banach', 'lp_c1': '$\\ell^p$', 'tanh': 'Tanh', 'pow': 'Learned power', 'adaslope': 'Adaptive-slope Tanh', 'mixture': 'Activation mixture', 'rational': 'Rational', 'spline': 'Spline (Adam)', 'spline_lip': 'Spline (Adam, Lipschitz-reg.)', 'cheby': 'Chebyshev', 'rbf': 'RBF', 'fourier': 'Fourier', 'wavelet': 'Wavelet', 'jacobi': 'Jacobi', 'mlp': 'MLP', 'banach': 'Banach (additive-$\\epsilon$)', 'lp': '$\\ell^p$ (additive-$\\epsilon$)'}
 CELLS = [('clean', 'baseline', lambda r: True)] + [(f'sigma={s}', 'noisy', lambda r, s=s: r['sigma'] == s) for s in (0.1, 0.3, 0.5, 1.0)] + [(f'n={n}', 'small_sample', lambda r, n=n: r['n_train'] == n) for n in (50, 100, 200, 1000)]
 STEM = {'baseline': 'baseline_eq50', 'noisy': 'noisy', 'small_sample': 'small_sample'}
 PAIR_TARGETS = ['tanh', 'adaslope', 'pow', 'spline', 'spline_lip']

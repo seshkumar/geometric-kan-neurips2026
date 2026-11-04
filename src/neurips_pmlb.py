@@ -17,7 +17,7 @@ from src import pmlb_data as pb
 from src import matched_models as rb, fit_records as sr
 from src.reporting.neurips_camera_ready import describe
 from src.reporting.neurips_public_formatting import ROSTER
-from src.result_integrity import read_records, grid_inventory
+from src.result_integrity import read_records, grid_inventory, relative_input_records
 from src.training import carve_validation_split
 ROOT = Path(__file__).resolve().parents[1]
 SEEDS = list(range(1729, 1734))
@@ -155,7 +155,7 @@ def summarize(output):
     if any((r.get('source_fingerprint') != manifest.get('source_fingerprint') or r.get('metric_ddof') != 0 or r.get('validation_only_selection') is not True or (r['model'] in ('banach_c1', 'lp_c1') and r.get('duality_map') != 'c1') for r in rows)):
         raise ValueError('Incompatible source, metric, selection or response-map metadata')
     matrix = np.array([[np.median([r['nrmse'] for r in rows if r['dataset'] == d and r['model'] == m]) for m in ROSTER] for d in pb.DATASETS])
-    summary = dict(protocol=protocol() | {'accuracy_evidence': True}, inputs=inputs, inventory=check, datasets=pb.DATASETS, models=ROSTER, values=matrix.tolist(), scorecard=describe(matrix))
+    summary = dict(protocol=protocol() | {'accuracy_evidence': True}, inputs=relative_input_records(inputs, ROOT), inventory=check, datasets=pb.DATASETS, models=ROSTER, values=matrix.tolist(), scorecard=describe(matrix))
     sr.write_shard(output / 'summary.json', [summary], ('datasets',))
     headers = ['B', 'L', 'T', 'P', 'A', 'M', 'Q', 'S', '$S_L$', 'C', 'R', 'F', 'W', 'J', 'N']
     lines = ['{\\scriptsize\\setlength{\\tabcolsep}{1pt}', '\\begin{tabular}{l' + 'r' * len(ROSTER) + '}', '\\toprule', 'Dataset & ' + ' & '.join(headers) + ' \\\\', '\\midrule']

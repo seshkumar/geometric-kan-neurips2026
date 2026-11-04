@@ -89,7 +89,7 @@ def matched_error_table(summary):
     ranks = [summary['cells']['clean'][model]['rank'] for model in models]
     wins = [summary['cells']['clean'][model]['wins'] for model in models]
     lines = ['\\begin{tabular}{lrrrrrrrrrrr}', '\\toprule', '& \\multicolumn{3}{c}{Clean} & \\multicolumn{4}{c}{Label noise $\\sigma$ ($n=500$)} & \\multicolumn{4}{c}{Clean training size $n$} \\\\', '\\cmidrule(lr){2-4}\\cmidrule(lr){5-8}\\cmidrule(lr){9-12}', 'Model & NRMSE & Wins & Rank & 0.1 & 0.3 & 0.5 & 1.0 & 50 & 100 & 200 & 1000 \\\\', '\\midrule']
-    labels = dict(LABEL, spline_lip='Spline (Adam, Lip.-reg.)', pow='Learned power', adaslope='Adaptive-slope tanh', mixture='Activation mixture', rational="Rational/Pad\\'e")
+    labels = dict(LABEL, spline_lip='Spline (Adam, Lip.-reg.)', pow='Learned power', adaslope='Adaptive-slope Tanh', mixture='Activation mixture', rational="Rational/Pad\\'e")
     for index, model in enumerate(models):
         cells = []
         for column, value in enumerate(values[index]):

@@ -179,3 +179,7 @@ python experiments/neurips_pmlb15.py run --dataset-idx 0 --out experiments/resul
 ```
 
 Missing inputs download into the shared PMLB cache. The original PMLB split and population-standard-deviation error convention are retained. Checkpoints use training-derived validation labels; held-out test labels do not select fits. Summarization requires the complete population. Generated main-text wins and ranks use the five displayed models; appendix panels use all 15 models together. Full dataset identifiers and the retained protocol accompany the tables. Upstream datasets retain their own terms; raw dataset files are not redistributed in this kit.
+
+## Current extrapolation coverage
+
+The current extrapolation table covers seven of the 15 model families. Six contrasts among the supplied model variants are evaluated with a conservative eight-comparison adjustment. Two correction slots originate from comparisons outside this release roster; they contribute no reported estimates. The retained allocation preserves the existing interval values. This is distinct from the full 15-model in-domain comparison.

@@ -2,7 +2,18 @@ from collections import defaultdict
 import hashlib
 import json
 import math
+import os
 from pathlib import Path
+
+def relative_input_records(records, root):
+    root = Path(root).resolve()
+    result = []
+    for record in records:
+        path = Path(record['path'])
+        if not path.is_absolute():
+            path = root / path
+        result.append(dict(record, path=os.path.relpath(path.resolve(), root)))
+    return result
 
 def read_records(paths, allow_console=False):
     rows, files = ([], [])

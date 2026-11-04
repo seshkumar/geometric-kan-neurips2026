@@ -1,7 +1,7 @@
 from pathlib import Path
 import json
 import numpy as np
-from src.result_integrity import read_records, grid_inventory
+from src.result_integrity import read_records, grid_inventory, relative_input_records
 from src.reporting.neurips_camera_ready import describe, paired_ratios, matched_error_table, matched_per_equation_table, geometry_extrapolation_table
 from src.reporting.neurips_public_formatting import C1, ROSTER, LABEL, CELLS, PAIR_TARGETS, EXTRAP_NEURIPS, paired_table, curves
 FIELDS = ('eq_id', 'model', 'seed', 'sigma', 'n_train')
@@ -77,13 +77,14 @@ def export(input_dir, output_dir):
     (output_dir / 'tab_geometry_extrapolation.tex').write_text(geometry_extrapolation_table(geometry, summary['extrapolation']['median']) + '\n')
     clean = seed_median_matrix(loaded['baseline'], ROSTER, equations, lambda r: True, seeds=seeds)
     (output_dir / 'tab_matched_per_equation.tex').write_text(matched_per_equation_table(clean, equations) + '\n')
-    (output_dir / 'inventory.json').write_text(json.dumps(dict(inputs=inputs, grids=inventories), indent=2) + '\n')
+    root = Path(__file__).resolve().parents[2]
+    (output_dir / 'inventory.json').write_text(json.dumps(dict(inputs=relative_input_records(inputs, root), grids=inventories), indent=2) + '\n')
     curves(summary, output_dir)
     paired_table(summary, output_dir)
     cols = [c[0] for c in CELLS]
     head = ['clean'] + [c.split('=')[1] for c in cols[1:5]] + [c.split('=')[1] for c in cols[5:]]
     best = {c: min((summary['cells'][c][m]['rank'] for m in ROSTER)) for c in cols}
-    tex = ['\\begin{tabular}{l' + 'c' * len(cols) + '}', '\\toprule', ' & & \\multicolumn{4}{c}{noise $\\sigma$ ($n=500$)} & \\multicolumn{4}{c}{clean training size $n$} \\\\', '\\cmidrule(lr){3-6}\\cmidrule(lr){7-10}', 'model & ' + ' & '.join(head) + ' \\\\', '\\midrule']
+    tex = ['\\begin{tabular}{l' + 'c' * len(cols) + '}', '\\toprule', ' & & \\multicolumn{4}{c}{noise $\\sigma$ ($n=500$)} & \\multicolumn{4}{c}{clean training size $n$} \\\\', '\\cmidrule(lr){3-6}\\cmidrule(lr){7-10}', 'Model & ' + ' & '.join(head) + ' \\\\', '\\midrule']
     for model in ROSTER:
         cells = []
         for cell in cols:
@@ -96,6 +97,6 @@ def export(input_dir, output_dir):
     (output_dir / 'tab_matched_ranks.tex').write_text('\n'.join(tex) + '\n')
     med = summary['extrapolation']['median']
     lowest = min((med[m] for m in EXTRAP_NEURIPS))
-    tex = ['\\begin{tabular}{lc}', '\\toprule', 'model & out-of-range NRMSE \\\\', '\\midrule'] + [f'{LABEL[m]} & ' + (f'\\textbf{{{med[m]:.3f}}}' if med[m] == lowest else f'{med[m]:.3f}') + ' \\\\' for m in EXTRAP_NEURIPS] + ['\\bottomrule', '\\end{tabular}']
+    tex = ['\\begin{tabular}{lc}', '\\toprule', 'Model & Out-of-range NRMSE \\\\', '\\midrule'] + [f'{LABEL[m]} & ' + (f'\\textbf{{{med[m]:.3f}}}' if med[m] == lowest else f'{med[m]:.3f}') + ' \\\\' for m in EXTRAP_NEURIPS] + ['\\bottomrule', '\\end{tabular}']
     (output_dir / 'tab_extrap_neurips.tex').write_text('\n'.join(tex) + '\n')
     return summary

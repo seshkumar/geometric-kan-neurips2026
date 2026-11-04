@@ -144,7 +144,7 @@ Please use the full publication reference above, the BibTeX entry, or [CITATION.
 
 ## 8. Parameter-matched motivation figure
 
-The step and staircase illustration uses the submitted B-spline, Chebyshev, Gaussian radial-basis, Haar-wavelet, Fourier and power-response constructions. Each fit has exactly 21 trainable scalars. Inputs, noisy labels, coefficients, nonlinear states and predictions are retained. This motivates studying fitted response shapes; it does not claim a universally preferable family, equal fitting compute or general robustness.
+The step and staircase illustration uses B-spline, Chebyshev, Gaussian radial-basis, Wavelet (Haar), Fourier and power-response constructions. Each fit has exactly 21 trainable scalars. Inputs, noisy labels, coefficients, nonlinear states and predictions are retained. This motivates studying fitted response shapes; it does not claim a universally preferable family, equal fitting compute or general robustness.
 
 Regenerate the figure and its descriptive diagnostics without fitting:
 

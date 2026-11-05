@@ -5,7 +5,6 @@ title: "Geometry-Constrained Kolmogorov–Arnold Networks: Learning Edge Geometr
 authors:
   - name: "K S Sesh Kumar"
 repository-code: "https://github.com/seshkumar/geometric-kan-neurips2026"
-url: "https://arxiv.org/abs/2608.25807"
 license: Apache-2.0
 preferred-citation:
   type: conference-paper
@@ -14,6 +13,5 @@ preferred-citation:
     - name: "K S Sesh Kumar"
   year: 2026
   conference:
-    name: "Neural Information Processing Systems (NeurIPS)"
-  url: "https://arxiv.org/abs/2608.25807"
-  notes: "Accepted as a poster. Final proceedings pagination is not supplied."
+    name: "Advances in Neural Information Processing Systems (NeurIPS)"
+  collection-title: "Advances in Neural Information Processing Systems"

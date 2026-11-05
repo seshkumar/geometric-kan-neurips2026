@@ -25,19 +25,13 @@ These jobs do not submit other jobs. Extrapolation and PMLB replace their existi
 
 ## Publication reference
 
-K S Sesh Kumar. **Geometry-Constrained Kolmogorov–Arnold Networks: Learning Edge Geometry via Banach Duality.** *Advances in Neural Information Processing Systems (NeurIPS)*, 2026. Accepted as a poster. Preprint: [arXiv:2608.25807](https://arxiv.org/abs/2608.25807). DOI: [10.48550/arXiv.2608.25807](https://doi.org/10.48550/arXiv.2608.25807).
-
-Final proceedings pagination is not supplied. The arXiv link identifies the work; the retained outputs and reporting programs in this repository specify the numerical population for the camera-ready.
-
 ```bibtex
 @inproceedings{kumar2026geometry,
   author    = {{K S Sesh Kumar}},
   title     = {Geometry-Constrained Kolmogorov--Arnold Networks:
                Learning Edge Geometry via Banach Duality},
   booktitle = {Advances in Neural Information Processing Systems},
-  year      = {2026},
-  note      = {Accepted as a poster; preprint arXiv:2608.25807},
-  url       = {https://arxiv.org/abs/2608.25807}
+  year      = {2026}
 }
 ```
 
@@ -161,7 +155,7 @@ The release demonstrates the specified model and reporting protocols. It does no
 
 ## 7. Licence and citation
 
-Original release code and generated result artifacts are distributed under [Apache-2.0](LICENSE), following the same release pattern as the [VCGP reproducibility kit](https://github.com/seshkumar/vcgp-graph-gp). Installed dependencies retain their own licences and bundled notices; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Manuscript files and the conference style are not included in this code licence.
+Original release code and generated result artifacts are distributed under [Apache-2.0](LICENSE). Installed dependencies retain their own licences and bundled notices; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Manuscript files and the conference style are not included in this code licence.
 
 Please use the full publication reference above, the BibTeX entry, or [CITATION.cff](CITATION.cff) when citing this work.
 

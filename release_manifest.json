@@ -134,9 +134,8 @@
   },
   "sha256": {
     ".gitignore": "72233d77db6c5d4fd5033ef0846494e101a3c36257464e1e822055e5a956a65b",
-    "CITATION.cff": "6e9838e0e2b53c13a8e901cbe75480d7de2485f7de7e27a5696d1f88ee239b85",
     "LICENSE": "0d934798b6645349d8137508beb206fcfa14e2a677b7e4bbfb916978c9125a43",
-    "README.md": "e26c5785c796ee8de332effc7d04a3d2c13d18c9ed16a2bb2954dfaace1646ce",
+    "README.md": "8dd57e0b278a562670b7fdbc2e2bfaccd8682b22081671e4f23ec39254fae07b",
     "THIRD_PARTY_NOTICES.md": "357ab2c6feeffb4828ab3686f72b99ac0ac0c288a8e98ed46343ae4821f9b889",
     "experiments/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "experiments/aggregate_neurips_public.py": "e834dcb4f6f98ba142527bddbef65189c9b9c65f02947ce5e2c236783e8ad310",

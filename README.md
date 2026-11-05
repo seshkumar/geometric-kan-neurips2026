@@ -157,7 +157,7 @@ The release demonstrates the specified model and reporting protocols. It does no
 
 Original release code and generated result artifacts are distributed under [Apache-2.0](LICENSE). Installed dependencies retain their own licences and bundled notices; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Manuscript files and the conference style are not included in this code licence.
 
-Please use the BibTeX entry above when citing this work.
+Please use the BibTeX entry above or [CITATION.cff](CITATION.cff) when citing this work.
 
 ## 8. Parameter-matched motivation figure
 

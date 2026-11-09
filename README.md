@@ -15,10 +15,12 @@ model-fitting programs or regenerates the paper artifacts from supplied results.
   title     = {Geometry-Constrained Kolmogorov--Arnold Networks:
                Learning Edge Geometry via Banach Duality},
   booktitle = {Advances in Neural Information Processing Systems},
-  year      = {2026}
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2608.25807}
 }
 ```
 
+Read the [paper on arXiv](https://arxiv.org/abs/2608.25807).
 Citation metadata is also available in [CITATION.cff](CITATION.cff).
 
 ---

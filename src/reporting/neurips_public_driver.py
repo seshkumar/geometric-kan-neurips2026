@@ -5,6 +5,8 @@ import hashlib
 import io
 import json
 import math
+import os
+import shlex
 import subprocess
 import sys
 import time
@@ -119,11 +121,58 @@ def run_fit(args):
         stream.write(json.dumps(record, allow_nan=False) + '\n')
     return record
 
+def run_local(args):
+    if args.workers < 1:
+        raise ValueError('Workers must be positive')
+    if args.study == 'pmlb':
+        from src.neurips_pmlb import protocol
+        count = len(protocol()['datasets'])
+        driver = 'experiments/neurips_pmlb15.py'
+        selection = ['--dataset-idx']
+        profile = []
+    else:
+        from src.neurips_sample_sd import plan
+        count = len(plan(args.study)['equations'])
+        driver = 'experiments/neurips_sample_sd.py'
+        selection = ['--case-index']
+        profile = ['--profile', args.study]
+    out = (args.out or ROOT / 'experiments/results/local_runs' / args.study).resolve()
+    protected = [ROOT / 'experiments/results/neurips_sample_sd/symbolic', ROOT / 'experiments/results/neurips_followup/extrap15/extrap15_v1', ROOT / 'experiments/results/neurips_pmlb15/pmlb15_pbs_v1']
+    if any((out == p or out.is_relative_to(p) for p in protected)):
+        raise ValueError('Choose a fresh output tree; bundled evidence is read-only')
+    if args.all_cases:
+        indices = list(range(count))
+    elif args.case_index is not None:
+        indices = [args.case_index]
+    else:
+        indices = [] if args.aggregate else [0]
+    if any((i < 0 or i >= count for i in indices)):
+        raise ValueError('Case index outside the declared study')
+    commands = [[sys.executable, str(ROOT / driver), 'run', *profile, *selection, str(i), '--out', str(out), '--workers', str(args.workers)] for i in indices]
+    if args.aggregate:
+        commands.append([sys.executable, str(ROOT / driver), 'summarize', *profile, '--out', str(out)])
+    env = os.environ.copy()
+    env.update(OMP_NUM_THREADS='1', MKL_NUM_THREADS='1', OPENBLAS_NUM_THREADS='1', PYTHONDONTWRITEBYTECODE='1')
+    for command in commands:
+        print(shlex.join(command), flush=True)
+        if not args.dry_run:
+            subprocess.run(command, cwd=ROOT, env=env, check=True)
+    return dict(study=args.study, cases=indices, workers=args.workers, output=str(out), dry_run=args.dry_run, aggregate=args.aggregate)
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command', required=True)
     sub.add_parser('verify', help='Verify bundled file hashes; no fitting')
     sub.add_parser('tables', help='Regenerate all numerical tables and matched figure; no fitting')
+    p = sub.add_parser('run', help='Train one declared study on a single machine')
+    p.add_argument('--study', choices=('symbolic', 'extrapolation', 'pmlb'), default='symbolic')
+    cases = p.add_mutually_exclusive_group()
+    cases.add_argument('--case-index', type=int, help='Equation or dataset index; default: first case')
+    cases.add_argument('--all-cases', action='store_true')
+    p.add_argument('--workers', type=int, default=1, help='Concurrent fits on this machine')
+    p.add_argument('--out', type=Path, help='Fresh output tree; default: experiments/results/local_runs/<study>')
+    p.add_argument('--aggregate', action='store_true', help='Summarize a complete population; alone, skips training')
+    p.add_argument('--dry-run', action='store_true', help='Print commands without fitting or downloading data')
     for command in ('core', 'matched', 'extrapolation'):
         p = sub.add_parser(command, help='Run one full-budget condition into a fresh output file')
         p.add_argument('--eq-idx', type=int, default=0, choices=range(50))
@@ -138,5 +187,5 @@ def main():
         if command == 'matched':
             p.add_argument('--condition', choices=('baseline', 'noisy', 'small_sample'), default='baseline')
     args = parser.parse_args()
-    result = verify() if args.command == 'verify' else tables() if args.command == 'tables' else run_fit(args)
+    result = verify() if args.command == 'verify' else tables() if args.command == 'tables' else run_local(args) if args.command == 'run' else run_fit(args)
     print(json.dumps(result, indent=2))

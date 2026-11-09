@@ -135,7 +135,7 @@
   "sha256": {
     ".gitignore": "72233d77db6c5d4fd5033ef0846494e101a3c36257464e1e822055e5a956a65b",
     "LICENSE": "0d934798b6645349d8137508beb206fcfa14e2a677b7e4bbfb916978c9125a43",
-    "README.md": "d65548beae2cb4c285d21668db62151ac0a8c664aeb7c673ac5c46e5ac93f823",
+    "README.md": "4529ed2e1d9a5351cf9877f4b0fe038ed218fd6f4065a23eb3a13d2649b86376",
     "THIRD_PARTY_NOTICES.md": "357ab2c6feeffb4828ab3686f72b99ac0ac0c288a8e98ed46343ae4821f9b889",
     "experiments/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "experiments/aggregate_neurips_public.py": "e834dcb4f6f98ba142527bddbef65189c9b9c65f02947ce5e2c236783e8ad310",
@@ -4273,8 +4273,6 @@
     "experiments/results/neurips_sample_sd_repair/symbolic_7_core_spline_cv_g3_500_1_1733.json": "2c48d1168ec02570d3aff59719ff45c44b93028eb5410084a1ba7404840ccc94",
     "experiments/results/neurips_sample_sd_repair/tests.txt": "5f1cb9f7c80e58edcc09256223594a5efb3d72999deae0548cdf8cab19738936",
     "experiments/results/neurips_sample_sd_repair/verification.json": "2abb273da704531e2e0b25414abb1592f419c35bbcc6a58d531fbd1a293545c5",
-    "pbs/run_neurips_sample_sd.pbs": "a1da7e8962ddf14c9b150cf1ef4e0d05c107b2cc72db8e14bdfccf2166ee6d01",
-    "pbs/run_neurips_sample_sd_pmlb.pbs": "78a6f252336939806a410a264554f92f4081ae5b6564d582484bc0d3885b3a63",
     "reproduce.py": "9ce77d134d66da0b400c6f38fdade3ff4f1f577a14151b258d36b58806deec17",
     "requirements.txt": "e2b80dd746ddbe345a85ceaa3b881f79e55c609be23aa2dd7aa98b7f19cfe608",
     "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -4298,7 +4296,7 @@
     "src/reporting/neurips_figure1_study.py": "db553ec635491b94226f39f05df55ecbdfa0b5dc8bbac175d9cfcc4f9c3b274e",
     "src/reporting/neurips_followup_tables.py": "8060927dac73483e0666e83df01f4906b88db4de0976677735b314618ba8f55f",
     "src/reporting/neurips_pmlb_tables.py": "a24cda3898124e3a8abb103614d0b4104d7cc792bd9a5968fd71e3994c1c11b0",
-    "src/reporting/neurips_public_driver.py": "77d5e5017dde0173e3f85b13a5e20f1b9854f3b3b0f26e1e9cd3457cdc5fe5a8",
+    "src/reporting/neurips_public_driver.py": "07f39174a1d33864320b89315cb9725378442c148f035964ea3c05b95faf8bb5",
     "src/reporting/neurips_public_formatting.py": "0d3d663fd1d48cdd5d06a5b9dc6220865cda770572b1f7e0e97f4e81fb7f8669",
     "src/reporting/neurips_public_matched.py": "a1a58d0f61d3a64a7e4f840316a9983c25e377a3a0f81c5ce4af2751d4c69d7c",
     "src/reporting/neurips_public_parameters.py": "c6d3811dedb2ba295b916eb720fc5575a0489ae4e7fb4ff6df4864acbe527029",
@@ -4336,7 +4334,8 @@
     "third_party_licenses/torch/licenses/LICENSE": "a0d7abc10248a062a2f309bf12981524973f2a61aadccf4c5099d96d8c388cf4",
     "third_party_licenses/torch/licenses/NOTICE": "c2cc7bf0caec7652c2b460a8a470bea1677f241e4ab8e431df34cf17f5a9fec0",
     "third_party_licenses/tqdm/licenses/LICENCE": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de",
-    "CITATION.cff": "6e9838e0e2b53c13a8e901cbe75480d7de2485f7de7e27a5696d1f88ee239b85"
+    "CITATION.cff": "6e9838e0e2b53c13a8e901cbe75480d7de2485f7de7e27a5696d1f88ee239b85",
+    "tests/test_neurips_local_runner.py": "81bcef27a18644538c46a2f7f6b31de8efa3735ce476e609af819a2a5d4f50cc"
   },
   "publication_assets_revision": "7c10bdbd"
 }

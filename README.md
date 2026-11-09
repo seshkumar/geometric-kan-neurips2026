@@ -9,18 +9,20 @@ model-fitting programs or regenerates the paper artifacts from supplied results.
 
 ## Publication reference
 
+Paper: [arXiv:2608.25807](https://arxiv.org/abs/2608.25807).
+
+If you use this code, please cite the associated NeurIPS 2026 paper:
+
 ```bibtex
 @inproceedings{kumar2026geometry,
   author    = {{K S Sesh Kumar}},
-  title     = {Geometry-Constrained Kolmogorov--Arnold Networks:
-               Learning Edge Geometry via Banach Duality},
+  title     = {Geometry-Constrained Kolmogorov--Arnold Networks: Learning Edge Geometry via Banach Duality},
   booktitle = {Advances in Neural Information Processing Systems},
   year      = {2026},
   url       = {https://arxiv.org/abs/2608.25807}
 }
 ```
 
-Read the [paper on arXiv](https://arxiv.org/abs/2608.25807).
 Citation metadata is also available in [CITATION.cff](CITATION.cff).
 
 ---
